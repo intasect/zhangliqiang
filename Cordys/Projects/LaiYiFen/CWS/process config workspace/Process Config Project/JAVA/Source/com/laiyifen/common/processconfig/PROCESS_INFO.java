@@ -25,7 +25,7 @@ public class PROCESS_INFO extends PROCESS_INFOBase
     {
     	String queryText = "select * from \"PROCESS_INFO\"";
         QueryObject query = new QueryObject(queryText);
-        query.setResultClass(PROCESS_INFO.class);
+         query.setResultClass(PROCESS_INFO.class);
         return query.getObjects();
     }
 
