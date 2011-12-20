@@ -1,0 +1,26 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb23-d4c2b9fc1f14">
+	<DocumentID>78e3b51c-e998-11e0-fb23-d4c2b9f5df13</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb23-d4c2b9f5df13</Name>
+	<Description>目标调查表（商超）_1</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-07T06:58:49.189</CreationDate>
+	<Notes/>
+	<DefaultText>目标调查表（商超）_1</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fb23-d4c2ba039f15"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-fc96-e9b1074edf30"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

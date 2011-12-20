@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa8f-69ee62ed9fee">
+	<DocumentID>78e3b51c-e998-11e0-fa8f-69ee62e4dfed</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa8f-69ee62e4dfed</Name>
+	<Description>SALES_ORG</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-01T09:41:24.357</CreationDate>
+	<Notes/>
+	<Text>SALES_ORG</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa8f-69ee62d71feb"
+		/>
+	</TextIdentifier>
+</TranslatedText>

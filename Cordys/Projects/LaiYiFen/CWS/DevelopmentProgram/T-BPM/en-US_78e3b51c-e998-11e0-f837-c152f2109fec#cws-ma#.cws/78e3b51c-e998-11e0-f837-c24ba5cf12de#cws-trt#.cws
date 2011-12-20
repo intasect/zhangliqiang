@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c24ba60752df">
+	<DocumentID>78e3b51c-e998-11e0-f837-c24ba5cf12de</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c24ba5cf12de</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:23.543</CreationDate>
+	<Notes/>
+	<Text>业绩分摊前</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c24ba67e12e0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

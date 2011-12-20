@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="000C297E-6FFF-11E1-E40F-759C972AFFBE">
+	<DocumentID>000C297E-6FFF-11E1-E40F-759C972ADFBE</DocumentID>
+	<Name>000C297E-6FFF-11E1-E40F-759C972ADFBE</Name>
+	<Description>授权</Description>
+	<CreatedBy>Administrator</CreatedBy>
+	<CreationDate>2011-12-07T02:39:05.343</CreationDate>
+	<Notes/>
+	<Text>授权</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="000C297E-6FFF-11E1-E40F-759C972A9FBE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,41 @@
+
+<RoleDesignTime
+	type="com.cordys.organization.role.RoleDesignTime"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbb5-b9c267d85f64">
+	<DocumentID>78e3b51c-e998-11e0-fbb5-b9c267d0df63</DocumentID>
+	<Name>BR子公司营销部市场专员</Name>
+	<Description>BR子公司营销部市场专员</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-09-13T03:33:35.839</CreationDate>
+	<Notes/>
+	<isFunctionalRole>true</isFunctionalRole>
+	<type>Functional</type>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<configuredTasks/>
+	<Subroles>
+		<uri
+			id="005056a3-4878-11e0-f4f3-6936da92591e"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f4-bdef1f369fd9"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f5-b58e78e45645"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f6-11448ef85b0e"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f6-4ba919f51bbd"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-fb0c-17425fa2179b"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-fb0d-fdb3df08ddfe"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-fb23-eab72f839f17"
+		/>
+	</Subroles>
+</RoleDesignTime>

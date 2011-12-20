@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c197ceefdfaf">
+	<DocumentID>78e3b51c-e998-11e0-f837-c197ceba1fae</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c197ceba1fae</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:10.868</CreationDate>
+	<Notes/>
+	<Text>目标调查表流程</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c197cf6cdfb0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

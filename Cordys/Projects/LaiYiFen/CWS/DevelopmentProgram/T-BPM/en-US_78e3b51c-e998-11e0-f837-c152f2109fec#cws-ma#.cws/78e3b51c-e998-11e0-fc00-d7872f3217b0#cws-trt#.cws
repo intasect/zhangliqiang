@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc00-d7872f3997b1">
+	<DocumentID>78e3b51c-e998-11e0-fc00-d7872f3217b0</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc00-d7872f3217b0</Name>
+	<Description>预计业绩（元/天）</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-16T02:28:42.246</CreationDate>
+	<Notes/>
+	<Text>预计业绩（元/天）</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc00-d7872f2457ae"
+		/>
+	</TextIdentifier>
+</TranslatedText>

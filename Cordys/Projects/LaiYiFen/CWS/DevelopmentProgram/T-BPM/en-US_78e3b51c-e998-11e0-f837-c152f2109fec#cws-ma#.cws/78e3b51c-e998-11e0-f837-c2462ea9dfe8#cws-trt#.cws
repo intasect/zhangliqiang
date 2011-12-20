@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c2462ef25fe9">
+	<DocumentID>78e3b51c-e998-11e0-f837-c2462ea9dfe8</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c2462ea9dfe8</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:22.48</CreationDate>
+	<Notes/>
+	<Text>钥匙移交</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c2462faddfea"
+		/>
+	</TextIdentifier>
+</TranslatedText>

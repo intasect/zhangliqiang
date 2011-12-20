@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e00f-1f71aa7e9fd9">
+	<DocumentID>78e3b51c-e998-11e1-e00f-1f71aa7adfd8</DocumentID>
+	<Name>78e3b51c-e998-11e1-e00f-1f71aa7adfd8</Name>
+	<Description>背柜个数 *</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-10-27T09:03:31.734</CreationDate>
+	<Notes/>
+	<Text>背柜个数 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e00f-1f71aa70dfd6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

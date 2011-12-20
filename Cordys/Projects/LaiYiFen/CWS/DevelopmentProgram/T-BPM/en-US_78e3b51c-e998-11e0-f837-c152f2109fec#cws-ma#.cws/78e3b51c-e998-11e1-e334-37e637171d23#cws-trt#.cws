@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e334-37e6371e9d24">
+	<DocumentID>78e3b51c-e998-11e1-e334-37e637171d23</DocumentID>
+	<Name>78e3b51c-e998-11e1-e334-37e637171d23</Name>
+	<Description>总流程数</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-11-28T09:50:08.189</CreationDate>
+	<Notes/>
+	<Text>总流程数</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e334-37e637095d21"
+		/>
+	</TextIdentifier>
+</TranslatedText>

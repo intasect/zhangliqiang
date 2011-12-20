@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff57-fc3c15c5db1e">
+	<DocumentID>78e3b51c-e998-11e0-ff57-fc3c15bf9b1d</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff57-fc3c15bf9b1d</Name>
+	<Description>&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;(“长度*个数”填制，长度单位：MM)&lt;/span&gt;</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-10-20T02:32:18.513</CreationDate>
+	<Notes/>
+	<DefaultText>&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;(“长度*个数”填制，长度单位：MM)&lt;/span&gt;</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-ff57-fc3c15cd5b1f"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

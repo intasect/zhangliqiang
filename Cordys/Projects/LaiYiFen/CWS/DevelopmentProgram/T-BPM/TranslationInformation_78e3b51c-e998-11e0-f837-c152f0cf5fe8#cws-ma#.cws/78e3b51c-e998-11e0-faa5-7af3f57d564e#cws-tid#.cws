@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faa5-7af3f584d64f">
+	<DocumentID>78e3b51c-e998-11e0-faa5-7af3f57d564e</DocumentID>
+	<Name>78e3b51c-e998-11e0-faa5-7af3f57d564e</Name>
+	<Description>全部门店预估业绩总额</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-09-02T06:29:18.733</CreationDate>
+	<Notes/>
+	<DefaultText>全部门店预估业绩总额</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-faa5-7af3f58b1650"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

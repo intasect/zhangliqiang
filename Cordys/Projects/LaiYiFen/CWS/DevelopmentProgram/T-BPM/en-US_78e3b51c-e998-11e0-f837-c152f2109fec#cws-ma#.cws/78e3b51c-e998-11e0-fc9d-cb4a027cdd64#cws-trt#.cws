@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc9d-cb4a02859d65">
+	<DocumentID>78e3b51c-e998-11e0-fc9d-cb4a027cdd64</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc9d-cb4a027cdd64</Name>
+	<Description>门店详细地址</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-22T08:34:18.359</CreationDate>
+	<Notes/>
+	<Text>门店详细地址</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc9d-cb4a026f1d62"
+		/>
+	</TextIdentifier>
+</TranslatedText>

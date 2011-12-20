@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa59-eb925d4fd7c0">
+	<DocumentID>78e3b51c-e998-11e0-fa59-eb925d4857bf</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa59-eb925d4857bf</Name>
+	<Description>特渠部经理审核</Description>
+	<CreatedBy>唐炜炜</CreatedBy>
+	<CreationDate>2011-08-30T06:48:10.359</CreationDate>
+	<Notes/>
+	<Text>特渠部经理审核</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa59-eb925d3957bd"
+		/>
+	</TextIdentifier>
+</TranslatedText>

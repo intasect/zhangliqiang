@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fccc-6130a76c96b2">
+	<DocumentID>78e3b51c-e998-11e0-fccc-6130a76656b1</DocumentID>
+	<Name>78e3b51c-e998-11e0-fccc-6130a76656b1</Name>
+	<Description>免租期（月）</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-24T04:25:32.428</CreationDate>
+	<Notes/>
+	<Text>免租期（月）</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fccc-6130a75896af"
+		/>
+	</TextIdentifier>
+</TranslatedText>

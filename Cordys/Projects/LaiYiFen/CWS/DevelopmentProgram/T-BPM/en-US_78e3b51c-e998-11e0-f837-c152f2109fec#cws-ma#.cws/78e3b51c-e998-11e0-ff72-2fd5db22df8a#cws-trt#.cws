@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff72-2fd5db2b9f8b">
+	<DocumentID>78e3b51c-e998-11e0-ff72-2fd5db22df8a</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff72-2fd5db22df8a</Name>
+	<Description>COSTPAYMENT</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-21T03:13:00.522</CreationDate>
+	<Notes/>
+	<Text>COSTPAYMENT</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff72-2fd5db0edf88"
+		/>
+	</TextIdentifier>
+</TranslatedText>

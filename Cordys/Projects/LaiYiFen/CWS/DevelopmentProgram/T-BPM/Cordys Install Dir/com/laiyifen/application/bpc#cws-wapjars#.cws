@@ -1,0 +1,54 @@
+
+<WSAppServerJavaArchiveSource
+	type="com.cordys.wsappserver.WSAppServerJavaArchiveSource"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa5c-a63d6bf81fe1">
+	<DocumentID>78e3b51c-e998-11e0-fa5c-a63d6bf09fe0</DocumentID>
+	<Name>bpc</Name>
+	<Description>bpc</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-08-30T09:05:32.842</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<JarFileName>bpc</JarFileName>
+	<SourceFolder>
+		<uri
+			id="000C297E-6FFF-11E1-E37B-AC8C10A19276"
+			path="T-BPM/Java/bpc"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+	<WSAppServerPackage>
+		<uri
+			id="78e3b51c-e998-11e0-fa5c-a63d6cae9ffb"
+		/>
+	</WSAppServerPackage>
+	<Dependencies>
+		<JavaArchiveReferenceDependency
+			type="com.cordys.cws.documenttypes.javaarchivesource.JavaArchiveReferenceDependency"
+			RuntimeDocumentID="78e3b51c-e998-11e0-fa5c-a63d6be91fdf">
+			<DocumentID>78e3b51c-e998-11e0-fa5c-a63d6be05fde</DocumentID>
+			<Name>bpc_Dependency</Name>
+			<Description>bpc_Dependency</Description>
+			<CreatedBy>陈教琼</CreatedBy>
+			<CreationDate>2011-08-30T09:05:32.483</CreationDate>
+			<Notes/>
+			<ISVPName></ISVPName>
+			<DependsOnJAR>?CORDYS_INSTALL_DIR?/components/wsappserver/wsappserver.jar</DependsOnJAR>
+		</JavaArchiveReferenceDependency>
+		<JavaArchiveSourceDependency
+			type="com.cordys.cws.documenttypes.javaarchivesource.JavaArchiveSourceDependency"
+			RuntimeDocumentID="78e3b51c-e998-11e0-fa72-1b94fba7df44">
+			<DocumentID>78e3b51c-e998-11e0-fa72-1b94fb9f1f43</DocumentID>
+			<Name>78e3b51c-e998-11e0-fa72-1b94fb9f1f43</Name>
+			<Description>T-BPM_Cordys Install Dir_com_laiyifen_application_common</Description>
+			<CreatedBy>TBPM管理员</CreatedBy>
+			<CreationDate>2011-08-31T05:23:30.579</CreationDate>
+			<Notes/>
+			<DependsOnJAS>
+				<uri
+					id="78e3b51c-e998-11e0-f8df-cc57cdd19f8c"
+				/>
+			</DependsOnJAS>
+		</JavaArchiveSourceDependency>
+	</Dependencies>
+</WSAppServerJavaArchiveSource>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faec-aaac593f5613">
+	<DocumentID>78e3b51c-e998-11e0-faec-aaac5937d612</DocumentID>
+	<Name>78e3b51c-e998-11e0-faec-aaac5937d612</Name>
+	<Description>主要公交线路 *</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-05T02:33:44.957</CreationDate>
+	<Notes/>
+	<Text>主要公交线路 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faec-aaac592a1610"
+		/>
+	</TextIdentifier>
+</TranslatedText>

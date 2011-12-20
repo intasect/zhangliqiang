@@ -1,0 +1,825 @@
+
+<XFormDesigntime
+	type="com.cordys.xforms.XFormDesigntime"
+	typeVersion="005056C0-0008-11E0-F8FC-5E0A815B7FB8"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e1e4-dc2d08e71f03">
+	<DocumentID>78e3b51c-e998-11e1-e1e4-dc2d08e0df02</DocumentID>
+	<Name>AttachmentPage</Name>
+	<Description>AttachmentPage</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-11-15T01:15:57.977</CreationDate>
+	<Notes/>
+	<XFormContent>
+		<xformhtml
+			xmlns="http://schemas.cordys.com/1.0/xform"
+			xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+			xmlns:ev="http://www.w3.org/2001/xml-events"
+			xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+			xformsversion="2"
+			key="User Interface/com/laiyifen/test/AttachmentPage"
+			focusatstartup="true">
+			<xhead>
+				<xforms:model
+					xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+					xmlns:ev="http://www.w3.org/2001/xml-events"
+					xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+					id="GetAttachmentModel"
+					wcpforms:businessElement="tns:ATTACHMENT"
+					wcpforms:automatic="false"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							src="http://schemas.cordys.com/tbpm/common/GetAttachment"
+							operationName="GetAttachment"
+							type="get"
+							wcpforms:wsguid="78e3b51c-e998-11e0-f8e1-0901c4501f32">
+							<Form_ID
+								xmlns="http://schemas.cordys.com/tbpm/common"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/tbpm/common</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/tbpm/common</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+					<wcpforms:instanceschema/>
+				</xforms:model>
+				<xforms:model
+					xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+					xmlns:ev="http://www.w3.org/2001/xml-events"
+					xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+					id="DownloadFileModel"
+					wcpforms:businessElement="tns:downloadFile"
+					wcpforms:automatic="false"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							src="http://schemas.cordys.com/tbpm/common/DownloadFile"
+							operationName="DownloadFile"
+							type="get"
+							wcpforms:wsguid="78e3b51c-e998-11e0-f8e1-0901734fdff2">
+							<id
+								xmlns="http://schemas.cordys.com/tbpm/common"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/tbpm/common</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/tbpm/common</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+					<wcpforms:instanceschema/>
+				</xforms:model>
+				<xforms:model
+					xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+					xmlns:ev="http://www.w3.org/2001/xml-events"
+					xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+					id="DeleteFileModel"
+					wcpforms:businessElement="tns:DeleteFileResponse"
+					wcpforms:automatic="false"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					wcpforms:nontransactional="true"
+					singleTransaction="false"
+					promptToSave="true"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:iteratorSize="50">
+						<wcpforms:dataset
+							src="http://schemas.cordys.com/tbpm/common/DeleteFile"
+							operationName="DeleteFile"
+							type="get"
+							wcpforms:wsguid="78e3b51c-e998-11e0-f8e1-09011b609fb4">
+							<guid
+								xmlns="http://schemas.cordys.com/tbpm/common"
+							/>
+						</wcpforms:dataset>
+					</xforms:instance>
+					<wcpforms:xpathmetainfo
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms">
+						<wcpforms:namespace
+							prefix="xmlns">http://schemas.cordys.com/tbpm/common</wcpforms:namespace>
+						<wcpforms:namespace
+							prefix="tns">http://schemas.cordys.com/tbpm/common</wcpforms:namespace>
+					</wcpforms:xpathmetainfo>
+					<wcpforms:instanceschema/>
+				</xforms:model>
+				<xml
+					xmlns="http://schemas.cordys.com/1.0/xform">
+					<xml
+						id="uploadApplication">
+						<Application>
+							<id>upload</id>
+							<description>上传文件</description>
+							<caption>上传文件</caption>
+							<url>/User Interface/com/laiyifen/common/upload/UploadPage.caf</url>
+							<frame>main</frame>
+						</Application>
+					</xml>
+				</xml>
+			</xhead>
+			<xbody>
+				<xforms:group
+					wcpforms:layout="vertical"
+					id="xbody_group"
+					wcpforms:labelalign="ontop">
+					<xforms:repeat
+						wcpforms:displayContextMenu="false"
+						wcpforms:toggleColumns="true"
+						wcpforms:movableColumns="false"
+						wcpforms:saveState="false"
+						wcpforms:autoInsert="false"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTable"
+						id="File_RepositoryTable"
+						model="GetAttachmentModel"
+						synchronizedDialogFrame="main"
+						nodeset="ATTACHMENT"
+						fixedWidth="true"
+						isNavigationEnabled="true"
+						columnSortable="true"
+						wcpforms:gridtype="navgrid"
+						wcpforms:checkboxes="true"
+						wcpforms:layout="vertical"
+						wcpforms:class="v_layout"
+						wcpforms:size="null 340px">
+						<xforms:group
+							appearance="elementbar"
+							id="_elementBar"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbar">
+							<xforms:group
+								appearance="controlbar"
+								id="_controlBar"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbar"
+								wcpforms:class="controlbar">
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="btnUpload">
+									<xforms:label>
+										<img
+											xmlns="http://schemas.cordys.com/1.0/xform"
+											src="/cordys/wcp/theme/default/icon/action/upload.png"
+										/>
+									</xforms:label>
+									<xforms:hint
+										textIdentifier="78e3b51c-e998-11e0-f837-c20c65f7dd02">上传文件</xforms:hint>
+									<xforms:action
+										xmlns:ev="http://www.w3.org/2001/xml-events"
+										ev:event="xforms-activate">
+										<xforms:btnUpload_Click/>
+									</xforms:action>
+								</xforms:trigger>
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="btnDelete">
+									<xforms:label>
+										<img
+											xmlns="http://schemas.cordys.com/1.0/xform"
+											src="/cordys/wcp/theme/default/icon/action/delete.png"
+										/>
+									</xforms:label>
+									<xforms:hint
+										textIdentifier="78e3b51c-e998-11e0-f9c6-d9ee51809f8c">删除</xforms:hint>
+									<xforms:action
+										xmlns:ev="http://www.w3.org/2001/xml-events"
+										ev:event="xforms-activate">
+										<xforms:navDelete2_BeforeDelete/>
+									</xforms:action>
+								</xforms:trigger>
+							</xforms:group>
+							<xforms:group
+								appearance="paginationbar"
+								id="_paginationBar"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsPaginationbar"
+								wcpforms:class="paginationbar">
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="navFirst2"
+									standardid="navFirst">
+									<xforms:label>
+										<img
+											xmlns="http://schemas.cordys.com/1.0/xform"
+											src="/cordys/wcp/theme/default/icon/pagination/first.png"
+										/>
+									</xforms:label>
+									<xforms:hint
+										textIdentifier="78e3b51c-e998-11e0-f9c9-0654da9e9f91">首页</xforms:hint>
+								</xforms:trigger>
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="navPrevious2"
+									standardid="navPrevious">
+									<xforms:label>
+										<img
+											xmlns="http://schemas.cordys.com/1.0/xform"
+											src="/cordys/wcp/theme/default/icon/pagination/previous.png"
+										/>
+									</xforms:label>
+									<xforms:hint
+										textIdentifier="78e3b51c-e998-11e0-f9c9-0654da219f89">上一页</xforms:hint>
+								</xforms:trigger>
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="navNext2"
+									standardid="navNext">
+									<xforms:label>
+										<img
+											xmlns="http://schemas.cordys.com/1.0/xform"
+											src="/cordys/wcp/theme/default/icon/pagination/next.png"
+										/>
+									</xforms:label>
+									<xforms:hint
+										textIdentifier="78e3b51c-e998-11e0-f9c9-0654d9e6df81">下一页</xforms:hint>
+								</xforms:trigger>
+								<xforms:trigger
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+									id="navLast2"
+									standardid="navLast">
+									<xforms:label>
+										<img
+											xmlns="http://schemas.cordys.com/1.0/xform"
+											src="/cordys/wcp/theme/default/icon/pagination/last.png"
+										/>
+									</xforms:label>
+									<xforms:hint
+										textIdentifier="78e3b51c-e998-11e0-f9c9-0654d9ad5f79">尾页</xforms:hint>
+								</xforms:trigger>
+							</xforms:group>
+						</xforms:group>
+						<xforms:input
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+							id="filename"
+							ref="FILENAME"
+							doEBIValidate="false"
+							wcpforms:dataType="string"
+							wcpforms:textalign="left_align"
+							wcpforms:size="191px 100%">
+							<xforms:label>文件名</xforms:label>
+						</xforms:input>
+						<xforms:input
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+							id="filetype"
+							ref="FILETYPE"
+							doEBIValidate="false"
+							wcpforms:dataType="string"
+							wcpforms:textalign="left_align"
+							wcpforms:size="106px 100%">
+							<xforms:label>文件类型</xforms:label>
+						</xforms:input>
+						<xforms:input
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+							id="userNm"
+							doEBIValidate="false"
+							ref="OPERATOR_NAME"
+							wcpforms:size="189px 100%">
+							<xforms:label
+								textIdentifier="78e3b51c-e998-11e0-f837-c29a1a14df66">上传人</xforms:label>
+						</xforms:input>
+						<xforms:input
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+							id="deptNm"
+							ref="DEPTMENT_NAME"
+							doEBIValidate="false"
+							wcpforms:dataType="string"
+							wcpforms:textalign="left_align"
+							wcpforms:size="157px 100%">
+							<xforms:label
+								textIdentifier="78e3b51c-e998-11e0-f837-c2688b89d60a">所属部门</xforms:label>
+						</xforms:input>
+						<xforms:input
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+							id="uploaddate"
+							doEBIValidate="false"
+							ref="UPLOAD_DATE"
+							wcpforms:dataType="date"
+							wcpforms:displayformat="yyyy-MM-dd HH:mm:ss"
+							wcpforms:textalign="left_align"
+							wcpforms:required="false"
+							wcpforms:size="107px 100%">
+							<xforms:label
+								textIdentifier="78e3b51c-e998-11e0-fa73-42de93131975">上传时间</xforms:label>
+						</xforms:input>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="fileurl"
+							ref="FILEURL"
+							doEBIValidate="false"
+							wcpforms:size="100px 100%">
+							<xforms:label
+								textIdentifier="78e3b51c-e998-11e0-f837-c20aac20977a">文件路径</xforms:label>
+						</xforms:output>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="fileformid"
+							ref="FORM_ID"
+							doEBIValidate="false"
+							wcpforms:size="100px 100%">
+							<xforms:label
+								textIdentifier="78e3b51c-e998-11e0-f837-c29ac7f2dfba">FORM_ID</xforms:label>
+						</xforms:output>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="submitstatus"
+							ref="SUBMIT_STATUS"
+							doEBIValidate="false"
+							wcpforms:size="100px 100%">
+							<xforms:label
+								textIdentifier="78e3b51c-e998-11e0-ff57-207387e39f6b">SUBMIT_STATUS</xforms:label>
+						</xforms:output>
+						<xforms:output
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+							id="fileinstanceid"
+							ref="INSTANCE_ID"
+							doEBIValidate="false"
+							wcpforms:size="auto 100%">
+							<xforms:label
+								textIdentifier="78e3b51c-e998-11e0-f9dd-c3d2f0cd5dcc">INSTANCE_ID</xforms:label>
+						</xforms:output>
+					</xforms:repeat>
+					<xforms:output
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+						id="formid"
+						doEBIValidate="false"
+						wcpforms:class="v_layout"
+						wcpforms:size="null auto">
+						<xforms:label
+							textIdentifier="78e3b51c-e998-11e0-f9d9-00b81bb4db84"
+							wcpforms:class="v_label">Form_ID</xforms:label>
+					</xforms:output>
+					<xforms:output
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+						id="deptname"
+						doEBIValidate="false"
+						wcpforms:class="v_layout"
+						wcpforms:size="null auto">
+						<xforms:label
+							textIdentifier="78e3b51c-e998-11e0-f837-c29dcd3e956e"
+							wcpforms:class="v_label">DEPT_NAME</xforms:label>
+					</xforms:output>
+					<xforms:output
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+						id="username"
+						doEBIValidate="false"
+						wcpforms:class="v_layout"
+						wcpforms:size="null auto">
+						<xforms:label
+							textIdentifier="78e3b51c-e998-11e0-f9dd-b97544af577b"
+							wcpforms:class="v_label">USER_NAME</xforms:label>
+					</xforms:output>
+				</xforms:group>
+			</xbody>
+			<xformsscript>
+				<![CDATA[function Form_InitDone(eventObject){debugger;
+    formid.hide();
+    deptname.hide();
+    username.hide();
+    var param = application.event.data;
+    formid.setValue(param.formID);
+    deptname.setValue(param.deptNm);
+    username.setValue(param.userNm);
+    File_RepositoryTable.hideColumn(6);
+    File_RepositoryTable.hideColumn(7);
+    File_RepositoryTable.hideColumn(8);
+    File_RepositoryTable.hideColumn(9);
+    cordys.removeDOMListener(File_RepositoryTable,"ondblclick",completeDownloadFile);            cordys.addDOMListener(File_RepositoryTable,"ondblclick",completeDownloadFile);
+    getAttachments();
+}
+
+function getAttachments()
+{
+    var request = GetAttachmentModel.getMethodRequest();
+    cordys.setNodeText(request,".//*[local-name()='Form_ID']",formid.getValue());
+    GetAttachmentModel.setMethodRequest(request);
+    GetAttachmentModel.reset();
+}
+
+/********************************************************************
+ * 描述: 打开上传附件弹出页
+ */
+function btnUpload_Click(eventObject)
+{
+    if(!formid.getValue())
+    {
+        application.notify("请先保存页面，再上传附件，谢谢");
+        return;
+    }
+    application.select(uploadApplication.XMLDocument.documentElement);
+}
+
+/********************************************************************
+ * 描述: 将附件内容从弹出页中带到主页面
+ */
+function fnAddFile(fileObject,fileUrl,fileName)
+{
+    if(fileName != null && fileName !="")
+    {
+ File_RepositoryTable.create();
+ var rowInx = File_RepositoryTable.getIndex();
+ filename[rowInx].setValue(fileName);
+ filetype[rowInx].setValue(cordys.getNodeText(fileObject,".//*[local-name()='FileType']"));
+ deptNm[rowInx].setValue(deptname.getValue());
+ userNm[rowInx].setValue(username.getValue());
+ fileurl[rowInx].setValue(fileUrl);
+ fileformid[rowInx].setValue(formid.getValue());
+ fileinstanceid[rowInx].setValue(Workflow.getProcessInstanceId());
+ submitstatus[rowInx].setValue("0"); //status=0表示当前附件可以删除
+ saveAttachment();
+    }
+}
+
+/********************************************************************
+ * 描述: 将上传的附件持久化到数据库
+ */
+function saveAttachment()
+{
+    GetAttachmentModel.synchronize(true);
+}
+
+/********************************************************************
+ * 描述: 判断此附件是否可以被删除
+ */
+function validateAttachment(rowInx)
+{
+    if(submitstatus[rowInx].getValue()=="1")
+    {
+ application.notify("对不起，您没有权限删除第" + rowInx + "行附件");
+ return false;
+    }
+    return true;
+}
+
+/********************************************************************
+ * 描述: 删除附件记录
+ */
+function navDelete2_BeforeDelete(eventObject)
+{
+    var rows=File_RepositoryTable.getCheckedRows();
+    if(rows.length==0)
+    {
+ application.notify("请选择所需删除的附件，谢谢");
+ return; 
+    }
+    application.confirm("您确定删除所选附件吗？", false, removeHandler, false, "确认信息");
+}
+
+/********************************************************************
+ * 描述: 点击附件删除按钮时所触发的回调函数
+ */
+function removeHandler(confirmReturnValue)
+{
+    if(confirmReturnValue == 1)
+    {
+ var rows=File_RepositoryTable.getCheckedRows();
+ for(var i = 0;i < rows.length;i++)
+ {
+     //在文件系统中删除文件
+     var rowInx = rows[i].sectionRowIndex;
+     //判断是否有权限删除此附件
+     if(!validateAttachment(rowInx)) return;
+   
+     var guid = fileurl[rowInx].getValue();
+     var request = DeleteFileModel.getMethodRequest();
+     cordys.setNodeText(request,".//*[local-name()='guid']",guid);
+     DeleteFileModel.setMethodRequest(request);
+     DeleteFileModel.reset();
+     if(DeleteFileModel.soapFaultOccurred) 
+     { 
+         application.notify("您的操作未能成功执行，请您重新尝试或联系系统管理员，谢谢");
+  return; 
+     }
+ }
+ removeDataFromModel();
+    }
+}
+
+/********************************************************************
+ * 描述: 在页面上去除删除数据
+ */
+function removeDataFromModel()
+{
+ var newNodesDoc = cordys.loadXMLDocument("<collection/>");
+ var modelData = GetAttachmentModel.getData();
+ var chekedRows = File_RepositoryTable.getCheckedRows();
+ for(var i=0;i<chekedRows.length;i++)
+ {
+  var rowBObjId = cordys.getNodeText(chekedRows[i].businessObject,".//*[local-name()='FILEURL']");
+  var selectedRowTuple= cordys.selectXMLNode(modelData,".//*[local-name()='tuple'][.//*[local-name()='FILEURL']='"+rowBObjId+"']");
+  selectedRowTuple.parentNode.removeChild(selectedRowTuple);
+ }
+ var newNodes = modelData.getElementsByTagName("new");
+ for(var i=0;i<newNodes.length;i++)
+ {
+  var nde = newNodes[i].cloneNode(true);
+  cordys.appendXMLNode(nde,newNodesDoc.documentElement);
+ }
+ GetAttachmentModel.refreshAllViews();
+ rebindNewNodes(newNodesDoc);
+}
+
+/********************************************************************
+ * 描述: 将未删除的new tuple数据重新绑定到model
+ */
+function rebindNewNodes(newNodesDoc)
+{
+ var newNodes = newNodesDoc.getElementsByTagName("new");
+ for(var i=0;i<newNodes.length;i++)
+ {
+  File_RepositoryTable.create();
+  var numRows  = File_RepositoryTable.getIndex();
+  filename[numRows].setValue(cordys.getNodeText(newNodes[i],".//*[local-name()='FILENAME']"));
+  filetype[numRows].setValue(cordys.getNodeText(newNodes[i],".//*[local-name()='FILETYPE']"));
+  deptNm[numRows].setValue(cordys.getNodeText(newNodes[i],".//*[local-name()='DEPTMENT_NAME']"));
+  userNm[numRows].setValue(cordys.getNodeText(newNodes[i],".//*[local-name()='OPERATOR_NAME']"));
+  fileurl[numRows].setValue(cordys.getNodeText(newNodes[i],".//*[local-name()='FILEURL']"));
+  fileformid[numRows].setValue(cordys.getNodeText(newNodes[i],".//*[local-name()='FORM_ID']"));
+  fileinstanceid[numRows].setValue(cordys.getNodeText(newNodes[i],".//*[local-name()='INSTANCE_ID']"));
+ }
+ application.inform("附件删除成功");
+}
+
+/********************************************************************
+ * 描述: 点击提交或驳回按钮时将当前人上传的附件状态置为1，即不允许删除
+ */
+function changeStatusForAttachments()
+{
+    var rows = File_RepositoryTable.getRows();
+    for(var i=0; i<rows.length;i++)
+    {
+ if(submitstatus[i+1].getValue()=="0")
+ {
+     submitstatus[i+1].setValue("1");
+     continue;
+ }
+    }
+}
+
+/********************************************************************
+ * 描述: 点击table的某行，触发下载附件操作
+ */
+function completeDownloadFile()
+{
+    var rowInx = File_RepositoryTable.getIndex();
+    var urlNode = fileurl[rowInx].getValue();
+    var request = DownloadFileModel.getMethodRequest();
+    cordys.setNodeText(request,".//*[local-name()='id']",urlNode);
+    DownloadFileModel.setMethodRequest(request);
+    DownloadFileModel.reset();
+    var filePath = cordys.getNodeText(DownloadFileModel.getData(),".//*[local-name()='downloadFile']");
+    if(filePath == "" || filePath == undefined)
+    {
+ application.notify("This file does not exist or has been backed up elsewhere, please contact the system administrator.");
+ return;
+    }
+    window.open(filePath);
+}]]>
+			</xformsscript>
+			<xforms:action
+				ev:event="xforms-initialize-done">
+				<xforms:Form_InitDone/>
+			</xforms:action>
+		</xformhtml>
+	</XFormContent>
+	<width></width>
+	<automatic>false</automatic>
+	<data/>
+	<XFormWSDL/>
+	<caption></caption>
+	<isInternal>false</isInternal>
+	<type>XForm</type>
+	<taskName>AttachmentPage</taskName>
+	<mode>full</mode>
+	<title>true</title>
+	<height></height>
+	<isLegacy>false</isLegacy>
+	<left></left>
+	<qualifiedclassname></qualifiedclassname>
+	<parameters/>
+	<showOnStartPage>false</showOnStartPage>
+	<taskDescription>AttachmentPage</taskDescription>
+	<top></top>
+	<TranslatableUITexts>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e1-e1ef-af5ae1905f6e">
+			<DocumentID>78e3b51c-e998-11e1-e1ef-af5ae18a1f6d</DocumentID>
+			<Name>78e3b51c-e998-11e1-e1ef-af5ae18a1f6d</Name>
+			<Description>78e3b51c-e998-11e1-e1ef-af5ae18a1f6d</Description>
+			<CreatedBy>侯钢</CreatedBy>
+			<CreationDate>2011-11-15T11:50:10.964</CreationDate>
+			<Notes/>
+			<UIRef>formid</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e1-e1e4-dc2d08e0df02"
+				/>
+			</XForm>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e1-e1ef-af5ae17c5f6b">
+					<DocumentID>78e3b51c-e998-11e1-e1ef-af5ae174df6a</DocumentID>
+					<Name>78e3b51c-e998-11e1-e1ef-af5ae174df6a</Name>
+					<Description>78e3b51c-e998-11e1-e1ef-af5ae174df6a</Description>
+					<CreatedBy>侯钢</CreatedBy>
+					<CreationDate>2011-11-15T11:50:10.965</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-f9d9-00b81bb4db84"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<TooltipText/>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e1-e1f0-186c82295433">
+			<DocumentID>78e3b51c-e998-11e1-e1f0-186c821e1432</DocumentID>
+			<Name>78e3b51c-e998-11e1-e1f0-186c821e1432</Name>
+			<Description>78e3b51c-e998-11e1-e1f0-186c821e1432</Description>
+			<CreatedBy>侯钢</CreatedBy>
+			<CreationDate>2011-11-15T12:03:25.141</CreationDate>
+			<Notes/>
+			<UIRef>username</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e1-e1e4-dc2d08e0df02"
+				/>
+			</XForm>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e1-e1f0-186c82141431">
+					<DocumentID>78e3b51c-e998-11e1-e1f0-186c820a1430</DocumentID>
+					<Name>78e3b51c-e998-11e1-e1f0-186c820a1430</Name>
+					<Description>78e3b51c-e998-11e1-e1f0-186c820a1430</Description>
+					<CreatedBy>侯钢</CreatedBy>
+					<CreationDate>2011-11-15T12:03:25.14</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-f9dd-b97544af577b"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<TooltipText/>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e1-e1f0-186c827d143a">
+			<DocumentID>78e3b51c-e998-11e1-e1f0-186c8271d439</DocumentID>
+			<Name>78e3b51c-e998-11e1-e1f0-186c8271d439</Name>
+			<Description>78e3b51c-e998-11e1-e1f0-186c8271d439</Description>
+			<CreatedBy>侯钢</CreatedBy>
+			<CreationDate>2011-11-15T12:03:25.14</CreationDate>
+			<Notes/>
+			<UIRef>deptname</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e1-e1e4-dc2d08e0df02"
+				/>
+			</XForm>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e1-e1f0-186c825b5437">
+					<DocumentID>78e3b51c-e998-11e1-e1f0-186c82501436</DocumentID>
+					<Name>78e3b51c-e998-11e1-e1f0-186c82501436</Name>
+					<Description>78e3b51c-e998-11e1-e1f0-186c82501436</Description>
+					<CreatedBy>侯钢</CreatedBy>
+					<CreationDate>2011-11-15T12:03:25.142</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-f837-c29dcd3e956e"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<TooltipText/>
+		</TranslatableUIText>
+	</TranslatableUITexts>
+	<Representations/>
+	<ReferredXForms/>
+	<image/>
+	<TranslatableApplications/>
+	<Images/>
+	<messages/>
+	<Webservices>
+		<uri
+			id="78e3b51c-e998-11e0-f8e1-09011b609fb4"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-f8e1-0901734fdff2"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-f8e1-0901c4501f32"
+		/>
+	</Webservices>
+	<StyleSheets/>
+	<input/>
+	<taskParts/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			RuntimeDocumentID="78e3b51c-e998-11e1-e1e4-dc2d088d1ff6">
+			<DocumentID>78e3b51c-e998-11e1-e1e4-dc2d08859ff5</DocumentID>
+			<Name>78e3b51c-e998-11e1-e1e4-dc2d08859ff5</Name>
+			<Description>78e3b51c-e998-11e1-e1e4-dc2d08859ff5</Description>
+			<CreatedBy>侯钢</CreatedBy>
+			<CreationDate>2011-11-15T01:15:57.978</CreationDate>
+			<Notes/>
+			<Identifier>
+				<uri
+					id="78e3b51c-e998-11e1-e1e4-dc2d08935ff7"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+	<aclFragments/>
+	<tagsContainer/>
+	<deliveryModels/>
+	<messageParts>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="78e3b51c-e998-11e1-e1e4-dc2d07b39fd7">
+			<DocumentID>78e3b51c-e998-11e1-e1e4-dc2d07ac1fd6</DocumentID>
+			<Name>DeleteFileModel</Name>
+			<Description>DeleteFileModel</Description>
+			<CreatedBy>侯钢</CreatedBy>
+			<CreationDate>2011-11-15T01:21:42.633</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<operationName>DeleteFile</operationName>
+			<namespace>http://schemas.cordys.com/tbpm/common</namespace>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="78e3b51c-e998-11e1-e1e4-dc2d07e45fde">
+			<DocumentID>78e3b51c-e998-11e1-e1e4-dc2d07dcdfdd</DocumentID>
+			<Name>DownloadFileModel</Name>
+			<Description>DownloadFileModel</Description>
+			<CreatedBy>侯钢</CreatedBy>
+			<CreationDate>2011-11-15T01:21:02.095</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<operationName>DownloadFile</operationName>
+			<namespace>http://schemas.cordys.com/tbpm/common</namespace>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="78e3b51c-e998-11e1-e1e4-dc2d08151fe5">
+			<DocumentID>78e3b51c-e998-11e1-e1e4-dc2d080d9fe4</DocumentID>
+			<Name>GetAttachmentModel</Name>
+			<Description>GetAttachmentModel</Description>
+			<CreatedBy>侯钢</CreatedBy>
+			<CreationDate>2011-11-15T01:20:24.927</CreationDate>
+			<Notes/>
+			<isRefExists>true</isRefExists>
+			<operationName>GetAttachment</operationName>
+			<namespace>http://schemas.cordys.com/tbpm/common</namespace>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="78e3b51c-e998-11e1-e1ef-af5ae16d5f69">
+			<DocumentID>78e3b51c-e998-11e1-e1ef-af5ae1671f68</DocumentID>
+			<Name>freeformcontrols</Name>
+			<Description>freeformcontrols</Description>
+			<CreatedBy>侯钢</CreatedBy>
+			<CreationDate>2011-11-15T11:50:10.964</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<operationName>freeformcontrols</operationName>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+		</MessagePart>
+	</messageParts>
+	<InstanceSchemaFragments/>
+	<Htms/>
+	<output/>
+	<Javascripts/>
+</XFormDesigntime>

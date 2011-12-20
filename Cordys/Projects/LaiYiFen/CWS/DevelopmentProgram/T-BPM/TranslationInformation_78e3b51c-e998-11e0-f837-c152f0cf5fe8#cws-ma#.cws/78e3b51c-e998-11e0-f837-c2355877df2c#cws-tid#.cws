@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c23558bb5f2d">
+	<DocumentID>78e3b51c-e998-11e0-f837-c2355877df2c</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c2355877df2c</Name>
+	<Description>&lt;P &gt;说明：对于正在大修的道路或街道统一房屋大修，可暂停开发；对于短期局部整修或已处于施工收尾阶段的，C类店以上的可允许在道路施工完工前1个月开发，但是须保证（一）对于已开发城市一年（含）以上，单店日均业绩≥1500元，租金占比在合理范围，且签约年限3年以上，方可开发。 （二）对于新开发城市，单店日均业绩≥1000元，租金占比在合理范围，且有潜力的门店，且签约年限3年以上，方可开发。&lt;/P&gt;</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:37.06</CreationDate>
+	<Notes/>
+	<DefaultText>_P__说明：对于正在大修的道路或街道统一房屋大修，可暂停开发；对于短期局部整修或已处于施工收尾阶段</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c23557611f2a"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

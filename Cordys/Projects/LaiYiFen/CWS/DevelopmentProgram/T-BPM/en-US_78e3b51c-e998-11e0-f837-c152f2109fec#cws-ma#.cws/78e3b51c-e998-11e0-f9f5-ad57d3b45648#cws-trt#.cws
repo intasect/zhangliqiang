@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9f5-ad57d3bbd649">
+	<DocumentID>78e3b51c-e998-11e0-f9f5-ad57d3b45648</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9f5-ad57d3b45648</Name>
+	<Description>MONTH9</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-08-26T06:34:32.278</CreationDate>
+	<Notes/>
+	<Text>MONTH9</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9f5-ad57d3a69646"
+		/>
+	</TextIdentifier>
+</TranslatedText>

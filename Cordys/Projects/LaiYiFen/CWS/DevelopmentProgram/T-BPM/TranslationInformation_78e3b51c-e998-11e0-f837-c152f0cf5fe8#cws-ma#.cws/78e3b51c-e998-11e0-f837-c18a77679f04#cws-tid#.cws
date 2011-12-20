@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c18a77bb5f05">
+	<DocumentID>78e3b51c-e998-11e0-f837-c18a77679f04</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c18a77679f04</Name>
+	<Description>库存管理部</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:16.394</CreationDate>
+	<Notes/>
+	<DefaultText>库存管理部</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c18a76189f02"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

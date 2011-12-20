@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e2a2-2322cb305fad">
+	<DocumentID>78e3b51c-e998-11e1-e2a2-2322cb28dfac</DocumentID>
+	<Name>78e3b51c-e998-11e1-e2a2-2322cb28dfac</Name>
+	<Description>重置查询</Description>
+	<CreatedBy>徐新宇</CreatedBy>
+	<CreationDate>2011-11-22T13:57:17.771</CreationDate>
+	<Notes/>
+	<Text>重置查询</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e2a2-2322cb1b1faa"
+		/>
+	</TextIdentifier>
+</TranslatedText>

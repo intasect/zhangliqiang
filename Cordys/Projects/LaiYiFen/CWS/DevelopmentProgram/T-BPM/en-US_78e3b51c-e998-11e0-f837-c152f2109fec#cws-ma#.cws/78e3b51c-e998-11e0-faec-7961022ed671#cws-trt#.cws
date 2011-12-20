@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faec-796102365672">
+	<DocumentID>78e3b51c-e998-11e0-faec-7961022ed671</DocumentID>
+	<Name>78e3b51c-e998-11e0-faec-7961022ed671</Name>
+	<Description>门店简称 *</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-05T02:32:30.196</CreationDate>
+	<Notes/>
+	<Text>门店简称 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faec-79610221166f"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fff0-c8b57dcc5f67">
+	<DocumentID>78e3b51c-e998-11e0-fff0-c8b57dc4df66</DocumentID>
+	<Name>78e3b51c-e998-11e0-fff0-c8b57dc4df66</Name>
+	<Description>出差天数</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-26T03:57:33.334</CreationDate>
+	<Notes/>
+	<Text>出差天数</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fff0-c8b57db71f64"
+		/>
+	</TextIdentifier>
+</TranslatedText>

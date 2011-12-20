@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c179337e1b05">
+	<DocumentID>78e3b51c-e998-11e0-f837-c179332e1b04</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c179332e1b04</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:42.44</CreationDate>
+	<Notes/>
+	<Text>制定年度调研模板并下发</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c17934551b06"
+		/>
+	</TextIdentifier>
+</TranslatedText>

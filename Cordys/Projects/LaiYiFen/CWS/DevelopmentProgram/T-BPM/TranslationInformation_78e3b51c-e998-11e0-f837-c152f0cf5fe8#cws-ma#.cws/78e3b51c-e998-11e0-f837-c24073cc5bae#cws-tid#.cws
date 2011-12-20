@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c24074161baf">
+	<DocumentID>78e3b51c-e998-11e0-f837-c24073cc5bae</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c24073cc5bae</Name>
+	<Description>财务确认信息</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:31.904</CreationDate>
+	<Notes/>
+	<DefaultText>财务确认信息</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c24072b81bac"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

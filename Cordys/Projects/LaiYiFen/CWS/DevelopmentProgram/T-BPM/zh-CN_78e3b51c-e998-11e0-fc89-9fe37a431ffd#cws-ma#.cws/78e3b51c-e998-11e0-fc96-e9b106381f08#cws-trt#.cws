@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc96-e9b1063f9f09">
+	<DocumentID>78e3b51c-e998-11e0-fc96-e9b106381f08</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc96-e9b106381f08</Name>
+	<Description>通过</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-22T01:26:30.996</CreationDate>
+	<Notes/>
+	<Text>通过</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-fc89-9fe37a599fff"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c153b7fc1f30"
+		/>
+	</TextIdentifier>
+</TranslatedText>

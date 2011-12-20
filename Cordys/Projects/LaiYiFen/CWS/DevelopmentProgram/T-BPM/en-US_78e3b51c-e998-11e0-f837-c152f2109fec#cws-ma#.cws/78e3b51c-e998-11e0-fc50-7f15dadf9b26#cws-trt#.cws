@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc50-7f15dae5db27">
+	<DocumentID>78e3b51c-e998-11e0-fc50-7f15dadf9b26</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc50-7f15dadf9b26</Name>
+	<Description>门店主数据修改流程</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-19T06:02:07.287</CreationDate>
+	<Notes/>
+	<Text>门店主数据修改流程</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc50-7f15dad09b24"
+		/>
+	</TextIdentifier>
+</TranslatedText>

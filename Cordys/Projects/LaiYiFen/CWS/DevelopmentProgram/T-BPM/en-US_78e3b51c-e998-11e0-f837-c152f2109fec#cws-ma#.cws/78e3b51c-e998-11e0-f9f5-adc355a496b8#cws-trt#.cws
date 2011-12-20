@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9f5-adc355aad6b9">
+	<DocumentID>78e3b51c-e998-11e0-f9f5-adc355a496b8</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9f5-adc355a496b8</Name>
+	<Description>Input50</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-08-26T06:40:31.368</CreationDate>
+	<Notes/>
+	<Text>Input50</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9f5-adc35596d6b6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

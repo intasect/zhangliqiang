@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbd1-d86f29705d90">
+	<DocumentID>78e3b51c-e998-11e0-fbd1-d86f2968dd8f</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbd1-d86f2968dd8f</Name>
+	<Description>往来会计</Description>
+	<CreatedBy>唐炜炜</CreatedBy>
+	<CreationDate>2011-09-14T05:07:53.052</CreationDate>
+	<Notes/>
+	<Text>往来会计</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbd1-d86f295b1d8d"
+		/>
+	</TextIdentifier>
+</TranslatedText>

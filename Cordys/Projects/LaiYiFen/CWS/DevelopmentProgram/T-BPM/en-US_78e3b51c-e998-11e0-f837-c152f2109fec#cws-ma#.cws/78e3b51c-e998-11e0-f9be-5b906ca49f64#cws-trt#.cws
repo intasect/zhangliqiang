@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9be-5b906cac1f65">
+	<DocumentID>78e3b51c-e998-11e0-f9be-5b906ca49f64</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9be-5b906ca49f64</Name>
+	<Description>Input20</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-24T01:48:48.162</CreationDate>
+	<Notes/>
+	<Text>Input20</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9be-5b906c96df62"
+		/>
+	</TextIdentifier>
+</TranslatedText>

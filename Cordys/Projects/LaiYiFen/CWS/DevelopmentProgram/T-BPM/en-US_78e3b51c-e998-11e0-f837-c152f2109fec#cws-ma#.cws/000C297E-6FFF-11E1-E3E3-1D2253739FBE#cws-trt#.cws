@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="000C297E-6FFF-11E1-E3E3-1D225373BFBE">
+	<DocumentID>000C297E-6FFF-11E1-E3E3-1D2253739FBE</DocumentID>
+	<Name>000C297E-6FFF-11E1-E3E3-1D2253739FBE</Name>
+	<Description>GetEmployeeByFilters</Description>
+	<CreatedBy>Administrator</CreatedBy>
+	<CreationDate>2011-12-05T08:19:32.046</CreationDate>
+	<Notes/>
+	<Text>GetEmployeeByFilters</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="000C297E-6FFF-11E1-E3E3-1D2253735FBE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

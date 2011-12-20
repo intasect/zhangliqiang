@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9be-5b906bfd1f4d">
+	<DocumentID>78e3b51c-e998-11e0-f9be-5b906bf59f4c</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9be-5b906bf59f4c</Name>
+	<Description>Input23</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-24T01:48:48.142</CreationDate>
+	<Notes/>
+	<Text>Input23</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9be-5b906be69f4a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

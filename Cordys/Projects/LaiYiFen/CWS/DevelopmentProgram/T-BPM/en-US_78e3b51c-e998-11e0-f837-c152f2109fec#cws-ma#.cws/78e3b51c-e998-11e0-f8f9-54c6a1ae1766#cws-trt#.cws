@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f8f9-54c6a1b59767">
+	<DocumentID>78e3b51c-e998-11e0-f8f9-54c6a1ae1766</DocumentID>
+	<Name>78e3b51c-e998-11e0-f8f9-54c6a1ae1766</Name>
+	<Description>业务事项</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-16T06:19:42.674</CreationDate>
+	<Notes/>
+	<Text>业务事项</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f8f9-54c6a1a05764"
+		/>
+	</TextIdentifier>
+</TranslatedText>

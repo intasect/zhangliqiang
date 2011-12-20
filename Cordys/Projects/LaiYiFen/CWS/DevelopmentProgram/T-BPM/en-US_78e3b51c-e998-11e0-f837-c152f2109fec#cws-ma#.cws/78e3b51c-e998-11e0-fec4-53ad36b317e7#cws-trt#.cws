@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fec4-53ad36ba97e8">
+	<DocumentID>78e3b51c-e998-11e0-fec4-53ad36b317e7</DocumentID>
+	<Name>78e3b51c-e998-11e0-fec4-53ad36b317e7</Name>
+	<Description>审批</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-10-14T05:20:01.079</CreationDate>
+	<Notes/>
+	<Text>审批</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fec4-53ad36a417e5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

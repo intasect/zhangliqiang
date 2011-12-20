@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa9f-f85e039615ed">
+	<DocumentID>78e3b51c-e998-11e0-fa9f-f85e038fd5ec</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa9f-f85e038fd5ec</Name>
+	<Description>房屋租赁标准合同审批</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-02T01:51:45.629</CreationDate>
+	<Notes/>
+	<Text>房屋租赁标准合同审批</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa9f-f85e0380d5ea"
+		/>
+	</TextIdentifier>
+</TranslatedText>

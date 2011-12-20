@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc6a-4d22f1e15fce">
+	<DocumentID>78e3b51c-e998-11e0-fc6a-4d22f1db1fcd</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc6a-4d22f1db1fcd</Name>
+	<Description>PRICE</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-20T06:34:46.894</CreationDate>
+	<Notes/>
+	<Text>PRICE</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc6a-4d22f1cc1fcb"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c245da30dfbb">
+	<DocumentID>78e3b51c-e998-11e0-f837-c245d9ec1fba</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c245d9ec1fba</Name>
+	<Description>电表是否独立使用</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:31.795</CreationDate>
+	<Notes/>
+	<DefaultText>电表是否独立使用</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c245d8e95fb8"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

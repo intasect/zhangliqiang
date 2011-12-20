@@ -1,0 +1,33 @@
+
+<CalendarExceptions
+	type="com.cordys.buscalendar.modeler.CalendarExceptions"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa3b-775bfd599fa3">
+	<DocumentID>78e3b51c-e998-11e0-fa3b-775bfd50dfa2</DocumentID>
+	<Name>LaiYFCalendarExceptions</Name>
+	<Description>来伊份工作休息时间</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-08-29T02:10:21.701</CreationDate>
+	<Notes/>
+	<Exceptions>
+		<ExceptionDate
+			type="com.cordys.buscalendar.modeler.ExceptionDate"
+			typeVersion="0019B980-5ADE-11E0-E7E7-041B918956E8"
+			RuntimeDocumentID="78e3b51c-e998-11e0-fa3b-775bfd279f9c">
+			<DocumentID>78e3b51c-e998-11e0-fa3b-775bfd201f9b</DocumentID>
+			<Name>CalendarException_78e3b51c-e998-11e0-fa3b-775bfd125f99</Name>
+			<Description/>
+			<CreatedBy>TBPM管理员</CreatedBy>
+			<CreationDate>2011-08-29T02:11:08.628</CreationDate>
+			<Notes/>
+			<Date>2011-09-12T02:09:35.000</Date>
+			<StartTime></StartTime>
+			<EndTime></EndTime>
+			<IsNonWorkingDay>true</IsNonWorkingDay>
+			<CalendarExceptions>
+				<uri
+					id="78e3b51c-e998-11e0-fa3b-775bfd50dfa2"
+				/>
+			</CalendarExceptions>
+		</ExceptionDate>
+	</Exceptions>
+</CalendarExceptions>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff71-ed06fc5b15d6">
+	<DocumentID>78e3b51c-e998-11e0-ff71-ed06fc5395d5</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff71-ed06fc5395d5</Name>
+	<Description>主管</Description>
+	<CreatedBy>徐新宇</CreatedBy>
+	<CreationDate>2011-10-21T02:57:35.173</CreationDate>
+	<Notes/>
+	<Text>主管</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff71-ed06fc45d5d3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

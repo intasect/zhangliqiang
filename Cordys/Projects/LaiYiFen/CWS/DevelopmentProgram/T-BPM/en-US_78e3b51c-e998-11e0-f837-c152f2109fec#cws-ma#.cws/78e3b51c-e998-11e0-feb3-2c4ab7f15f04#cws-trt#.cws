@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-feb3-2c4ab7f8df05">
+	<DocumentID>78e3b51c-e998-11e0-feb3-2c4ab7f15f04</DocumentID>
+	<Name>78e3b51c-e998-11e0-feb3-2c4ab7f15f04</Name>
+	<Description>Activity Start</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-13T13:03:00.497</CreationDate>
+	<Notes/>
+	<Text>Activity Start</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-feb3-2c4ab7e39f02"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9be-652b51281fe4">
+	<DocumentID>78e3b51c-e998-11e0-f9be-652b51209fe3</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9be-652b51209fe3</Name>
+	<Description>AREA</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-24T01:55:16.158</CreationDate>
+	<Notes/>
+	<Text>AREA</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9be-652b51119fe1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

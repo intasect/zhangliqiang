@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e2b5-a20fea785654">
+	<DocumentID>78e3b51c-e998-11e1-e2b5-a20fea631653</DocumentID>
+	<Name>78e3b51c-e998-11e1-e2b5-a20fea631653</Name>
+	<Description>会计审核结果</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-23T08:33:28.121</CreationDate>
+	<Notes/>
+	<Text>会计审核结果</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e2b5-a20fea16d651"
+		/>
+	</TextIdentifier>
+</TranslatedText>

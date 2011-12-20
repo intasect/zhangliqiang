@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc54-92e7a93cdfd4">
+	<DocumentID>78e3b51c-e998-11e0-fc54-92e7a9369fd3</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc54-92e7a9369fd3</Name>
+	<Description>Hisense接口数据</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-19T09:49:04.845</CreationDate>
+	<Notes/>
+	<Text>Hisense接口数据</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc54-92e7a9279fd1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

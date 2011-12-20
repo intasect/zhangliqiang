@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e0b8-b8fd4a24dfe3">
+	<DocumentID>78e3b51c-e998-11e1-e0b8-b8fd4a1d5fe2</DocumentID>
+	<Name>78e3b51c-e998-11e1-e0b8-b8fd4a1d5fe2</Name>
+	<Description>转租分摊方案（含租赁成本评估） *</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-11-03T02:49:34.627</CreationDate>
+	<Notes/>
+	<Text>转租分摊方案（含租赁成本评估） *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e0b8-b8fd4a0e5fe0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

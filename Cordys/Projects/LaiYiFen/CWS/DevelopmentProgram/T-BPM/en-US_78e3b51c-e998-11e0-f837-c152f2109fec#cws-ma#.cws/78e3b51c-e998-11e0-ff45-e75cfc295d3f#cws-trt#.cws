@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff45-e75cfc2f9d40">
+	<DocumentID>78e3b51c-e998-11e0-ff45-e75cfc295d3f</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff45-e75cfc295d3f</Name>
+	<Description>预算整合</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-19T11:29:37.043</CreationDate>
+	<Notes/>
+	<Text>预算整合</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff45-e75cfc191d3d"
+		/>
+	</TextIdentifier>
+</TranslatedText>

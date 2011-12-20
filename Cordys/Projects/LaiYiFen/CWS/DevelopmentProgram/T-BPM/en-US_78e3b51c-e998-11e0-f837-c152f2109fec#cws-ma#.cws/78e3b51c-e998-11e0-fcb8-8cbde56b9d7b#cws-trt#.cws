@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fcb8-8cbde5731d7c">
+	<DocumentID>78e3b51c-e998-11e0-fcb8-8cbde56b9d7b</DocumentID>
+	<Name>78e3b51c-e998-11e0-fcb8-8cbde56b9d7b</Name>
+	<Description>门店所属区域的具体负责人，填写工号</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-09-23T10:11:25.381</CreationDate>
+	<Notes/>
+	<Text>门店所属区域的具体负责人，填写工号</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fcb8-8cbde558dd79"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e1ef-9b85d235d71a">
+	<DocumentID>78e3b51c-e998-11e1-e1ef-9b85d22e5719</DocumentID>
+	<Name>78e3b51c-e998-11e1-e1ef-9b85d22e5719</Name>
+	<Description>子公司借款核销流程</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-11-15T11:27:59.92</CreationDate>
+	<Notes/>
+	<Text>子公司借款核销流程</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e1ef-9b85d2209717"
+		/>
+	</TextIdentifier>
+</TranslatedText>

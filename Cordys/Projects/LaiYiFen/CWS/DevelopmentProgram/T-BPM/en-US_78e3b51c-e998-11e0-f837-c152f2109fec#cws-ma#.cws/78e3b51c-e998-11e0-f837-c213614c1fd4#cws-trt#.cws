@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c213617b9fd5">
+	<DocumentID>78e3b51c-e998-11e0-f837-c213614c1fd4</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c213614c1fd4</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:13.551</CreationDate>
+	<Notes/>
+	<Text>入住率</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c21361f4dfd6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

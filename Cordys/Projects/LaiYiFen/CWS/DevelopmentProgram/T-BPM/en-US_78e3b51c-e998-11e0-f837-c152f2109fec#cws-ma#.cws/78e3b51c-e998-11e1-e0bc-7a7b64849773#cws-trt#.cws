@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e0bc-7a7b648ad774">
+	<DocumentID>78e3b51c-e998-11e1-e0bc-7a7b64849773</DocumentID>
+	<Name>78e3b51c-e998-11e1-e0bc-7a7b64849773</Name>
+	<Description>门店所对应的分销渠道</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-11-03T08:54:15.675</CreationDate>
+	<Notes/>
+	<Text>门店所对应的分销渠道</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e0bc-7a7b64759771"
+		/>
+	</TextIdentifier>
+</TranslatedText>

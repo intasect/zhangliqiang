@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e2cc-0c466af2d615">
+	<DocumentID>78e3b51c-e998-11e1-e2cc-0c466aeb5614</DocumentID>
+	<Name>78e3b51c-e998-11e1-e2cc-0c466aeb5614</Name>
+	<Description>读取所有非项目科目</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-11-24T05:55:21.505</CreationDate>
+	<Notes/>
+	<Text>读取所有非项目科目</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e2cc-0c466adc5612"
+		/>
+	</TextIdentifier>
+</TranslatedText>

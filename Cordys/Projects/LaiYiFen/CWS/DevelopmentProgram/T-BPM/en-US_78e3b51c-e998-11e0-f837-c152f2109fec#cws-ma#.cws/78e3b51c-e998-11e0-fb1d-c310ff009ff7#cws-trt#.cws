@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb1d-c310ff081ff8">
+	<DocumentID>78e3b51c-e998-11e0-fb1d-c310ff009ff7</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb1d-c310ff009ff7</Name>
+	<Description>电话 *</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-07T01:59:46.764</CreationDate>
+	<Notes/>
+	<Text>电话 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb1d-c310fef2dff5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

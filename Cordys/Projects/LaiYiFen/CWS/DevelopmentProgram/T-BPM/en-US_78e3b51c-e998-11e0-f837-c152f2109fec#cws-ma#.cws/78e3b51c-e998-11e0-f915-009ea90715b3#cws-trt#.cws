@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f915-009ea90d55b4">
+	<DocumentID>78e3b51c-e998-11e0-f915-009ea90715b3</DocumentID>
+	<Name>78e3b51c-e998-11e0-f915-009ea90715b3</Name>
+	<Description>门店主数据（财务管理部）</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-08-17T08:11:52.11</CreationDate>
+	<Notes/>
+	<Text>门店主数据（财务管理部）</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f915-009ea8f955b1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

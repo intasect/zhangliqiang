@@ -1,0 +1,38 @@
+
+<RoleDesignTime
+	type="com.cordys.organization.role.RoleDesignTime"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc53-4ae119f01fb0">
+	<DocumentID>78e3b51c-e998-11e0-fc53-4ae119e61faf</DocumentID>
+	<Name>BR输管理部运输管理专员</Name>
+	<Description>BR输管理部运输管理专员</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-09-19T09:41:41.08</CreationDate>
+	<Notes/>
+	<isFunctionalRole>true</isFunctionalRole>
+	<type>Functional</type>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<configuredTasks/>
+	<Subroles>
+		<uri
+			id="005056a3-4878-11e0-f4f6-7e87c75a5f65"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f6-ab58c89b1f2f"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-faa7-2ad8086dd611"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-fb0a-c668f3441f2d"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-fb0c-1742617957de"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-fb0d-40ffb3fd54dc"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-ff60-0aa84f985d00"
+		/>
+	</Subroles>
+</RoleDesignTime>

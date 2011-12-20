@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c19f8dff9fd7">
+	<DocumentID>78e3b51c-e998-11e0-f837-c19f8dc61fd6</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c19f8dc61fd6</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:57.648</CreationDate>
+	<Notes/>
+	<Text>审批目标店情况调查表</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c19f8e891fd8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

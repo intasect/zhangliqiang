@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb23-42e08cf1d61b">
+	<DocumentID>78e3b51c-e998-11e0-fb23-42e08ca9561a</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb23-42e08ca9561a</Name>
+	<Description>Web Service 报文</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-09-07T06:35:40.499</CreationDate>
+	<Notes/>
+	<Text>Web Service 报文</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb23-42e08c969618"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9dd-c0040a55946a">
+	<DocumentID>78e3b51c-e998-11e0-f9dd-c0040a4f5469</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9dd-c0040a4f5469</Name>
+	<Description>UNIT_NUMBER</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-25T07:47:17.629</CreationDate>
+	<Notes/>
+	<Text>UNIT_NUMBER</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9dd-c0040a405467"
+		/>
+	</TextIdentifier>
+</TranslatedText>

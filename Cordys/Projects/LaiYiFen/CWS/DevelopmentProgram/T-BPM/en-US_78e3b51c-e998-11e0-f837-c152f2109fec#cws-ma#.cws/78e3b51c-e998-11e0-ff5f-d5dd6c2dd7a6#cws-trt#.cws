@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff5f-d5dd6c3557a7">
+	<DocumentID>78e3b51c-e998-11e0-ff5f-d5dd6c2dd7a6</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff5f-d5dd6c2dd7a6</Name>
+	<Description>间距（米）*</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-20T09:37:56.006</CreationDate>
+	<Notes/>
+	<Text>间距（米）*</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff5f-d5dd6c2017a4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

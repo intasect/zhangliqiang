@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc69-ea783c8f174a">
+	<DocumentID>78e3b51c-e998-11e0-fc6a-066b1b09d768</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc6a-066b1b09d768</Name>
+	<Description>addDelegation</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-20T06:17:26.024</CreationDate>
+	<Notes/>
+	<Text>addDelegation</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc6a-066b1af5d766"
+		/>
+	</TextIdentifier>
+</TranslatedText>

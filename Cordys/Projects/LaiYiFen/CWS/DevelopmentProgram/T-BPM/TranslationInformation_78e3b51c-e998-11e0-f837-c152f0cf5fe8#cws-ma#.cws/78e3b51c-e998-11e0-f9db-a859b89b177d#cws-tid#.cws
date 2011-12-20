@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9db-a859b8a1577e">
+	<DocumentID>78e3b51c-e998-11e0-f9db-a859b89b177d</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9db-a859b89b177d</Name>
+	<Description>查询条件区域</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-25T05:52:16.9</CreationDate>
+	<Notes/>
+	<DefaultText>查询条件区域</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f9db-a859b8a8d77f"
+		/>
+	</Translations>
+</TextIdentifier>

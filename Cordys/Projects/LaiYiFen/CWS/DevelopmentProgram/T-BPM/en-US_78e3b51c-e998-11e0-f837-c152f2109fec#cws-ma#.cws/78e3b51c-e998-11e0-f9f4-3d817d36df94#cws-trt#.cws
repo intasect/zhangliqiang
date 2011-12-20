@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9f4-3d817d3e5f95">
+	<DocumentID>78e3b51c-e998-11e0-f9f4-3d817d36df94</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9f4-3d817d36df94</Name>
+	<Description>常用语*</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-08-26T05:37:04.819</CreationDate>
+	<Notes/>
+	<Text>常用语*</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9f4-3d817d291f92"
+		/>
+	</TextIdentifier>
+</TranslatedText>

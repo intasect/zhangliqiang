@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9bd-ffc6d26d5ff7">
+	<DocumentID>78e3b51c-e998-11e0-f9bd-ffc6d265dff6</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9bd-ffc6d265dff6</Name>
+	<Description>Input9</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-24T01:38:17.477</CreationDate>
+	<Notes/>
+	<Text>Input9</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9bd-ffc6d256dff4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

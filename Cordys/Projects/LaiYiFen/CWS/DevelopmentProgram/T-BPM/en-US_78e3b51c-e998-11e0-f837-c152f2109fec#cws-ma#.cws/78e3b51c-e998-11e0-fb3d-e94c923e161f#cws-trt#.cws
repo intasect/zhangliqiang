@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb3d-e94c92445620">
+	<DocumentID>78e3b51c-e998-11e0-fb3d-e94c923e161f</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb3d-e94c923e161f</Name>
+	<Description>POSTCODE</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-08T08:18:55.29</CreationDate>
+	<Notes/>
+	<Text>POSTCODE</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb3d-e94c9230561d"
+		/>
+	</TextIdentifier>
+</TranslatedText>

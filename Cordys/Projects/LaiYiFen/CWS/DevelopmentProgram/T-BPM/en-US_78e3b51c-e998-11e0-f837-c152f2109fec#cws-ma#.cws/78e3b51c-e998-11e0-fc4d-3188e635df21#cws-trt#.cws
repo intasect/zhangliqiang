@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc4d-3188e63d5f22">
+	<DocumentID>78e3b51c-e998-11e0-fc4d-3188e635df21</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc4d-3188e635df21</Name>
+	<Description>是否是新开店信息移交（商超）</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-19T02:57:19.916</CreationDate>
+	<Notes/>
+	<Text>是否是新开店信息移交（商超）</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc4d-3188e626df1f"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fcb8-8cbde6785da0">
+	<DocumentID>78e3b51c-e998-11e0-fcb8-8cbde670dd9f</DocumentID>
+	<Name>78e3b51c-e998-11e0-fcb8-8cbde670dd9f</Name>
+	<Description>是否是中心门店，按“1-否、2-是”填制</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-09-23T10:11:25.376</CreationDate>
+	<Notes/>
+	<Text>是否是中心门店，按“1-否、2-是”填制</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fcb8-8cbde6631d9d"
+		/>
+	</TextIdentifier>
+</TranslatedText>

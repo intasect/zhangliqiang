@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa91-c15b49cf1d5a">
+	<DocumentID>78e3b51c-e998-11e0-fa91-c15b49c79d59</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa91-c15b49c79d59</Name>
+	<Description>RENEWAL_DATE</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-09-01T11:33:03.48</CreationDate>
+	<Notes/>
+	<Text>RENEWAL_DATE</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa91-c15b49b89d57"
+		/>
+	</TextIdentifier>
+</TranslatedText>

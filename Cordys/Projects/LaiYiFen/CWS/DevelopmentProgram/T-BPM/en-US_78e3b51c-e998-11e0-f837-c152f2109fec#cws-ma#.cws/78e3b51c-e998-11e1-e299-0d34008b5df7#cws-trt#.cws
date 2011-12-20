@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e299-0d340092ddf8">
+	<DocumentID>78e3b51c-e998-11e1-e299-0d34008b5df7</DocumentID>
+	<Name>78e3b51c-e998-11e1-e299-0d34008b5df7</Name>
+	<Description>Image4</Description>
+	<CreatedBy>徐新宇</CreatedBy>
+	<CreationDate>2011-11-22T05:19:00.104</CreationDate>
+	<Notes/>
+	<Text>Image4</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e299-0d34007d9df5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

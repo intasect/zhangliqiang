@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff8f-3cf11a721fd4">
+	<DocumentID>78e3b51c-e998-11e0-ff8f-3cf11a695fd3</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff8f-3cf11a695fd3</Name>
+	<Description>主管DN</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-22T07:06:19.211</CreationDate>
+	<Notes/>
+	<Text>主管DN</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff8f-3cf11a5a5fd1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

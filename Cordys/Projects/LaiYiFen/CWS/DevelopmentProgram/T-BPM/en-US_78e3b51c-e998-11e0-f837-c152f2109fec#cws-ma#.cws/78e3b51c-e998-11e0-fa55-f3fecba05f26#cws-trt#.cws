@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa55-f3fecba7df27">
+	<DocumentID>78e3b51c-e998-11e0-fa55-f3fecba05f26</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa55-f3fecba05f26</Name>
+	<Description>处理环节</Description>
+	<CreatedBy>wangzhiqiang</CreatedBy>
+	<CreationDate>2011-08-30T02:32:50.52</CreationDate>
+	<Notes/>
+	<Text>处理环节</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa55-f3fecb929f24"
+		/>
+	</TextIdentifier>
+</TranslatedText>

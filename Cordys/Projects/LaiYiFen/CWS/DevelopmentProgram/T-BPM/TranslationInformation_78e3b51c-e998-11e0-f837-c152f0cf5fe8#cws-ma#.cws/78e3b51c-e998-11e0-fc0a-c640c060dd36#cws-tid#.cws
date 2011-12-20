@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc0a-c640c0685d37">
+	<DocumentID>78e3b51c-e998-11e0-fc0a-c640c060dd36</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc0a-c640c060dd36</Name>
+	<Description>起草新开店门店装修信息预告</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-16T11:53:51.177</CreationDate>
+	<Notes/>
+	<DefaultText>起草新开店门店装修信息预告</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fc0a-c640c06e9d38"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

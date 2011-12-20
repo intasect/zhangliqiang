@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e2b5-5af4f3fe5f1f">
+	<DocumentID>78e3b51c-e998-11e1-e2b5-5af4f3f95f1e</DocumentID>
+	<Name>78e3b51c-e998-11e1-e2b5-5af4f3f95f1e</Name>
+	<Description>开具发票</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-23T08:17:59.252</CreationDate>
+	<Notes/>
+	<Text>开具发票</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e2b5-5af4f3eb9f1c"
+		/>
+	</TextIdentifier>
+</TranslatedText>

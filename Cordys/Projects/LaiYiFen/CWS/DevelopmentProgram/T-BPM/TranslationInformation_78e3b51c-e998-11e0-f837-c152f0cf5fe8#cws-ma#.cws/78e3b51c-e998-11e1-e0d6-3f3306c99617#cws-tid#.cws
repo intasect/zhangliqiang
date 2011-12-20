@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e0d6-3f3306d11618">
+	<DocumentID>78e3b51c-e998-11e1-e0d6-3f3306c99617</DocumentID>
+	<Name>78e3b51c-e998-11e1-e0d6-3f3306c99617</Name>
+	<Description>RENTPAYMENT</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-11-04T06:56:19.063</CreationDate>
+	<Notes/>
+	<DefaultText>RENTPAYMENT</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e1-e0d6-3f3306d89619"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

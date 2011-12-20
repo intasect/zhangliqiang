@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ffe2-949ec9ee9625">
+	<DocumentID>78e3b51c-e998-11e0-ffe2-949ec9e71624</DocumentID>
+	<Name>78e3b51c-e998-11e0-ffe2-949ec9e71624</Name>
+	<Description>Approval Result</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-25T14:28:45.813</CreationDate>
+	<Notes/>
+	<Text>Approval Result</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ffe2-949ec9d81622"
+		/>
+	</TextIdentifier>
+</TranslatedText>

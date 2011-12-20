@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fead-95624a6a1f89">
+	<DocumentID>78e3b51c-e998-11e0-fead-95624a629f88</DocumentID>
+	<Name>78e3b51c-e998-11e0-fead-95624a629f88</Name>
+	<Description>促销处理接口</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-13T07:28:18.73</CreationDate>
+	<Notes/>
+	<Text>促销处理接口</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fead-95624a54df86"
+		/>
+	</TextIdentifier>
+</TranslatedText>

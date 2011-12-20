@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1bb26db5709">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1bb26a1d708</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1bb26a1d708</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:57.538</CreationDate>
+	<Notes/>
+	<Text>整体翻新申请提出</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1bb2775170a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9dd-4214f8515ba6">
+	<DocumentID>78e3b51c-e998-11e0-f9dd-4214f849dba5</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9dd-4214f849dba5</Name>
+	<Description>SAPNO</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-08-25T08:07:57.755</CreationDate>
+	<Notes/>
+	<Text>SAPNO</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9dd-4214f83c1ba3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9be-4124f0f69d8a">
+	<DocumentID>78e3b51c-e998-11e0-f9be-4124f0eb5d89</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9be-4124f0eb5d89</Name>
+	<Description>HEADQUARTERED_OPINION</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-24T01:41:18.908</CreationDate>
+	<Notes/>
+	<Text>HEADQUARTERED_OPINION</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9be-4124f0d61d87"
+		/>
+	</TextIdentifier>
+</TranslatedText>

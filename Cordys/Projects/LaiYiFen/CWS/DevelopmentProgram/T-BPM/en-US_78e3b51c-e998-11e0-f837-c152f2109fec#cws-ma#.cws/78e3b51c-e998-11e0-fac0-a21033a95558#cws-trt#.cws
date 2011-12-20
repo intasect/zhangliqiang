@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fac0-a21033af9559">
+	<DocumentID>78e3b51c-e998-11e0-fac0-a21033a95558</DocumentID>
+	<Name>78e3b51c-e998-11e0-fac0-a21033a95558</Name>
+	<Description>审意见</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-09-03T08:30:39.311</CreationDate>
+	<Notes/>
+	<Text>审意见</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fac0-a21033991556"
+		/>
+	</TextIdentifier>
+</TranslatedText>

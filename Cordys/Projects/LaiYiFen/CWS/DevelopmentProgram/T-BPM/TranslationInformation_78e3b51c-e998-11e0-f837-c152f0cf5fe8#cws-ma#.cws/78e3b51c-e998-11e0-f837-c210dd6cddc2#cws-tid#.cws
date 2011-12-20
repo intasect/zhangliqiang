@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c210ddb2ddc3">
+	<DocumentID>78e3b51c-e998-11e0-f837-c210dd6cddc2</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c210dd6cddc2</Name>
+	<Description>&lt;P&gt;路 &lt;/P&gt;</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:35.128</CreationDate>
+	<Notes/>
+	<DefaultText>_P_路___P_</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c210dc68ddc0"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

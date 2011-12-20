@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e1ef-ee19a1ff5612">
+	<DocumentID>78e3b51c-e998-11e1-e1ef-ee19a1f91611</DocumentID>
+	<Name>78e3b51c-e998-11e1-e1ef-ee19a1f91611</Name>
+	<Description>此节点不执行</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-11-15T11:47:36.097</CreationDate>
+	<Notes/>
+	<DefaultText>此节点不执行</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e1-e1ef-ee19a206d613"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

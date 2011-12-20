@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c189558a9fd3">
+	<DocumentID>78e3b51c-e998-11e0-f837-c18955435fd2</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c18955435fd2</Name>
+	<Description>查看辅料需求预估</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:39.908</CreationDate>
+	<Notes/>
+	<DefaultText>查看辅料需求预估</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c189542ddfd0"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

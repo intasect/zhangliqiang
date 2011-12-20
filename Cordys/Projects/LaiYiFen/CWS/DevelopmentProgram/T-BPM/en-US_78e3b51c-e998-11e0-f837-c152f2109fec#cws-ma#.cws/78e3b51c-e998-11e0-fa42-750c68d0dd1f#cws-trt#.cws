@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa42-750c68d71d20">
+	<DocumentID>78e3b51c-e998-11e0-fa42-750c68d0dd1f</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa42-750c68d0dd1f</Name>
+	<Description>水费</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-29T08:08:44.634</CreationDate>
+	<Notes/>
+	<Text>水费</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa42-750c68c1dd1d"
+		/>
+	</TextIdentifier>
+</TranslatedText>

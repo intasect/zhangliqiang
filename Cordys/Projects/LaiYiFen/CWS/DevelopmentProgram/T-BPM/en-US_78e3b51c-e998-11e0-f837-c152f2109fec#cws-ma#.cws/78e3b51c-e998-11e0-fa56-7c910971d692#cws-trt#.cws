@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa56-7c9109795693">
+	<DocumentID>78e3b51c-e998-11e0-fa56-7c910971d692</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa56-7c910971d692</Name>
+	<Description>促销规则查询</Description>
+	<CreatedBy>wangzhiqiang</CreatedBy>
+	<CreationDate>2011-08-30T02:58:15.192</CreationDate>
+	<Notes/>
+	<Text>促销规则查询</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa56-7c9109641690"
+		/>
+	</TextIdentifier>
+</TranslatedText>

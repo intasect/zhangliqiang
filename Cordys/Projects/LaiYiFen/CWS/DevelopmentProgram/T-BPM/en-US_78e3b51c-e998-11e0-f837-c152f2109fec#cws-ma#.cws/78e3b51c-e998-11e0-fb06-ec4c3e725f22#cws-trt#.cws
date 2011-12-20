@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb06-ec4c3e79df23">
+	<DocumentID>78e3b51c-e998-11e0-fb06-ec4c3e725f22</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb06-ec4c3e725f22</Name>
+	<Description>目标调查表（一般）</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-06T03:22:08.645</CreationDate>
+	<Notes/>
+	<Text>目标调查表（一般）</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb06-ec4c3e635f20"
+		/>
+	</TextIdentifier>
+</TranslatedText>

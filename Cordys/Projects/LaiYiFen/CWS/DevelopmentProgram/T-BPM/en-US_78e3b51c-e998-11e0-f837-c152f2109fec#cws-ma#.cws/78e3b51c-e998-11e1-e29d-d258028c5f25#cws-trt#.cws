@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e29d-d25802965f26">
+	<DocumentID>78e3b51c-e998-11e1-e29d-d258028c5f25</DocumentID>
+	<Name>78e3b51c-e998-11e1-e29d-d258028c5f25</Name>
+	<Description>营业执照上的经营内容</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-11-22T09:45:16.059</CreationDate>
+	<Notes/>
+	<Text>营业执照上的经营内容</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e29d-d258027d5f23"
+		/>
+	</TextIdentifier>
+</TranslatedText>

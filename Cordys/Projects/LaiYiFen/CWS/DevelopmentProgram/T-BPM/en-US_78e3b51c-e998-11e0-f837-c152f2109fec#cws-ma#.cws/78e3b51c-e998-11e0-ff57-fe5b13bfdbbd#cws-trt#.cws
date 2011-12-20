@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff57-fe5b13c75bbe">
+	<DocumentID>78e3b51c-e998-11e0-ff57-fe5b13bfdbbd</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff57-fe5b13bfdbbd</Name>
+	<Description>物业管理费</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-10-20T02:17:42.02</CreationDate>
+	<Notes/>
+	<Text>物业管理费</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff57-fe5b13b21bbb"
+		/>
+	</TextIdentifier>
+</TranslatedText>

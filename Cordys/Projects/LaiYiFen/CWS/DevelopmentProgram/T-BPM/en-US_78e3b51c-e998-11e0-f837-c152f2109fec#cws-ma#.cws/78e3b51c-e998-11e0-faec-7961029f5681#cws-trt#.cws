@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faec-796102a59682">
+	<DocumentID>78e3b51c-e998-11e0-faec-7961029f5681</DocumentID>
+	<Name>78e3b51c-e998-11e0-faec-7961029f5681</Name>
+	<Description>地区 *</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-05T02:32:30.202</CreationDate>
+	<Notes/>
+	<Text>地区 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faec-79610291967f"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e013-ee2ca03cd5e7">
+	<DocumentID>78e3b51c-e998-11e1-e013-ee2ca01115e6</DocumentID>
+	<Name>78e3b51c-e998-11e1-e013-ee2ca01115e6</Name>
+	<Description>进场费（元） *</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-27T13:27:55.014</CreationDate>
+	<Notes/>
+	<Text>进场费（元） *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e013-ee2ca00355e4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

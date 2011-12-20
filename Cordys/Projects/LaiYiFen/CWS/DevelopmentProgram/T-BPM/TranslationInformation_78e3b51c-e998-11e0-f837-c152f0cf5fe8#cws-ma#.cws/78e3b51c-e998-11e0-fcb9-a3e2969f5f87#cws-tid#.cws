@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fcb9-a3e296a59f88">
+	<DocumentID>78e3b51c-e998-11e0-fcb9-a3e2969f5f87</DocumentID>
+	<Name>78e3b51c-e998-11e0-fcb9-a3e2969f5f87</Name>
+	<Description>根据不同地区门店的月度总销售额划分的等级标准，新开店为“暂无”</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-09-23T10:22:41.335</CreationDate>
+	<Notes/>
+	<DefaultText>根据不同地区门店的月度总销售额划分的等级标准，新开店为“暂无”</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fcb9-a3e296ad1f89"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

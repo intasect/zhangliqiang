@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f8e7-6038e3e85b79">
+	<DocumentID>78e3b51c-e998-11e0-f8e7-6038e3b65b78</DocumentID>
+	<Name>78e3b51c-e998-11e0-f8e7-6038e3b65b78</Name>
+	<Description>false</Description>
+	<CreatedBy>root</CreatedBy>
+	<CreationDate>2011-08-15T12:35:07.638</CreationDate>
+	<Notes/>
+	<DefaultText>false</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f8e7-6038e2e59b76"
+		/>
+	</Translations>
+</TextIdentifier>

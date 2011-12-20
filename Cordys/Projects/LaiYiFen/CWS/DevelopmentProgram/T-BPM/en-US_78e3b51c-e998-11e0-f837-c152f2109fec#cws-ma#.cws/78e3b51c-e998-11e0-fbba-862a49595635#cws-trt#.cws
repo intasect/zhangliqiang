@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbba-862a4960d636">
+	<DocumentID>78e3b51c-e998-11e0-fbba-862a49595635</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbba-862a49595635</Name>
+	<Description>网点年度开发匹配率</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-09-13T07:10:51.057</CreationDate>
+	<Notes/>
+	<Text>网点年度开发匹配率</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbba-862a49491633"
+		/>
+	</TextIdentifier>
+</TranslatedText>

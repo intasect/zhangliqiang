@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="000C297E-6FFF-11E1-E3F7-DF050C2E7FBE">
+	<DocumentID>000C297E-6FFF-11E1-E3F7-DF050C2E5FBE</DocumentID>
+	<Name>000C297E-6FFF-11E1-E3F7-DF050C2E5FBE</Name>
+	<Description>EMPLOYEE_INFO_TRANS_View</Description>
+	<CreatedBy>Administrator</CreatedBy>
+	<CreationDate>2011-12-06T05:28:31.515</CreationDate>
+	<Notes/>
+	<DefaultText>EMPLOYEE_INFO_TRANS_View</DefaultText>
+	<Translations>
+		<uri
+			id="000C297E-6FFF-11E1-E3F7-DF050C2E9FBE"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

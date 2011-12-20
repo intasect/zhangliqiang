@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f884-0794cb0c5f56">
+	<DocumentID>78e3b51c-e998-11e0-f884-0794cb04df55</DocumentID>
+	<Name>78e3b51c-e998-11e0-f884-0794cb04df55</Name>
+	<Description>单选字典弹出页</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-11T13:45:58.393</CreationDate>
+	<Notes/>
+	<Text>单选字典弹出页</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f884-0794cab39f53"
+		/>
+	</TextIdentifier>
+</TranslatedText>

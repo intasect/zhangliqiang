@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ffe0-352f8ae81f5f">
+	<DocumentID>78e3b51c-e998-11e0-ffe0-352f8ae09f5e</DocumentID>
+	<Name>78e3b51c-e998-11e0-ffe0-352f8ae09f5e</Name>
+	<Description>租赁起止日期 *</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-10-25T12:06:39.012</CreationDate>
+	<Notes/>
+	<Text>租赁起止日期 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ffe0-352f8ad19f5c"
+		/>
+	</TextIdentifier>
+</TranslatedText>

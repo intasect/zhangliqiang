@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e21f-885399ff96bc">
+	<DocumentID>78e3b51c-e998-11e1-e21f-885399f956bb</DocumentID>
+	<Name>78e3b51c-e998-11e1-e21f-885399f956bb</Name>
+	<Description>来伊份总裁审批</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-17T09:24:07.943</CreationDate>
+	<Notes/>
+	<Text>来伊份总裁审批</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e21f-885399eb96b9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

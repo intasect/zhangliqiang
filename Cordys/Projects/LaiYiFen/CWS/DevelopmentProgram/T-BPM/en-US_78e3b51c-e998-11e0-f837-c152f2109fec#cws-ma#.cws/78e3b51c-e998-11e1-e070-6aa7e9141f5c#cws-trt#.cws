@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e070-6aa7e91b9f5d">
+	<DocumentID>78e3b51c-e998-11e1-e070-6aa7e9141f5c</DocumentID>
+	<Name>78e3b51c-e998-11e1-e070-6aa7e9141f5c</Name>
+	<Description>渠道</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-10-31T06:04:07.288</CreationDate>
+	<Notes/>
+	<Text>渠道</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e070-6aa7e9051f5a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

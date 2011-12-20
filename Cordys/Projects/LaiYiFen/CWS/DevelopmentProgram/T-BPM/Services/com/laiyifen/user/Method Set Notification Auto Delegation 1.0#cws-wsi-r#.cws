@@ -1,0 +1,129 @@
+
+<WebserviceInterfaceRuntime
+	type="com.cordys.wsdl.WebserviceInterfaceRuntime"
+	typeVersion="0019B981-E9E3-11DF-FAD3-F797D376BD43"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc00-2751113d5f6d">
+	<DocumentID>78e3b51c-e998-11e0-fc00-275111371f6c</DocumentID>
+	<Name>Method Set Notification Auto Delegation 1.0</Name>
+	<Description>Method Set Notification Auto Delegation 1.0</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-16T02:45:17.238</CreationDate>
+	<Notes/>
+	<BinaryReferenceInfo></BinaryReferenceInfo>
+	<ISVPName></ISVPName>
+	<RuntimeKey>Method Set Notification Auto Delegation 1.0</RuntimeKey>
+	<PackageInformation>
+		<CordysBinaryReferenceISVPInfo
+			type="com.cordys.cws.binaryreference.CordysBinaryReferenceISVPInfo"
+			RuntimeDocumentID="78e3b51c-e998-11e0-fc00-2751111a5f68">
+			<DocumentID>78e3b51c-e998-11e0-fc00-275111119f67</DocumentID>
+			<Name>Untitled CordysBinaryReferenceISVPInfo</Name>
+			<Description>Untitled CordysBinaryReferenceISVPInfo</Description>
+			<CreatedBy>TBPM管理员</CreatedBy>
+			<CreationDate>2011-09-16T02:45:17.239</CreationDate>
+			<Notes/>
+			<ISVPName>Cordys Notification</ISVPName>
+		</CordysBinaryReferenceISVPInfo>
+	</PackageInformation>
+	<WebserviceOperations>
+		<WebserviceOperationRuntime
+			type="com.cordys.wsdl.WebserviceOperationRuntime"
+			typeVersion="0019B981-E9E3-11DF-FAD3-F797D376BD43"
+			RuntimeDocumentID="78e3b51c-e998-11e0-fc01-bd6a827b96bd">
+			<DocumentID>78e3b51c-e998-11e0-fc01-bd6a821a16bc</DocumentID>
+			<Name>GetAutoDelegatesForUser</Name>
+			<Description>Runtime reference for Web Service Operation GetAutoDelegatesForUser in Web ServiceMethod Set Notification Auto Delegation 1.0</Description>
+			<CreatedBy>TBPM管理员</CreatedBy>
+			<CreationDate>2011-09-16T02:45:20.9</CreationDate>
+			<Notes/>
+			<ImplementationType>TAD</ImplementationType>
+			<BinaryReferenceInfo></BinaryReferenceInfo>
+			<ISVPName></ISVPName>
+			<RuntimeKey>http://schemas.cordys.com/notification/autodelegation/1.0/GetAutoDelegatesForUser</RuntimeKey>
+			<WebserviceInterface>
+				<uri
+					id="78e3b51c-e998-11e0-fc00-275111371f6c"
+				/>
+			</WebserviceInterface>
+			<PackageInformation>
+				<CordysBinaryReferenceISVPInfo
+					type="com.cordys.cws.binaryreference.CordysBinaryReferenceISVPInfo"
+					RuntimeDocumentID="78e3b51c-e998-11e0-fc01-bd6a8c1dd6bf">
+					<DocumentID>78e3b51c-e998-11e0-fc01-bd6a8ba0d6be</DocumentID>
+					<Name>78e3b51c-e998-11e0-fc01-bd6a8ba0d6be</Name>
+					<Description/>
+					<CreatedBy>TBPM管理员</CreatedBy>
+					<CreationDate>2011-09-16T02:45:20.9</CreationDate>
+					<Notes/>
+					<ISVPName>Cordys Notification</ISVPName>
+				</CordysBinaryReferenceISVPInfo>
+			</PackageInformation>
+		</WebserviceOperationRuntime>
+		<WebserviceOperationRuntime
+			type="com.cordys.wsdl.WebserviceOperationRuntime"
+			typeVersion="0019B981-E9E3-11DF-FAD3-F797D376BD43"
+			RuntimeDocumentID="78e3b51c-e998-11e0-fc01-bd6b3c1f56c3">
+			<DocumentID>78e3b51c-e998-11e0-fc01-bd6b3bc2d6c2</DocumentID>
+			<Name>SetAutoDelegationsForUser</Name>
+			<Description>Runtime reference for Web Service Operation SetAutoDelegationsForUser in Web ServiceMethod Set Notification Auto Delegation 1.0</Description>
+			<CreatedBy>TBPM管理员</CreatedBy>
+			<CreationDate>2011-09-16T02:45:20.9</CreationDate>
+			<Notes/>
+			<ImplementationType>TAD</ImplementationType>
+			<BinaryReferenceInfo></BinaryReferenceInfo>
+			<ISVPName></ISVPName>
+			<RuntimeKey>http://schemas.cordys.com/notification/autodelegation/1.0/SetAutoDelegationsForUser</RuntimeKey>
+			<WebserviceInterface>
+				<uri
+					id="78e3b51c-e998-11e0-fc00-275111371f6c"
+				/>
+			</WebserviceInterface>
+			<PackageInformation>
+				<CordysBinaryReferenceISVPInfo
+					type="com.cordys.cws.binaryreference.CordysBinaryReferenceISVPInfo"
+					RuntimeDocumentID="78e3b51c-e998-11e0-fc01-bd6b3d0a56c5">
+					<DocumentID>78e3b51c-e998-11e0-fc01-bd6b3cc316c4</DocumentID>
+					<Name>78e3b51c-e998-11e0-fc01-bd6b3cc316c4</Name>
+					<Description/>
+					<CreatedBy>TBPM管理员</CreatedBy>
+					<CreationDate>2011-09-16T02:45:20.9</CreationDate>
+					<Notes/>
+					<ISVPName>Cordys Notification</ISVPName>
+				</CordysBinaryReferenceISVPInfo>
+			</PackageInformation>
+		</WebserviceOperationRuntime>
+		<WebserviceOperationRuntime
+			type="com.cordys.wsdl.WebserviceOperationRuntime"
+			typeVersion="0019B981-E9E3-11DF-FAD3-F797D376BD43"
+			RuntimeDocumentID="78e3b51c-e998-11e0-fc01-bd6b57c896c9">
+			<DocumentID>78e3b51c-e998-11e0-fc01-bd6b577c56c8</DocumentID>
+			<Name>DeleteAutoDelegationsForUser</Name>
+			<Description>Runtime reference for Web Service Operation DeleteAutoDelegationsForUser in Web ServiceMethod Set Notification Auto Delegation 1.0</Description>
+			<CreatedBy>TBPM管理员</CreatedBy>
+			<CreationDate>2011-09-16T02:45:20.901</CreationDate>
+			<Notes/>
+			<ImplementationType>TAD</ImplementationType>
+			<BinaryReferenceInfo></BinaryReferenceInfo>
+			<ISVPName></ISVPName>
+			<RuntimeKey>http://schemas.cordys.com/notification/autodelegation/1.0/DeleteAutoDelegationsForUser</RuntimeKey>
+			<WebserviceInterface>
+				<uri
+					id="78e3b51c-e998-11e0-fc00-275111371f6c"
+				/>
+			</WebserviceInterface>
+			<PackageInformation>
+				<CordysBinaryReferenceISVPInfo
+					type="com.cordys.cws.binaryreference.CordysBinaryReferenceISVPInfo"
+					RuntimeDocumentID="78e3b51c-e998-11e0-fc01-bd6b589316cb">
+					<DocumentID>78e3b51c-e998-11e0-fc01-bd6b584f96ca</DocumentID>
+					<Name>78e3b51c-e998-11e0-fc01-bd6b584f96ca</Name>
+					<Description/>
+					<CreatedBy>TBPM管理员</CreatedBy>
+					<CreationDate>2011-09-16T02:45:20.901</CreationDate>
+					<Notes/>
+					<ISVPName>Cordys Notification</ISVPName>
+				</CordysBinaryReferenceISVPInfo>
+			</PackageInformation>
+		</WebserviceOperationRuntime>
+	</WebserviceOperations>
+</WebserviceInterfaceRuntime>

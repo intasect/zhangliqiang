@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1950b301f55">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1950aef1f54</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1950aef1f54</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:30.382</CreationDate>
+	<Notes/>
+	<Text>签订房屋租赁合同</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1950bcc5f56"
+		/>
+	</TextIdentifier>
+</TranslatedText>

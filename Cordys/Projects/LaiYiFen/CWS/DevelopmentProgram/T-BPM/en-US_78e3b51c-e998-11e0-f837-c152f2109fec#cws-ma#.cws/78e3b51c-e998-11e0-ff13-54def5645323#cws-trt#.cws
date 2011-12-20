@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff13-54def56a9324">
+	<DocumentID>78e3b51c-e998-11e0-ff13-54def5645323</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff13-54def5645323</Name>
+	<Description>读取所有成本中心</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-17T08:45:55.582</CreationDate>
+	<Notes/>
+	<Text>读取所有成本中心</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff13-54def5569321"
+		/>
+	</TextIdentifier>
+</TranslatedText>

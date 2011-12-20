@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c20faca51d4f">
+	<DocumentID>78e3b51c-e998-11e0-f837-c20fac349d4e</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c20fac349d4e</Name>
+	<Description>目标店情况调查表（普通）</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:34.141</CreationDate>
+	<Notes/>
+	<DefaultText>目标店情况调查表（普通）</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c20faa521d4c"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

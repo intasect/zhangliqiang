@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c24c3d6b9389">
+	<DocumentID>78e3b51c-e998-11e0-f837-c24c3d35d388</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c24c3d35d388</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:39.258</CreationDate>
+	<Notes/>
+	<Text>业务分摊后</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c24c3de2538a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fcb9-9229e6d5df55">
+	<DocumentID>78e3b51c-e998-11e0-fcb9-9229e6cd1f54</DocumentID>
+	<Name>78e3b51c-e998-11e0-fcb9-9229e6cd1f54</Name>
+	<Description>格斗数量，如没有，则填写“无”</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-09-23T10:19:02.663</CreationDate>
+	<Notes/>
+	<Text>格斗数量，如没有，则填写“无”</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fcb9-9229e6b91f52"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fe4b-0a910f21dff2">
+	<DocumentID>78e3b51c-e998-11e0-fe4b-0a910f1a5ff1</DocumentID>
+	<Name>78e3b51c-e998-11e0-fe4b-0a910f1a5ff1</Name>
+	<Description>竞争对手面积（平方米）</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-10-09T09:41:17.542</CreationDate>
+	<Notes/>
+	<Text>竞争对手面积（平方米）</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fe4b-0a910f0c9fef"
+		/>
+	</TextIdentifier>
+</TranslatedText>

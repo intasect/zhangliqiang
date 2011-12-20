@@ -1,0 +1,16 @@
+
+<RoleDesignTime
+	type="com.cordys.organization.role.RoleDesignTime"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ffef-c3fa4702df3f">
+	<DocumentID>78e3b51c-e998-11e0-ffef-c3fa46fc9f3e</DocumentID>
+	<Name>智慧供应链供应链咨询项目助理</Name>
+	<Description>智慧供应链供应链咨询项目助理</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-10-26T03:29:09.917</CreationDate>
+	<Notes/>
+	<isFunctionalRole>true</isFunctionalRole>
+	<type>Functional</type>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<configuredTasks/>
+	<Subroles/>
+</RoleDesignTime>

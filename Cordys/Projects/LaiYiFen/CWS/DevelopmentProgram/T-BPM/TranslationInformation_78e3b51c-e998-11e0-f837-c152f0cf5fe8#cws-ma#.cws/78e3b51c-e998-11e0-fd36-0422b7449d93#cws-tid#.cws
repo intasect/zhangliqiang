@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fd36-0422b74c1d94">
+	<DocumentID>78e3b51c-e998-11e0-fd36-0422b7449d93</DocumentID>
+	<Name>78e3b51c-e998-11e0-fd36-0422b7449d93</Name>
+	<Description>Input2 standalone max 5</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-28T09:32:54.258</CreationDate>
+	<Notes/>
+	<DefaultText>Input2 standalone max 5</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fd36-0422b7525d95"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

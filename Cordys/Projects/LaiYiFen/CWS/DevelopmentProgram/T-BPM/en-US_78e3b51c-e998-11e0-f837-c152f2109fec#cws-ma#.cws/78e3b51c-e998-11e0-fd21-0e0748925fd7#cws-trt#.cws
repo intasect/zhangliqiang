@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fd21-0e0748989fd8">
+	<DocumentID>78e3b51c-e998-11e0-fd21-0e0748925fd7</DocumentID>
+	<Name>78e3b51c-e998-11e0-fd21-0e0748925fd7</Name>
+	<Description>审批历史记录</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-09-27T13:07:50.904</CreationDate>
+	<Notes/>
+	<Text>审批历史记录</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fd21-0e0748835fd5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

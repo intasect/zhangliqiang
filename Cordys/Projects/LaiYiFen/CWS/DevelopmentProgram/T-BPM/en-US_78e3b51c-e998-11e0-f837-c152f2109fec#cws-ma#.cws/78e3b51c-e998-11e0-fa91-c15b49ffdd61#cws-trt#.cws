@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa91-c15b4a061d62">
+	<DocumentID>78e3b51c-e998-11e0-fa91-c15b49ffdd61</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa91-c15b49ffdd61</Name>
+	<Description>SUC_OPEN_DATE</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-09-01T11:33:03.5</CreationDate>
+	<Notes/>
+	<Text>SUC_OPEN_DATE</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa91-c15b49f21d5f"
+		/>
+	</TextIdentifier>
+</TranslatedText>

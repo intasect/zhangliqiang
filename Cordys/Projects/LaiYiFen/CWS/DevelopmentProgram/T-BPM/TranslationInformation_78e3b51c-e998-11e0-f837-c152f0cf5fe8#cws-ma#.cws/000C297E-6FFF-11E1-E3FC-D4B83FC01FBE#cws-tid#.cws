@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="000C297E-6FFF-11E1-E3FC-D4B83FC03FBE">
+	<DocumentID>000C297E-6FFF-11E1-E3FC-D4B83FC01FBE</DocumentID>
+	<Name>000C297E-6FFF-11E1-E3FC-D4B83FC01FBE</Name>
+	<Description>姓</Description>
+	<CreatedBy>Administrator</CreatedBy>
+	<CreationDate>2011-12-06T09:26:57.546</CreationDate>
+	<Notes/>
+	<DefaultText>姓</DefaultText>
+	<Translations>
+		<uri
+			id="000C297E-6FFF-11E1-E3FC-D4B83FC05FBE"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

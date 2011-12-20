@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c27b86f29629">
+	<DocumentID>78e3b51c-e998-11e0-f837-c27b86add628</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c27b86add628</Name>
+	<Description>是否为公司消费者</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:26.286</CreationDate>
+	<Notes/>
+	<DefaultText>是否为公司消费者</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c27b85ad9626"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbbc-46a24a4c9de6">
+	<DocumentID>78e3b51c-e998-11e0-fbbc-46a24a415de5</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbbc-46a24a415de5</Name>
+	<Description>DECORATION_STYLE</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-09-13T09:22:55.726</CreationDate>
+	<Notes/>
+	<Text>DECORATION_STYLE</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbbc-46a24a311de3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

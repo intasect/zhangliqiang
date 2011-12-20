@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f910-0c36e7ebdf3b">
+	<DocumentID>78e3b51c-e998-11e0-f910-0c36e7e45f3a</DocumentID>
+	<Name>78e3b51c-e998-11e0-f910-0c36e7e45f3a</Name>
+	<Description>执行下一环节</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-08-17T03:30:39.611</CreationDate>
+	<Notes/>
+	<DefaultText>执行下一环节</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f910-0c36e7f35f3c"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9dd-c14f06f25620">
+	<DocumentID>78e3b51c-e998-11e0-f9dd-c14f06ec161f</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9dd-c14f06ec161f</Name>
+	<Description>IS_LIGHTBOX</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-25T07:47:17.594</CreationDate>
+	<Notes/>
+	<Text>IS_LIGHTBOX</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9dd-c14f06de561d"
+		/>
+	</TextIdentifier>
+</TranslatedText>

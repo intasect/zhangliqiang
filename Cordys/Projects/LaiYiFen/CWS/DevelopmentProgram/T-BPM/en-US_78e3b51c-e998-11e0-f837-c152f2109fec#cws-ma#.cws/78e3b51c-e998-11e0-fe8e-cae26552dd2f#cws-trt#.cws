@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fe8e-cae265591d30">
+	<DocumentID>78e3b51c-e998-11e0-fe8e-cae26552dd2f</DocumentID>
+	<Name>78e3b51c-e998-11e0-fe8e-cae26552dd2f</Name>
+	<Description>IS_CENTER</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-10-12T02:18:58.621</CreationDate>
+	<Notes/>
+	<Text>IS_CENTER</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fe8e-cae265465d2d"
+		/>
+	</TextIdentifier>
+</TranslatedText>

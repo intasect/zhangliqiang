@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f910-8478d1bc175a">
+	<DocumentID>78e3b51c-e998-11e0-f910-8478d1b49759</DocumentID>
+	<Name>78e3b51c-e998-11e0-f910-8478d1b49759</Name>
+	<Description>轮询结果</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-08-17T03:54:41.176</CreationDate>
+	<Notes/>
+	<Text>轮询结果</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f910-8478d1a31757"
+		/>
+	</TextIdentifier>
+</TranslatedText>

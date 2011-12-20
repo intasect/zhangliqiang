@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c29b1ecb5ffb">
+	<DocumentID>78e3b51c-e998-11e0-f837-c29b1e9d1ffa</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c29b1e9d1ffa</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:04.715</CreationDate>
+	<Notes/>
+	<Text>弹出页面选择办证资料信息，如房产证、产权证等</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c29b1f9c1ffc"
+		/>
+	</TextIdentifier>
+</TranslatedText>

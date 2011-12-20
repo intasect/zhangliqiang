@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e123-1ea13184123c">
+	<DocumentID>78e3b51c-e998-11e1-e123-1ea1317c923b</DocumentID>
+	<Name>78e3b51c-e998-11e1-e123-1ea1317c923b</Name>
+	<Description>Input2</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-11-07T08:54:21.656</CreationDate>
+	<Notes/>
+	<Text>Input2</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e123-1ea1316d9239"
+		/>
+	</TextIdentifier>
+</TranslatedText>

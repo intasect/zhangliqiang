@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ffde-4b0a84231f0e">
+	<DocumentID>78e3b51c-e998-11e0-ffde-4b0a841cdf0d</DocumentID>
+	<Name>78e3b51c-e998-11e0-ffde-4b0a841cdf0d</Name>
+	<Description>删除文件</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-25T10:23:46.485</CreationDate>
+	<Notes/>
+	<Text>删除文件</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ffde-4b0a840ddf0b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

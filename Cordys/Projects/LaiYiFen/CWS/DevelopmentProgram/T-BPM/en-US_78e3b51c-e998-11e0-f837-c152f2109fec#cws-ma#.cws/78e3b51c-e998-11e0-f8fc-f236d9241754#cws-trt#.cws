@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f8fc-f236d92a5755">
+	<DocumentID>78e3b51c-e998-11e0-f8fc-f236d9241754</DocumentID>
+	<Name>78e3b51c-e998-11e0-f8fc-f236d9241754</Name>
+	<Description>TestOnce</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-08-16T09:14:02.388</CreationDate>
+	<Notes/>
+	<Text>TestOnce</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f8fc-f236d9151752"
+		/>
+	</TextIdentifier>
+</TranslatedText>

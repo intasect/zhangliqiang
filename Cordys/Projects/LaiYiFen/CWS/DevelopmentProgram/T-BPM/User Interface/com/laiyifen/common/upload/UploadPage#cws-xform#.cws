@@ -1,0 +1,340 @@
+
+<XFormDesigntime
+	type="com.cordys.xforms.XFormDesigntime"
+	typeVersion="005056C0-0008-11E0-F8FC-5E0A815B7FB8"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9d6-9d82cc48936c">
+	<DocumentID>78e3b51c-e998-11e0-f9d6-9d82cc50136d</DocumentID>
+	<Name>UploadPage</Name>
+	<Description>UploadPage</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-25T01:22:56.263</CreationDate>
+	<Notes/>
+	<XFormContent>
+		<xformhtml
+			xmlns="http://schemas.cordys.com/1.0/xform"
+			xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+			xmlns:ev="http://www.w3.org/2001/xml-events"
+			xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+			xformsversion="2"
+			key="User Interface/com/laiyifen/common/upload/UploadPage"
+			focusatstartup="true">
+			<xhead>
+				<xml
+					xmlns="">
+					<xml
+						id="upload1_uploadFile"
+						type="cordys/xml">
+						<SOAP:Envelope
+							xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+							<SOAP:Body>
+								<UploadFile
+									xmlns="http://schemas.cordys.com/tbpm/common"
+									preserveSpace="no"
+									qAccess="0"
+									qValues="">
+									<fileFullName>Upload:FileName1</fileFullName>
+									<Directory/>
+									<FileType/>
+									<fileContent>Upload:FileContent1</fileContent>
+								</UploadFile>
+							</SOAP:Body>
+						</SOAP:Envelope>
+					</xml>
+				</xml>
+			</xhead>
+			<xbody>
+				<xforms:group
+					wcpforms:layout="vertical"
+					id="xbody_group"
+					wcpforms:labelalign="ontop">
+					<xforms:group
+						appearance="box"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroupbox"
+						id="groupbox1"
+						isNavigationEnabled="true"
+						wcpforms:layout="vertical"
+						wcpforms:class="f_layout"
+						wcpforms:size="510px 190px"
+						wcpforms:position="25px 14px"
+						wcpforms:labelalign="ontop">
+						<xforms:label
+							wcpforms:class="groupheader">上传文件</xforms:label>
+						<xforms:group
+							appearance="controlbox"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbox"
+							id="controlbox5"
+							controltype="button"
+							wcpforms:layout="horizontal"
+							wcpforms:class="f_layout"
+							wcpforms:align="left_align"
+							wcpforms:size="10em 30px"
+							wcpforms:position="150px 120px">
+							<xforms:trigger
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+								id="uploadBtn"
+								wcpforms:class="h_button"
+								wcpforms:size="180px 30px">
+								<xforms:label>点击上传文件</xforms:label>
+								<xforms:action
+									xmlns:ev="http://www.w3.org/2001/xml-events"
+									ev:event="xforms-activate">
+									<xforms:uploadBtn_Click/>
+								</xforms:action>
+							</xforms:trigger>
+						</xforms:group>
+						<div
+							xmlns="http://www.w3.org/2002/xforms/cr"
+							xformextendedname="upload"
+							id="upload1"
+							fileCount="1"
+							visible="true"
+							encode="true"
+							multiple="single"
+							namespace="cas.xforms.runtimelibrary.Upload"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.extensions.Upload"
+							model=""
+							xql=""
+							fileContent=""
+							request=""
+							xmlcontent=""
+							showStatus=""
+							label="上传附件"
+							labelAlign="v_label autosuggest"
+							labelWidth="0px"
+							wcpforms:class="v_layout"
+							wcpforms:size="null auto"
+						/>
+					</xforms:group>
+				</xforms:group>
+			</xbody>
+			<xformsscript>
+				<![CDATA[var gSrcAppID = "";
+var fileUrl= "";
+var fileName="";
+function uploadBtn_Click(eventObject)
+{
+    upload1.fileCount =1;
+    upload1.encode =true;
+    upload1.request =upload1_uploadFile.XMLDocument;
+    var fileFullName=document.getElementById("file1").value;
+    if(!fileFullName)
+    {
+        application.notify("请选择您要上传的附件");
+        return;
+    }
+    fileName = fileFullName.split("\\");
+    fileName = fileName[fileName.length-1];
+    var fileType ="";
+    fileType= fileName.substr(fileName.lastIndexOf(".")+1);
+    //to support multi Brwoser.
+    cordys.setNodeText(upload1.request,".//*[local-name()='fileFullName']",fileName);
+    cordys.setNodeText(upload1.request,".//*[local-name()='Directory']","");
+    cordys.setNodeText(upload1.request,".//*[local-name()='FileType']",fileType);
+    upload1.FileName =fileName;
+    upload1.addListener("onupload",callBackUpload);
+    //upload1.onUpload= callBackUpload;
+    upload1.uploadFile();
+}
+function Form_InitDone(eventObject)
+{    
+    var callingApplication = window.application.event.srcApplication;
+    gSrcAppID = callingApplication.container.applicationId;
+}
+function Form_BeforeClose(eventObject)
+{
+     system.windows[gSrcAppID].fnAddFile(upload1.request,fileUrl,fileName);
+}
+
+function callBackUpload(eventObject)
+{
+
+   if(eventObject.status==true)
+   {
+        var response=eventObject.response;
+        fileUrl=cordys.getNodeText(response,".//*[local-name()='uploadFile']/*[local-name()='uploadFile']");
+   }
+  application.container.close();
+}]]>
+			</xformsscript>
+			<xforms:action
+				ev:event="xforms-initialize-done">
+				<xforms:Form_InitDone/>
+			</xforms:action>
+			<xforms:action
+				ev:event="xforms-before-close">
+				<xforms:Form_BeforeClose/>
+			</xforms:action>
+		</xformhtml>
+	</XFormContent>
+	<width></width>
+	<automatic>false</automatic>
+	<data/>
+	<XFormWSDL/>
+	<caption></caption>
+	<isInternal>false</isInternal>
+	<type>XForm</type>
+	<taskName></taskName>
+	<mode>full</mode>
+	<title>true</title>
+	<height></height>
+	<isLegacy>false</isLegacy>
+	<left></left>
+	<qualifiedclassname></qualifiedclassname>
+	<parameters/>
+	<showOnStartPage>false</showOnStartPage>
+	<taskDescription></taskDescription>
+	<top></top>
+	<TranslatableUITexts>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-f9d6-9d82cbe3535e">
+			<DocumentID>78e3b51c-e998-11e0-f9d6-9d82cbead35f</DocumentID>
+			<Name>78e3b51c-e998-11e0-f837-c20c6d8a9d06</Name>
+			<Description/>
+			<CreatedBy>江庆荣</CreatedBy>
+			<CreationDate>2011-08-25T01:22:56.263</CreationDate>
+			<Notes/>
+			<UIRef>groupbox1</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e0-f9d6-9d82cc50136d"
+				/>
+			</XForm>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-f9d6-9d82cbd4535c">
+					<DocumentID>78e3b51c-e998-11e0-f9d6-9d82cbdbd35d</DocumentID>
+					<Name>78e3b51c-e998-11e0-f837-c20c6cebdd04</Name>
+					<Description/>
+					<CreatedBy>江庆荣</CreatedBy>
+					<CreationDate>2011-08-25T01:22:56.264</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-f837-c20c65f7dd02"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<TooltipText/>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-f9d6-9d82cc001362">
+			<DocumentID>78e3b51c-e998-11e0-f9d6-9d82cc079363</DocumentID>
+			<Name>78e3b51c-e998-11e0-f837-c20c783add0e</Name>
+			<Description/>
+			<CreatedBy>江庆荣</CreatedBy>
+			<CreationDate>2011-08-25T01:22:56.264</CreationDate>
+			<Notes/>
+			<UIRef>uploadBtn</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e0-f9d6-9d82cc50136d"
+				/>
+			</XForm>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-f9d6-9d82cbf11360">
+					<DocumentID>78e3b51c-e998-11e0-f9d6-9d82cbf89361</DocumentID>
+					<Name>78e3b51c-e998-11e0-f837-c20c779e9d0c</Name>
+					<Description/>
+					<CreatedBy>江庆荣</CreatedBy>
+					<CreationDate>2011-08-25T01:22:56.265</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-f837-c20c71229d0a"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<TooltipText/>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-f9d6-9d82cc1cd366">
+			<DocumentID>78e3b51c-e998-11e0-f9d6-9d82cc245367</DocumentID>
+			<Name>78e3b51c-e998-11e0-f8ff-375311a39442</Name>
+			<Description>78e3b51c-e998-11e0-f8ff-375311a39442</Description>
+			<CreatedBy>江庆荣</CreatedBy>
+			<CreationDate>2011-08-25T01:22:56.263</CreationDate>
+			<Notes/>
+			<UIRef>upload1</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e0-f9d6-9d82cc50136d"
+				/>
+			</XForm>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-f9d6-9d82cc0dd364">
+					<DocumentID>78e3b51c-e998-11e0-f9d6-9d82cc155365</DocumentID>
+					<Name>78e3b51c-e998-11e0-f8ff-37531195d440</Name>
+					<Description>78e3b51c-e998-11e0-f8ff-37531195d440</Description>
+					<CreatedBy>江庆荣</CreatedBy>
+					<CreationDate>2011-08-25T01:22:56.264</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-f837-c24bfeabd338"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<TooltipText/>
+		</TranslatableUIText>
+	</TranslatableUITexts>
+	<Representations/>
+	<ReferredXForms/>
+	<image/>
+	<TranslatableApplications/>
+	<Images/>
+	<messages/>
+	<Webservices/>
+	<StyleSheets/>
+	<input/>
+	<taskParts/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-f9d6-9d82cbc5535a">
+			<DocumentID>78e3b51c-e998-11e0-f9d6-9d82cbbdd359</DocumentID>
+			<Name>78e3b51c-e998-11e0-f9d6-9d82cbbdd359</Name>
+			<Description>78e3b51c-e998-11e0-f9d6-9d82cbbdd359</Description>
+			<CreatedBy>江庆荣</CreatedBy>
+			<CreationDate>2011-08-25T01:22:56.264</CreationDate>
+			<Notes/>
+			<Identifier>
+				<uri
+					id="78e3b51c-e998-11e0-f837-c20bebe857f6"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+	<aclFragments/>
+	<tagsContainer/>
+	<deliveryModels/>
+	<messageParts>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="78e3b51c-e998-11e0-f9d6-9d82cc39936a">
+			<DocumentID>78e3b51c-e998-11e0-f9d6-9d82cc41136b</DocumentID>
+			<Name>freeformcontrols</Name>
+			<Description>freeformcontrols</Description>
+			<CreatedBy>江庆荣</CreatedBy>
+			<CreationDate>2011-08-25T01:22:56.263</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<operationName>freeformcontrols</operationName>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+		</MessagePart>
+	</messageParts>
+	<InstanceSchemaFragments/>
+	<Htms/>
+	<output/>
+	<Javascripts/>
+</XFormDesigntime>

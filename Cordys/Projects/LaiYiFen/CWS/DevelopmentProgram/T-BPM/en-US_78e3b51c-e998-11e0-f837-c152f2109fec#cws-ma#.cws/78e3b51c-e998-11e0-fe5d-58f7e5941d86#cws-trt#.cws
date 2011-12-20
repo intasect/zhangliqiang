@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fe5d-58f7e59b9d87">
+	<DocumentID>78e3b51c-e998-11e0-fe5d-58f7e5941d86</DocumentID>
+	<Name>78e3b51c-e998-11e0-fe5d-58f7e5941d86</Name>
+	<Description>按年月查询</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-10-10T03:26:19.295</CreationDate>
+	<Notes/>
+	<Text>按年月查询</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fe5d-58f7e5865d84"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fcce-71630ab1d64e">
+	<DocumentID>78e3b51c-e998-11e0-fcce-71630aaa564d</DocumentID>
+	<Name>78e3b51c-e998-11e0-fcce-71630aaa564d</Name>
+	<Description>总使用面积（平方米）*</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-24T07:00:15.143</CreationDate>
+	<Notes/>
+	<Text>总使用面积（平方米）*</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fcce-71630a9a164b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

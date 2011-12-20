@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c29413e61ff9">
+	<DocumentID>78e3b51c-e998-11e0-f837-c294139b1ff8</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c294139b1ff8</Name>
+	<Description>门店数量安排表</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:13.698</CreationDate>
+	<Notes/>
+	<DefaultText>门店数量安排表</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c29412511ff6"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e345-5dddb62f9f15">
+	<DocumentID>78e3b51c-e998-11e1-e345-5dddb6281f14</DocumentID>
+	<Name>78e3b51c-e998-11e1-e345-5dddb6281f14</Name>
+	<Description>原折扣 *</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-11-29T02:46:36.038</CreationDate>
+	<Notes/>
+	<DefaultText>原折扣 *</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e1-e345-5dddb6371f16"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

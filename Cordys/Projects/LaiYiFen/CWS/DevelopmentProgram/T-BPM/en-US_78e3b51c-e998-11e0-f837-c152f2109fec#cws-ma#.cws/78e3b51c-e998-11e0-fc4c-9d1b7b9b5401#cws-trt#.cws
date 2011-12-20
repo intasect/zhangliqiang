@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc4c-9d1b7ba2d402">
+	<DocumentID>78e3b51c-e998-11e0-fc4c-9d1b7b9b5401</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc4c-9d1b7b9b5401</Name>
+	<Description>是否是一般店</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-19T02:30:53.639</CreationDate>
+	<Notes/>
+	<Text>是否是一般店</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc4c-9d1b7b8c57ff"
+		/>
+	</TextIdentifier>
+</TranslatedText>

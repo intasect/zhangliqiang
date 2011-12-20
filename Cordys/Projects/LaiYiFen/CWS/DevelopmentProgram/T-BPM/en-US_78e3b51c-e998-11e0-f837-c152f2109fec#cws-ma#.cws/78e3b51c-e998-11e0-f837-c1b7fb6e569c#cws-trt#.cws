@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1b7fbc4969d">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1b7fb6e569c</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1b7fb6e569c</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:39.318</CreationDate>
+	<Notes/>
+	<Text>复批门店整体翻新申请</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1b7fc7ed69e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

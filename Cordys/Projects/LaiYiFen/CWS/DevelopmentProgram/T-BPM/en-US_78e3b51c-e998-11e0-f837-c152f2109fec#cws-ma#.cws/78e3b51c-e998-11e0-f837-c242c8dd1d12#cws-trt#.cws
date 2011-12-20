@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c242c9259d13">
+	<DocumentID>78e3b51c-e998-11e0-f837-c242c8dd1d12</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c242c8dd1d12</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:51.541</CreationDate>
+	<Notes/>
+	<Text>“省+市”或者“市（直辖市）+区”，例如“上海市宝山区”，“江苏省苏州市”</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c242c9de9d14"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbe9-2f82a9271f7b">
+	<DocumentID>78e3b51c-e998-11e0-fbe9-2f82a91f9f7a</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbe9-2f82a91f9f7a</Name>
+	<Description>辅料配送单配置表</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-15T03:43:35.691</CreationDate>
+	<Notes/>
+	<Text>辅料配送单配置表</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbe9-2f82a911df78"
+		/>
+	</TextIdentifier>
+</TranslatedText>

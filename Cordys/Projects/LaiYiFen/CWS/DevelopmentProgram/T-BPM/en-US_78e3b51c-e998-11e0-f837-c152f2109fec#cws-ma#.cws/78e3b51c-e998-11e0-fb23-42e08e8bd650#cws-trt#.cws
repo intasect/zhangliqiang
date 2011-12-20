@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb23-42e08e921651">
+	<DocumentID>78e3b51c-e998-11e0-fb23-42e08e8bd650</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb23-42e08e8bd650</Name>
+	<Description>继续</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-09-07T06:32:38.454</CreationDate>
+	<Notes/>
+	<Text>继续</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb23-42e08e7e164e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

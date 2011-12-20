@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9d8-08f6a85e9d4c">
+	<DocumentID>78e3b51c-e998-11e0-f9d8-08f6a8571d4b</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9d8-08f6a8571d4b</Name>
+	<Description>Safari display empty for supermarket shop transfer</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-08-25T02:16:50.004</CreationDate>
+	<Notes/>
+	<Text>Safari display empty for supermarket shop transfer</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9d8-08f6a8495d49"
+		/>
+	</TextIdentifier>
+</TranslatedText>

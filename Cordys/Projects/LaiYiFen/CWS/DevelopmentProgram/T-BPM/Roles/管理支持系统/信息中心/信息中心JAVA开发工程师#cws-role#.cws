@@ -1,0 +1,33 @@
+
+<RoleDesignTime
+	type="com.cordys.organization.role.RoleDesignTime"
+	RuntimeDocumentID="005056a3-4878-11e0-f470-910c23fc5f0a">
+	<DocumentID>005056a3-4878-11e0-f470-910c23f11f09</DocumentID>
+	<Name>信息中心JAVA开发工程师</Name>
+	<Description>信息中心JAVA开发工程师</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-07-01T01:59:30.002</CreationDate>
+	<Notes/>
+	<isFunctionalRole>true</isFunctionalRole>
+	<type>Functional</type>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<configuredTasks>
+		<ConfiguredTask
+			type="com.cordys.task.ConfiguredTask"
+			RuntimeDocumentID="78e3b51c-e998-11e1-e11b-aaa9dd3c1f3a">
+			<DocumentID>78e3b51c-e998-11e1-e11b-aaa9dd321f39</DocumentID>
+			<Name>费用报销_78e3b51c-e998-11e1-e11b-aaa9dd321f39</Name>
+			<Description>费用报销_78e3b51c-e998-11e1-e11b-aaa9dd321f39</Description>
+			<CreatedBy>陈教琼</CreatedBy>
+			<CreationDate>2011-11-07T02:05:39.182</CreationDate>
+			<Notes/>
+			<configuredTaskParts/>
+			<uiTask>
+				<uri
+					id="78e3b51c-e998-11e0-faab-7e7b15af9fe0"
+				/>
+			</uiTask>
+		</ConfiguredTask>
+	</configuredTasks>
+	<Subroles/>
+</RoleDesignTime>

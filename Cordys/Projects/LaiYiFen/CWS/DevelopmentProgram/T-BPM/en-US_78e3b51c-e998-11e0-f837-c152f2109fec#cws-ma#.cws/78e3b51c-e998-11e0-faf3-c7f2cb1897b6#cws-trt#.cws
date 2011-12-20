@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faf3-c7f2cb2797b7">
+	<DocumentID>78e3b51c-e998-11e0-faf3-c7f2cb1897b6</DocumentID>
+	<Name>78e3b51c-e998-11e0-faf3-c7f2cb1897b6</Name>
+	<Description>邀请会签</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-05T09:32:16.552</CreationDate>
+	<Notes/>
+	<Text>邀请会签</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faf3-c7f2cb00d7b4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

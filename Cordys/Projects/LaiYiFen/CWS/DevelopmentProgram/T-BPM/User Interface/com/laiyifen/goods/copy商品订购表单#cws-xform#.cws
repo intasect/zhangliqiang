@@ -1,0 +1,3109 @@
+
+<XFormDesigntime
+	type="com.cordys.xforms.XFormDesigntime"
+	typeVersion="005056C0-0008-11E0-F8FC-5E0A815B7FB8"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e220-abbe21141f76">
+	<DocumentID>78e3b51c-e998-11e1-e220-abbe210ddf75</DocumentID>
+	<Name>copy商品订购表单</Name>
+	<Description>copy商品订购表单</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-17T10:28:16.408</CreationDate>
+	<Notes/>
+	<XFormContent>
+		<xformhtml
+			xmlns="http://schemas.cordys.com/1.0/xform"
+			xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+			xmlns:ev="http://www.w3.org/2001/xml-events"
+			xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+			xformsversion="2"
+			key="User Interface/com/laiyifen/goods/copy商品订购表单"
+			focusatstartup="true">
+			<xhead/>
+			<xbody>
+				<xforms:group
+					wcpforms:layout="vertical"
+					id="xbody_group"
+					wcpforms:labelalign="ontop">
+					<xforms:group
+						appearance="box"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroupbox"
+						id="gpxgoodsorder"
+						isNavigationEnabled="true"
+						wcpforms:layout="vertical"
+						wcpforms:class="v_layout"
+						wcpforms:size="null 1625px"
+						wcpforms:labelalign="ontop">
+						<xforms:label
+							textIdentifier="78e3b51c-e998-11e1-e021-990e56a71fac"
+							wcpforms:class="groupheader">商品订购表单</xforms:label>
+						<xforms:group
+							appearance="box"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroupbox"
+							id="gpxuserinfo"
+							isNavigationEnabled="true"
+							model="GetGroupbuyOrderModel"
+							wcpforms:layout="free"
+							wcpforms:class="v_layout"
+							wcpforms:size="null 89px"
+							wcpforms:labelalign="ontop">
+							<xforms:label
+								textIdentifier="78e3b51c-e998-11e0-f837-c210604c5d62"
+								wcpforms:class="groupheader">填写人信息</xforms:label>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="usercode"
+								doEBIValidate="false"
+								ref="USER_CODE"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="50% 10px 10% null"
+								wcpforms:position="50% 10px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-f837-c21074d35d72"
+									wcpforms:size="106px null"
+									wcpforms:class="h_label">员工编号</xforms:label>
+							</xforms:input>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="departmentname"
+								doEBIValidate="false"
+								ref="DEPARTMENT_NAME"
+								wcpforms:dataType="string"
+								wcpforms:textalign="left_align"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="0px 40px 60% null"
+								wcpforms:position="0px 40px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-f837-c2610e665ff6"
+									wcpforms:size="130px null"
+									wcpforms:class="h_label">部门</xforms:label>
+							</xforms:input>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="username"
+								ref="USER_NAME"
+								doEBIValidate="false"
+								wcpforms:dataType="string"
+								wcpforms:textalign="left_align"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="0px 10px 60% null"
+								wcpforms:position="0px 10px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e1-e0a9-fca5ef47dfa6"
+									wcpforms:size="130px null"
+									wcpforms:class="h_label">姓名</xforms:label>
+							</xforms:input>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="applicationdate"
+								doEBIValidate="false"
+								ref="APPLICATION_DATE"
+								wcpforms:displayformat="yyyy-MM-dd"
+								wcpforms:textalign="left_align"
+								wcpforms:dataType="date"
+								wcpforms:required="false"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="50% 40px 10% null"
+								wcpforms:position="50% 40px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-f837-c2108966dd82"
+									wcpforms:size="107px null"
+									wcpforms:class="h_label">填写时间</xforms:label>
+							</xforms:input>
+						</xforms:group>
+						<xforms:group
+							appearance="box"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroupbox"
+							id="gpxorderinfo"
+							isNavigationEnabled="true"
+							model="GetGroupbuyOrderModel"
+							wcpforms:collapsible="true"
+							wcpforms:expanded="true"
+							wcpforms:layout="vertical"
+							wcpforms:class="v_layout"
+							wcpforms:size="null 213px"
+							wcpforms:labelalign="ontop">
+							<xforms:label
+								textIdentifier="78e3b51c-e998-11e0-fbce-2d0626379511"
+								wcpforms:class="groupheader collapse">订单基本信息</xforms:label>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="songhuodizhi"
+								ref="DELIVERY_ADDR"
+								doEBIValidate="false"
+								isNavigationEnabled="true"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="1% 130px 60% null"
+								wcpforms:position="1% 130px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-fbcf-08cb62139fe7"
+									wcpforms:size="123px null"
+									wcpforms:class="h_label">送货地址</xforms:label>
+							</xforms:input>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="orderuser"
+								ref="ORDER_USER"
+								doEBIValidate="false"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="50% 100px 10% null"
+								wcpforms:position="50% 100px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e1-e1e5-7958ad72df20"
+									wcpforms:size="113px null"
+									wcpforms:class="h_label">订购人 *</xforms:label>
+							</xforms:input>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="phoneno"
+								ref="PHONE_NO"
+								doEBIValidate="false"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="10px 160px 60% null"
+								wcpforms:position="10px 160px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-f837-c21e0e0a972e"
+									wcpforms:size="123px null"
+									wcpforms:class="h_label">联系方式</xforms:label>
+							</xforms:input>
+							<xforms:select1
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+								id="customertype"
+								doEBIValidate="false"
+								initializeValueSets="0"
+								wcpforms:enumerated="false"
+								multiple="false"
+								ref="CUSTOMER_TYPE"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="9px 70px 60% null"
+								wcpforms:position="9px 70px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-fbcf-08cb61b0dfd9"
+									wcpforms:size="123px null"
+									wcpforms:class="h_label">客户分类</xforms:label>
+								<xforms:item>
+									<xforms:label>请选择</xforms:label>
+									<xforms:value/>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>老客户</xforms:label>
+									<xforms:value>1</xforms:value>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>新客户</xforms:label>
+									<xforms:value>2</xforms:value>
+								</xforms:item>
+							</xforms:select1>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="orderdate"
+								ref="ORDER_DATE"
+								doEBIValidate="false"
+								wcpforms:displayformat="yyyy-MM-dd"
+								wcpforms:textalign="left_align"
+								wcpforms:dataType="date"
+								wcpforms:required="false"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="50% 160px 10% null"
+								wcpforms:position="50% 160px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-fbcf-08cb6183dfd3"
+									wcpforms:size="113px null"
+									wcpforms:class="h_label">订购日期</xforms:label>
+							</xforms:input>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="deliverydate"
+								doEBIValidate="false"
+								ref="DELIVERY_DATE"
+								wcpforms:displayformat="yyyy-MM-dd"
+								wcpforms:textalign="left_align"
+								wcpforms:dataType="date"
+								wcpforms:required="false"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="50% 130px 10% null"
+								wcpforms:position="50% 130px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-fbcf-3a58b24bdf1e"
+									wcpforms:size="113px null"
+									wcpforms:class="h_label">送货日期</xforms:label>
+							</xforms:input>
+							<xforms:output
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+								id="saporderno"
+								ref="SAP_ORDER_NO"
+								doEBIValidate="false"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="1% 10px 60% null"
+								wcpforms:position="1% 10px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-fbd8-ba7fdeaad712"
+									wcpforms:size="123px null"
+									wcpforms:class="h_label">SAP订单号</xforms:label>
+							</xforms:output>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="orderno"
+								ref="ORDER_NO"
+								doEBIValidate="false"
+								wcpforms:class="f_layout"
+								wcpforms:size="361px 15px"
+								wcpforms:position="50% 10px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-fbd8-ba7fde661708"
+									wcpforms:size="113px null"
+									wcpforms:class="h_label">订单号</xforms:label>
+							</xforms:input>
+							<xforms:output
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+								id="deliveryno"
+								ref="DELIVERY_NO"
+								doEBIValidate="false"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="1% 40px 60% null"
+								wcpforms:position="1% 40px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-fbd8-ba7fde2016fe"
+									wcpforms:size="123px null"
+									wcpforms:class="h_label">交货单号</xforms:label>
+							</xforms:output>
+							<xforms:output
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+								id="saleorg"
+								doEBIValidate="false"
+								ref="SALE_ORG"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="50% 40px 10% null"
+								wcpforms:position="50% 40px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-f837-c24570d6df7a"
+									wcpforms:size="113px null"
+									wcpforms:class="h_label">销售组织</xforms:label>
+								<wcpforms:zoom>
+									<wcpforms:url
+										documentID="78e3b51c-e998-11e0-fec4-d5d728b29f2b">/cordys/User Interface/com/laiyifen/common/popup/辅料商品信息列表.caf</wcpforms:url>
+									<wcpforms:businessAttribute>DESCRIPTION</wcpforms:businessAttribute>
+									<xforms:trigger>
+										<xforms:label>
+											<img
+												xmlns="http://schemas.cordys.com/1.0/xform"
+												src="/cordys/wcp/theme/default/icon/lookup/lookup_file.png"
+											/>
+										</xforms:label>
+									</xforms:trigger>
+								</wcpforms:zoom>
+							</xforms:output>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="orderorg"
+								doEBIValidate="false"
+								ref="ORDER_ORG"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="1% 100px 60% null"
+								wcpforms:position="1% 100px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e1-e1e5-7958ada25f26"
+									wcpforms:size="123px null"
+									wcpforms:class="h_label">订购单位 *</xforms:label>
+							</xforms:input>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="customercode"
+								ref="CUSTOMER_CODE"
+								doEBIValidate="false"
+								wcpforms:dataType="string"
+								wcpforms:textalign="left_align"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="50% 70px 10% null"
+								wcpforms:position="50% 70px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e1-e154-c16080601d52"
+									wcpforms:size="113px null"
+									wcpforms:class="h_label">客户编号</xforms:label>
+							</xforms:input>
+						</xforms:group>
+						<xforms:group
+							appearance="box"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroupbox"
+							id="gpxclientinfo"
+							isNavigationEnabled="true"
+							model="GetGroupbuyOrderModel"
+							wcpforms:collapsible="true"
+							wcpforms:expanded="true"
+							wcpforms:layout="free"
+							wcpforms:class="v_layout"
+							wcpforms:size="null 311px"
+							wcpforms:labelalign="ontop">
+							<xforms:label
+								textIdentifier="78e3b51c-e998-11e0-fbcf-3a58b1e55f12"
+								wcpforms:class="groupheader collapse">客户信息栏</xforms:label>
+							<xforms:select1
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+								id="packagerequi"
+								doEBIValidate="false"
+								ref="PACKAGE_REQUI"
+								initializeValueSets="0"
+								wcpforms:enumerated="false"
+								multiple="false"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="1% 10px 60% null"
+								wcpforms:position="1% 10px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-fbcf-3a58af94dfc4"
+									wcpforms:size="123px null"
+									wcpforms:class="h_label">包装要求</xforms:label>
+								<xforms:item
+									xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+									clientattr:selected="true">
+									<xforms:label>请选择</xforms:label>
+									<xforms:value/>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>大纸袋</xforms:label>
+									<xforms:value>001</xforms:value>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>小纸袋</xforms:label>
+									<xforms:value>002</xforms:value>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>DIY礼盒（大）</xforms:label>
+									<xforms:value>003</xforms:value>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>DIY礼盒（小）</xforms:label>
+									<xforms:value>004</xforms:value>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>贺岁福袋</xforms:label>
+									<xforms:value>005</xforms:value>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>整箱发货</xforms:label>
+									<xforms:value>006</xforms:value>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>其他</xforms:label>
+									<xforms:value>007</xforms:value>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>无</xforms:label>
+									<xforms:value>008</xforms:value>
+								</xforms:item>
+							</xforms:select1>
+							<xforms:select1
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+								id="financialdec"
+								ref="FINANCIAL_DEC"
+								doEBIValidate="false"
+								initializeValueSets="0"
+								wcpforms:enumerated="false"
+								multiple="false"
+								wcpforms:dataType="string"
+								wcpforms:textalign="left_align"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="50% 10px 10% null"
+								wcpforms:position="50% 10px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e1-e1e5-7958ad3f9f1a"
+									wcpforms:size="123px null"
+									wcpforms:class="h_label">财务说明 *</xforms:label>
+								<xforms:item>
+									<xforms:label>请选择</xforms:label>
+									<xforms:value/>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>开发票</xforms:label>
+									<xforms:value>1</xforms:value>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>不开发票</xforms:label>
+									<xforms:value>0</xforms:value>
+								</xforms:item>
+							</xforms:select1>
+							<xforms:select1
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+								id="paymentcode"
+								ref="PAYMENT_CODE"
+								doEBIValidate="false"
+								initializeValueSets="0"
+								wcpforms:enumerated="false"
+								multiple="false"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="10px 40px 60% null"
+								wcpforms:position="10px 40px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-f837-c27be71c1654"
+									wcpforms:size="123px null"
+									wcpforms:class="h_label">付款方式</xforms:label>
+								<xforms:item>
+									<xforms:label>请选择</xforms:label>
+									<xforms:value/>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>现金</xforms:label>
+									<xforms:value>C</xforms:value>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>银行汇款</xforms:label>
+									<xforms:value>B</xforms:value>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>支票结帐</xforms:label>
+									<xforms:value>K</xforms:value>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>POS机付款</xforms:label>
+									<xforms:value>P</xforms:value>
+								</xforms:item>
+							</xforms:select1>
+							<xforms:select1
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+								id="settlementcode"
+								ref="SETTLEMENT_CODE"
+								doEBIValidate="false"
+								initializeValueSets="0"
+								wcpforms:enumerated="false"
+								multiple="false"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="50% 40px 10% null"
+								wcpforms:position="50% 40px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-fbcf-883f04e69f73"
+									wcpforms:size="123px null"
+									wcpforms:class="h_label">结算方式</xforms:label>
+								<xforms:item>
+									<xforms:label>请选择</xforms:label>
+									<xforms:value/>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>货到付款 </xforms:label>
+									<xforms:value>Z006</xforms:value>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>款到发货</xforms:label>
+									<xforms:value>Z001</xforms:value>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>半月结</xforms:label>
+									<xforms:value>Z003</xforms:value>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>一月结</xforms:label>
+									<xforms:value>Z002</xforms:value>
+								</xforms:item>
+							</xforms:select1>
+							<xforms:select1
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+								id="orderref"
+								ref="ORDER_REF"
+								doEBIValidate="false"
+								initializeValueSets="0"
+								wcpforms:enumerated="false"
+								multiple="false"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="10px 70px 60% null"
+								wcpforms:position="10px 70px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e1-e1e5-7958ad129f14"
+									wcpforms:size="123px null"
+									wcpforms:class="h_label">订单介绍方式 *</xforms:label>
+								<xforms:item>
+									<xforms:label>请选择</xforms:label>
+									<xforms:value/>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>电话订购</xforms:label>
+									<xforms:value>001</xforms:value>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>门店介绍</xforms:label>
+									<xforms:value>002</xforms:value>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>内部员工</xforms:label>
+									<xforms:value>003</xforms:value>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>特渠人员</xforms:label>
+									<xforms:value>004</xforms:value>
+								</xforms:item>
+								<xforms:item>
+									<xforms:label>网络订购</xforms:label>
+									<xforms:value>005</xforms:value>
+								</xforms:item>
+							</xforms:select1>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="orderrefno"
+								doEBIValidate="false"
+								ref="ORDER_REF_NO"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="10px 130px 60.01% null"
+								wcpforms:position="10px 130px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e1-e120-85642b52dfea"
+									wcpforms:size="123px null"
+									wcpforms:class="h_label">介绍人姓名及工号</xforms:label>
+							</xforms:input>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="shopinfo"
+								ref="SHOP_INFO"
+								doEBIValidate="false"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="50% 70px 10% null"
+								wcpforms:position="50% 70px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e1-e0a3-b1d3865bdfcd"
+									wcpforms:size="123px null"
+									wcpforms:class="h_label">门店名称编号</xforms:label>
+							</xforms:input>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="regionmanage"
+								doEBIValidate="false"
+								ref="REGION_MANAGE"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="10px 100px 60% null"
+								wcpforms:position="10px 100px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-fbcf-883f03b1df4f"
+									wcpforms:size="123px null"
+									wcpforms:class="h_label">大区经理</xforms:label>
+							</xforms:input>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="orderrefdep"
+								doEBIValidate="false"
+								ref="ORDER_REF_DEP"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="50% 130px 10% null"
+								wcpforms:position="50% 130px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e1-e120-85642bb95ff7"
+									wcpforms:size="123px null"
+									wcpforms:class="h_label">介绍人所属部门及公司</xforms:label>
+							</xforms:input>
+							<xforms:textarea
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTextarea"
+								id="remark"
+								ref="REMARK"
+								doEBIValidate="false"
+								wcpforms:layout="vertical"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 116px"
+								wcpforms:anchors="10px 160px 15% null"
+								wcpforms:position="10px 160px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-f837-c23932731f4c"
+									wcpforms:size="123px null"
+									wcpforms:class="h_label">备注</xforms:label>
+							</xforms:textarea>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="regionalmanage"
+								ref="REGIONAL_MANAGE"
+								doEBIValidate="false"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="50% 100px 10% null"
+								wcpforms:position="50% 100px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-fbcf-883f03dc5f55"
+									wcpforms:size="123px null"
+									wcpforms:class="h_label">区域经理</xforms:label>
+							</xforms:input>
+						</xforms:group>
+						<xforms:group
+							appearance="box"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroupbox"
+							id="groupbox1"
+							isNavigationEnabled="true"
+							wcpforms:collapsible="true"
+							wcpforms:expanded="true"
+							wcpforms:layout="vertical"
+							wcpforms:class="v_layout"
+							wcpforms:size="null 467px"
+							wcpforms:labelalign="ontop">
+							<xforms:label
+								textIdentifier="78e3b51c-e998-11e1-e169-785b2dc7df86"
+								wcpforms:class="groupheader collapse">商品明细</xforms:label>
+							<xforms:group
+								appearance="box"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroupbox"
+								id="groupbox3"
+								model="GetGroupbuyOrderModel"
+								isNavigationEnabled="true"
+								wcpforms:layout="vertical"
+								wcpforms:class="v_layout"
+								wcpforms:size="null 133px"
+								wcpforms:labelalign="ontop">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e1-e1d1-a3ce126ddf78"
+									wcpforms:class="groupheader">金额及折扣</xforms:label>
+								<xforms:input
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+									id="curdiscountrate"
+									doEBIValidate="false"
+									ref="CUR_DISCOUNT_RATE"
+									wcpforms:dataType="string"
+									wcpforms:textalign="left_align"
+									wcpforms:class="f_layout"
+									wcpforms:size="auto 15px"
+									wcpforms:anchors="1% 10px 60% null"
+									wcpforms:position="1% 10px">
+									<xforms:label
+										textIdentifier="78e3b51c-e998-11e1-e1e5-7958acbd9f0e"
+										wcpforms:size="104px null"
+										wcpforms:class="h_label">现折扣率 *</xforms:label>
+								</xforms:input>
+								<xforms:input
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+									id="olddiscountrate"
+									doEBIValidate="false"
+									ref="OLD_DISCOUNT_RATE"
+									wcpforms:dataType="string"
+									wcpforms:textalign="left_align"
+									wcpforms:class="f_layout"
+									wcpforms:size="auto 15px"
+									wcpforms:anchors="50% 10px 10% null"
+									wcpforms:position="50% 10px">
+									<xforms:label
+										textIdentifier="78e3b51c-e998-11e1-e1e6-0258bbe9dfd3"
+										wcpforms:size="98px null"
+										wcpforms:class="h_label">原折扣率 *</xforms:label>
+								</xforms:input>
+								<xforms:input
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+									id="input47"
+									doEBIValidate="false"
+									wcpforms:class="f_layout"
+									wcpforms:size="auto 15px"
+									wcpforms:anchors="1% 40px 60% null"
+									wcpforms:position="1% 40px">
+									<xforms:label
+										textIdentifier="78e3b51c-e998-11e1-e1e5-7958ac91df08"
+										wcpforms:size="104px null"
+										wcpforms:class="h_label">原价金额 *</xforms:label>
+								</xforms:input>
+								<xforms:input
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+									id="totalamountlower"
+									doEBIValidate="false"
+									ref="TOTAL_AMOUNT_LOWER"
+									wcpforms:dataType="double"
+									wcpforms:textalign="right_align"
+									wcpforms:class="f_layout"
+									wcpforms:size="auto 15px"
+									wcpforms:anchors="50% 40px 10% null"
+									wcpforms:position="50% 40px">
+									<xforms:label
+										textIdentifier="78e3b51c-e998-11e1-e1e6-0258bba15fc9"
+										wcpforms:size="98px null"
+										wcpforms:class="h_label">折后金额（小写） *</xforms:label>
+									<xforms:action
+										xmlns:ev="http://www.w3.org/2001/xml-events"
+										ev:event="xforms-value-changed">
+										<xforms:totalamountlower_Change/>
+									</xforms:action>
+								</xforms:input>
+								<xforms:input
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+									id="totalamountcapital"
+									doEBIValidate="false"
+									ref="TOTAL_AMOUNT_CAPITAL"
+									wcpforms:dataType="string"
+									wcpforms:textalign="left_align"
+									wcpforms:class="f_layout"
+									wcpforms:size="auto 15px"
+									wcpforms:anchors="1% 70px 60% null"
+									wcpforms:position="1% 70px">
+									<xforms:label
+										textIdentifier="78e3b51c-e998-11e1-e1e6-0258bb759fc3"
+										wcpforms:size="104px null"
+										wcpforms:class="h_label">折后金额（大写） *</xforms:label>
+								</xforms:input>
+							</xforms:group>
+							<xforms:group
+								appearance="tabgroup"
+								wcpforms:orientation="top"
+								wcpforms:textDirection="horizontal"
+								wcpforms:scrollBy="roller"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTabGroup"
+								id="tabgroup1"
+								isNavigationEnabled="true"
+								wcpforms:class="v_layout"
+								wcpforms:size="null 280px">
+								<xforms:group
+									appearance="tabpage"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTabPage"
+									id="goodstabpage"
+									wcpforms:layout="vertical"
+									wcpforms:class="simplecontainer">
+									<xforms:label
+										textIdentifier="78e3b51c-e998-11e1-e16b-6be6056217ec">物料</xforms:label>
+									<xforms:repeat
+										wcpforms:displayContextMenu="true"
+										wcpforms:toggleColumns="true"
+										wcpforms:movableColumns="false"
+										wcpforms:saveState="false"
+										wcpforms:autoInsert="true"
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTable"
+										id="orderDetailTab"
+										model="GetGroupbuyOrderDetailByOrderNoModel"
+										synchronizedDialogFrame="main"
+										isNavigationEnabled="true"
+										wcpforms:gridtype="datagrid"
+										wcpforms:checkboxes="true"
+										wcpforms:layout="vertical"
+										wcpforms:class="v_layout"
+										wcpforms:size="null 229px">
+										<xforms:group
+											appearance="elementbar"
+											id="_elementBar"
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbar">
+											<xforms:group
+												appearance="controlbar"
+												id="_controlBar"
+												wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbar"
+												wcpforms:class="controlbar">
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navDelete4"
+													standardid="navDelete">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/action/delete.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Delete</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navRefresh3"
+													standardid="navRefresh">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/action/refresh.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Refresh</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="materialAdd">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/action/add.png"
+														/>
+													</xforms:label>
+													<xforms:action
+														xmlns:ev="http://www.w3.org/2001/xml-events"
+														ev:event="xforms-activate">
+														<xforms:materialAdd_Click/>
+													</xforms:action>
+												</xforms:trigger>
+											</xforms:group>
+											<xforms:group
+												appearance="paginationbar"
+												id="_paginationBar"
+												wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsPaginationbar"
+												wcpforms:class="paginationbar">
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navFirst4"
+													standardid="navFirst">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/pagination/first.png"
+														/>
+													</xforms:label>
+													<xforms:hint>First</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navPrevious4"
+													standardid="navPrevious">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/pagination/previous.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Previous</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navFind3"
+													standardid="navFind">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/action/find.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Find</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navNext4"
+													standardid="navNext">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/pagination/next.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Next</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navLast4"
+													standardid="navLast">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/pagination/last.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Last</xforms:hint>
+												</xforms:trigger>
+											</xforms:group>
+										</xforms:group>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="productcode"
+											ref="PRODUCT_CODE"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="72px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-fc69-448802c55f1e">产品编号</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="product_name2"
+											ref="PRODUCT_NAME"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="text"
+											wcpforms:maxLength="50"
+											wcpforms:legalCharacter=""
+											wcpforms:illegalCharacter=""
+											wcpforms:required="false"
+											wcpforms:size="75px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-fc69-4488028d1f16">产品名称</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="standard2"
+											ref="STANDARD"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="text"
+											wcpforms:maxLength="50"
+											wcpforms:legalCharacter=""
+											wcpforms:illegalCharacter=""
+											wcpforms:required="false"
+											wcpforms:size="69px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3fed1f9e">重量(公斤)</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="unit_price2"
+											ref="UNIT_PRICE"
+											doEBIValidate="false"
+											wcpforms:dataType="double"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="#,###.00"
+											wcpforms:minValue=""
+											wcpforms:maxValue=""
+											wcpforms:required="false"
+											wcpforms:size="84px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3fb61f96">单价(元/公斤)</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="amount2"
+											ref="AMOUNT"
+											doEBIValidate="false"
+											wcpforms:dataType="double"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="#,###.00"
+											wcpforms:minValue=""
+											wcpforms:maxValue=""
+											wcpforms:required="false"
+											wcpforms:size="47px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-fc80-765281e4dfba">金额</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="quantity2"
+											ref="QUANTITY"
+											doEBIValidate="false"
+											wcpforms:dataType="integer"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat=""
+											wcpforms:required="false"
+											wcpforms:size="84px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3f625f8a">分包数量(份)</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="weight2"
+											ref="WEIGHT"
+											doEBIValidate="false"
+											wcpforms:dataType="double"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="#,###.00"
+											wcpforms:minValue=""
+											wcpforms:maxValue=""
+											wcpforms:required="false"
+											wcpforms:size="96px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3f2b5f82">合计重量(公斤)</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="total2"
+											ref="TOTAL"
+											doEBIValidate="false"
+											wcpforms:dataType="double"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="#,###.00"
+											wcpforms:minValue=""
+											wcpforms:maxValue=""
+											wcpforms:required="false"
+											wcpforms:size="68px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3ebadf72">合计(元)</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="remark3"
+											ref="REMARK"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="text"
+											wcpforms:maxLength="2000"
+											wcpforms:legalCharacter=""
+											wcpforms:illegalCharacter=""
+											wcpforms:required="false"
+											wcpforms:size="156px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-f837-c29de99e557e">备注</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="producttype"
+											ref="PRODUCT_TYPE"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e1d4-154545471f26">PRODUCT_TYPE</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="itm_number2"
+											ref="ITM_NUMBER"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e167-14e0c5e55d18">ITM_NUMBER</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="product_id2"
+											ref="PRODUCT_ID"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e167-14e0c6b25d28">PRODUCT_ID</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="order_no2"
+											ref="ORDER_NO"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e167-14e0c6765d20">ORDER_NO</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="discount2"
+											ref="DISCOUNT"
+											doEBIValidate="false"
+											wcpforms:dataType="double"
+											wcpforms:textalign="right_align"
+											wcpforms:size="100px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3ef1df7a">DISCOUNT</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="item_categ2"
+											ref="ITEM_CATEG"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3e829f6a">ITEM_CATEG</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="payment_code2"
+											ref="PAYMENT_CODE"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-fb25-82121b999996">PAYMENT_CODE</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="old_unit_price2"
+											ref="tns:OLD_UNIT_PRICE"
+											wcpforms:textalign="right_align"
+											wcpforms:size="100px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3cd99f3e">OLD_UNIT_PRICE</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="ext12"
+											ref="EXT1"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-f9dd-c3163e0b57cc">EXT1</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="ext22"
+											ref="EXT2"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-f9dd-c3163dd097c4">EXT2</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="ext32"
+											ref="EXT3"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-ff12-e5807e51d744">EXT3</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="ext42"
+											ref="EXT4"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3dba9f4e">EXT4</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="ext52"
+											ref="EXT5"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size=" 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3d645f46">EXT5</xforms:label>
+										</xforms:input>
+									</xforms:repeat>
+								</xforms:group>
+								<xforms:group
+									appearance="tabpage"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTabPage"
+									id="gifttabpage"
+									wcpforms:layout="vertical"
+									wcpforms:class="simplecontainer">
+									<xforms:label
+										textIdentifier="78e3b51c-e998-11e1-e16e-c745a1581733">赠品</xforms:label>
+									<xforms:repeat
+										wcpforms:displayContextMenu="true"
+										wcpforms:toggleColumns="true"
+										wcpforms:movableColumns="false"
+										wcpforms:saveState="false"
+										wcpforms:autoInsert="true"
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTable"
+										id="giftDetailTab"
+										model="GetGroupbuyGiftDetailByOrderNoModel"
+										synchronizedDialogFrame="main"
+										isNavigationEnabled="true"
+										wcpforms:gridtype="datagrid"
+										wcpforms:checkboxes="true"
+										wcpforms:layout="vertical"
+										wcpforms:class="v_layout"
+										wcpforms:size="null 229px">
+										<xforms:group
+											appearance="elementbar"
+											id="_elementBar"
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbar">
+											<xforms:group
+												appearance="controlbar"
+												id="_controlBar"
+												wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbar"
+												wcpforms:class="controlbar">
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navInsert2"
+													standardid="navInsert">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/action/add.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Insert</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navDelete3"
+													standardid="navDelete">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/action/delete.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Delete</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navRefresh2"
+													standardid="navRefresh">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/action/refresh.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Refresh</xforms:hint>
+												</xforms:trigger>
+											</xforms:group>
+											<xforms:group
+												appearance="paginationbar"
+												id="_paginationBar"
+												wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsPaginationbar"
+												wcpforms:class="paginationbar">
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navFirst3"
+													standardid="navFirst">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/pagination/first.png"
+														/>
+													</xforms:label>
+													<xforms:hint>First</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navPrevious3"
+													standardid="navPrevious">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/pagination/previous.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Previous</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navFind2"
+													standardid="navFind">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/action/find.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Find</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navNext3"
+													standardid="navNext">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/pagination/next.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Next</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navLast3"
+													standardid="navLast">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/pagination/last.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Last</xforms:hint>
+												</xforms:trigger>
+											</xforms:group>
+										</xforms:group>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input9"
+											ref="PRODUCT_CODE"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="75px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-fc69-448802c55f1e">产品编号</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input1"
+											ref="PRODUCT_NAME"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="text"
+											wcpforms:maxLength="50"
+											wcpforms:required="false"
+											wcpforms:size="75px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-fc69-4488028d1f16">产品名称</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input2"
+											ref="STANDARD"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="text"
+											wcpforms:maxLength="50"
+											wcpforms:legalCharacter=""
+											wcpforms:illegalCharacter=""
+											wcpforms:required="false"
+											wcpforms:size="78px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3fed1f9e">重量(公斤)</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input3"
+											ref="UNIT_PRICE"
+											doEBIValidate="false"
+											wcpforms:dataType="double"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="#,###.00"
+											wcpforms:minValue=""
+											wcpforms:maxValue=""
+											wcpforms:required="false"
+											wcpforms:size="77px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3fb61f96">单价(元/公斤)</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input4"
+											ref="AMOUNT"
+											doEBIValidate="false"
+											wcpforms:dataType="double"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="#,###.00"
+											wcpforms:minValue=""
+											wcpforms:maxValue=""
+											wcpforms:required="false"
+											wcpforms:size="51px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-fc80-765281e4dfba">金额</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input5"
+											ref="QUANTITY"
+											doEBIValidate="false"
+											wcpforms:dataType="integer"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat=""
+											wcpforms:required="false"
+											wcpforms:size="92px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3f625f8a">分包数量(份)</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input6"
+											ref="WEIGHT"
+											doEBIValidate="false"
+											wcpforms:dataType="double"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="#,###.00"
+											wcpforms:minValue=""
+											wcpforms:maxValue=""
+											wcpforms:required="false"
+											wcpforms:size="93px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3f2b5f82">合计重量(公斤)</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input13"
+											ref="TOTAL"
+											doEBIValidate="false"
+											wcpforms:dataType="double"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="#,###.00"
+											wcpforms:minValue=""
+											wcpforms:maxValue=""
+											wcpforms:required="false"
+											wcpforms:size="64px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-fbd1-d86f2b7c1dcd">合计(元)</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input7"
+											ref="REMARK"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="text"
+											wcpforms:maxLength="2000"
+											wcpforms:legalCharacter=""
+											wcpforms:illegalCharacter=""
+											wcpforms:required="false"
+											wcpforms:size="150px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-f837-c29de99e557e">备注</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="producttype2"
+											doEBIValidate="false"
+											ref="PRODUCT_TYPE"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e1d4-154545471f26">PRODUCT_TYPE</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input8"
+											ref="ITM_NUMBER"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e167-14e0c5e55d18">ITM_NUMBER</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input10"
+											ref="PRODUCT_ID"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e167-14e0c6b25d28">PRODUCT_ID</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input11"
+											ref="ORDER_NO"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e167-14e0c6765d20">ORDER_NO</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input12"
+											ref="DISCOUNT"
+											doEBIValidate="false"
+											wcpforms:dataType="double"
+											wcpforms:textalign="right_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3ef1df7a">DISCOUNT</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input14"
+											ref="ITEM_CATEG"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3e829f6a">ITEM_CATEG</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input15"
+											ref="PAYMENT_CODE"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-fb25-82121b999996">PAYMENT_CODE</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input16"
+											ref="tns:OLD_UNIT_PRICE"
+											wcpforms:textalign="right_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3cd99f3e">OLD_UNIT_PRICE</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input17"
+											ref="EXT1"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-f9dd-c3163e0b57cc">EXT1</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input18"
+											ref="EXT2"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-f9dd-c3163dd097c4">EXT2</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input19"
+											ref="EXT3"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-ff12-e5807e51d744">EXT3</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input20"
+											ref="EXT4"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3dba9f4e">EXT4</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input21"
+											ref="EXT5"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="auto 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3d645f46">EXT5</xforms:label>
+										</xforms:input>
+									</xforms:repeat>
+								</xforms:group>
+								<xforms:group
+									appearance="tabpage"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTabPage"
+									id="certftabpage"
+									wcpforms:layout="vertical"
+									wcpforms:class="simplecontainer">
+									<xforms:label
+										textIdentifier="78e3b51c-e998-11e1-e16b-6be6050e57e0">返券</xforms:label>
+									<xforms:repeat
+										wcpforms:displayContextMenu="true"
+										wcpforms:toggleColumns="true"
+										wcpforms:movableColumns="false"
+										wcpforms:saveState="false"
+										wcpforms:autoInsert="true"
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTable"
+										id="certifDetailTab"
+										model="GetGroupbuyCerfDetailByOrderNoModel"
+										synchronizedDialogFrame="main"
+										isNavigationEnabled="true"
+										wcpforms:gridtype="datagrid"
+										wcpforms:checkboxes="true"
+										wcpforms:layout="vertical"
+										wcpforms:class="v_layout"
+										wcpforms:size="null 229px">
+										<xforms:group
+											appearance="elementbar"
+											id="_elementBar"
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbar">
+											<xforms:group
+												appearance="controlbar"
+												id="_controlBar"
+												wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbar"
+												wcpforms:class="controlbar">
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navInsert1"
+													standardid="navInsert">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/action/add.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Insert</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navDelete1"
+													standardid="navDelete">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/action/delete.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Delete</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navRefresh1"
+													standardid="navRefresh">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/action/refresh.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Refresh</xforms:hint>
+												</xforms:trigger>
+											</xforms:group>
+											<xforms:group
+												appearance="paginationbar"
+												id="_paginationBar"
+												wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsPaginationbar"
+												wcpforms:class="paginationbar">
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navFirst1"
+													standardid="navFirst">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/pagination/first.png"
+														/>
+													</xforms:label>
+													<xforms:hint>First</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navPrevious1"
+													standardid="navPrevious">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/pagination/previous.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Previous</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navFind1"
+													standardid="navFind">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/action/find.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Find</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navNext1"
+													standardid="navNext">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/pagination/next.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Next</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navLast1"
+													standardid="navLast">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/pagination/last.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Last</xforms:hint>
+												</xforms:trigger>
+											</xforms:group>
+										</xforms:group>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input22"
+											ref="PRODUCT_CODE"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="77px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-fc69-448802c55f1e">产品编号</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input23"
+											ref="PRODUCT_NAME"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="text"
+											wcpforms:maxLength="50"
+											wcpforms:required="false"
+											wcpforms:size="74px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-fc69-4488028d1f16">产品名称</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input24"
+											ref="STANDARD"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="text"
+											wcpforms:maxLength="50"
+											wcpforms:legalCharacter=""
+											wcpforms:illegalCharacter=""
+											wcpforms:required="false"
+											wcpforms:size="68px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3fed1f9e">重量(公斤)</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input25"
+											ref="UNIT_PRICE"
+											doEBIValidate="false"
+											wcpforms:dataType="double"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="#,###.00"
+											wcpforms:minValue=""
+											wcpforms:maxValue=""
+											wcpforms:required="false"
+											wcpforms:size="80px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3fb61f96">单价(元/公斤)</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input26"
+											ref="AMOUNT"
+											doEBIValidate="false"
+											wcpforms:dataType="double"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="#,###.00"
+											wcpforms:minValue=""
+											wcpforms:maxValue=""
+											wcpforms:required="false"
+											wcpforms:size="62px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-fc80-765281e4dfba">金额</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input27"
+											ref="QUANTITY"
+											doEBIValidate="false"
+											wcpforms:dataType="integer"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat=""
+											wcpforms:required="false"
+											wcpforms:size="82px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3f625f8a">分包数量(份)</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input28"
+											ref="WEIGHT"
+											doEBIValidate="false"
+											wcpforms:dataType="double"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="#,###.00"
+											wcpforms:minValue=""
+											wcpforms:maxValue=""
+											wcpforms:required="false"
+											wcpforms:size="89px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3f2b5f82">合计重量(公斤)</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input29"
+											ref="TOTAL"
+											doEBIValidate="false"
+											wcpforms:dataType="double"
+											wcpforms:textalign="right_align"
+											wcpforms:size="78px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-fbd1-d86f2b7c1dcd">合计(元)</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input30"
+											ref="REMARK"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="text"
+											wcpforms:maxLength="2000"
+											wcpforms:legalCharacter=""
+											wcpforms:illegalCharacter=""
+											wcpforms:required="false"
+											wcpforms:size="141px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-f837-c29de99e557e">备注</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="producttype3"
+											ref="PRODUCT_TYPE"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e1d4-154545471f26">PRODUCT_TYPE</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input31"
+											ref="ITM_NUMBER"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e167-14e0c5e55d18">ITM_NUMBER</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input32"
+											ref="PRODUCT_ID"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e167-14e0c6b25d28">PRODUCT_ID</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input33"
+											ref="ORDER_NO"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e167-14e0c6765d20">ORDER_NO</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input34"
+											ref="DISCOUNT"
+											doEBIValidate="false"
+											wcpforms:dataType="double"
+											wcpforms:textalign="right_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3ef1df7a">DISCOUNT</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input35"
+											ref="ITEM_CATEG"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3e829f6a">ITEM_CATEG</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input36"
+											ref="PAYMENT_CODE"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-fb25-82121b999996">PAYMENT_CODE</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input37"
+											ref="tns:OLD_UNIT_PRICE"
+											wcpforms:textalign="right_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3cd99f3e">OLD_UNIT_PRICE</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input38"
+											ref="EXT1"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-f9dd-c3163e0b57cc">EXT1</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input39"
+											ref="EXT2"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-f9dd-c3163dd097c4">EXT2</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input40"
+											ref="EXT3"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-ff12-e5807e51d744">EXT3</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input41"
+											ref="EXT4"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3dba9f4e">EXT4</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input42"
+											ref="EXT5"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="auto 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3d645f46">EXT5</xforms:label>
+										</xforms:input>
+									</xforms:repeat>
+								</xforms:group>
+								<xforms:group
+									appearance="tabpage"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTabPage"
+									id="othertabpage"
+									wcpforms:layout="vertical"
+									wcpforms:class="simplecontainer">
+									<xforms:label
+										textIdentifier="78e3b51c-e998-11e0-f837-c21391211f10">其他</xforms:label>
+									<xforms:repeat
+										xmlns:clientattr="http://schemas.cordys.com/General/ClientAttributes/"
+										wcpforms:displayContextMenu="true"
+										wcpforms:toggleColumns="true"
+										wcpforms:movableColumns="false"
+										wcpforms:saveState="false"
+										wcpforms:autoInsert="true"
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTable"
+										id="otherTab"
+										synchronizedDialogFrame="main"
+										isNavigationEnabled="true"
+										model="GetGroupbuyOtherByOrderNoModel"
+										wcpforms:gridtype="datagrid"
+										wcpforms:checkboxes="true"
+										wcpforms:layout="vertical"
+										wcpforms:class="v_layout"
+										wcpforms:size="null 229px">
+										<xforms:group
+											appearance="elementbar"
+											id="_elementBar"
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbar">
+											<xforms:group
+												appearance="controlbar"
+												id="_controlBar"
+												wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbar"
+												wcpforms:class="controlbar">
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navInsert4"
+													standardid="navInsert">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/action/add.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Insert</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navDelete5"
+													standardid="navDelete">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/action/delete.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Delete</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navRefresh4"
+													standardid="navRefresh">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/action/refresh.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Refresh</xforms:hint>
+												</xforms:trigger>
+											</xforms:group>
+											<xforms:group
+												appearance="paginationbar"
+												id="_paginationBar"
+												wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsPaginationbar"
+												wcpforms:class="paginationbar">
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navFirst5"
+													standardid="navFirst">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/pagination/first.png"
+														/>
+													</xforms:label>
+													<xforms:hint>First</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navPrevious5"
+													standardid="navPrevious">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/pagination/previous.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Previous</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navFind4"
+													standardid="navFind">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/action/find.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Find</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navNext5"
+													standardid="navNext">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/pagination/next.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Next</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navLast5"
+													standardid="navLast">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/pagination/last.png"
+														/>
+													</xforms:label>
+													<xforms:hint>Last</xforms:hint>
+												</xforms:trigger>
+											</xforms:group>
+										</xforms:group>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input43"
+											ref="PRODUCT_CODE"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="74px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-fc69-448802c55f1e">产品编号</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input44"
+											ref="PRODUCT_NAME"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="text"
+											wcpforms:maxLength="50"
+											wcpforms:required="false"
+											wcpforms:size="75px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-fc69-4488028d1f16">产品名称</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input45"
+											ref="STANDARD"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="text"
+											wcpforms:maxLength="50"
+											wcpforms:legalCharacter=""
+											wcpforms:illegalCharacter=""
+											wcpforms:required="false"
+											wcpforms:size="75px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3fed1f9e">重量(公斤)</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input46"
+											ref="UNIT_PRICE"
+											doEBIValidate="false"
+											wcpforms:dataType="double"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="#,###.00"
+											wcpforms:minValue=""
+											wcpforms:maxValue=""
+											wcpforms:required="false"
+											wcpforms:size="83px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3fb61f96">单价(元/公斤)</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input48"
+											ref="AMOUNT"
+											doEBIValidate="false"
+											wcpforms:dataType="double"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="#,###.00"
+											wcpforms:minValue=""
+											wcpforms:maxValue=""
+											wcpforms:required="false"
+											wcpforms:size="66px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-fc80-765281e4dfba">金额</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input49"
+											ref="QUANTITY"
+											doEBIValidate="false"
+											wcpforms:dataType="integer"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat=""
+											wcpforms:required="false"
+											wcpforms:size="81px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3f625f8a">分包数量(份)</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input50"
+											ref="WEIGHT"
+											doEBIValidate="false"
+											wcpforms:dataType="double"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="#,###.00"
+											wcpforms:minValue=""
+											wcpforms:maxValue=""
+											wcpforms:required="false"
+											wcpforms:size="87px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3f2b5f82">合计重量(公斤)</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input51"
+											ref="TOTAL"
+											doEBIValidate="false"
+											wcpforms:dataType="double"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="#,###.00"
+											wcpforms:minValue=""
+											wcpforms:maxValue=""
+											wcpforms:required="false"
+											wcpforms:size="68px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-fbd1-d86f2b7c1dcd">合计(元)</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input52"
+											ref="REMARK"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:displayformat="text"
+											wcpforms:maxLength="2000"
+											wcpforms:legalCharacter=""
+											wcpforms:illegalCharacter=""
+											wcpforms:required="false"
+											wcpforms:size="145px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-f837-c29de99e557e">备注</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="producttype4"
+											ref="PRODUCT_TYPE"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e1d4-154545471f26">PRODUCT_TYPE</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input53"
+											ref="ITM_NUMBER"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e167-14e0c5e55d18">ITM_NUMBER</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input54"
+											ref="PRODUCT_ID"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e167-14e0c6b25d28">PRODUCT_ID</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input55"
+											ref="ORDER_NO"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e167-14e0c6765d20">ORDER_NO</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input56"
+											ref="DISCOUNT"
+											doEBIValidate="false"
+											wcpforms:dataType="double"
+											wcpforms:textalign="right_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3ef1df7a">DISCOUNT</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input57"
+											ref="ITEM_CATEG"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3e829f6a">ITEM_CATEG</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input58"
+											ref="PAYMENT_CODE"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-fb25-82121b999996">PAYMENT_CODE</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input59"
+											ref="tns:OLD_UNIT_PRICE"
+											wcpforms:textalign="right_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3cd99f3e">OLD_UNIT_PRICE</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input60"
+											ref="EXT1"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-f9dd-c3163e0b57cc">EXT1</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input61"
+											ref="EXT2"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-f9dd-c3163dd097c4">EXT2</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input62"
+											ref="EXT3"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-ff12-e5807e51d744">EXT3</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input63"
+											ref="EXT4"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="100px 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3dba9f4e">EXT4</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="input64"
+											ref="EXT5"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="auto 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e1-e169-5dbd3d645f46">EXT5</xforms:label>
+										</xforms:input>
+									</xforms:repeat>
+								</xforms:group>
+								<xforms:action
+									xmlns:ev="http://www.w3.org/2001/xml-events"
+									external="true"
+									ev:event="ontabfocus">
+									<xforms:tabgroup1_ontabfocus/>
+								</xforms:action>
+							</xforms:group>
+						</xforms:group>
+						<xforms:group
+							appearance="box"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroupbox"
+							id="gpxcommon"
+							wcpforms:loadOnDemand="false"
+							isNavigationEnabled="true"
+							wcpforms:collapsible="true"
+							wcpforms:expanded="false"
+							wcpforms:layout="vertical"
+							wcpforms:class="v_layout"
+							wcpforms:size="736px 458px"
+							wcpforms:labelalign="ontop">
+							<xforms:label
+								wcpforms:class="groupheader expand">公共功能</xforms:label>
+							<xforms:group
+								appearance="tabgroup"
+								wcpforms:orientation="top"
+								wcpforms:textDirection="horizontal"
+								wcpforms:scrollBy="roller"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTabGroup"
+								id="tabCommon"
+								isNavigationEnabled="true"
+								wcpforms:class="v_layout"
+								wcpforms:size="null 414px">
+								<xforms:group
+									appearance="tabpage"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTabPage"
+									id="tabattachment"
+									wcpforms:layout="free"
+									wcpforms:class="simplecontainer"
+									wcpforms:labelalign="ontop">
+									<xforms:label>附件</xforms:label>
+									<xforms:repeat
+										wcpforms:displayContextMenu="false"
+										wcpforms:toggleColumns="true"
+										wcpforms:movableColumns="false"
+										wcpforms:saveState="false"
+										wcpforms:autoInsert="false"
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTable"
+										id="File_RepositoryTable"
+										model="GetAttachmentModel"
+										synchronizedDialogFrame="main"
+										nodeset="ATTACHMENT"
+										fixedWidth="true"
+										isNavigationEnabled="true"
+										columnSortable="true"
+										wcpforms:gridtype="navgrid"
+										wcpforms:checkboxes="true"
+										wcpforms:layout="vertical"
+										wcpforms:class="f_layout"
+										wcpforms:size="auto 340px"
+										wcpforms:anchors="10px 10px 1% null"
+										wcpforms:position="10px 10px">
+										<xforms:group
+											appearance="elementbar"
+											id="_elementBar"
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbar">
+											<xforms:group
+												appearance="controlbar"
+												id="_controlBar"
+												wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbar"
+												wcpforms:class="controlbar">
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="btnUpload">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/action/upload.png"
+														/>
+													</xforms:label>
+													<xforms:hint
+														textIdentifier="78e3b51c-e998-11e0-f837-c20c65f7dd02">上传文件</xforms:hint>
+													<xforms:action
+														xmlns:ev="http://www.w3.org/2001/xml-events"
+														ev:event="xforms-activate">
+														<xforms:btnUpload_Click/>
+													</xforms:action>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navDelete2">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/action/delete.png"
+														/>
+													</xforms:label>
+													<xforms:hint
+														textIdentifier="78e3b51c-e998-11e0-f9c6-d9ee51809f8c">删除</xforms:hint>
+													<xforms:action
+														xmlns:ev="http://www.w3.org/2001/xml-events"
+														ev:event="xforms-activate">
+														<xforms:navDelete2_Click/>
+													</xforms:action>
+												</xforms:trigger>
+											</xforms:group>
+											<xforms:group
+												appearance="paginationbar"
+												id="_paginationBar"
+												wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsPaginationbar"
+												wcpforms:class="paginationbar">
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navFirst2"
+													standardid="navFirst">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/pagination/first.png"
+														/>
+													</xforms:label>
+													<xforms:hint
+														textIdentifier="78e3b51c-e998-11e0-f9c9-0654da9e9f91">首页</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navPrevious2"
+													standardid="navPrevious">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/pagination/previous.png"
+														/>
+													</xforms:label>
+													<xforms:hint
+														textIdentifier="78e3b51c-e998-11e0-f9c9-0654da219f89">上一页</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navNext2"
+													standardid="navNext">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/pagination/next.png"
+														/>
+													</xforms:label>
+													<xforms:hint
+														textIdentifier="78e3b51c-e998-11e0-f9c9-0654d9e6df81">下一页</xforms:hint>
+												</xforms:trigger>
+												<xforms:trigger
+													wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsElementbarItem"
+													id="navLast2"
+													standardid="navLast">
+													<xforms:label>
+														<img
+															xmlns="http://schemas.cordys.com/1.0/xform"
+															src="/cordys/wcp/theme/default/icon/pagination/last.png"
+														/>
+													</xforms:label>
+													<xforms:hint
+														textIdentifier="78e3b51c-e998-11e0-f9c9-0654d9ad5f79">尾页</xforms:hint>
+												</xforms:trigger>
+											</xforms:group>
+										</xforms:group>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="filename"
+											ref="FILENAME"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="156px 21px">
+											<xforms:label>文件名</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="filetype"
+											ref="FILETYPE"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="133px 21px">
+											<xforms:label>文件类型</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="userNm"
+											doEBIValidate="false"
+											ref="OPERATOR_NAME"
+											wcpforms:textalign="left_align"
+											wcpforms:required="false"
+											wcpforms:size="137px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-f837-c29df8a71586">创建人名称</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="deptNm"
+											ref="DEPTMENT_NAME"
+											doEBIValidate="false"
+											wcpforms:dataType="string"
+											wcpforms:textalign="left_align"
+											wcpforms:size="118px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-f9dd-c1fb854f96ce">部门名称</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="uploaddate"
+											doEBIValidate="false"
+											ref="UPLOAD_DATE"
+											wcpforms:dataType="date"
+											wcpforms:textalign="left_align"
+											wcpforms:required="false"
+											wcpforms:displayformat="yyyy-MM-dd HH:mm:ss"
+											wcpforms:size="208px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-fa73-42de93131975">创建时间</xforms:label>
+										</xforms:input>
+										<xforms:output
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+											id="directory"
+											ref="FILEURL"
+											doEBIValidate="false"
+											wcpforms:size="100px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-f837-c20aac20977a">文件路径</xforms:label>
+										</xforms:output>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="submitstatus"
+											ref="SUBMIT_STATUS"
+											doEBIValidate="false"
+											wcpforms:size="100px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-ff57-207387e39f6b">SUBMIT_STATUS</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="deptCd"
+											ref="DEPT_CODE"
+											doEBIValidate="false"
+											wcpforms:size="100px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-f9dd-c3d2ef53dd98">DEPT_CODE</xforms:label>
+										</xforms:input>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="aid"
+											doEBIValidate="false"
+											ref="ID"
+											wcpforms:size="100px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-f837-c2238f019fce">ID</xforms:label>
+										</xforms:input>
+										<xforms:output
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+											id="formId"
+											ref="FORM_ID"
+											doEBIValidate="false"
+											wcpforms:size="100px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-f837-c29ac7f2dfba">FORM_ID</xforms:label>
+										</xforms:output>
+										<xforms:output
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+											id="instanceId"
+											ref="INSTANCE_ID"
+											doEBIValidate="false"
+											wcpforms:size="100px 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-f9dd-c3d2f0cd5dcc">INSTANCE_ID</xforms:label>
+										</xforms:output>
+										<xforms:input
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+											id="userId"
+											ref="OPERATOR_CODE"
+											doEBIValidate="false"
+											wcpforms:size=" 21px">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-f9dd-c1fb851756c6">OPERATOR_CODE</xforms:label>
+										</xforms:input>
+									</xforms:repeat>
+								</xforms:group>
+								<xforms:group
+									appearance="tabpage"
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTabPage"
+									id="tabapprovalhistory"
+									wcpforms:loadOnDemand="false"
+									model="GetApprovalModel"
+									ref="APPROVAL_HISTORY"
+									taskPart="false"
+									wcpforms:layout="free"
+									wcpforms:class="simplecontainer"
+									wcpforms:labelalign="ontop">
+									<xforms:label>审批意见</xforms:label>
+									<xforms:repeat
+										wcpforms:displayContextMenu="true"
+										wcpforms:toggleColumns="true"
+										wcpforms:movableColumns="false"
+										wcpforms:saveState="false"
+										wcpforms:autoInsert="true"
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTable"
+										id="approvalhistorytable"
+										fixedWidth="true"
+										synchronizedDialogFrame="main"
+										model="GetApprovalHistoryModel"
+										nodeset="APPROVAL_HISTORY"
+										isNavigationEnabled="true"
+										wcpforms:customclass="multdisplay"
+										wcpforms:gridtype="navgrid"
+										wcpforms:checkboxes="false"
+										wcpforms:layout="vertical"
+										wcpforms:class="f_layout"
+										wcpforms:size="auto 206px"
+										wcpforms:anchors="10px 169px 0.97% null"
+										wcpforms:position="10px 169px">
+										<xforms:output
+											wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+											id="approvalresult"
+											doEBIValidate="false"
+											wcpforms:size="auto 100%">
+											<xforms:label
+												textIdentifier="78e3b51c-e998-11e0-fd35-5d38976fd30f">审批记录</xforms:label>
+										</xforms:output>
+									</xforms:repeat>
+									<xforms:select1
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+										id="appresult"
+										doEBIValidate="false"
+										wcpforms:enumerated="false"
+										multiple="false"
+										wcpforms:textalign="left_align"
+										initializeValueSets="0"
+										wcpforms:class="f_layout"
+										wcpforms:size="auto auto"
+										wcpforms:anchors="1% 140px 60% null"
+										wcpforms:position="1% 140px">
+										<xforms:label
+											textIdentifier="78e3b51c-e998-11e0-f837-c231e3dd1ff8"
+											wcpforms:size="71px null"
+											wcpforms:class="h_label">常用语</xforms:label>
+										<xforms:item>
+											<xforms:label>--请选择--</xforms:label>
+											<xforms:value/>
+										</xforms:item>
+										<xforms:item>
+											<xforms:label>同意</xforms:label>
+											<xforms:value>同意</xforms:value>
+										</xforms:item>
+										<xforms:item>
+											<xforms:label>不同意</xforms:label>
+											<xforms:value>不同意</xforms:value>
+										</xforms:item>
+										<xforms:action
+											xmlns:ev="http://www.w3.org/2001/xml-events"
+											ev:event="xforms-value-changed">
+											<xforms:appresult_Change/>
+										</xforms:action>
+									</xforms:select1>
+									<xforms:textarea
+										wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTextarea"
+										id="approvalremark"
+										ref="REMARK"
+										model="GetApprovalModel"
+										doEBIValidate="false"
+										wcpforms:layout="vertical"
+										wcpforms:class="f_layout"
+										wcpforms:size="724px 116px"
+										wcpforms:position="1% 10px">
+										<xforms:label
+											textIdentifier="78e3b51c-e998-11e0-fec7-4e7647fa5b73"
+											wcpforms:size="71px null"
+											wcpforms:class="h_label">您的意见 *</xforms:label>
+									</xforms:textarea>
+								</xforms:group>
+							</xforms:group>
+							<xforms:group
+								appearance="box"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroupbox"
+								id="gpxhide"
+								isNavigationEnabled="true"
+								wcpforms:layout="vertical"
+								wcpforms:class="v_layout"
+								wcpforms:size="null 128px"
+								wcpforms:labelalign="ontop">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-f837-c29a8be3dfa2"
+									wcpforms:class="groupheader">隐藏字段</xforms:label>
+								<xforms:input
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+									id="sapordertype"
+									doEBIValidate="false"
+									ref="SAP_ORDER_TYPE"
+									model="GetGroupbuyOrderModel"
+									wcpforms:class="f_layout"
+									wcpforms:size="auto 30px"
+									wcpforms:anchors="1% 1% 90% null"
+									wcpforms:position="1% 1%">
+									<xforms:label
+										textIdentifier="78e3b51c-e998-11e0-ff42-476b2ea05f95"
+										wcpforms:class="v_label">订单类型</xforms:label>
+								</xforms:input>
+								<xforms:input
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+									id="productgroup"
+									ref="PRODUCT_GROUP"
+									doEBIValidate="false"
+									wcpforms:class="f_layout"
+									wcpforms:size="auto 30px"
+									wcpforms:anchors="15% 0px 76% null"
+									wcpforms:position="15% 0px">
+									<xforms:label
+										textIdentifier="78e3b51c-e998-11e1-e070-6aa7e8d1df54"
+										wcpforms:class="v_label">产品组</xforms:label>
+								</xforms:input>
+								<xforms:input
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+									id="channel"
+									doEBIValidate="false"
+									ref="CHANNEL"
+									wcpforms:class="f_layout"
+									wcpforms:size="auto 30px"
+									wcpforms:anchors="30% 0px 60% null"
+									wcpforms:position="30% 0px">
+									<xforms:label
+										textIdentifier="78e3b51c-e998-11e1-e070-6aa7e9051f5a"
+										wcpforms:class="v_label">渠道</xforms:label>
+								</xforms:input>
+								<xforms:input
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+									id="saleorgcode"
+									doEBIValidate="false"
+									ref="SALE_ORG_CODE"
+									model="GetGroupbuyOrderModel"
+									wcpforms:class="f_layout"
+									wcpforms:size="auto auto"
+									wcpforms:anchors="50% 0px 40% 149px"
+									wcpforms:position="50% 0px">
+									<xforms:label
+										textIdentifier="78e3b51c-e998-11e1-e11f-29368362df20"
+										wcpforms:class="v_label">销售组织code</xforms:label>
+								</xforms:input>
+								<xforms:input
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+									id="ordernohidden"
+									doEBIValidate="false"
+									wcpforms:class="f_layout"
+									wcpforms:size="auto 30px"
+									wcpforms:anchors="70% 0px 20% null"
+									wcpforms:position="70% 0px">
+									<xforms:label
+										textIdentifier="78e3b51c-e998-11e1-e150-278e0922977a"
+										wcpforms:class="v_label">order_no</xforms:label>
+								</xforms:input>
+								<xforms:input
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+									id="decisionattribute"
+									doEBIValidate="false"
+									wcpforms:class="f_layout"
+									wcpforms:size="auto 30px"
+									wcpforms:anchors="1% 49px 90% null"
+									wcpforms:position="1% 49px">
+									<xforms:label
+										textIdentifier="78e3b51c-e998-11e0-f850-0a06c308d774"
+										wcpforms:class="v_label">DecisionAttribute</xforms:label>
+								</xforms:input>
+								<xforms:input
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+									id="iptstatus"
+									ref="STATUS"
+									model="GetGroupbuyOrderModel"
+									doEBIValidate="false"
+									wcpforms:class="f_layout"
+									wcpforms:size="110px 30px"
+									wcpforms:position="129px 49px">
+									<xforms:label
+										textIdentifier="78e3b51c-e998-11e0-f9f5-ad57d2c6d626"
+										wcpforms:class="v_label">STATUS</xforms:label>
+								</xforms:input>
+								<xforms:input
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+									id="groupbuyorderid"
+									doEBIValidate="false"
+									ref="ID"
+									model="GetGroupbuyOrderModel"
+									wcpforms:dataType="string"
+									wcpforms:textalign="left_align"
+									wcpforms:class="f_layout"
+									wcpforms:size="110px 30px"
+									wcpforms:position="259px 49px">
+									<xforms:label
+										textIdentifier="78e3b51c-e998-11e1-e153-7f69b54fd6aa"
+										wcpforms:class="v_label">groupbuy_order_id</xforms:label>
+								</xforms:input>
+								<xforms:input
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+									id="stepcode"
+									doEBIValidate="false"
+									wcpforms:class="f_layout"
+									wcpforms:size="110px 30px"
+									wcpforms:position="400px 50px">
+									<xforms:label
+										textIdentifier="78e3b51c-e998-11e0-f9dd-c4520513dd20"
+										wcpforms:class="v_label">STEP_CODE</xforms:label>
+								</xforms:input>
+								<xforms:input
+									wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+									id="stepname"
+									doEBIValidate="false"
+									wcpforms:class="f_layout"
+									wcpforms:size="110px 30px"
+									wcpforms:position="560px 50px">
+									<xforms:label
+										textIdentifier="78e3b51c-e998-11e0-f9dd-c45204b11d18"
+										wcpforms:class="v_label">STEP_NAME</xforms:label>
+								</xforms:input>
+							</xforms:group>
+						</xforms:group>
+					</xforms:group>
+				</xforms:group>
+			</xbody>
+			<xformsscript>
+				<![CDATA[function totalamountlower_Change(eventObject)
+{
+    
+
+}
+
+function materialAdd_Click(eventObject)
+{
+    
+
+}
+
+function tabgroup1_ontabfocus(eventObject)
+{
+    
+
+}
+
+function btnUpload_Click(eventObject)
+{
+    
+
+}
+
+function navDelete2_Click(eventObject)
+{
+    
+
+}
+
+function appresult_Change(eventObject)
+{
+    
+
+}
+]]>
+			</xformsscript>
+		</xformhtml>
+	</XFormContent>
+	<width></width>
+	<automatic>false</automatic>
+	<data/>
+	<XFormWSDL/>
+	<caption></caption>
+	<isInternal>false</isInternal>
+	<type>XForm</type>
+	<taskName>copy商品订购表单</taskName>
+	<mode>full</mode>
+	<title>true</title>
+	<height></height>
+	<isLegacy>false</isLegacy>
+	<left></left>
+	<qualifiedclassname></qualifiedclassname>
+	<parameters/>
+	<showOnStartPage>false</showOnStartPage>
+	<taskDescription>copy商品订购表单</taskDescription>
+	<top></top>
+	<TranslatableUITexts>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e1-e220-abbe20e99f70">
+			<DocumentID>78e3b51c-e998-11e1-e220-abbe20e0df6f</DocumentID>
+			<Name>78e3b51c-e998-11e1-e220-abbe20e0df6f</Name>
+			<Description>78e3b51c-e998-11e1-e220-abbe20e0df6f</Description>
+			<CreatedBy>杜兰</CreatedBy>
+			<CreationDate>2011-11-17T10:28:16.406</CreationDate>
+			<Notes/>
+			<UIRef>groupbox1</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e1-e220-abbe210ddf75"
+				/>
+			</XForm>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e1-e220-abbe20f75f72">
+					<DocumentID>78e3b51c-e998-11e1-e220-abbe20efdf71</DocumentID>
+					<Name>78e3b51c-e998-11e1-e220-abbe20efdf71</Name>
+					<Description>78e3b51c-e998-11e1-e220-abbe20efdf71</Description>
+					<CreatedBy>杜兰</CreatedBy>
+					<CreationDate>2011-11-17T10:28:16.408</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-fa55-55395c62ddbd"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<TooltipText/>
+		</TranslatableUIText>
+	</TranslatableUITexts>
+	<Representations/>
+	<ReferredXForms>
+		<uri
+			id="78e3b51c-e998-11e0-fec4-d5d728b29f2b"
+		/>
+	</ReferredXForms>
+	<image/>
+	<TranslatableApplications/>
+	<Images/>
+	<messages/>
+	<Webservices/>
+	<StyleSheets/>
+	<input/>
+	<taskParts/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			RuntimeDocumentID="78e3b51c-e998-11e1-e220-abbe200c5f54">
+			<DocumentID>78e3b51c-e998-11e1-e220-abbe20061f53</DocumentID>
+			<Name>78e3b51c-e998-11e1-e220-abbe20061f53</Name>
+			<Description>78e3b51c-e998-11e1-e220-abbe20061f53</Description>
+			<CreatedBy>杜兰</CreatedBy>
+			<CreationDate>2011-11-17T10:28:16.407</CreationDate>
+			<Notes/>
+			<Identifier>
+				<uri
+					id="78e3b51c-e998-11e1-e220-abbe2013df55"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+	<aclFragments/>
+	<tagsContainer/>
+	<deliveryModels>
+		<WorkFlowDeliveryModel
+			type="com.cordys.workflow.modeler.WorkFlowDeliveryModel"
+			RuntimeDocumentID="78e3b51c-e998-11e1-e221-bfbb7af59d40">
+			<DocumentID>78e3b51c-e998-11e1-e221-bfbb7aee1d3f</DocumentID>
+			<Name>copy商品订购表单DefaultDeliveryModel</Name>
+			<Description>DefaultDeliveryModel</Description>
+			<CreatedBy>杜兰</CreatedBy>
+			<CreationDate>2011-11-17T11:20:26.963</CreationDate>
+			<Notes/>
+			<IsLegacy>false</IsLegacy>
+			<OperationName></OperationName>
+			<Task_Identifiers/>
+			<taskAbstract/>
+			<uiTask>
+				<uri
+					id="78e3b51c-e998-11e1-e220-abbe210ddf75"
+				/>
+			</uiTask>
+			<messagePartDetails>
+				<MessagePartDetails
+					type="com.cordys.task.MessagePartDetails"
+					RuntimeDocumentID="78e3b51c-e998-11e1-e221-bfbb7ae05d3d">
+					<DocumentID>78e3b51c-e998-11e1-e221-bfbb7ada1d3c</DocumentID>
+					<Name>78e3b51c-e998-11e1-e221-bfbb7ada1d3c</Name>
+					<Description>copy商品订购表单DefaultDeliveryModel</Description>
+					<CreatedBy>杜兰</CreatedBy>
+					<CreationDate>2011-11-17T11:20:26.964</CreationDate>
+					<Notes/>
+					<byRef>false</byRef>
+					<messagePart>
+						<uri
+							id="78e3b51c-e998-11e1-e220-abbe204c1f5d"
+						/>
+					</messagePart>
+				</MessagePartDetails>
+			</messagePartDetails>
+			<notfBackwardCompatibility/>
+		</WorkFlowDeliveryModel>
+	</deliveryModels>
+	<messageParts>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="78e3b51c-e998-11e1-e220-abbe20525f5e">
+			<DocumentID>78e3b51c-e998-11e1-e220-abbe204c1f5d</DocumentID>
+			<Name>freeformcontrols</Name>
+			<Description>freeformcontrols</Description>
+			<CreatedBy>杜兰</CreatedBy>
+			<CreationDate>2011-11-17T10:28:16.411</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<operationName>freeformcontrols</operationName>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+		</MessagePart>
+	</messageParts>
+	<InstanceSchemaFragments/>
+	<Htms/>
+	<output/>
+	<Javascripts/>
+</XFormDesigntime>

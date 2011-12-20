@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb23-8f54dc2cdf84">
+	<DocumentID>78e3b51c-e998-11e0-fb23-8f54dc22df83</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb23-8f54dc22df83</Name>
+	<Description>电费有无收费标准向谁缴纳</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-07T06:49:31.651</CreationDate>
+	<Notes/>
+	<Text>电费有无收费标准向谁缴纳</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb23-8f54dc0edf81"
+		/>
+	</TextIdentifier>
+</TranslatedText>

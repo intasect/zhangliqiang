@@ -1,0 +1,38 @@
+
+<RoleDesignTime
+	type="com.cordys.organization.role.RoleDesignTime"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb3e-0bfa12a49b1a">
+	<DocumentID>78e3b51c-e998-11e0-fb3e-0bfa129d1b19</DocumentID>
+	<Name>BR子公司工程部经理</Name>
+	<Description>BR子公司工程部经理</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-09-08T08:22:03.236</CreationDate>
+	<Notes/>
+	<isFunctionalRole>true</isFunctionalRole>
+	<type>Functional</type>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<configuredTasks/>
+	<Subroles>
+		<uri
+			id="005056a3-4878-11e0-f4f2-201d03109f23"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f3-6936d86117f4"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f5-36ef1c965381"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f6-11448d275bed"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f6-ab58ccc55f7e"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-fb0a-c668f3ecdf45"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-ff77-85eadbe016fd"
+		/>
+	</Subroles>
+</RoleDesignTime>

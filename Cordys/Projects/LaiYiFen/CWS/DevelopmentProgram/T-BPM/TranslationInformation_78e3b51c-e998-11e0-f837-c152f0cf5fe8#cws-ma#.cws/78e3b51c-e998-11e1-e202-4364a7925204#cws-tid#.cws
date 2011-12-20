@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e202-4364a799d205">
+	<DocumentID>78e3b51c-e998-11e1-e202-4364a7925204</DocumentID>
+	<Name>78e3b51c-e998-11e1-e202-4364a7925204</Name>
+	<Description>人事行政部经理审核</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-11-16T05:20:18.473</CreationDate>
+	<Notes/>
+	<DefaultText>人事行政部经理审核</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e1-e202-4364a7a15206"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

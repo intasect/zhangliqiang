@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c21ebd88d603">
+	<DocumentID>78e3b51c-e998-11e0-f837-c21ebd469602</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c21ebd469602</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:27.284</CreationDate>
+	<Notes/>
+	<Text>住宅区生活水平</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c21ebe73d604"
+		/>
+	</TextIdentifier>
+</TranslatedText>

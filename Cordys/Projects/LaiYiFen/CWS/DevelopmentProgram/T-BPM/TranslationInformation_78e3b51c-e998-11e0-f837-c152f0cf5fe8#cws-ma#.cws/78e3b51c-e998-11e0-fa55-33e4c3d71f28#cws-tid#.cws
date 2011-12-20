@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa55-33e4c3de9f29">
+	<DocumentID>78e3b51c-e998-11e0-fa55-33e4c3d71f28</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa55-33e4c3d71f28</Name>
+	<Description>CONTACT_PERSON</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-08-30T01:46:45.024</CreationDate>
+	<Notes/>
+	<DefaultText>CONTACT_PERSON</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fa55-33e4c3e4df2a"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

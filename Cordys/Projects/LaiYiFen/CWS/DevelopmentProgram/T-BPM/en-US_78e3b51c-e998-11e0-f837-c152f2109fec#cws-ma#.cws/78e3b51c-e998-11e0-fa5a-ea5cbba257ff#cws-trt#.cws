@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa5a-ea5cbba9d400">
+	<DocumentID>78e3b51c-e998-11e0-fa5a-ea5cbba257ff</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa5a-ea5cbba257ff</Name>
+	<Description>物流中心发货</Description>
+	<CreatedBy>唐炜炜</CreatedBy>
+	<CreationDate>2011-08-30T07:15:57.157</CreationDate>
+	<Notes/>
+	<Text>物流中心发货</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa5a-ea5cbb9357fd"
+		/>
+	</TextIdentifier>
+</TranslatedText>

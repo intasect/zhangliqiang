@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa5a-806a7347567e">
+	<DocumentID>78e3b51c-e998-11e0-fa5a-806a733fd67d</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa5a-806a733fd67d</Name>
+	<Description>goodsorder</Description>
+	<CreatedBy>唐炜炜</CreatedBy>
+	<CreationDate>2011-08-30T06:48:10.351</CreationDate>
+	<Notes/>
+	<Text>goodsorder</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa5a-806a7330d67b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

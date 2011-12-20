@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e26a-5b3478521bda">
+	<DocumentID>78e3b51c-e998-11e1-e26a-5b34784a9bd9</DocumentID>
+	<Name>78e3b51c-e998-11e1-e26a-5b34784a9bd9</Name>
+	<Description>财务审单流程</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-20T08:47:48.756</CreationDate>
+	<Notes/>
+	<Text>财务审单流程</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e26a-5b34783cdbd7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

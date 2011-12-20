@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1604ff1dfc3">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1604f9e1fc2</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1604f9e1fc2</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:42.376</CreationDate>
+	<Notes/>
+	<Text>进行人员重新安排操作</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c160510b1fc4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

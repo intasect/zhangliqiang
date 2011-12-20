@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fe4b-56ee50741fa1">
+	<DocumentID>78e3b51c-e998-11e0-fe4b-56ee50705fa0</DocumentID>
+	<Name>78e3b51c-e998-11e0-fe4b-56ee50705fa0</Name>
+	<Description>客单额（元）</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-10-09T10:23:11.326</CreationDate>
+	<Notes/>
+	<Text>客单额（元）</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fe4b-56ee50679f9e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f84f-8ccb600f9fb2">
+	<DocumentID>78e3b51c-e998-11e0-f84f-ce62aee01383</DocumentID>
+	<Name>78e3b51c-e998-11e0-f84f-ce62aee01383</Name>
+	<Description>驳回位置选择列表</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-09T11:55:19.489</CreationDate>
+	<Notes/>
+	<Text>驳回位置选择列表</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f84f-ce62aed25381"
+		/>
+	</TextIdentifier>
+</TranslatedText>

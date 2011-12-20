@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1c9fc66947b">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1c9fc0c947a</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1c9fc0c947a</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:19.103</CreationDate>
+	<Notes/>
+	<Text>房东原因或证照不齐</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1c9fd3ed47c"
+		/>
+	</TextIdentifier>
+</TranslatedText>

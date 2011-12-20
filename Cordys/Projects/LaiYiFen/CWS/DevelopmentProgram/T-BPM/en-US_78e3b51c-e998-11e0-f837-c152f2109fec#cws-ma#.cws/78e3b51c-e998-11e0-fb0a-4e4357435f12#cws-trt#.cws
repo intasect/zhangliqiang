@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb0a-4e4357485f13">
+	<DocumentID>78e3b51c-e998-11e0-fb0a-4e4357435f12</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb0a-4e4357435f12</Name>
+	<Description>宽（m）</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-06T06:53:30.969</CreationDate>
+	<Notes/>
+	<Text>宽（m）</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb0a-4e4357381f10"
+		/>
+	</TextIdentifier>
+</TranslatedText>

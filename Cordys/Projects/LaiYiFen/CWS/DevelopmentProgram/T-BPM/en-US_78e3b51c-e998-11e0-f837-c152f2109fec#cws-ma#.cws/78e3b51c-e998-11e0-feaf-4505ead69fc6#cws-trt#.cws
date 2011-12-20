@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-feaf-4505eade1fc7">
+	<DocumentID>78e3b51c-e998-11e0-feaf-4505ead69fc6</DocumentID>
+	<Name>78e3b51c-e998-11e0-feaf-4505ead69fc6</Name>
+	<Description>数据下发轮询结果异常处理</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-13T09:16:14.368</CreationDate>
+	<Notes/>
+	<Text>数据下发轮询结果异常处理</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-feaf-4505eac8dfc4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

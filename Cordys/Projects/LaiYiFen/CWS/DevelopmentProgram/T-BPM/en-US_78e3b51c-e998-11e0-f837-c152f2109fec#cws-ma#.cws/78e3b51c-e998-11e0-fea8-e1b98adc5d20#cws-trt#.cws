@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fea8-e1b98ae3dd21">
+	<DocumentID>78e3b51c-e998-11e0-fea8-e1b98adc5d20</DocumentID>
+	<Name>78e3b51c-e998-11e0-fea8-e1b98adc5d20</Name>
+	<Description>预算扣减</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-13T02:59:51.619</CreationDate>
+	<Notes/>
+	<Text>预算扣减</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fea8-e1b98acd5d1e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

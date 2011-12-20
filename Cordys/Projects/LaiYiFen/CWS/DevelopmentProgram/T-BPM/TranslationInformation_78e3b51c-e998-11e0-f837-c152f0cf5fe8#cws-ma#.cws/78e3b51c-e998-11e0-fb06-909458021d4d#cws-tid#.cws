@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb06-909458099d4e">
+	<DocumentID>78e3b51c-e998-11e0-fb06-909458021d4d</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb06-909458021d4d</Name>
+	<Description>事实上</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-06T03:10:51.227</CreationDate>
+	<Notes/>
+	<DefaultText>事实上</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fb06-909458111d4f"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

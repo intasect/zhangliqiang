@@ -1,0 +1,31 @@
+
+<BusinessIdentifier
+	type="com.cordys.businessidentifier.BusinessIdentifier"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9dd-4214f803db9b">
+	<DocumentID>78e3b51c-e998-11e0-f9dd-4214f7fd9b9a</DocumentID>
+	<Name>FormID</Name>
+	<Description>表单编码</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-08-25T08:08:48.149</CreationDate>
+	<Notes/>
+	<DataType>1</DataType>
+	<Precision>0</Precision>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-f9dd-4214f77e1b89">
+			<DocumentID>78e3b51c-e998-11e0-f9de-2dfaf05317b0</DocumentID>
+			<Name>78e3b51c-e998-11e0-f9de-2dfaf05317b0</Name>
+			<Description>78e3b51c-e998-11e0-f9de-2dfaf05317b0</Description>
+			<CreatedBy>TBPM管理员</CreatedBy>
+			<CreationDate>2011-08-25T08:08:48.149</CreationDate>
+			<Notes/>
+			<Identifier>
+				<uri
+					id="78e3b51c-e998-11e0-f9dd-4214f7a89b8e"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+	<TranslatableDescription/>
+</BusinessIdentifier>

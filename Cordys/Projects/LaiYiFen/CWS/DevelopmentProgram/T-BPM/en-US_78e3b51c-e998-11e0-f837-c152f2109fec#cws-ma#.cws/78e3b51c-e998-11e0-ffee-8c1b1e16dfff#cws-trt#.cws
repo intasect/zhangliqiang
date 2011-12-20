@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ffee-8c1b1e1e5000">
+	<DocumentID>78e3b51c-e998-11e0-ffee-8c1b1e16dfff</DocumentID>
+	<Name>78e3b51c-e998-11e0-ffee-8c1b1e16dfff</Name>
+	<Description>物料处理接口异常处理</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-26T01:52:32.617</CreationDate>
+	<Notes/>
+	<Text>物料处理接口异常处理</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ffee-8c1b1e091ffd"
+		/>
+	</TextIdentifier>
+</TranslatedText>

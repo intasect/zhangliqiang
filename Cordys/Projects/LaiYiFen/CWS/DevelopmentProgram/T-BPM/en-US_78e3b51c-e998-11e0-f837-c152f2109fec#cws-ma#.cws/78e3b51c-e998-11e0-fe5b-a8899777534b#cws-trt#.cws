@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fe5b-a889977d934c">
+	<DocumentID>78e3b51c-e998-11e0-fe5b-a8899777534b</DocumentID>
+	<Name>78e3b51c-e998-11e0-fe5b-a8899777534b</Name>
+	<Description>全部门店生命周期统计图</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-10-10T01:42:30.76</CreationDate>
+	<Notes/>
+	<Text>全部门店生命周期统计图</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fe5b-a88997685349"
+		/>
+	</TextIdentifier>
+</TranslatedText>

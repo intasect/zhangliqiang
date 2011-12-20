@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e2b9-239a908b56d4">
+	<DocumentID>78e3b51c-e998-11e1-e2b9-239a9083d6d3</DocumentID>
+	<Name>78e3b51c-e998-11e1-e2b9-239a9083d6d3</Name>
+	<Description>审核通过，&lt;9.5折</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-23T11:59:47.715</CreationDate>
+	<Notes/>
+	<DefaultText>审核通过，&lt;9.5折</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e1-e2b9-239a9092d6d5"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

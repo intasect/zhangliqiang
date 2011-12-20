@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9dd-c25d31a31752">
+	<DocumentID>78e3b51c-e998-11e0-f9dd-c25d319cd751</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9dd-c25d319cd751</Name>
+	<Description>MOR_START_TIME</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-25T07:47:17.521</CreationDate>
+	<Notes/>
+	<Text>MOR_START_TIME</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9dd-c25d318f174f"
+		/>
+	</TextIdentifier>
+</TranslatedText>

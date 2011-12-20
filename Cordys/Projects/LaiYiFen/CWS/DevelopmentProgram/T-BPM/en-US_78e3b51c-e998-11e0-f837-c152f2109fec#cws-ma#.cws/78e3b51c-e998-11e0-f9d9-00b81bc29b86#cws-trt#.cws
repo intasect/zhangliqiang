@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9d9-00b81bca1b87">
+	<DocumentID>78e3b51c-e998-11e0-f9d9-00b81bc29b86</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9d9-00b81bc29b86</Name>
+	<Description>Form_ID</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-08-25T03:29:45.355</CreationDate>
+	<Notes/>
+	<Text>Form_ID</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9d9-00b81bb4db84"
+		/>
+	</TextIdentifier>
+</TranslatedText>

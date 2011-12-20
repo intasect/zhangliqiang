@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e29d-d25801e4df0e">
+	<DocumentID>78e3b51c-e998-11e1-e29d-d25801dd5f0d</DocumentID>
+	<Name>78e3b51c-e998-11e1-e29d-d25801dd5f0d</Name>
+	<Description>付款给供应商或供应商有退款的不同方式</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-11-22T09:46:16.849</CreationDate>
+	<Notes/>
+	<Text>付款给供应商或供应商有退款的不同方式</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e29d-d25801ce5f0b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

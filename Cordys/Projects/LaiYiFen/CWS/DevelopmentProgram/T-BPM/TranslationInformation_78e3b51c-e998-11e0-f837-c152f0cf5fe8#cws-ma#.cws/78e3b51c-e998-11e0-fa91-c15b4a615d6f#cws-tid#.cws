@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa91-c15b4a68dd70">
+	<DocumentID>78e3b51c-e998-11e0-fa91-c15b4a615d6f</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa91-c15b4a615d6f</Name>
+	<Description>ISCENTER</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-09-01T11:33:03.456</CreationDate>
+	<Notes/>
+	<DefaultText>ISCENTER</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fa91-c15b4a705d71"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

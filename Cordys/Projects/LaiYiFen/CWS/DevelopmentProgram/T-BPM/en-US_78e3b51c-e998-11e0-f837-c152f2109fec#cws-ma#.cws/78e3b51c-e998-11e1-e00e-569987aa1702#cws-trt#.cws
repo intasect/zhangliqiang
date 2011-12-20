@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e00e-569987af1703">
+	<DocumentID>78e3b51c-e998-11e1-e00e-569987aa1702</DocumentID>
+	<Name>78e3b51c-e998-11e1-e00e-569987aa1702</Name>
+	<Description>商超壁柜个数 *</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-10-27T08:52:34.146</CreationDate>
+	<Notes/>
+	<Text>商超壁柜个数 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e00e-569987961700"
+		/>
+	</TextIdentifier>
+</TranslatedText>

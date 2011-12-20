@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa8d-b417ef435f11">
+	<DocumentID>78e3b51c-e998-11e0-fa8d-b417ef3bdf10</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa8d-b417ef3bdf10</Name>
+	<Description>审批记录隐藏字段</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-01T08:01:30.917</CreationDate>
+	<Notes/>
+	<Text>审批记录隐藏字段</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa8d-b417ef2e1f0e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

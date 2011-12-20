@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c254acc41b13">
+	<DocumentID>78e3b51c-e998-11e0-f837-c254ac90db12</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c254ac90db12</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:42.522</CreationDate>
+	<Notes/>
+	<Text>是否使用PC秤</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c254ad4b1b14"
+		/>
+	</TextIdentifier>
+</TranslatedText>

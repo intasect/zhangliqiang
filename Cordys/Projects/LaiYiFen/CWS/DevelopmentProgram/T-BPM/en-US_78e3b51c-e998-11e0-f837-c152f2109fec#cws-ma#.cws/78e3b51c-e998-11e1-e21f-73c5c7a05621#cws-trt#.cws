@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e21f-73c5c7a7d622">
+	<DocumentID>78e3b51c-e998-11e1-e21f-73c5c7a05621</DocumentID>
+	<Name>78e3b51c-e998-11e1-e21f-73c5c7a05621</Name>
+	<Description>权限外，通过</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-17T09:24:07.934</CreationDate>
+	<Notes/>
+	<Text>权限外，通过</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e21f-73c5c792961f"
+		/>
+	</TextIdentifier>
+</TranslatedText>

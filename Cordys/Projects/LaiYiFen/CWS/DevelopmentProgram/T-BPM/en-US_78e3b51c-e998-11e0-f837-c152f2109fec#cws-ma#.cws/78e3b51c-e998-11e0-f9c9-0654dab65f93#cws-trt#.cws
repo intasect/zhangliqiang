@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9c9-0654dac05f94">
+	<DocumentID>78e3b51c-e998-11e0-f9c9-0654dab65f93</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9c9-0654dab65f93</Name>
+	<Description>首页</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-24T12:20:45.825</CreationDate>
+	<Notes/>
+	<Text>首页</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9c9-0654da9e9f91"
+		/>
+	</TextIdentifier>
+</TranslatedText>

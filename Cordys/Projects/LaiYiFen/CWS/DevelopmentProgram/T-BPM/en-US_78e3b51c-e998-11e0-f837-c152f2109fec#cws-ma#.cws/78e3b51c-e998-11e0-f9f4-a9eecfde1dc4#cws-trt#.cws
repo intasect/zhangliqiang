@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9f4-a9eecfe45dc5">
+	<DocumentID>78e3b51c-e998-11e0-f9f4-a9eecfde1dc4</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9f4-a9eecfde1dc4</Name>
+	<Description>年度*</Description>
+	<CreatedBy>wangzhiqiang</CreatedBy>
+	<CreationDate>2011-08-26T06:10:33.866</CreationDate>
+	<Notes/>
+	<Text>年度*</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9f4-a9eecfcf1dc2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

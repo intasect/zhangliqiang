@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e32d-c49a906f1f5d">
+	<DocumentID>78e3b51c-e998-11e1-e32d-c49a90679f5c</DocumentID>
+	<Name>78e3b51c-e998-11e1-e32d-c49a90679f5c</Name>
+	<Description>流程阻塞环节列表</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-11-28T03:17:44.185</CreationDate>
+	<Notes/>
+	<Text>流程阻塞环节列表</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e32d-c49a90589f5a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

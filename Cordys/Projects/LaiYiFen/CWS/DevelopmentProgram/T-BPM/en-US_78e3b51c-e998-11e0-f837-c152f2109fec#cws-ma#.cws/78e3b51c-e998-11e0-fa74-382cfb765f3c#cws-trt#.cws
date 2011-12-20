@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa74-382cfb7c9f3d">
+	<DocumentID>78e3b51c-e998-11e0-fa74-382cfb765f3c</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa74-382cfb765f3c</Name>
+	<Description>CHECKER_TIMES</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-31T07:29:18.863</CreationDate>
+	<Notes/>
+	<Text>CHECKER_TIMES</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa74-382cfb689f3a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

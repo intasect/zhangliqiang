@@ -1,0 +1,46 @@
+
+<OrgUnitDesigntime
+	type="com.cordys.osd.OrgUnitDesigntime"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ffee-6c9c834adff2">
+	<DocumentID>78e3b51c-e998-11e0-ffee-6c9c83435ff1</DocumentID>
+	<Name>10011080</Name>
+	<Description>基建设计项目组</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-10-26T01:56:28.241</CreationDate>
+	<Notes/>
+	<VColor></VColor>
+	<EndDate></EndDate>
+	<StartDate></StartDate>
+	<Purpose></Purpose>
+	<ChildDiagram/>
+	<UnitRelationships2>
+		<OrgRelationship
+			type="com.cordys.osd.OrgRelationship"
+			RuntimeDocumentID="78e3b51c-e998-11e0-ffee-b54488a25f49">
+			<DocumentID>78e3b51c-e998-11e0-ffee-b544889c1f48</DocumentID>
+			<Name>link78e3b51c-e998-11e0-ffde-54b2953316a278e3b51c-e998-11e0-ffee-6c9c83435ff1</Name>
+			<Description>link78e3b51c-e998-11e0-ffde-54b2953316a278e3b51c-e998-11e0-ffee-6c9c83435ff1</Description>
+			<CreatedBy>姚秋明</CreatedBy>
+			<CreationDate>2011-10-26T01:56:28.24</CreationDate>
+			<Notes/>
+			<Unit2>
+				<uri
+					id="78e3b51c-e998-11e0-ffee-6c9c83435ff1"
+				/>
+			</Unit2>
+			<Unit1>
+				<uri
+					id="78e3b51c-e998-11e0-ffde-54b2953316a2"
+				/>
+			</Unit1>
+			<RelationshipType/>
+		</OrgRelationship>
+	</UnitRelationships2>
+	<UnitRelationships1/>
+	<Positions/>
+	<UnitType>
+		<uri
+			id="{52F6844B-A579-4065-9804-32387F7015F3}"
+		/>
+	</UnitType>
+</OrgUnitDesigntime>

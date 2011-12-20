@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e14d-e7f8f46256a5">
+	<DocumentID>78e3b51c-e998-11e1-e14d-e7f8f45ad6a4</DocumentID>
+	<Name>78e3b51c-e998-11e1-e14d-e7f8f45ad6a4</Name>
+	<Description>全部门店日平均业绩(元/天)</Description>
+	<CreatedBy>徐新宇</CreatedBy>
+	<CreationDate>2011-11-09T08:05:38.028</CreationDate>
+	<Notes/>
+	<Text>全部门店日平均业绩(元/天)</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e14d-e7f8f44d16a2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

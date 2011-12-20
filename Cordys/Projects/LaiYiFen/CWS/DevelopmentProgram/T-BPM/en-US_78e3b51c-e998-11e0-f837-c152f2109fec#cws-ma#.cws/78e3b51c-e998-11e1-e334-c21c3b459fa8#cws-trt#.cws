@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e334-c21c3b4d1fa9">
+	<DocumentID>78e3b51c-e998-11e1-e334-c21c3b459fa8</DocumentID>
+	<Name>78e3b51c-e998-11e1-e334-c21c3b459fa8</Name>
+	<Description>新开店相关流程执行效率告警汇总</Description>
+	<CreatedBy>徐新宇</CreatedBy>
+	<CreationDate>2011-11-28T09:56:17.788</CreationDate>
+	<Notes/>
+	<Text>新开店相关流程执行效率告警汇总</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e334-c21c3b369fa6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

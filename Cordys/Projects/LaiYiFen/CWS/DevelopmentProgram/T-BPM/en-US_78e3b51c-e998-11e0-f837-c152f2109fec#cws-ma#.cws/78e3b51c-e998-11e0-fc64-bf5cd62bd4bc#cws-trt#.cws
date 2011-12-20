@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc64-bf5cd63214bd">
+	<DocumentID>78e3b51c-e998-11e0-fc64-bf5cd62bd4bc</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc64-bf5cd62bd4bc</Name>
+	<Description>门店通用表单</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-09-20T01:15:14.073</CreationDate>
+	<Notes/>
+	<Text>门店通用表单</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc64-bf5cd61cd4ba"
+		/>
+	</TextIdentifier>
+</TranslatedText>

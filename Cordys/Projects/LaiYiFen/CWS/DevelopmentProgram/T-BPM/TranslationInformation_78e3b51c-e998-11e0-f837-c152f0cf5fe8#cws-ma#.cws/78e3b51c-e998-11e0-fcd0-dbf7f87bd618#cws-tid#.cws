@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fcd0-dbf7f8821619">
+	<DocumentID>78e3b51c-e998-11e0-fcd0-dbf7f87bd618</DocumentID>
+	<Name>78e3b51c-e998-11e0-fcd0-dbf7f87bd618</Name>
+	<Description>是否使用电子秤*</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-09-24T08:45:01.647</CreationDate>
+	<Notes/>
+	<DefaultText>是否使用电子秤*</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fcd0-dbf7f889961a"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

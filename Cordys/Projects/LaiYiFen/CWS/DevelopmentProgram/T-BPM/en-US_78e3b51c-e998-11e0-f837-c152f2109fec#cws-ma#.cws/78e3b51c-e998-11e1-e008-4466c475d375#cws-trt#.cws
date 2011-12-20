@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e008-4466c47e9376">
+	<DocumentID>78e3b51c-e998-11e1-e008-4466c475d375</DocumentID>
+	<Name>78e3b51c-e998-11e1-e008-4466c475d375</Name>
+	<Description>物料复制接口轮询结果</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-27T02:31:43.571</CreationDate>
+	<Notes/>
+	<Text>物料复制接口轮询结果</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e008-72569b1a5648"
+		/>
+	</TextIdentifier>
+</TranslatedText>

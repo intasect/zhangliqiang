@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff48-e32d517e9f42">
+	<DocumentID>78e3b51c-e998-11e0-ff48-e32d51785f41</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff48-e32d51785f41</Name>
+	<Description>其他广告位</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-10-19T11:58:37.486</CreationDate>
+	<Notes/>
+	<Text>其他广告位</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff48-e32d516a9f3f"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e169-5dbd3ff49f9f">
+	<DocumentID>78e3b51c-e998-11e1-e169-5dbd3fed1f9e</DocumentID>
+	<Name>78e3b51c-e998-11e1-e169-5dbd3fed1f9e</Name>
+	<Description>STANDARD</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-11-10T03:27:31.386</CreationDate>
+	<Notes/>
+	<DefaultText>STANDARD</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e1-e169-5dbd3ffadfa0"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

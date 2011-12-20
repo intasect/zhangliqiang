@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc6a-d953d07c5dbb">
+	<DocumentID>78e3b51c-e998-11e0-fc6a-d953d0761dba</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc6a-d953d0761dba</Name>
+	<Description>中止</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-20T07:19:23.313</CreationDate>
+	<Notes/>
+	<Text>中止</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc6a-d953d0685db8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc66-a651ac77df2b">
+	<DocumentID>78e3b51c-e998-11e0-fc66-a651ac705f2a</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc66-a651ac705f2a</Name>
+	<Description>LST_UPDATE</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-20T03:16:59.958</CreationDate>
+	<Notes/>
+	<Text>LST_UPDATE</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc66-a651ac629f28"
+		/>
+	</TextIdentifier>
+</TranslatedText>

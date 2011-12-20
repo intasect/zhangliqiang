@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fcfd-a3291f1f9fbc">
+	<DocumentID>78e3b51c-e998-11e0-fcfd-a3291f181fbb</DocumentID>
+	<Name>78e3b51c-e998-11e0-fcfd-a3291f181fbb</Name>
+	<Description>是否中止</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-26T03:52:00.979</CreationDate>
+	<Notes/>
+	<Text>是否中止</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fcfd-a3291f0a5fb9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

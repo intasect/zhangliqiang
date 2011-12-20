@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9d8-a91e9b475f60">
+	<DocumentID>78e3b51c-e998-11e0-f9d8-a91e9b3fdf5f</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9d8-a91e9b3fdf5f</Name>
+	<Description>网点开发部意见</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-08-25T03:09:19.677</CreationDate>
+	<Notes/>
+	<Text>网点开发部意见</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9d8-a91e9b321f5d"
+		/>
+	</TextIdentifier>
+</TranslatedText>

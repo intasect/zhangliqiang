@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faec-469c664d9f35">
+	<DocumentID>78e3b51c-e998-11e0-faec-469c66439f34</DocumentID>
+	<Name>78e3b51c-e998-11e0-faec-469c66439f34</Name>
+	<Description>SELECTRoleTest</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-05T02:38:31.356</CreationDate>
+	<Notes/>
+	<Text>SELECTRoleTest</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faec-469c662e5f32"
+		/>
+	</TextIdentifier>
+</TranslatedText>

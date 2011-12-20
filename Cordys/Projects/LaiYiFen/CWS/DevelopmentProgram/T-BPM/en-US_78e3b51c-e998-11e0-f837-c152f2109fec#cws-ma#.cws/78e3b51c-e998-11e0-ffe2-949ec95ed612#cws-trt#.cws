@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ffe2-949ec96a1613">
+	<DocumentID>78e3b51c-e998-11e0-ffe2-949ec95ed612</DocumentID>
+	<Name>78e3b51c-e998-11e0-ffe2-949ec95ed612</Name>
+	<Description>Reject to the originator</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-25T14:29:34.965</CreationDate>
+	<Notes/>
+	<Text>Reject to the originator</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ffe2-b7cde4e31612"
+		/>
+	</TextIdentifier>
+</TranslatedText>

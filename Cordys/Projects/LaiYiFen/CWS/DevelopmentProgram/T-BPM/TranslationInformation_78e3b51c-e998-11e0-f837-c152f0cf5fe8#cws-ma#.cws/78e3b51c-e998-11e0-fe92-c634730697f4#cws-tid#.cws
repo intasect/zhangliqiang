@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fe92-c634730e17f5">
+	<DocumentID>78e3b51c-e998-11e0-fe92-c634730697f4</DocumentID>
+	<Name>78e3b51c-e998-11e0-fe92-c634730697f4</Name>
+	<Description>门店主数据修改</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-12T05:56:16.029</CreationDate>
+	<Notes/>
+	<DefaultText>门店主数据修改</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fe92-c634731597f6"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

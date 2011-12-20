@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa91-c218ac541d0e">
+	<DocumentID>78e3b51c-e998-11e0-fa91-c218ac4ddd0d</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa91-c218ac4ddd0d</Name>
+	<Description>SEASON_RPRICE</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-09-01T11:33:03.511</CreationDate>
+	<Notes/>
+	<Text>SEASON_RPRICE</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa91-c218ac401d0b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

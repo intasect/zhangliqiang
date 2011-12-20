@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff76-e49380e41f67">
+	<DocumentID>78e3b51c-e998-11e0-ff76-e49380dc9f66</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff76-e49380dc9f66</Name>
+	<Description>利润中心 *</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-21T07:35:23.264</CreationDate>
+	<Notes/>
+	<Text>利润中心 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff76-e49380cd9f64"
+		/>
+	</TextIdentifier>
+</TranslatedText>

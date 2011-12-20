@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e2cf-9afe40d69fb5">
+	<DocumentID>78e3b51c-e998-11e1-e2cf-9afe40cf1fb4</DocumentID>
+	<Name>78e3b51c-e998-11e1-e2cf-9afe40cf1fb4</Name>
+	<Description>客户名称</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-11-24T09:16:12.485</CreationDate>
+	<Notes/>
+	<Text>客户名称</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e2cf-9afe40c15fb2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

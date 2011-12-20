@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff5f-63762f4757b6">
+	<DocumentID>78e3b51c-e998-11e0-ff5f-63762f3ad7b5</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff5f-63762f3ad7b5</Name>
+	<Description>人流数 *</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-20T09:19:46.111</CreationDate>
+	<Notes/>
+	<Text>人流数 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff5f-63762edbd7b3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

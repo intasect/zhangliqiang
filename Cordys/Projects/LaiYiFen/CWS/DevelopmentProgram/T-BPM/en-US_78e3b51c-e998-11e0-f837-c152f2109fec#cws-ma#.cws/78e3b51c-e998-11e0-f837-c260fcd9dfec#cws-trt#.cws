@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c260fd225fed">
+	<DocumentID>78e3b51c-e998-11e0-f837-c260fcd9dfec</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c260fcd9dfec</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:30.067</CreationDate>
+	<Notes/>
+	<Text>外墙：两面共用墙是否公用？</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c260fddb5fee"
+		/>
+	</TextIdentifier>
+</TranslatedText>

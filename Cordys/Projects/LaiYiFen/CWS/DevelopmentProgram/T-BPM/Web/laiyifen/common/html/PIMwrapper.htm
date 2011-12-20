@@ -1,0 +1,177 @@
+﻿<!DOCTYPE HTML PUBLIC"-//W3C//DTD HTML 4.01  Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html onapplicationready="init()">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+		<title>流程实例监控图</title>
+		<script type="text/javascript" src="/cordys/wcp/application.js"></script>
+		<script type="cordys/xml" id="applicationXML">
+			<Application display="hidden" taskbar="false">
+			  <description>Business Process Instance Graphical View (Monitor)</description>
+			  <caption>Business Process Model</caption>
+			  <icon>/cordys/wcp/theme/default/icon/document/businessprocess.png</icon>
+			  <id>bpm</id>
+			  <organization />
+			  <data>
+				<processName />
+				<processInstanceId />
+			  </data>
+			  <url>/cordys/laiyifen/common/html/PIM.htm</url>
+			  <frame features="dialogHeight:300px; dialogWidth:375px; center:yes; help:no; resizable:yes; status:no">main</frame>
+			</Application>	  
+		</script>
+		<script type="cordys/xml" id="xmlScheduledTo">
+			<Application focus="true" taskbar="true">
+				<description label_id="任务处理记录">任务处理记录</description>
+				<id>activityscheduling</id>
+				<caption label_id="任务处理记录">任务处理记录</caption>
+				<url>/cordys/laiyifen/common/html/activityscheduling.htm</url>
+				<frame features="center=yes,status=no, resizable=yes">New Window</frame>
+				<data />
+			</Application> 
+		</script>
+		<script>
+var INSTANCE_ID;
+var organization;
+var gIntervalId;
+var gInstanceId;
+var gOrganization;
+var gSamlArt;
+var gSourceName;
+
+function init(){
+    var param = window.application.event.data;
+	    gInstanceId=param.instanceId;
+        gOrganization=param.organization;
+        gSamlArt=param.samlArt;
+		gSourceName=param.sourceName;
+	if(gInstanceId==""){
+		CordysRoot.application.showError("Cannot open Graphical View because INSTANCE_ID is not specified!");
+		return;
+	}else{
+		INSTANCE_ID = gInstanceId;
+		PROCESS_NAME = gSourceName;
+	}
+	if(gOrganization==""){
+		CordysRoot.application.showError("Cannot open Graphical View because organization is not specified!");
+		return;
+	}else{
+		organization = gOrganization;
+	}
+	
+	if (!CordysRoot.sso) {
+		CordysRoot.application.addType(CordysRoot, "wcp.library.system.SSO");
+	}
+	var app = applicationXML.XMLDocument.documentElement;
+  var processData = new Object();
+  processData.processInstanceId = INSTANCE_ID;
+  processData.organization = organization;
+  processData.frameID = "pimFrame";
+  processData.processName=PROCESS_NAME;
+  application.select(app,processData, callback);
+
+}
+function callback(){
+	gIntervalId = window.setInterval("doCustom()",100);
+}
+function doCustom(){
+	if(system.windows.bpm.editor){
+		BusinessProcessDesigner = system.containers[system.windows.bpm.editor._getApplicationID()];
+	}
+	if(BusinessProcessDesigner.getState()=="loaded"){
+		//如果PIM已经打开
+		window.clearInterval(gIntervalId);
+		//隐藏toolbar
+		BusinessProcessDesigner.applicationWindow.document.getElementById("toolbar").style.display = "none";
+		BusinessProcessDesigner.applicationWindow.document.getElementById("cwsMainRegion").children[0].children[1].children[2].style.display = "none";
+		//删除下面两个DIV
+		var spliterDiv = BusinessProcessDesigner.applicationWindow.document.getElementById("cwsMainLevel3Splitter");
+		spliterDiv.parentNode.removeChild(spliterDiv);
+		var bottomDiv = BusinessProcessDesigner.applicationWindow.document.getElementById("cwsBottomRegion");
+		bottomDiv.parentNode.removeChild(bottomDiv);
+		//去掉PIM背景的双击事件
+		cordys.removeDOMListener(BusinessProcessDesigner.applicationWindow.document.getElementById("contentDiv"),"ondblclick", system.windows.bpm.editor.ModelEditor.showModelPropertiesEventHandler);
+		//去掉PIM背景的右键事件
+		BusinessProcessDesigner.applicationWindow.document.getElementById("contentDiv").oncontextmenu = null;
+		//去掉connector,activity,start,end,etc...的双击事件
+		var Graphic= BusinessProcessDesigner.applicationWindow.document.getElementById("HTMLContainer");
+		for(var i=0; i<Graphic.children.length;i++){
+			var shape = Graphic.children[i];
+			var sEventLength = shape._internalEvents.length;
+			for(var m=0; m<sEventLength; m++){
+				var sEvent = shape._internalEvents[m];
+				if(sEvent.eventType == "ondblclick"){
+					if(sEvent.id == shape.id){
+						shape.removeEvent(sEvent.eventType, sEvent.handler);
+					}else{
+						shape.removeEvent(sEvent.eventType, sEvent.handler, sEvent.id);
+					}
+					m--;
+					sEventLength--;
+				}
+			}
+			if(shape.objectType && shape.objectType=="activity"){
+				//为人工环节添加双击事件
+				addDbclickEvent(shape);
+				//为非人工环节添加双击事件
+				if(!shape.isHumanTask){
+					cordys.addDOMListener(shape, "ondblclick", notHumanActivity);
+				}
+			}
+		}
+	}
+}
+function showActivityScheduling(eventObject){
+	//FP1流程图里所有对象的className都是shape
+	/* oops...firefox不支持srcElement，ie不支持target
+	var srcElememnt = getShape(eventObject.srcElement);*/
+	var srcElememnt = getShape(eventObject.srcElement || eventObject.target);
+	var app = xmlScheduledTo.XMLDocument.documentElement.cloneNode(true);
+	var dataObject = new Object();
+	dataObject.ActivityID = srcElememnt.id;
+	dataObject.InstanceID = INSTANCE_ID;
+	application.showDialog(app, dataObject);
+}
+function notHumanActivity(){
+	application.notify("非人工环节");
+}
+function getShape(eventElement){
+	if (eventElement.className == "shape"){
+		return eventElement;
+	} else if(eventElement.parentNode){
+		return getShape(eventElement.parentNode);
+	}else{
+		application.showError("Can't find Activity Node");
+	} 
+}
+function addDbclickEvent(shape){
+	for(var i=0; i<shape.children.length; i++){
+		if(shape.children[i].id == "TASK_ICONID"){
+			var activity = getShape(shape);
+			shape.children[i].style.display = "none";
+			activity.title = "双击查看执行人";
+			activity.isHumanTask = true;
+			cordys.addDOMListener(activity, "ondblclick", showActivityScheduling);
+		}
+		addDbclickEvent(shape.children[i]);
+	}
+}
+function getURLParameters(name){
+	var regexS = "[\\?&]" + name + "=([^&#]*)";
+  var regex = new RegExp(regexS);
+  var tmpURL = window.document.URL.toString();
+  var results = regex.exec(tmpURL);
+  if (results == null){
+  	return "";
+	}else{ 
+    return results[1];
+	}
+}
+		</script>
+	</head>
+	<body>
+		<DIV id="ucfMainDiv" bottommargin="0" rightmargin="0" topmargin="0" leftmargin="0" width="100%" height="100%">
+			<div style="width:100%;position:absolute;top:0px;bottom:100px;"><IFRAME class="container" id="pimFrame" border="no" frameBorder="no" width="100%" scrolling="yes" height="100%" style="position:absolute;"></IFRAME></div>
+			<div width='100%' height='100px' valign='top' align='center' style="position:absolute;bottom:10px;left:0px;right:0px;"><label style='padding:0 4 0 4;color:#FF4500;'><b>图例:</b></label><br/><img src='/cordys/laiyifen/common/image/pimlegend.png'/></div>
+    </DIV>
+	</body>
+</html>

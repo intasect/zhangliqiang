@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fd4f-2e7cce539f6a">
+	<DocumentID>78e3b51c-e998-11e0-fd4f-2e7cce4c1f69</DocumentID>
+	<Name>78e3b51c-e998-11e0-fd4f-2e7cce4c1f69</Name>
+	<Description>淡旺季租金占比（%）</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-09-29T09:12:19.919</CreationDate>
+	<Notes/>
+	<Text>淡旺季租金占比（%）</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fd4f-2e7cce3d1f67"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e0bc-7a7b65bf979c">
+	<DocumentID>78e3b51c-e998-11e1-e0bc-7a7b65b9579b</DocumentID>
+	<Name>78e3b51c-e998-11e1-e0bc-7a7b65b9579b</Name>
+	<Description>依据“1-分支，2-非分支，3-加盟”</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-11-03T08:35:25.498</CreationDate>
+	<Notes/>
+	<Text>依据“1-分支，2-非分支，3-加盟”</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e0bc-7a7b65aa5799"
+		/>
+	</TextIdentifier>
+</TranslatedText>

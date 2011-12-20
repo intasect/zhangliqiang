@@ -1,0 +1,50 @@
+
+<RoleDesignTime
+	type="com.cordys.organization.role.RoleDesignTime"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb29-f37294d2df61">
+	<DocumentID>78e3b51c-e998-11e0-fb29-f37294cb5f60</DocumentID>
+	<Name>BR子公司总经理</Name>
+	<Description>BR子公司总经理</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-07T13:08:30.249</CreationDate>
+	<Notes/>
+	<isFunctionalRole>true</isFunctionalRole>
+	<type>Functional</type>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<configuredTasks/>
+	<Subroles>
+		<uri
+			id="005056a3-4878-11e0-f472-5b0278315fbc"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f1-e5e306869f75"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f3-36706e7cd749"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f4-2ec1b8c4db55"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f4-bdef1fd7dfe7"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f5-b58e7a93965a"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f5-eb8502ac97a0"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f6-4ba91ae29bd2"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f6-c8c269925fc5"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-fa56-da516c269770"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-fa58-d79b8e70d79a"
+		/>
+	</Subroles>
+</RoleDesignTime>

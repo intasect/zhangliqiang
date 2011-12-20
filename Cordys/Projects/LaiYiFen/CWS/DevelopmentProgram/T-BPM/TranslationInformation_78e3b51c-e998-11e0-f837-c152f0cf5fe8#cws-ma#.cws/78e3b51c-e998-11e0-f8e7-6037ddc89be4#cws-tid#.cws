@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f8e7-6037de035be5">
+	<DocumentID>78e3b51c-e998-11e0-f8e7-6037ddc89be4</DocumentID>
+	<Name>78e3b51c-e998-11e0-f8e7-6037ddc89be4</Name>
+	<Description>City</Description>
+	<CreatedBy>root</CreatedBy>
+	<CreationDate>2011-08-15T12:35:07.622</CreationDate>
+	<Notes/>
+	<DefaultText>City</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f8e7-6037dcf91be2"
+		/>
+	</Translations>
+</TextIdentifier>

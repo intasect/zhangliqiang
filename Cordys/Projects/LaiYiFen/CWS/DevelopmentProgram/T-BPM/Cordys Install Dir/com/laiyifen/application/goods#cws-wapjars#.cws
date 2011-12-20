@@ -1,0 +1,54 @@
+
+<WSAppServerJavaArchiveSource
+	type="com.cordys.wsappserver.WSAppServerJavaArchiveSource"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa71-fe04ddcddf2a">
+	<DocumentID>78e3b51c-e998-11e0-fa71-fe04dd729f29</DocumentID>
+	<Name>goods</Name>
+	<Description>goods</Description>
+	<CreatedBy>唐炜炜</CreatedBy>
+	<CreationDate>2011-08-31T05:13:18.59</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<JarFileName>goods</JarFileName>
+	<SourceFolder>
+		<uri
+			id="000C297E-6FFF-11E1-E37B-AC8C10301276"
+			path="T-BPM/Java/goods"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+	<WSAppServerPackage>
+		<uri
+			id="78e3b51c-e998-11e0-fa71-fe03e29b9fb6"
+		/>
+	</WSAppServerPackage>
+	<Dependencies>
+		<JavaArchiveSourceDependency
+			type="com.cordys.cws.documenttypes.javaarchivesource.JavaArchiveSourceDependency"
+			RuntimeDocumentID="78e3b51c-e998-11e0-fa72-c6620af417d7">
+			<DocumentID>78e3b51c-e998-11e0-fa72-c6620aec97d6</DocumentID>
+			<Name>78e3b51c-e998-11e0-fa72-c6620aec97d6</Name>
+			<Description>T-BPM_Cordys Install Dir_com_laiyifen_application_common</Description>
+			<CreatedBy>唐炜炜</CreatedBy>
+			<CreationDate>2011-08-31T05:58:16.401</CreationDate>
+			<Notes/>
+			<DependsOnJAS>
+				<uri
+					id="78e3b51c-e998-11e0-f8df-cc57cdd19f8c"
+				/>
+			</DependsOnJAS>
+		</JavaArchiveSourceDependency>
+		<JavaArchiveReferenceDependency
+			type="com.cordys.cws.documenttypes.javaarchivesource.JavaArchiveReferenceDependency"
+			RuntimeDocumentID="78e3b51c-e998-11e1-e27d-d5fd45589f1b">
+			<DocumentID>78e3b51c-e998-11e1-e27d-d5fd454e9f1a</DocumentID>
+			<Name>Goods Java Archive Reference Dependency</Name>
+			<Description>Goods Java Archive Reference Dependency</Description>
+			<CreatedBy>杜兰</CreatedBy>
+			<CreationDate>2011-11-21T03:13:13.01</CreationDate>
+			<Notes/>
+			<ISVPName></ISVPName>
+			<DependsOnJAR>?CORDYS_INSTALL_DIR?/components/wsappserver/wsappserver.jar</DependsOnJAR>
+		</JavaArchiveReferenceDependency>
+	</Dependencies>
+</WSAppServerJavaArchiveSource>

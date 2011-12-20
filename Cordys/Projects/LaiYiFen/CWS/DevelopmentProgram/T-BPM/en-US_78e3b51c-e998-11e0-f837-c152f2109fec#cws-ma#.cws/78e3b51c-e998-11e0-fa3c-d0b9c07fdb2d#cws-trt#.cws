@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa3c-d0b9c0889b2e">
+	<DocumentID>78e3b51c-e998-11e0-fa3c-d0b9c07fdb2d</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa3c-d0b9c07fdb2d</Name>
+	<Description>目标调查表审批(总裁)</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-29T03:06:27.792</CreationDate>
+	<Notes/>
+	<Text>目标调查表审批(总裁)</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa3c-d0b9c075db2b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

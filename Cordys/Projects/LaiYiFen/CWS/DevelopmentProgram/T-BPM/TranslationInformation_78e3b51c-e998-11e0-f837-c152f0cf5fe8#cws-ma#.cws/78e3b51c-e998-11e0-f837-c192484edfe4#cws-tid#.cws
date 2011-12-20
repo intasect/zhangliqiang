@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c192487f9fe5">
+	<DocumentID>78e3b51c-e998-11e0-f837-c192484edfe4</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c192484edfe4</Name>
+	<Description>门店主数据相关部门</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:01.211</CreationDate>
+	<Notes/>
+	<DefaultText>门店主数据相关部门</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c192478e5fe2"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e0bc-7a7b65dd97a0">
+	<DocumentID>78e3b51c-e998-11e1-e0bc-7a7b65d6179f</DocumentID>
+	<Name>78e3b51c-e998-11e1-e0bc-7a7b65d6179f</Name>
+	<Description>门店具体地址，按照“省+市+区+路+号”的规范填写，如有镇，乡，村等县级或地级地名也要写明，商超门店需注明商超名称、铺位号</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-11-03T08:35:25.499</CreationDate>
+	<Notes/>
+	<DefaultText>门店具体地址，按照“省+市+区+路+号”的规范填写，如有镇，乡，村等县级或地级地名也要写明，商超门店需注明商超名称、铺位号</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e1-e0bc-7a7b65e517a1"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

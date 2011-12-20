@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff12-21e6bc1a5f3b">
+	<DocumentID>78e3b51c-e998-11e0-ff12-21e6bc12df3a</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff12-21e6bc12df3a</Name>
+	<Description>调用预算合并接口</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-17T08:30:41.686</CreationDate>
+	<Notes/>
+	<Text>调用预算合并接口</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff12-21e6bc03df38"
+		/>
+	</TextIdentifier>
+</TranslatedText>

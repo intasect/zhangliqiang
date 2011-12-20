@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fcd6-1d446ecb95f0">
+	<DocumentID>78e3b51c-e998-11e0-fcd6-1d446ec415ef</DocumentID>
+	<Name>78e3b51c-e998-11e0-fcd6-1d446ec415ef</Name>
+	<Description>环节步骤</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-24T13:53:56.707</CreationDate>
+	<Notes/>
+	<DefaultText>环节步骤</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fcd6-1d446ed315f1"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

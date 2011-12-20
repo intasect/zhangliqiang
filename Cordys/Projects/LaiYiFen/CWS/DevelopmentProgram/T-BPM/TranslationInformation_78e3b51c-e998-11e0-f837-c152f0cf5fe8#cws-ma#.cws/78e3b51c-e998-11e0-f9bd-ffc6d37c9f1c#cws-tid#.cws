@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9bd-ffc6d3841f1d">
+	<DocumentID>78e3b51c-e998-11e0-f9bd-ffc6d37c9f1c</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9bd-ffc6d37c9f1c</Name>
+	<Description>Input4</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-24T01:38:17.472</CreationDate>
+	<Notes/>
+	<DefaultText>Input4</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f9bd-ffc6d38a5f1e"
+		/>
+	</Translations>
+</TextIdentifier>

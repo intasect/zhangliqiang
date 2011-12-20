@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1c66d4e9435">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1c66d115434</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1c66d115434</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:42.563</CreationDate>
+	<Notes/>
+	<Text>校园门店假期闭店情况已发生后就可以启动流程.</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1c66de99436"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbd4-8635037a5f5f">
+	<DocumentID>78e3b51c-e998-11e0-fbd4-863503741f5e</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbd4-863503741f5e</Name>
+	<Description>bpmmonitor</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-14T08:38:06.657</CreationDate>
+	<Notes/>
+	<Text>bpmmonitor</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbd4-863503651f5c"
+		/>
+	</TextIdentifier>
+</TranslatedText>

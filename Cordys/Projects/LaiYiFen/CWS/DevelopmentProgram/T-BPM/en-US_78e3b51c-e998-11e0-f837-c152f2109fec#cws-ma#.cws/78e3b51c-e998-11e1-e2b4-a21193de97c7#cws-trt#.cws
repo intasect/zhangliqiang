@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e2b4-a21193e257c8">
+	<DocumentID>78e3b51c-e998-11e1-e2b4-a21193de97c7</DocumentID>
+	<Name>78e3b51c-e998-11e1-e2b4-a21193de97c7</Name>
+	<Description>子公司特渠文员审核</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-23T08:09:55.281</CreationDate>
+	<Notes/>
+	<Text>子公司特渠文员审核</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e2b4-a21193d5d7c5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

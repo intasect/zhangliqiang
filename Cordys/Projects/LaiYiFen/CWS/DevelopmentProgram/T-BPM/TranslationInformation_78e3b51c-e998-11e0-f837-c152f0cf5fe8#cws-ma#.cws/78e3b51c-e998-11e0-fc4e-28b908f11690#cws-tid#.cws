@@ -1,0 +1,26 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc4e-28b908f89691">
+	<DocumentID>78e3b51c-e998-11e0-fc4e-28b908f11690</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc4e-28b908f11690</Name>
+	<Description>房屋租赁合同审批流程</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-19T03:50:25.925</CreationDate>
+	<Notes/>
+	<DefaultText>房屋租赁合同审批流程</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fc4e-28b909001692"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-fc97-3afe56ad16b7"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

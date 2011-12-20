@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c242d72a5d1b">
+	<DocumentID>78e3b51c-e998-11e0-f837-c242d6e45d1a</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c242d6e45d1a</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:10.865</CreationDate>
+	<Notes/>
+	<Text>除了写清楚地址以外，还需要写明靠近××路</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c242d7e35d1c"
+		/>
+	</TextIdentifier>
+</TranslatedText>

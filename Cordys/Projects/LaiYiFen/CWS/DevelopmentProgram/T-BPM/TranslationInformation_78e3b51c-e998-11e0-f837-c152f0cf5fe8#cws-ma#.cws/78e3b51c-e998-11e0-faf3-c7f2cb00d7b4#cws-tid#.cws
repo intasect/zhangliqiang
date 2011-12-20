@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faf3-c7f2cb0c17b5">
+	<DocumentID>78e3b51c-e998-11e0-faf3-c7f2cb00d7b4</DocumentID>
+	<Name>78e3b51c-e998-11e0-faf3-c7f2cb00d7b4</Name>
+	<Description>邀请会签</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-05T09:32:16.549</CreationDate>
+	<Notes/>
+	<DefaultText>邀请会签</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-faf3-c7f2cb1897b6"
+		/>
+	</Translations>
+</TextIdentifier>

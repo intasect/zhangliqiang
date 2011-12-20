@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa6f-4b237cd9dd20">
+	<DocumentID>78e3b51c-e998-11e0-fa6f-4b237cce9d1f</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa6f-4b237cce9d1f</Name>
+	<Description>PUBLIC_BANK</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-31T02:40:18.483</CreationDate>
+	<Notes/>
+	<Text>PUBLIC_BANK</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa6f-4b237cb95d1d"
+		/>
+	</TextIdentifier>
+</TranslatedText>

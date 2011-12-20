@@ -1,0 +1,24 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1c3391c97f5">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1c338e1d7f4</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1c338e1d7f4</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:57.551</CreationDate>
+	<Notes/>
+	<Text>1.房东原因造成暂闭店情况.
+2.证照不齐导致暂闭店
+以上只要一个条件符合就可以启动流程.</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1c339a9d7f6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

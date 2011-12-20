@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc7e-f4a9995dd76a">
+	<DocumentID>78e3b51c-e998-11e0-fc7e-f4a999565769</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc7e-f4a999565769</Name>
+	<Description>*费用是否门店</Description>
+	<CreatedBy>陈二号</CreatedBy>
+	<CreationDate>2011-09-21T02:24:08.748</CreationDate>
+	<Notes/>
+	<Text>*费用是否门店</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc7e-f4a999489767"
+		/>
+	</TextIdentifier>
+</TranslatedText>

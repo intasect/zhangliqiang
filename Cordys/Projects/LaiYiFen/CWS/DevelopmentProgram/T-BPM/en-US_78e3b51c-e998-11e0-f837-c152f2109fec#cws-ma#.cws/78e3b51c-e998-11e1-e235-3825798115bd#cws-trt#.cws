@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e235-3825798895be">
+	<DocumentID>78e3b51c-e998-11e1-e235-3825798115bd</DocumentID>
+	<Name>78e3b51c-e998-11e1-e235-3825798115bd</Name>
+	<Description>商品类型</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-11-18T06:40:21.472</CreationDate>
+	<Notes/>
+	<Text>商品类型</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e235-3825797355bb"
+		/>
+	</TextIdentifier>
+</TranslatedText>

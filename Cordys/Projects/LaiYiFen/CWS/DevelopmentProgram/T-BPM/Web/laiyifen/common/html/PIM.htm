@@ -1,0 +1,185 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html onapplicationselect="selectApplication()">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<script type="cordys/xml" id="getInstanceDetail">
+		<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+			<SOAP:Body>
+				<GetProcessInstances xmlns="http://schemas.cordys.com/pim/queryinstancedata/1.0">
+					<Query xmlns="http://schemas.cordys.com/cql/1.0">
+						<Select>
+							<QueryableObject>PROCESS_INSTANCE</QueryableObject>
+							<Field>INSTANCE_ID</Field>
+							<Field>RUNTIME_DOCUMENT_ID</Field>
+							<Field>WORKSPACE_ID</Field>
+							<Field>START_TIME</Field>
+						</Select>
+						<Filters>
+								<EQ field="INSTANCE_ID">
+									<Value/>
+								</EQ>
+						</Filters>
+					</Query>
+				</GetProcessInstances>
+			</SOAP:Body>
+		</SOAP:Envelope>
+	</script>
+	<script type="cordys/xml" id="getProcessDetailXML">
+		<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+ 			<SOAP:Body>
+    		<GetProcessModel xmlns="http://schemas.cordys.com/bpm/deployment/1.0">
+      		<modelSpace></modelSpace>
+      		<processname></processname>
+      		<details>
+        		<detail id="runtimeDocumentID" xpath="//instanceProperties/runtimeDocumentID"/>
+        		<detail id="workspaceID" xpath="//instanceProperties/workspaceID"/>
+      		</details>
+    		</GetProcessModel>
+  		</SOAP:Body>
+		</SOAP:Envelope>
+	</script>	
+<script type="text/javascript" src="/cordys/wcp/application.js"></script>
+<script type = "text/javascript">
+var gSOAPFaultOccured = false;
+var editor;
+function selectApplication()
+{
+	application.importType("com.cordys.cws.ide.helper.CWSRuntimeViewerHelper" );
+	application.importType("com.cordys.cws.umf.views.CWSViewContext");
+	application.importType("com.cordys.bpm.internal.utils.ProcessConstants");
+	var eventData = window.application.event.data;
+	var	modeOfOperation = null;
+	var instanceID = null;
+	var titleDescription = null;
+	var frameID = eventData.frameID;
+	var runtimeDocumentID;
+	var workspaceID;
+	var modelspace;
+	var organization;
+	var processInstanceId;
+	var processInstanceStartTime;
+	var processName = null;
+	if(eventData.processName) // 流程实例
+	{
+		processName = eventData.processName;
+		var processDetail=getProcessDetail(processName);
+		runtimeDocumentID = processDetail.runtimeDocumentID;
+		workspaceID = processDetail.workspaceID;
+		modeOfOperation = eventData.modeOfOperation;
+		modelspace = eventData.modelspace ? eventData.modelspace : "organization";
+		organization = eventData.organization;
+		processName = eventData.processName;
+	}
+	if(eventData.processInstanceId){ // 静态流程模型
+		processInstanceId = eventData.processInstanceId;
+		var processInstanceDetailObj = getProcessInstanceDetail(processInstanceId);
+		if(processInstanceDetailObj){
+			runtimeDocumentID = processInstanceDetailObj.runtimeDocumentID;
+			workspaceID = processInstanceDetailObj.workspaceID;
+			processInstanceStartTime = processInstanceDetailObj.startTime;
+			modeOfOperation="instanceviewfrominbox";
+			instanceID = processInstanceId;
+			modelspace = "organization";
+			organization = eventData.organization? eventData.organization : application.organization;
+		}else{
+			application.showError("Can't get details of instance");
+			this.close();
+			return;
+		}
+	}
+	openGraphicalDesigner(runtimeDocumentID,workspaceID,modeOfOperation,instanceID,frameID,modelspace,organization, processInstanceStartTime, processName, titleDescription);
+	this.close();
+}
+
+function openGraphicalDesigner(runtimeDocumentID,workspaceID,modeOfOperation,instanceID,IFrameID,modelspace,organization, processInstanceStartTime, processName, titleDescription)
+{
+	if (workspaceID)
+	{
+		var helper = new CWSRuntimeViewerHelper();
+		helper.workspaceID(workspaceID);
+		helper.designtimeDocumentID(runtimeDocumentID);
+		helper.organizationDN(organization ? organization : application.organization);
+		var viewContext = new CWSViewContext();
+		viewContext.shareView(false);
+		helper.viewContext(viewContext);
+		editor = helper.getEditor();
+		if(editor){
+			if(IFrameID){
+				helper.m_view.frame(IFrameID);
+			}
+			editor.diagramReadOnly(true);
+			editor.modeOfOperation = modeOfOperation;
+			editor.instanceID = instanceID;
+			editor._modelspace = modelspace;
+			editor.titleDescription = titleDescription;
+			editor.open();
+		}else{
+			var errmsg = "Cannot open Graphical View";
+			CordysRoot.application.showError(errmsg);
+		}
+	}
+}
+
+function getProcessInstanceDetail(processInstanceId)
+{
+	var request = cordys.cloneXMLDocument(getInstanceDetail.XMLDocument);
+	cordys.setNodeText(request, ".//" + ProcessConstants.CQL_PREFIX+ "Filters/" + ProcessConstants.CQL_PREFIX + "EQ[@field='INSTANCE_ID']/" + ProcessConstants.CQL_PREFIX + "Value", processInstanceId, ProcessConstants.CQL_NAMESPACE_SET);
+	sendSOAP(request);
+	if(!gSOAPFaultOccured)
+	{
+		var instanceData = new Object();
+		var l_runtimeDocumentID = cordys.getNodeText(bpmBDI.data, ".//"+ProcessConstants.QUERYINSTANCE_PREFIX+"tuple/"+ProcessConstants.QUERYINSTANCE_PREFIX+"old/"+ProcessConstants.QUERYINSTANCE_PREFIX+"PROCESS_INSTANCE/"+ProcessConstants.QUERYINSTANCE_PREFIX+"RUNTIME_DOCUMENT_ID", "", ProcessConstants.QUERYINSTANCE_NAMESPACE_SET);
+		if(l_runtimeDocumentID)
+		{
+			instanceData.runtimeDocumentID = l_runtimeDocumentID;
+			instanceData.workspaceID = cordys.getNodeText(bpmBDI.data, ".//"+ProcessConstants.QUERYINSTANCE_PREFIX+"tuple/"+ProcessConstants.QUERYINSTANCE_PREFIX+"old/"+ProcessConstants.QUERYINSTANCE_PREFIX+"PROCESS_INSTANCE/"+ProcessConstants.QUERYINSTANCE_PREFIX+"WORKSPACE_ID", "", ProcessConstants.QUERYINSTANCE_NAMESPACE_SET);
+			instanceData.startTime = cordys.getNodeText(bpmBDI.data, ".//"+ProcessConstants.QUERYINSTANCE_PREFIX+"tuple/"+ProcessConstants.QUERYINSTANCE_PREFIX+"old/"+ProcessConstants.QUERYINSTANCE_PREFIX+"PROCESS_INSTANCE/"+ProcessConstants.QUERYINSTANCE_PREFIX+"START_TIME", "", ProcessConstants.QUERYINSTANCE_NAMESPACE_SET);
+		}
+		else
+		{
+			var errmsg = "Cannot open Graphical View";
+			CordysRoot.application.showError(errmsg);
+      return null;
+		}
+		return instanceData;
+	}
+	return null;
+}
+function getProcessDetail(processName)
+{
+	var request =cordys.cloneXMLDocument(getProcessDetailXML.XMLDocument);
+	cordys.setNodeText(request, ".//*[local-name()='processname']", processName);
+	sendSOAP(request);
+	if(!gSOAPFaultOccured)
+	{
+		var processData = new Object();
+		var l_runtimeDocumentID = cordys.getNodeText(bpmBDI.data,".//*[local-name()='runtimeDocumentID']");
+		if(l_runtimeDocumentID)
+		{
+			processData.runtimeDocumentID = l_runtimeDocumentID;
+			processData.workspaceID = cordys.getNodeText(bpmBDI.data,".//*[local-name()='workspaceID']");
+		}
+		else
+		{
+			var errmsg = "Cannot open Graphical View";
+			CordysRoot.application.showError(errmsg);
+      return null;
+		}
+		return processData;
+	}
+	return null;
+}
+
+function sendSOAP(request)
+{
+   bpmBDI.clear();
+   bpmBDI.request = request;
+   bpmBDI.organization = application.organization;
+   bpmBDI.reset();
+}
+</script>
+</head>
+<body>
+	<div cordysType="wcp.library.data.BusDataIsland" id="bpmBDI" async="false" ondatacompleted="" style="display:none"></div>
+</body>
+</html>

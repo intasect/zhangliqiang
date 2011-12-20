@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c164c73d9fab">
+	<DocumentID>78e3b51c-e998-11e0-f837-c164c6dd5faa</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c164c6dd5faa</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:26.786</CreationDate>
+	<Notes/>
+	<Text>填写拆店信息移交单</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c164c801dfac"
+		/>
+	</TextIdentifier>
+</TranslatedText>

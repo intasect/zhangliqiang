@@ -1,0 +1,41 @@
+
+<RoleDesignTime
+	type="com.cordys.organization.role.RoleDesignTime"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb3e-0bfa11699bf2">
+	<DocumentID>78e3b51c-e998-11e0-fb3e-0bfa11621bf1</DocumentID>
+	<Name>BR网点交付短信发送人员</Name>
+	<Description>BR网点交付短信发送人员</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-09-08T09:02:14.164</CreationDate>
+	<Notes/>
+	<isFunctionalRole>true</isFunctionalRole>
+	<type>Functional</type>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<configuredTasks/>
+	<Subroles>
+		<uri
+			id="005056a3-4878-11e0-f4f2-b91c6d679fde"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f3-fff9bdec994b"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f3-fff9c16f5992"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f5-191d17d01273"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f6-11448b349bc6"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f6-8dd9f25e1fc4"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-fb0b-04f83118d609"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-fb0c-1742608957bc"
+		/>
+	</Subroles>
+</RoleDesignTime>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff46-89ebfb2f5fd4">
+	<DocumentID>78e3b51c-e998-11e0-ff46-89ebfb291fd3</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff46-89ebfb291fd3</Name>
+	<Description>打开表单</Description>
+	<CreatedBy>徐新宇</CreatedBy>
+	<CreationDate>2011-10-19T09:33:03.271</CreationDate>
+	<Notes/>
+	<Text>打开表单</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff46-89ebfb1a1fd1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

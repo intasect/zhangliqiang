@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9bd-ffc6d3cc9f27">
+	<DocumentID>78e3b51c-e998-11e0-f9bd-ffc6d3c51f26</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9bd-ffc6d3c51f26</Name>
+	<Description>生成会计凭证号码</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-24T01:38:17.474</CreationDate>
+	<Notes/>
+	<Text>生成会计凭证号码</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9bd-ffc6d3b61f24"
+		/>
+	</TextIdentifier>
+</TranslatedText>

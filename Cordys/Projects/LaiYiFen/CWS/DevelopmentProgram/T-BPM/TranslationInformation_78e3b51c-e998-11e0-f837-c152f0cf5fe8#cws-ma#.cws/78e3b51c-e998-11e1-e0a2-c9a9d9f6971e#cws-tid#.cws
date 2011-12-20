@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e0a2-c9a9d9fe171f">
+	<DocumentID>78e3b51c-e998-11e1-e0a2-c9a9d9f6971e</DocumentID>
+	<Name>78e3b51c-e998-11e1-e0a2-c9a9d9f6971e</Name>
+	<Description>商品订单审批</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-11-02T05:59:06.082</CreationDate>
+	<Notes/>
+	<DefaultText>商品订单审批</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e1-e0a2-c9a9da045720"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

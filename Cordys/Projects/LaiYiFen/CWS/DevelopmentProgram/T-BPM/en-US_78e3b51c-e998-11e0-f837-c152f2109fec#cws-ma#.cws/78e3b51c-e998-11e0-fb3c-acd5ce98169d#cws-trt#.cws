@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb3c-acd5ce9e569e">
+	<DocumentID>78e3b51c-e998-11e0-fb3c-acd5ce98169d</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb3c-acd5ce98169d</Name>
+	<Description>面积（米） *</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-09-08T06:55:17.242</CreationDate>
+	<Notes/>
+	<Text>面积（米） *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb3c-acd5ce89169b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

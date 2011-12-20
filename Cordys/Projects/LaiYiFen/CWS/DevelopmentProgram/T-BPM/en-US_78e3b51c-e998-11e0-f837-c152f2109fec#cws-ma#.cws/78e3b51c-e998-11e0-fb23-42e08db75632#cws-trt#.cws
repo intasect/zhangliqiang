@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb23-42e08dbed633">
+	<DocumentID>78e3b51c-e998-11e0-fb23-42e08db75632</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb23-42e08db75632</Name>
+	<Description>异常情况</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-09-07T06:35:40.499</CreationDate>
+	<Notes/>
+	<Text>异常情况</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb23-42e08da99630"
+		/>
+	</TextIdentifier>
+</TranslatedText>

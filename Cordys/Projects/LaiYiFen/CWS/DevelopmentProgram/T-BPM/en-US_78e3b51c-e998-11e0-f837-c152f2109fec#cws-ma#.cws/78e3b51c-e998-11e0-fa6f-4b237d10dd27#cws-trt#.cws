@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa6f-4b237d171d28">
+	<DocumentID>78e3b51c-e998-11e0-fa6f-4b237d10dd27</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa6f-4b237d10dd27</Name>
+	<Description>BAY_NAME</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-31T02:40:18.474</CreationDate>
+	<Notes/>
+	<Text>BAY_NAME</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa6f-4b237d01dd25"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c26cdf1514c9">
+	<DocumentID>78e3b51c-e998-11e0-f837-c26cdee094c8</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c26cdee094c8</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:40.045</CreationDate>
+	<Notes/>
+	<Text>店前道路宽度</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c26cdf9854ca"
+		/>
+	</TextIdentifier>
+</TranslatedText>

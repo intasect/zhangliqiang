@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff5f-6376307497de">
+	<DocumentID>78e3b51c-e998-11e0-ff5f-6376306d17dd</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff5f-6376306d17dd</Name>
+	<Description>长（米）*</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-20T09:12:03.247</CreationDate>
+	<Notes/>
+	<Text>长（米）*</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff5f-6376305f57db"
+		/>
+	</TextIdentifier>
+</TranslatedText>

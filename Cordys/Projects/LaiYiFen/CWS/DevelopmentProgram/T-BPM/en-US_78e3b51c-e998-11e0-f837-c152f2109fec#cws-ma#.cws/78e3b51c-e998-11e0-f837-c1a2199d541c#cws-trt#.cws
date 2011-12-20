@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1a219dbd41d">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1a2199d541c</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1a2199d541c</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:54.597</CreationDate>
+	<Notes/>
+	<Text>安排商超门店维护人员跟踪商超店面</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1a21a5b541e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e2c7-3a21d1e6d567">
+	<DocumentID>78e3b51c-e998-11e1-e2c7-3a21d1df5566</DocumentID>
+	<Name>78e3b51c-e998-11e1-e2c7-3a21d1df5566</Name>
+	<Description>单价(元/张)</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-11-24T02:39:07.757</CreationDate>
+	<Notes/>
+	<Text>单价(元/张)</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e2c7-3a21d1d19564"
+		/>
+	</TextIdentifier>
+</TranslatedText>

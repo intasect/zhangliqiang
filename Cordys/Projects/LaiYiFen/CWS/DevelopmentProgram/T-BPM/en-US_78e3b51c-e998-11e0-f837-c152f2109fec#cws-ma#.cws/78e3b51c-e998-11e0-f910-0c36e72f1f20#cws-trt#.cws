@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f910-0c36e7369f21">
+	<DocumentID>78e3b51c-e998-11e0-f910-0c36e72f1f20</DocumentID>
+	<Name>78e3b51c-e998-11e0-f910-0c36e72f1f20</Name>
+	<Description>利润中心</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-08-17T03:30:39.62</CreationDate>
+	<Notes/>
+	<Text>利润中心</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f910-0c36e7201f1e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

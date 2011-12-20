@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faec-aaac59ee562c">
+	<DocumentID>78e3b51c-e998-11e0-faec-aaac59e8162b</DocumentID>
+	<Name>78e3b51c-e998-11e0-faec-aaac59e8162b</Name>
+	<Description>交房日期 *</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-05T02:32:30.204</CreationDate>
+	<Notes/>
+	<Text>交房日期 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faec-aaac59d91629"
+		/>
+	</TextIdentifier>
+</TranslatedText>

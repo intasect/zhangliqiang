@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc7e-f4a999885770">
+	<DocumentID>78e3b51c-e998-11e0-fc7e-f4a99982176f</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc7e-f4a99982176f</Name>
+	<Description>*项目支出</Description>
+	<CreatedBy>陈二号</CreatedBy>
+	<CreationDate>2011-09-21T02:24:08.751</CreationDate>
+	<Notes/>
+	<Text>*项目支出</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc7e-f4a99973176d"
+		/>
+	</TextIdentifier>
+</TranslatedText>

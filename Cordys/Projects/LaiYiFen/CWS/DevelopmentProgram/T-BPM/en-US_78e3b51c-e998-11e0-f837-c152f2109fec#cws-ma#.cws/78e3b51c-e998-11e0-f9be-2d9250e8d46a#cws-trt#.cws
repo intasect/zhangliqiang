@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9be-2d9250f0546b">
+	<DocumentID>78e3b51c-e998-11e0-f9be-2d9250e8d46a</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9be-2d9250e8d46a</Name>
+	<Description>SHOP_AREA</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-24T01:38:17.468</CreationDate>
+	<Notes/>
+	<Text>SHOP_AREA</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9be-2d9250db1468"
+		/>
+	</TextIdentifier>
+</TranslatedText>

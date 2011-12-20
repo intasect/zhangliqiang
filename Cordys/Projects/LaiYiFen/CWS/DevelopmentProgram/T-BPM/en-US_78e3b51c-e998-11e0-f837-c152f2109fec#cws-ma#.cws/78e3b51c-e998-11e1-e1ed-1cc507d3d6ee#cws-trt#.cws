@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e1ed-1cc507da16ef">
+	<DocumentID>78e3b51c-e998-11e1-e1ed-1cc507d3d6ee</DocumentID>
+	<Name>78e3b51c-e998-11e1-e1ed-1cc507d3d6ee</Name>
+	<Description>子公司差旅报销流程</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-11-15T09:05:05.821</CreationDate>
+	<Notes/>
+	<Text>子公司差旅报销流程</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e1ed-1cc507c4d6ec"
+		/>
+	</TextIdentifier>
+</TranslatedText>

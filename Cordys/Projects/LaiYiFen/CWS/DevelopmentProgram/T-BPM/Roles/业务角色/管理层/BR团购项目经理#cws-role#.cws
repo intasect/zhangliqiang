@@ -1,0 +1,23 @@
+
+<RoleDesignTime
+	type="com.cordys.organization.role.RoleDesignTime"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e281-bc512a1a1b21">
+	<DocumentID>78e3b51c-e998-11e1-e281-bc512a129b20</DocumentID>
+	<Name>BR团购项目经理</Name>
+	<Description>BR团购项目经理</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-21T07:06:54.976</CreationDate>
+	<Notes/>
+	<isFunctionalRole>true</isFunctionalRole>
+	<type>Functional</type>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<configuredTasks/>
+	<Subroles>
+		<uri
+			id="005056a3-4878-11e0-f45d-99e6b1b39f51"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f45d-b4e151255ff0"
+		/>
+	</Subroles>
+</RoleDesignTime>

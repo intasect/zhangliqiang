@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e2b5-e2ec67b2d727">
+	<DocumentID>78e3b51c-e998-11e1-e2b5-e2ec67ac9726</DocumentID>
+	<Name>78e3b51c-e998-11e1-e2b5-e2ec67ac9726</Name>
+	<Description>总体流程统计</Description>
+	<CreatedBy>徐新宇</CreatedBy>
+	<CreationDate>2011-11-23T09:13:51.068</CreationDate>
+	<Notes/>
+	<Text>总体流程统计</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e2b5-e2ec679d9724"
+		/>
+	</TextIdentifier>
+</TranslatedText>

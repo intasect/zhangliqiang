@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff5c-d8cf44fd9684">
+	<DocumentID>78e3b51c-e998-11e0-ff5c-d8cf44f61683</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff5c-d8cf44f61683</Name>
+	<Description>门宽（米）*</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-20T08:48:58.431</CreationDate>
+	<Notes/>
+	<Text>门宽（米）*</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff5c-d8cf44e85681"
+		/>
+	</TextIdentifier>
+</TranslatedText>

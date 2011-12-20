@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c16bfc005bd3">
+	<DocumentID>78e3b51c-e998-11e0-f837-c16bfbb91bd2</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c16bfbb91bd2</Name>
+	<Description>新开门店POS机安装</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:01.12</CreationDate>
+	<Notes/>
+	<DefaultText>新开门店POS机安装</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c16bfaa4dbd0"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

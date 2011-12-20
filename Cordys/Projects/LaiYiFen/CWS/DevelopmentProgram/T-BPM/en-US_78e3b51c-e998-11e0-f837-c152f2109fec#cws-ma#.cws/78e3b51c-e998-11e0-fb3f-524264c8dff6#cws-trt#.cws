@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb3f-524264d05ff7">
+	<DocumentID>78e3b51c-e998-11e0-fb3f-524264c8dff6</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb3f-524264c8dff6</Name>
+	<Description>分配</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-09-08T09:17:09.062</CreationDate>
+	<Notes/>
+	<Text>分配</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb3f-524264b9dff4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

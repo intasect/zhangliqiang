@@ -1,0 +1,31 @@
+
+<BusinessIdentifier
+	type="com.cordys.businessidentifier.BusinessIdentifier"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9de-2dfaeff917a3">
+	<DocumentID>78e3b51c-e998-11e0-f9de-2dfaeff197a2</DocumentID>
+	<Name>ProcessType</Name>
+	<Description>流程类别</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-08-25T08:09:56.855</CreationDate>
+	<Notes/>
+	<DataType>1</DataType>
+	<Precision>0</Precision>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-f9de-2dfaef5f578d">
+			<DocumentID>78e3b51c-e998-11e0-f9de-2dfaef57d78c</DocumentID>
+			<Name>78e3b51c-e998-11e0-f9de-2dfaef57d78c</Name>
+			<Description>78e3b51c-e998-11e0-f9de-2dfaef57d78c</Description>
+			<CreatedBy>TBPM管理员</CreatedBy>
+			<CreationDate>2011-08-25T08:09:56.855</CreationDate>
+			<Notes/>
+			<Identifier>
+				<uri
+					id="78e3b51c-e998-11e0-f9de-2dfaef825792"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+	<TranslatableDescription/>
+</BusinessIdentifier>

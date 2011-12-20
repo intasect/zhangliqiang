@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9c9-0654dafb1f9c">
+	<DocumentID>78e3b51c-e998-11e0-f9c9-0654daf39f9b</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9c9-0654daf39f9b</Name>
+	<Description>刷新</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-24T12:20:45.821</CreationDate>
+	<Notes/>
+	<Text>刷新</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9c9-0654dae5df99"
+		/>
+	</TextIdentifier>
+</TranslatedText>

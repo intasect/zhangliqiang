@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faab-6cdac780175d">
+	<DocumentID>78e3b51c-e998-11e0-faab-6cdac778975c</DocumentID>
+	<Name>78e3b51c-e998-11e0-faab-6cdac778975c</Name>
+	<Description>差旅报销单</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-09-02T12:02:21.191</CreationDate>
+	<Notes/>
+	<Text>差旅报销单</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faab-6cdac76ad75a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

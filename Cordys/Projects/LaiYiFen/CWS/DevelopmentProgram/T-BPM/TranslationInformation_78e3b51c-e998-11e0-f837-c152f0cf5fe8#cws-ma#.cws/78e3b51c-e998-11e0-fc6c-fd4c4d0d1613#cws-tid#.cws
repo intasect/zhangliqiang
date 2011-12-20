@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc6c-fd4c4d15d614">
+	<DocumentID>78e3b51c-e998-11e0-fc6c-fd4c4d0d1613</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc6c-fd4c4d0d1613</Name>
+	<Description>委托给</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-20T09:08:50.318</CreationDate>
+	<Notes/>
+	<DefaultText>委托给</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fc6c-fd4c4d1d5615"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

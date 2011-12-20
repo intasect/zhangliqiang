@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fead-b596e749d7cd">
+	<DocumentID>78e3b51c-e998-11e0-fead-b596e74117cc</DocumentID>
+	<Name>78e3b51c-e998-11e0-fead-b596e74117cc</Name>
+	<Description>门店HR组织代码创建接口异常处理</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-13T07:35:28.817</CreationDate>
+	<Notes/>
+	<Text>门店HR组织代码创建接口异常处理</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fead-b596e72817ca"
+		/>
+	</TextIdentifier>
+</TranslatedText>

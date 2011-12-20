@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb07-761f408dd6ee">
+	<DocumentID>78e3b51c-e998-11e0-fb07-761f408796ed</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb07-761f408796ed</Name>
+	<Description>新店开店平均周期(天)</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-09-06T05:08:12.015</CreationDate>
+	<Notes/>
+	<Text>新店开店平均周期(天)</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb07-761f407756eb"
+		/>
+	</TextIdentifier>
+</TranslatedText>

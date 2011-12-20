@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fd4f-a194efbd1f24">
+	<DocumentID>78e3b51c-e998-11e0-fd4f-a194efb59f23</DocumentID>
+	<Name>78e3b51c-e998-11e0-fd4f-a194efb59f23</Name>
+	<Description>是否生成凭证</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-09-29T09:35:06.552</CreationDate>
+	<Notes/>
+	<Text>是否生成凭证</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fd4f-a194efa7df21"
+		/>
+	</TextIdentifier>
+</TranslatedText>

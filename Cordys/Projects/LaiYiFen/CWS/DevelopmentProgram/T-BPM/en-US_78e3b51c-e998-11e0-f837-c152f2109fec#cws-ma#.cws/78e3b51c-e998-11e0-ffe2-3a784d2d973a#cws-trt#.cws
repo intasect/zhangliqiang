@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ffe2-3a784d35173b">
+	<DocumentID>78e3b51c-e998-11e0-ffe2-3a784d2d973a</DocumentID>
+	<Name>78e3b51c-e998-11e0-ffe2-3a784d2d973a</Name>
+	<Description>STEP2</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-25T14:03:49.163</CreationDate>
+	<Notes/>
+	<Text>STEP2</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ffe2-3a784d1fd738"
+		/>
+	</TextIdentifier>
+</TranslatedText>

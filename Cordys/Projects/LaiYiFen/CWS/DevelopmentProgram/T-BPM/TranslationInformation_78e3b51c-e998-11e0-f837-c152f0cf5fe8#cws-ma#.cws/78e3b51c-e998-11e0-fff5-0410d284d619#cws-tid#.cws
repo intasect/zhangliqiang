@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fff5-0410d28c561a">
+	<DocumentID>78e3b51c-e998-11e0-fff5-0410d284d619</DocumentID>
+	<Name>78e3b51c-e998-11e0-fff5-0410d284d619</Name>
+	<Description>&lt;p&gt;填写说明：填写人必须选择印章类型，并上传要盖章文件，如果没有印章类型，请与盖章人（模块管理员）或系统管理员联系。产权地址与门店地址不一致请在备注说明&lt;/p&gt;</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-10-26T08:45:14.1</CreationDate>
+	<Notes/>
+	<DefaultText>&lt;p&gt;填写说明：填写人必须选择印章类型，并上传要盖章文件，如果没有印章类型，请与盖章人（模块管理员）或系统管理员联系。产权地址与门店地址不一致请在备注说明&lt;/p&gt;</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fff5-0410d292961b"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

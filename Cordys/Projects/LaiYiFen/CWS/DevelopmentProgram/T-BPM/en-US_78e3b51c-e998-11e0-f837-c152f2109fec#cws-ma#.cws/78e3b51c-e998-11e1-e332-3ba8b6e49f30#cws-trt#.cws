@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e332-3ba8b6ec1f31">
+	<DocumentID>78e3b51c-e998-11e1-e332-3ba8b6e49f30</DocumentID>
+	<Name>78e3b51c-e998-11e1-e332-3ba8b6e49f30</Name>
+	<Description>部门流程执行效率告警问题</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-11-28T07:49:14.515</CreationDate>
+	<Notes/>
+	<Text>部门流程执行效率告警问题</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e332-3ba8b6d59f2e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

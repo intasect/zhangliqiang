@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e170-1c6614975d3e">
+	<DocumentID>78e3b51c-e998-11e1-e170-1c66148fdd3d</DocumentID>
+	<Name>78e3b51c-e998-11e1-e170-1c66148fdd3d</Name>
+	<Description>预存全部物料信息</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-11-10T11:04:59.181</CreationDate>
+	<Notes/>
+	<Text>预存全部物料信息</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e170-1c66147d1d3b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

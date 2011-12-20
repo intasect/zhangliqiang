@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fd36-0422b85f1dbb">
+	<DocumentID>78e3b51c-e998-11e0-fd36-0422b8579dba</DocumentID>
+	<Name>78e3b51c-e998-11e0-fd36-0422b8579dba</Name>
+	<Description>Input1 max 5</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-28T09:17:52.763</CreationDate>
+	<Notes/>
+	<Text>Input1 max 5</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fd36-0422b849ddb8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,171 @@
+<!DOCTYPE HTML PUBLIC"-//W3C//DTD HTML 4.01  Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html onapplicationselect="selectApplication()">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<script type="cordys/xml" id="xmlQueryReq">
+		<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+			<SOAP:Body>
+				<Query xmlns="http://schemas.cordys.com/1.0/cpcadmin">
+					<dataset>
+						<constructor language="DBSQL">
+							<cursor numRows="1000" position="0"/>
+							<query>SELECT * FROM NOTF_TASK_INSTANCE WHERE ACTIVITY_ID = :P1 AND SOURCE_INSTANCE_ID = :P2</query>
+							<parameters>
+								<P1 xmlns="" dd="NOTF_TASK_INSTANCE.ACTIVITY_ID"></P1>
+								<P2 xmlns="" dd="NOTF_TASK_INSTANCE.SOURCE_INSTANCE_ID"></P2>
+							</parameters>
+						</constructor>
+					</dataset>
+				</Query>
+				<Query xmlns="http://schemas.cordys.com/1.0/cpcadmin">
+					<dataset>
+						<constructor language="DBSQL">
+							<cursor numRows="100000" position="0"/>
+							<query>SELECT * FROM PARTICIPANT</query>
+							<parameters>
+							</parameters>
+						</constructor>
+					</dataset>
+				</Query>
+			</SOAP:Body>
+		</SOAP:Envelope>
+	</script>
+	<script type="text/javascript" src="/cordys/wcp/application.js"></script>
+	<script type="text/javascript" src="/cordys/laiyifen/common/script/dateutil.js"></script>
+  <style>
+  	.header	{font:12px menu;width:100%;height:20px;border:1px}
+  	.cell	{font:12px menu;border:1px solid darkgray;border:1px}
+  </style>
+<script>
+var gActivityId = "";
+var gInstanceId = "";
+
+function selectApplication()
+{
+	application.setDialogSize(500, 250);
+	var dataObject = application.event.data;
+	try
+	{
+		gActivityId = dataObject.ActivityID;
+		gInstanceId = dataObject.InstanceID;
+		//静态图，事件请宁昊添加
+		if(gInstanceId==""){
+			application.notify("这里添加静态图!");
+			return;	
+		}
+		var req = cordys.cloneXMLDocument(xmlQueryReq.XMLDocument);
+		cordys.setNodeText(req, ".//*[local-name()='P1']", gActivityId);
+		cordys.setNodeText(req, ".//*[local-name()='P2']", gInstanceId);
+		var responeData = sendAndWait(req);
+		var taskNode = cordys.selectXMLNode(responeData, ".//*[local-name()='NOTF_TASK_INSTANCE']")
+		if(!taskNode){//未执行环节，请调用外部接口获取执行人，或Cordys自身接口target获取执行人
+			application.notify("未执行环节，请调用外部接口获取执行人");
+			return;
+		}else{//已执行或当前正在执行环节，执行后续代码段
+			
+		}
+		var _completeUser = cordys.getNodeText(responeData,".//*[local-name()='COMPLETED_BY']");
+		var _completeDate = cordys.getNodeText(responeData,".//*[local-name()='COMPLETION_DATE']");
+		var _startDate = cordys.getNodeText(responeData,".//*[local-name()='START_DATE']");
+		var _taskOwner = cordys.getNodeText(responeData,".//*[local-name()='TASK_OWNER']");
+		var _status = cordys.getNodeText(responeData,".//*[local-name()='STATE']");
+		switch(_status)
+		{
+			case "1":
+				_status = "创建";
+				break;
+			case "2":
+				_status = "已分配";
+				_taskOwner = cordys.getNodeText(responeData,".//*[local-name()='PARTICIPANT'][*[local-name()='PARTICIPANT_ID']='" + _taskOwner + "']/*[local-name()='DISPLAY_NAME']");
+				break;
+			case "3":
+				_status = "进行中";
+				_taskOwner = cordys.getNodeText(responeData,".//*[local-name()='PARTICIPANT'][*[local-name()='PARTICIPANT_ID']='" + _taskOwner + "']/*[local-name()='DISPLAY_NAME']");
+				break;
+			case "4":
+				_status = "暂停";
+				break;
+			case "5":
+				_status = "完成";
+				_taskOwner = cordys.getNodeText(responeData,".//*[local-name()='PARTICIPANT'][*[local-name()='PARTICIPANT_ID']='" + _taskOwner + "']/*[local-name()='DISPLAY_NAME']");
+				_completeUser = cordys.getNodeText(responeData,".//*[local-name()='PARTICIPANT'][*[local-name()='PARTICIPANT_ID']='" + _completeUser + "']/*[local-name()='DISPLAY_NAME']");
+				break;
+			case "7":
+				_status = "停止";
+				_taskOwner = cordys.getNodeText(responeData,".//*[local-name()='PARTICIPANT'][*[local-name()='PARTICIPANT_ID']='" + _taskOwner + "']/*[local-name()='DISPLAY_NAME']");
+				break;
+			default	:
+				_status = "";
+		}
+		setLabelValue("taskOwner",_taskOwner);
+		setLabelValue("completeUser",_completeUser);
+		setLabelValue("completeDate",fillDate(_completeDate));
+		setLabelValue("startDate",fillDate(_startDate));
+		setLabelValue("status",_status);
+	}
+	catch(e)
+	{
+		application.showError("无法获取审批信息!");
+		application.container.close();
+	}
+}
+
+function fillDate(dateStr)
+{
+	if(!dateStr){
+		return "";
+	}
+	return dateStr.substring(0,19).replace("T", " ");
+}
+
+function setLabelValue(elementId, value)
+{
+	if (elementId)
+	{
+		var element = document.getElementById(elementId);
+		if (element)
+		{
+			element.innerHTML = value == null ? "" : value;
+		}
+	}
+}
+
+function sendAndWait(requestXML)
+{
+	this.bdi.clear();
+	this.bdi.request = requestXML;
+	this.bdi.async = false;
+	this.bdi.__showError = true;
+	this.bdi.errorOccured = false;
+
+	this.bdi.reset();
+
+	return this.bdi.data;
+}
+
+</script>
+</head>
+<body scroll="no" style="margin:0px;height:100%;width:100%;position:relative">
+<div cordysType="wcp.library.data.BusDataIsland" id="bdi" async="false" style="display:none"></div>
+<div style="overflow:auto;height:100%;width:100%">
+	<table id="handleTable" class="grid" border="1" cellspacing="1" cellpadding="0">
+        <thead align="center">
+            <td width="20%"><label>拥有者</label></td>
+			<td width="15%"><label>处理人</label></td>
+            <td width="25%"><label>开始时间</label></td>
+            <td width="25%"><label>完成时间</label></td>
+			<td width="15%"><label>状态</label></td>
+        </thead>
+        <tbody>
+            <tr style="padding:3;">
+                <td width="20%"><label id="taskOwner"/></td>
+				<td width="15%"><label id="completeUser"/></td>
+                <td width="25%" align="center"><label id="startDate"/></td>
+                <td width="25%" align="center"><label id="completeDate"/></td>
+                <td width="15%"><label id="status"/></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>

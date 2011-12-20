@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c17eb51c9bab">
+	<DocumentID>78e3b51c-e998-11e0-f837-c17eb4cb5baa</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c17eb4cb5baa</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:35.115</CreationDate>
+	<Notes/>
+	<Text>复核各个子公司网点开发计划</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c17eb5e21bac"
+		/>
+	</TextIdentifier>
+</TranslatedText>

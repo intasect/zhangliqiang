@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e1ed-26b6e7d61fca">
+	<DocumentID>78e3b51c-e998-11e1-e1ed-26b6e7ce9fc9</DocumentID>
+	<Name>78e3b51c-e998-11e1-e1ed-26b6e7ce9fc9</Name>
+	<Description>子公司报销流程</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-11-15T09:13:40.313</CreationDate>
+	<Notes/>
+	<Text>子公司报销流程</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e1ed-26b6e7c0dfc7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

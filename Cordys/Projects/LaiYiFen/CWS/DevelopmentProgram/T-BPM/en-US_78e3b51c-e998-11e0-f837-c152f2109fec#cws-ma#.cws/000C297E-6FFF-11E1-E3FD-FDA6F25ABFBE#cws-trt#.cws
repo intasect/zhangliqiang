@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="000C297E-6FFF-11E1-E3FD-FDA6F25ADFBE">
+	<DocumentID>000C297E-6FFF-11E1-E3FD-FDA6F25ABFBE</DocumentID>
+	<Name>000C297E-6FFF-11E1-E3FD-FDA6F25ABFBE</Name>
+	<Description>所在地</Description>
+	<CreatedBy>Administrator</CreatedBy>
+	<CreationDate>2011-12-06T09:56:16.156</CreationDate>
+	<Notes/>
+	<Text>所在地</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="000C297E-6FFF-11E1-E3FD-FDA6F25A7FBE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

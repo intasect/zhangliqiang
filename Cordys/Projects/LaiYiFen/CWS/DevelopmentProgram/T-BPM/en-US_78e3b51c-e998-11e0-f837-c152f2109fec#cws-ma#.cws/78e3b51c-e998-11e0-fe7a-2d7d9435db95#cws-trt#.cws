@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fe7a-2d7d943d5b96">
+	<DocumentID>78e3b51c-e998-11e0-fe7a-2d7d9435db95</DocumentID>
+	<Name>78e3b51c-e998-11e0-fe7a-2d7d9435db95</Name>
+	<Description>COSTCENTER_CODE</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-11T07:27:47.073</CreationDate>
+	<Notes/>
+	<Text>COSTCENTER_CODE</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fe7a-2d7d9426db93"
+		/>
+	</TextIdentifier>
+</TranslatedText>

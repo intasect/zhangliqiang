@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c2469763df25">
+	<DocumentID>78e3b51c-e998-11e0-f837-c2469713df24</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c2469713df24</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:16.236</CreationDate>
+	<Notes/>
+	<Text>装修期间，施工队进入场内是否需要办理相关手续</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c24698245f26"
+		/>
+	</TextIdentifier>
+</TranslatedText>

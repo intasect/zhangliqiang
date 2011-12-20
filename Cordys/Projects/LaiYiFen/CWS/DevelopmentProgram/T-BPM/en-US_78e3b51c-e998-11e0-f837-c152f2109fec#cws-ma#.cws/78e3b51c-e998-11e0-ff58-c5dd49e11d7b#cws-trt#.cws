@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff58-c5dd49e61d7c">
+	<DocumentID>78e3b51c-e998-11e0-ff58-c5dd49e11d7b</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff58-c5dd49e11d7b</Name>
+	<Description>&lt;SPAN style=&quot;color: rgb(255, 0, 0);;;font-size: ;;;font-size: ;;;font-size: ;;;font-size: ;&quot;&gt;(&quot;长度MM*宽度MM&quot;填制，MM为单位 ，如有多个，中间请用半角逗号隔开)&lt;/SPAN&gt;</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-10-20T03:34:49.26</CreationDate>
+	<Notes/>
+	<Text>&lt;SPAN style=&quot;color: rgb(255, 0, 0);;;font-size: ;;;font-size: ;;;font-size: ;;;font-size: ;&quot;&gt;(&quot;长度MM*宽度MM&quot;填制，MM为单位 ，如有多个，中间请用半角逗号隔开)&lt;/SPAN&gt;</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff58-c5dd49d85d79"
+		/>
+	</TextIdentifier>
+</TranslatedText>

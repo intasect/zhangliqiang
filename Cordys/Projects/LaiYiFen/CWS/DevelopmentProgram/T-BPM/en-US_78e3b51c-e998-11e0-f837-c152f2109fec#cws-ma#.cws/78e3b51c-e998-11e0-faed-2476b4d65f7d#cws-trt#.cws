@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faed-2476b4dddf7e">
+	<DocumentID>78e3b51c-e998-11e0-faed-2476b4d65f7d</DocumentID>
+	<Name>78e3b51c-e998-11e0-faed-2476b4d65f7d</Name>
+	<Description>流程执行效率告警问题月度统计图</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-09-05T02:52:20.05</CreationDate>
+	<Notes/>
+	<Text>流程执行效率告警问题月度统计图</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faed-2476b4c89f7b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

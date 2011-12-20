@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c25049a057b7">
+	<DocumentID>78e3b51c-e998-11e0-f837-c2504957d7b6</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c2504957d7b6</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:19.244</CreationDate>
+	<Notes/>
+	<Text>格斗数量</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c2504a5bd7b8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

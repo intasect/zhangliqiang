@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff58-f32130b89fd6">
+	<DocumentID>78e3b51c-e998-11e0-ff58-f32130b11fd5</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff58-f32130b11fd5</Name>
+	<Description>保存物料组</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-20T03:40:31.725</CreationDate>
+	<Notes/>
+	<Text>保存物料组</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff58-f32130a35fd3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

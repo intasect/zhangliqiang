@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff77-65ccbfa05708">
+	<DocumentID>78e3b51c-e998-11e0-ff77-65ccbf9a1707</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff77-65ccbf9a1707</Name>
+	<Description>78e3b51c-e998-11e0-ff77-65ccbf9a1707</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-10-21T08:26:45.934</CreationDate>
+	<Notes/>
+	<Text>&lt;SPAN style=&quot;color: rgb(255, 0, 0);;font-size: ;;;font-size: ;&quot;&gt;( 填制具体的数字，长*宽*高 ,MM为长宽高的单位，如形状不规则填写面积数字，单位㎡。例如：100MM*20MM*30MM或者30&lt;/SPAN&gt;&lt;SPAN style=&quot;color: rgb(255, 0, 0);;;font-size: ;;;font-size: ;;;font-size: ;;;font-size: ;&quot;&gt;㎡&lt;/SPAN&gt;&lt;SPAN style=&quot;color: rgb(255, 0, 0);;;font-size: ;;;font-size: ;;;font-size: ;;;font-size: ;&quot;&gt;)&lt;/SPAN&gt;</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff77-65ccbf8c5705"
+		/>
+	</TextIdentifier>
+</TranslatedText>

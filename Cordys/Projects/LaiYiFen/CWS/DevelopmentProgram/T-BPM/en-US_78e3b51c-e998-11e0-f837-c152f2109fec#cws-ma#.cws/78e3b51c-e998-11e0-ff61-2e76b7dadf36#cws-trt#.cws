@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff61-2e76b7e11f37">
+	<DocumentID>78e3b51c-e998-11e0-ff61-2e76b7dadf36</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff61-2e76b7dadf36</Name>
+	<Description>建筑面积 *</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-20T11:16:28.375</CreationDate>
+	<Notes/>
+	<Text>建筑面积 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff61-2e76b7cbdf34"
+		/>
+	</TextIdentifier>
+</TranslatedText>

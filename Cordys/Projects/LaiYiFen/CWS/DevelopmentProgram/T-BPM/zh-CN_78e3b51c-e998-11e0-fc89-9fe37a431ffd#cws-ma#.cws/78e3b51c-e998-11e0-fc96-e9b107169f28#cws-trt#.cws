@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc96-e9b1071e1f29">
+	<DocumentID>78e3b51c-e998-11e0-fc96-e9b107169f28</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc96-e9b107169f28</Name>
+	<Description>驳回发起人</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-22T01:26:30.989</CreationDate>
+	<Notes/>
+	<Text>驳回发起人</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-fc89-9fe37a599fff"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c153a1a41f1a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

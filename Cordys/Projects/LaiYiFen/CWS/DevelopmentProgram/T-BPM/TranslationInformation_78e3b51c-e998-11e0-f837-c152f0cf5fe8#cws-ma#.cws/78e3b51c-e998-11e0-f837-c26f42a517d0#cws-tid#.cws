@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c26f42d217d1">
+	<DocumentID>78e3b51c-e998-11e0-f837-c26f42a517d0</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c26f42a517d0</Name>
+	<Description>门店辐射范围及消费力分析</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:39.362</CreationDate>
+	<Notes/>
+	<DefaultText>门店辐射范围及消费力分析</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c26f41f897ce"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

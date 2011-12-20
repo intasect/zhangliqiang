@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e0bb-61fa2037d6fd">
+	<DocumentID>78e3b51c-e998-11e1-e0bb-61fa203056fc</DocumentID>
+	<Name>78e3b51c-e998-11e1-e0bb-61fa203056fc</Name>
+	<Description>“长度*个数”填制，长度单位：MM。如无AA槽个数，则填写“无”，如有多个，中间请用半角逗号隔开。</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-03T05:20:54.002</CreationDate>
+	<Notes/>
+	<Text>“长度*个数”填制，长度单位：MM。如无AA槽个数，则填写“无”，如有多个，中间请用半角逗号隔开。</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e0bb-61fa202156fa"
+		/>
+	</TextIdentifier>
+</TranslatedText>

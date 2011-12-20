@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fad3-f832faab522e">
+	<DocumentID>78e3b51c-e998-11e0-fad3-f832faa3d22d</DocumentID>
+	<Name>78e3b51c-e998-11e0-fad3-f832faa3d22d</Name>
+	<Description>Tab3</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-04T03:14:44.287</CreationDate>
+	<Notes/>
+	<DefaultText>Tab3</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fad3-f832fab4122f"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

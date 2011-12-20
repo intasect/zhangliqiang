@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c21467325d53">
+	<DocumentID>78e3b51c-e998-11e0-f837-c21467041d52</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c21467041d52</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:10.923</CreationDate>
+	<Notes/>
+	<Text>是否规划内</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c21467c0dd54"
+		/>
+	</TextIdentifier>
+</TranslatedText>

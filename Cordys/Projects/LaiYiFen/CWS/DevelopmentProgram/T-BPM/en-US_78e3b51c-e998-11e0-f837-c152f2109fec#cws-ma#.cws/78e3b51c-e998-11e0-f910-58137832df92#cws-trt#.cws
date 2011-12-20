@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f910-5813783a5f93">
+	<DocumentID>78e3b51c-e998-11e0-f910-58137832df92</DocumentID>
+	<Name>78e3b51c-e998-11e0-f910-58137832df92</Name>
+	<Description>HR主数据异常</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-08-17T03:54:41.182</CreationDate>
+	<Notes/>
+	<Text>HR主数据异常</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f910-581378251f90"
+		/>
+	</TextIdentifier>
+</TranslatedText>

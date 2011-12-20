@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faec-976ed02c14fa">
+	<DocumentID>78e3b51c-e998-11e0-faec-976ed02494f9</DocumentID>
+	<Name>78e3b51c-e998-11e0-faec-976ed02494f9</Name>
+	<Description>流程告警问题统计图</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-09-05T02:44:52.844</CreationDate>
+	<Notes/>
+	<Text>流程告警问题统计图</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faec-976ed01594f7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

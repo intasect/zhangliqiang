@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc6a-1a6caa96d7c9">
+	<DocumentID>78e3b51c-e998-11e0-fc6a-1a6caa8f57c8</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc6a-1a6caa8f57c8</Name>
+	<Description>是否特殊门店</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-09-20T09:23:41.085</CreationDate>
+	<Notes/>
+	<Text>是否特殊门店</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc6a-1a6caa8197c6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

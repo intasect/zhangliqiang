@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa5c-9b4a0871d75c">
+	<DocumentID>78e3b51c-e998-11e0-fa5c-9b4a086a575b</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa5c-9b4a086a575b</Name>
+	<Description>主数据隐藏字段</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-30T08:57:17.669</CreationDate>
+	<Notes/>
+	<Text>主数据隐藏字段</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa5c-9b4a085c9759"
+		/>
+	</TextIdentifier>
+</TranslatedText>

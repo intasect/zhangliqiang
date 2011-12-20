@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c211eebc5d95">
+	<DocumentID>78e3b51c-e998-11e0-f837-c211ee729d94</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c211ee729d94</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:26.37</CreationDate>
+	<Notes/>
+	<Text>租金是否递增</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c211ef7b9d96"
+		/>
+	</TextIdentifier>
+</TranslatedText>

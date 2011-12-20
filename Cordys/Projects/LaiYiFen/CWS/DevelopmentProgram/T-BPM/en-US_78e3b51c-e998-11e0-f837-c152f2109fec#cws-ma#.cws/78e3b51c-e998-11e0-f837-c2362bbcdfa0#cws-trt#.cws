@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c2362c041fa1">
+	<DocumentID>78e3b51c-e998-11e0-f837-c2362bbcdfa0</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c2362bbcdfa0</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:22.579</CreationDate>
+	<Notes/>
+	<Text>现合同期限（必填）</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c2362cc0dfa2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

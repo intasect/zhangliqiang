@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faec-796100fb5646">
+	<DocumentID>78e3b51c-e998-11e0-faec-aaac5b6e1663</DocumentID>
+	<Name>78e3b51c-e998-11e0-faec-aaac5b6e1663</Name>
+	<Description>销售组织 *</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-05T02:32:30.22</CreationDate>
+	<Notes/>
+	<Text>销售组织 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faec-aaac5b605661"
+		/>
+	</TextIdentifier>
+</TranslatedText>

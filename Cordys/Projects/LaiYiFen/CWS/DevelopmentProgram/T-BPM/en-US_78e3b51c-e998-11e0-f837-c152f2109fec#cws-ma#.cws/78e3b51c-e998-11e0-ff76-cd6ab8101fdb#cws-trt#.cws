@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff76-cd6ab8179fdc">
+	<DocumentID>78e3b51c-e998-11e0-ff76-cd6ab8101fdb</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff76-cd6ab8101fdb</Name>
+	<Description>费用归属本部门 *</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-21T07:35:23.276</CreationDate>
+	<Notes/>
+	<Text>费用归属本部门 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff76-cd6ab8011fd9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

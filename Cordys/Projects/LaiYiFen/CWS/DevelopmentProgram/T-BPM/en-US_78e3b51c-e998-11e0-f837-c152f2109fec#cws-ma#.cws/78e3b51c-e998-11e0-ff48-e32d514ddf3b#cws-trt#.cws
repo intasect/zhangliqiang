@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff48-e32d51555f3c">
+	<DocumentID>78e3b51c-e998-11e0-ff48-e32d514ddf3b</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff48-e32d514ddf3b</Name>
+	<Description>高（米）</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-10-19T11:58:37.494</CreationDate>
+	<Notes/>
+	<Text>高（米）</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff48-e32d51401f39"
+		/>
+	</TextIdentifier>
+</TranslatedText>

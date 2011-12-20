@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff58-75699da4978b">
+	<DocumentID>78e3b51c-e998-11e0-ff58-75699d9e578a</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff58-75699d9e578a</Name>
+	<Description>商超整体楼层数</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-10-20T02:36:17.757</CreationDate>
+	<Notes/>
+	<Text>商超整体楼层数</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff58-75699d909788"
+		/>
+	</TextIdentifier>
+</TranslatedText>

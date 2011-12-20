@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e0ab-38a18f5fdffa">
+	<DocumentID>78e3b51c-e998-11e1-e0ab-38a18f585ff9</DocumentID>
+	<Name>78e3b51c-e998-11e1-e0ab-38a18f585ff9</Name>
+	<Description>Input3</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-02T14:16:59.853</CreationDate>
+	<Notes/>
+	<Text>Input3</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e0ab-38a18f4a9ff7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c27b293b5fff">
+	<DocumentID>78e3b51c-e998-11e0-f837-c27b28f19ffe</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c27b28f19ffe</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:45.299</CreationDate>
+	<Notes/>
+	<Text>&lt;P&gt;填写说明：填写人必须选择印章类型，并上传要盖章文件，如果没有印章类型，请与盖章人（模块管理员）或系统管理员联系。&lt;/P&gt;</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c27b29f6d600"
+		/>
+	</TextIdentifier>
+</TranslatedText>

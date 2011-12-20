@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1770f479bbf">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1770ef29bbe</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1770ef29bbe</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:57.567</CreationDate>
+	<Notes/>
+	<Text>门店暂闭主线业务流程</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c177101adbc0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

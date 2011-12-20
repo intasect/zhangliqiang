@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faec-f0f9dc7e9f12">
+	<DocumentID>78e3b51c-e998-11e0-faec-f0f9dc785f11</DocumentID>
+	<Name>78e3b51c-e998-11e0-faec-f0f9dc785f11</Name>
+	<Description>门店属性区分 *</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-05T02:37:35.909</CreationDate>
+	<Notes/>
+	<DefaultText>门店属性区分 *</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-faec-f0f9dc861f13"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

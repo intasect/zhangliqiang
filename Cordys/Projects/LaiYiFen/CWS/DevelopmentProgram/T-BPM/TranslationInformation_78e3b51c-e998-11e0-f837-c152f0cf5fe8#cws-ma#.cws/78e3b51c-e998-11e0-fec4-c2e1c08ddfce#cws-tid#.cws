@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fec4-c2e1c0955fcf">
+	<DocumentID>78e3b51c-e998-11e0-fec4-c2e1c08ddfce</DocumentID>
+	<Name>78e3b51c-e998-11e0-fec4-c2e1c08ddfce</Name>
+	<Description>子公司报销审批流程</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-14T05:38:09.326</CreationDate>
+	<Notes/>
+	<DefaultText>子公司报销审批流程</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fec4-c2e1c09cdfd0"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

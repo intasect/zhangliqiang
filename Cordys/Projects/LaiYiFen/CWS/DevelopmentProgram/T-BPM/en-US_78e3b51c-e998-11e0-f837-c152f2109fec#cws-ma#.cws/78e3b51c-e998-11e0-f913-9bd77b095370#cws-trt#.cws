@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f913-9bd77b10d371">
+	<DocumentID>78e3b51c-e998-11e0-f913-9bd77b095370</DocumentID>
+	<Name>78e3b51c-e998-11e0-f913-9bd77b095370</Name>
+	<Description>Input13</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-17T06:53:13.583</CreationDate>
+	<Notes/>
+	<Text>Input13</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f913-9bd77afb936e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbd3-3d3c32fb178a">
+	<DocumentID>78e3b51c-e998-11e0-fbd3-3d3c32f39789</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbd3-3d3c32f39789</Name>
+	<Description>总监审批各个子公司网点开发计划</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-14T07:04:59.833</CreationDate>
+	<Notes/>
+	<Text>总监审批各个子公司网点开发计划</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbd3-3d3c32e5d787"
+		/>
+	</TextIdentifier>
+</TranslatedText>

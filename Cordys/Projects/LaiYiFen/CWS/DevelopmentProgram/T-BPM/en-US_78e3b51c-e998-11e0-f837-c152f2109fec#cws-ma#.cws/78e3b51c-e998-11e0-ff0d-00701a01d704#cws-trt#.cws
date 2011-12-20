@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff0d-00701a095705">
+	<DocumentID>78e3b51c-e998-11e0-ff0d-00701a01d704</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff0d-00701a01d704</Name>
+	<Description>通知各部门</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-10-17T03:13:56.715</CreationDate>
+	<Notes/>
+	<Text>通知各部门</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff0d-007019f19702"
+		/>
+	</TextIdentifier>
+</TranslatedText>

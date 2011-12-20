@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f915-009ea7591587">
+	<DocumentID>78e3b51c-e998-11e0-f915-009ea752d586</DocumentID>
+	<Name>78e3b51c-e998-11e0-f915-009ea752d586</Name>
+	<Description>门店等级</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-08-17T08:20:30.745</CreationDate>
+	<Notes/>
+	<Text>门店等级</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f915-009ea7451584"
+		/>
+	</TextIdentifier>
+</TranslatedText>

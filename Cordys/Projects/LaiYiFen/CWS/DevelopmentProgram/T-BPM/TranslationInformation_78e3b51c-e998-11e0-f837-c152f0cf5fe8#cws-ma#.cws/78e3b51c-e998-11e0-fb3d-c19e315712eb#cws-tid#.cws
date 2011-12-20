@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb3d-c19e315e92ec">
+	<DocumentID>78e3b51c-e998-11e0-fb3d-c19e315712eb</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb3d-c19e315712eb</Name>
+	<Description>CHINESEPINYIN</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-08T08:18:55.259</CreationDate>
+	<Notes/>
+	<DefaultText>CHINESEPINYIN</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fb3d-c19e3164d2ed"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

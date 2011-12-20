@@ -1,0 +1,25 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1632a495f3b">
+	<DocumentID>78e3b51c-e998-11e0-f837-c16329f81f3a</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c16329f81f3a</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:35.215</CreationDate>
+	<Notes/>
+	<Text>1.门店性质变更的局限性。
+2.销售业绩不良。
+3.不能续用。
+以上只要符合一个条件就可以触发标准门店拆店流程。</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1632b089f3c"
+		/>
+	</TextIdentifier>
+</TranslatedText>

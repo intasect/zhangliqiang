@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faac-78c670a21f24">
+	<DocumentID>78e3b51c-e998-11e0-faac-78c6709a9f23</DocumentID>
+	<Name>78e3b51c-e998-11e0-faac-78c6709a9f23</Name>
+	<Description>发文用印申请单查询</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-02T13:07:16.667</CreationDate>
+	<Notes/>
+	<Text>发文用印申请单查询</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faac-78c6708b9f21"
+		/>
+	</TextIdentifier>
+</TranslatedText>

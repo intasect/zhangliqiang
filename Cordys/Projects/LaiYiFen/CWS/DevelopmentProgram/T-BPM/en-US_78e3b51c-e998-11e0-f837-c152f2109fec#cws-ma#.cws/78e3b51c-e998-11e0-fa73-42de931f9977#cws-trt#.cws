@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa73-42de9325d978">
+	<DocumentID>78e3b51c-e998-11e0-fa73-42de931f9977</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa73-42de931f9977</Name>
+	<Description>创建时间</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-31T07:18:39.155</CreationDate>
+	<Notes/>
+	<Text>创建时间</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa73-42de93131975"
+		/>
+	</TextIdentifier>
+</TranslatedText>

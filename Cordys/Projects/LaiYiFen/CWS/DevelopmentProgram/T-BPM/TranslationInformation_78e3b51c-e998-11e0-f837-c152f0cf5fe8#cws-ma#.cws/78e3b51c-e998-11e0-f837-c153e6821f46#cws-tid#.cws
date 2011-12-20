@@ -1,0 +1,26 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c153e6b41f47">
+	<DocumentID>78e3b51c-e998-11e0-f837-c153e6821f46</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c153e6821f46</Name>
+	<Description>填写目标调查表</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:19.281</CreationDate>
+	<Notes/>
+	<DefaultText>填写目标调查表</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c153e5a89f44"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-fc97-302495c394ec"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

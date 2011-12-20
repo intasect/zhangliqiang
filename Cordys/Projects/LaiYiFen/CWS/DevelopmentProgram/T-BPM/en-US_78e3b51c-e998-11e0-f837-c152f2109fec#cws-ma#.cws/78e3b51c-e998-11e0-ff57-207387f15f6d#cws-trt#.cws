@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff57-207387f79f6e">
+	<DocumentID>78e3b51c-e998-11e0-ff57-207387f15f6d</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff57-207387f15f6d</Name>
+	<Description>SUBMIT_STATUS</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-10-20T01:23:27.767</CreationDate>
+	<Notes/>
+	<Text>SUBMIT_STATUS</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff57-207387e39f6b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

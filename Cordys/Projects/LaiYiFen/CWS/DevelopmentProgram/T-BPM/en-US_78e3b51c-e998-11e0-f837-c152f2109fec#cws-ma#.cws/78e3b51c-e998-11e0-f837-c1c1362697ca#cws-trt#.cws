@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1c13663d7cb">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1c1362697ca</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1c1362697ca</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:42.51</CreationDate>
+	<Notes/>
+	<Text>审批合同是否续租</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1c136f617cc"
+		/>
+	</TextIdentifier>
+</TranslatedText>

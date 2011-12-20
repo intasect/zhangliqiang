@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fcb9-a3e2965f9f7e">
+	<DocumentID>78e3b51c-e998-11e0-fcb9-a3e296581f7d</DocumentID>
+	<Name>78e3b51c-e998-11e0-fcb9-a3e296581f7d</Name>
+	<Description>给门店供货的DC</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-09-23T10:24:37.906</CreationDate>
+	<Notes/>
+	<Text>给门店供货的DC</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fcb9-a3e2964a5f7b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

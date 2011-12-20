@@ -1,0 +1,599 @@
+<!DOCTYPE HTML PUBLIC"-//W3C//DTD HTML 4.01  Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html onapplicationready="init()">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>Inbox</title>
+		<style type="text/css">
+       .header	{	font:12px menu;width:100%;height:20px	}
+       .cell	{	font:12px menu;border:1px solid darkgray	}
+    </style>
+		<script type="text/javascript" src="/cordys/wcp/application.js"></script>
+		<script type="text/javascript" src="/cordys/laiyifen/common/script/common.js" ></script>
+		<script type="cordys/xml" id="getTaskCountRequest">
+			<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+			 	<SOAP:Body>
+			    	<GetTaskCount xmlns="http://schemas.cordys.com/tbpm/common">
+			      		<userdn></userdn>
+			      		<processtype></processtype>
+			      		<processcode></processcode>
+			      		<sender></sender>
+			      		<fromdate></fromdate>
+			      		<todate></todate>
+			      		<subject></subject>
+				  		<iscomplete></iscomplete>
+			    	</GetTaskCount>
+				</SOAP:Body>
+			</SOAP:Envelope>
+		</script>
+		<script type="cordys/xml" id="getTasksRequest">
+			<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+				<SOAP:Body>
+			  		<GetTaskDetails xmlns="http://schemas.cordys.com/tbpm/common">
+			      		<userdn></userdn>
+			     		<processtype></processtype>
+			      		<processcode></processcode>
+			      		<sender></sender>
+			      		<fromdate></fromdate>
+				    	<todate></todate>
+			      		<subject></subject>
+			      		<fromrownum></fromrownum>
+			      		<torownum></torownum>
+				  		<iscomplete></iscomplete>
+			    	</GetTaskDetails>
+				</SOAP:Body>
+			</SOAP:Envelope>
+		</script>
+		<script type="cordys/xml" id="getInfoCountRequest">
+			<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+			 	<SOAP:Body>
+			    	<GetInfoCount xmlns="http://schemas.cordys.com/tbpm/common">
+			      		<userdn></userdn>
+			      		<processtype></processtype>
+			      		<processcode></processcode>
+			      		<sender></sender>
+			      		<fromdate></fromdate>
+			      		<todate></todate>
+			      		<subject></subject>
+				  		<iscomplete></iscomplete>
+			    	</GetInfoCount>
+				</SOAP:Body>
+			</SOAP:Envelope>
+		</script>
+		<script type="cordys/xml" id="getInfosRequest">
+			<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+				<SOAP:Body>
+			  		<GetInfoDetails xmlns="http://schemas.cordys.com/tbpm/common">
+			      		<userdn></userdn>
+			     		<processtype></processtype>
+			      		<processcode></processcode>
+			      		<sender></sender>
+			      		<fromdate></fromdate>
+				    	<todate></todate>
+			      		<subject></subject>
+			      		<fromrownum></fromrownum>
+			      		<torownum></torownum>
+				  		<iscomplete></iscomplete>
+			    	</GetInfoDetails>
+				</SOAP:Body>
+			</SOAP:Envelope>
+		</script>
+		<script type="cordys/xml" id="getTaskDetailsRequest">
+			<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+				<SOAP:Body>
+					<GetTask xmlns="http://schemas.cordys.com/notification/workflow/1.0">
+						<TaskId></TaskId>
+						<RetrievePossibleActions>true</RetrievePossibleActions>
+						<Target type="user"></Target>
+					</GetTask>
+				</SOAP:Body>
+			</SOAP:Envelope>
+		</script>
+		<script type="cordys/xml" id="getInfoDetailsRequest">
+			<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  				<SOAP:Body>
+  					<GetNotification xmlns="http://schemas.cordys.com/notification/workflow/1.0">
+      					<NotificationId></NotificationId>
+    				</GetNotification>
+  				</SOAP:Body>
+			</SOAP:Envelope>
+		</script>
+		<script type="cordys/xml" id="taskviewerApp">
+	   		<Application taskbar="true">
+				<url>/cordys/cas/vcm/casrepository/applicationservices/connectors/xforms.htm</url>
+				<id></id>
+				<caption></caption>
+				<description></description>
+				<frame width="80%" height="80%" top="10%" left="10%"></frame>
+				<organization></organization>
+			</Application>
+		</script>
+		<script type="cordys/xml" id="Application_SelectUsers">
+			<Application>
+				<id>selectUsers</id>
+				<url>/cordys/laiyifen/common/html/selectUsers.htm</url>
+				<caption>根据角色选择用户</caption>
+				<frame features="dialogWidth:800px;dialogHeight:540px;center:yes;help:no;titlebar:no;status:no;">_modal</frame>
+				<data />
+			</Application>
+		</script>
+		<script type="cordys/xml" id="Application_SelectProcess">
+			<Application>
+				<id>selectProcess</id>
+				<url>/cordys/User Interface/com/laiyifen/common/signconfig/Process_Info_list_for_inbox.caf</url>
+				<caption>选择流程</caption>
+				<frame features="dialogWidth:600px;dialogHeight:400px;center:yes;help:no;titlebar:no;status:no;">_modal</frame>
+				<data />
+			</Application>
+		</script>
+		<script type="cordys/xml" id="typelist">
+			<Application>
+				<Process>
+				<Code>01</Code>
+				<Description>新开店流程</Description>
+				</Process>
+<Process>
+				<Code>02</Code>
+				<Description>报销流程</Description>
+				</Process>
+<Process>
+				<Code>03</Code>
+				<Description>促销流程</Description>
+				</Process>
+<Process>
+				<Code>04</Code>
+				<Description>团购流程</Description>
+				</Process>
+			</Application>
+		</script>
+
+		<script>
+var notf_count;
+var cursor_position;
+var numRows;
+var pageNum;
+var currentPage;
+
+function init(){
+	cursor_position = 1;
+	numRows = 10; //每页显示条数
+	showData();
+}
+
+/********************************************************************
+ * 功能名称	: btn_selectpersons_Click();
+ * 描述: 选择人员
+ * 输入参数：eventObject
+ * 输出参数：oParam
+ */
+function btn_selectpersons_Click(eventObject)
+{
+	
+    var oParam = new Object();
+    oParam.unitId ="10000110" ;
+    oParam.selectMode = "SINGLE";
+    oParam.selectedUserNameList="";
+    oParam.selectedUserList="";
+    application.select(Application_SelectUsers.XMLDocument.documentElement, oParam);
+  
+    if(oParam.selectedUserList!=""){
+	    document.getElementById("sender").value=oParam.selectedUserList;
+	    document.getElementById("senderName").value=oParam.selectedUserNameList;
+	    
+	   
+    }
+}
+ 
+function printPriority(priority)
+{
+	var returnstr;
+	switch(eval(priority))
+	{
+		case 1:
+		returnstr= "<nobr><img src='/cordys/cpc/images/inbox/low-priority.gif' title='Low' align='absTop'></nobr>";
+		break;
+		case 5:
+		returnstr="<nobr><img src='/cordys/cpc/images/inbox/high-priority.gif' title='Above Normal'  align='absTop'></nobr>";
+		break;
+		default:
+		returnstr="";
+	}
+	return returnstr;
+}
+
+function showData(){
+	resetTable();
+	var filter = initFilter();
+	calculatePage(getCount(filter));
+	insertRows(getDetails(filter), filter);
+}
+
+function initFilter(){
+	var filter = new Object();
+	filter.processtype = document.getElementById("processtype").value;
+	filter.processcode = document.getElementById("processcode").value;
+	filter.sender = document.getElementById("sender").value;
+	filter.subject = document.getElementById("subject").value;
+	filter.fromdate = document.getElementById("fromdate").value;
+	filter.todate = document.getElementById("todate").value;
+	filter.type = document.getElementById("selectedType").value.split("_")[0];
+	filter.state = document.getElementById("selectedType").value.split("_")[1];
+	return filter;
+}
+
+function getTypeValue(type)
+{
+ return cordys.getNodeText(typelist.XMLDocument.documentElement,".//*[local-name()='Process'][*[local-name()='Code']='"+type+"']/*[local-name()='Description']",'');
+}
+
+function getCount(filter){
+	if(filter.type == "TASK"){
+		var getCountReq = cordys.cloneXMLDocument(getTaskCountRequest.XMLDocument);
+	}
+	if(filter.type == "INFO"){
+		var getCountReq = cordys.cloneXMLDocument(getInfoCountRequest.XMLDocument);
+	}
+	cordys.setNodeText(getCountReq, ".//*[local-name()='userdn']", cordys.getNodeText(system.getUser().data,".//*[local-name()='organization'][@default='true']/*[local-name()='organizationaluser']/*[local-name()='dn']"));
+	cordys.setNodeText(getCountReq, ".//*[local-name()='processtype']", filter.processtype);
+	cordys.setNodeText(getCountReq, ".//*[local-name()='processcode']", filter.processcode);
+	cordys.setNodeText(getCountReq, ".//*[local-name()='sender']", filter.sender);
+	cordys.setNodeText(getCountReq, ".//*[local-name()='subject']", filter.subject);
+	cordys.setNodeText(getCountReq, ".//*[local-name()='fromdate']", filter.fromdate);
+	cordys.setNodeText(getCountReq, ".//*[local-name()='todate']", filter.todate);
+	cordys.setNodeText(getCountReq, ".//*[local-name()='iscomplete']", filter.state);
+	notf_count = cordys.getNodeText(sendAndWait(getCountReq), ".//*[local-name()='NUM']");
+	return notf_count;
+}
+
+function getDetails(filter){
+	if(filter.type == "TASK"){
+		var getDetailsReq = cordys.cloneXMLDocument(getTasksRequest.XMLDocument);
+	}
+	if(filter.type == "INFO"){
+		var getDetailsReq = cordys.cloneXMLDocument(getInfosRequest.XMLDocument);
+	}
+	cordys.setNodeText(getDetailsReq, ".//*[local-name()='userdn']", cordys.getNodeText(system.getUser().data,".//*[local-name()='organization'][@default='true']/*[local-name()='organizationaluser']/*[local-name()='dn']"));
+	cordys.setNodeText(getDetailsReq, ".//*[local-name()='processtype']", filter.processtype);
+	cordys.setNodeText(getDetailsReq, ".//*[local-name()='processcode']", filter.processcode);
+	cordys.setNodeText(getDetailsReq, ".//*[local-name()='sender']", filter.sender);
+	cordys.setNodeText(getDetailsReq, ".//*[local-name()='subject']", filter.subject);
+	cordys.setNodeText(getDetailsReq, ".//*[local-name()='fromdate']", filter.fromdate);
+	cordys.setNodeText(getDetailsReq, ".//*[local-name()='todate']", filter.todate);
+	cordys.setNodeText(getDetailsReq, ".//*[local-name()='fromrownum']", cursor_position);
+	cordys.setNodeText(getDetailsReq, ".//*[local-name()='torownum']", cursor_position + numRows - 1);
+	cordys.setNodeText(getDetailsReq, ".//*[local-name()='iscomplete']", filter.state);
+	return cordys.selectXMLNodes(sendAndWait(getDetailsReq), ".//*[local-name()='tuple']/*[local-name()='old']/*[local-name()='TABLE']");
+}
+
+function insertRows(TableNodes, filter)
+{
+	for(var i=0; i<TableNodes.length; i++){
+		var TableNode = TableNodes[i];
+		var priority = cordys.getNodeText(TableNode, ".//*[local-name()='PRIORITY']");
+		var subject = cordys.getNodeText(TableNode, ".//*[local-name()='SUBJECT']");
+		var delivery_date = cordys.getNodeText(TableNode, ".//*[local-name()='DELIVERY_DATE']");
+		var sender = cordys.getNodeText(TableNode, ".//*[local-name()='SENDER']");
+		var activity_name = cordys.getNodeText(TableNode, ".//*[local-name()='ACTIVITY_NAME']");
+		var identifier_name_list = cordys.getNodeText(TableNode, ".//*[local-name()='IDENTIFIER_NAME_LIST']");
+		var identifier_value_list = cordys.getNodeText(TableNode, ".//*[local-name()='IDENTIFIER_VALUE_LIST']");
+		var oTable = document.getElementById("handleTable");
+		row=oTable.insertRow(oTable.rows.length);
+		row.businessObject = TableNode;
+		row.type = filter.type;
+		row.state = filter.state;
+		var num = cursor_position + i;
+		cell0=row.insertCell(0);
+	  	cell0.innerHTML="<label>"+num+"</label>";
+	 	cell1=row.insertCell(1);
+	  	cell1.innerHTML=printPriority(priority );
+	 	cell2=row.insertCell(2);
+	 	cell2.innerHTML="<label>"+getTypeValue(getIdentifiervalueByName(identifier_name_list, identifier_value_list, "流程类别"))+"</label>";
+	  	cell3=row.insertCell(3);
+	  	cell3.innerHTML="<label>"+getIdentifiervalueByName(identifier_name_list, identifier_value_list, "流程名称")+"</label>";
+/*
+	  	cell4=row.insertCell(4);
+	  	cell4.innerHTML="<label>"+activity_name+"</label>";
+*/
+	  	cell5=row.insertCell(4);
+	  	cell5.innerHTML="<label>"+subject+"</label>";
+	  	cell6=row.insertCell(5);
+	  	cell6.innerHTML="<label>"+convertLongTimeToLocalTime(getIdentifiervalueByName(identifier_name_list, identifier_value_list, "创建时间"),0)+"</label>";
+	  	cell7=row.insertCell(6);
+	  	cell7.innerHTML="<label>"+convertUtcTimeToLocalTime(delivery_date, +8)+"</label>";
+	  	cell8=row.insertCell(7);
+	  	cell8.innerHTML="<label>"+sender+"</label>";
+	  	cordys.addDOMListener(row, "ondblclick", openNotfication);
+	}
+}
+
+function getIdentifiervalueByName(identifier_name_list, identifier_value_list, identifier_name){
+if(identifier_name_list==null||identifier_name_list=="")return "";
+if(identifier_value_list==null||identifier_value_list=="")return "";
+	var identifier_name_arr = identifier_name_list.split(";");
+	var identifier_value_arr = identifier_value_list.split(";");
+	for(var i=0; i<identifier_name_arr.length; i++){
+		if(identifier_name_arr[i]==identifier_name){
+			return identifier_value_arr[i];
+		}
+	}
+}
+
+function calculatePage(notf_count)
+{
+	pageNum=Math.ceil(notf_count/numRows);
+	currentPage = Math.floor((cursor_position-1)/numRows) + 1;
+	if (notf_count<=numRows){
+		pageNum = 1;
+		currentPage=1;		
+	}
+	if(notf_count == 0){
+		pageNum = 0;
+		currentPage=0;
+	}
+	cordys.setTextContent(document.getElementById("pageInfoLabel"), "第"+currentPage+"页/共"+pageNum+"页"+ " 总计"+notf_count+"条记录");
+}
+
+function openNotfication(eventObject){
+	var rowObj;
+	if(cordys.getEventTarget(eventObject).parentNode.tagName == "TR" || cordys.getEventTarget(eventObject).parentNode.parentNode.tagName == "TR"){
+		var rowindex = cordys.getEventTarget(eventObject).parentNode.rowIndex || cordys.getEventTarget(eventObject).parentNode.parentNode.rowIndex;
+		rowObj = document.getElementById("handleTable").rows[rowindex];
+	}else{
+		return;
+	}
+	var notfid;
+	var notfowner;
+	var objectArray = new Array();
+	var businessObjectArray = new Object();
+	var afterloadhandler = null;
+	if(rowObj.type == "TASK"){
+		notfid = cordys.getNodeText(rowObj.businessObject, ".//*[local-name()='TASK_ID']");
+		//notfowner = cordys.getNodeText(rowObj.businessObject, ".//*[local-name()='TASK_OWNER']");
+                notfowner=cordys.getNodeText(system.getUser().data,".//*[local-name()='organization'][@default='true']/*[local-name()='organizationaluser']/*[local-name()='dn']");
+		var getNotfDetailsReq = cordys.cloneXMLDocument(getTaskDetailsRequest.XMLDocument);
+		cordys.setNodeText(getNotfDetailsReq, ".//*[local-name()='TaskId']", notfid);
+		cordys.setNodeText(getNotfDetailsReq, ".//*[local-name()='Target']", notfowner);
+		businessObjectArray.businessObject = cordys.selectXMLNode(sendAndWait(getNotfDetailsReq), ".//*[local-name()='Task']");
+	}
+	if(rowObj.type == "INFO"){
+		notfid = cordys.getNodeText(rowObj.businessObject, ".//*[local-name()='NOTIFICATION_ID']");
+		var getNotfDetailsReq = cordys.cloneXMLDocument(getInfoDetailsRequest.XMLDocument);
+		cordys.setNodeText(getNotfDetailsReq, ".//*[local-name()='NotificationId']", notfid);
+		businessObjectArray.businessObject = cordys.selectXMLNode(sendAndWait(getNotfDetailsReq), ".//*[local-name()='Notification']");
+		if(rowObj.state == "0"){
+			afterloadhandler = showData;
+		}
+	}
+	objectArray[0] = businessObjectArray;
+	objectArray[1] = "DD MMM YYYY HH:mm";
+	objectArray[2] = showData;
+	var taskViewApp = cordys.cloneXMLDocument(taskviewerApp.XMLDocument);
+	cordys.setNodeText(taskViewApp,".//*[local-name()='id']", notfid);
+	cordys.setNodeText(taskViewApp,".//*[local-name()='caption']",cordys.getNodeText(rowObj.businessObject, ".//*[local-name()='SUBJECT']"));
+	cordys.setNodeText(taskViewApp,".//*[local-name()='url']","/cordys/cas/vcm/casrepository/applicationservices/connectors/xforms.htm");
+	application.select(taskViewApp.documentElement, objectArray, afterloadhandler);
+}
+
+function sendAndWait(requestXML){
+	this.bdi.clear();
+	this.bdi.request = requestXML;
+	this.bdi.automatic = false;
+	this.bdi.async = false;
+	this.bdi.__showError = false;
+	this.bdi.errorOccured = false;
+	this.bdi.reset();
+	return this.bdi.data;
+}
+
+function toggleSearchGroup(){
+	var SearchField = document.getElementById("searchInputField");
+	var SearchBox = document.getElementById("searchHeader");
+	if(SearchField.style.display != "none"){
+		SearchField.style.display = "none";
+		SearchBox.className = "groupheader expand";
+	}else	{
+		SearchField.style.display = "inline";
+		SearchBox.className = "groupheader collapse";
+	}
+}
+
+function page(param){
+	var msg = null;
+	switch (param)
+	{
+		case "fisrt":
+		{
+			if(currentPage == 1){
+				msg = "当前已经是第一页！";
+			}else{
+				cursor_position = 1;
+			}
+			break;
+		}
+		case "previous":
+		{
+			if(currentPage == 1){
+				msg = "当前已经是第一页，没有上一页！";
+			}else{
+				cursor_position = cursor_position - numRows;
+			}
+			break;
+		}
+		case "next":
+		{
+			if(currentPage == pageNum){
+				msg = "当前已经是最后一页，没有下一页！";
+			}else{
+				cursor_position = cursor_position + numRows;
+			}
+			break;
+		}
+		case "last":
+		{
+			if(currentPage == pageNum){
+				msg = "当前已经是最后一页！";
+			}else{
+				cursor_position = (Math.ceil(notf_count/numRows) - 1) * numRows + 1;
+			}
+			break;
+		}
+	}
+	if(msg != null){
+		application.notify(msg);
+		return;
+	}
+	showData();
+}
+
+function resetTable(){
+	document.getElementById("handleTable").rows[1].style.display = "none";
+	document.getElementById("handleTable").rows[1].id = "hiddenrow";
+	tasktable = document.getElementById("handleTable");
+	var length =tasktable.rows.length;
+	for(var i=length-1;i>0;i--)
+	{
+		if(document.getElementById("handleTable").rows[i].id != "hiddenrow"){
+			tasktable.deleteRow(i);
+		}
+	}
+}
+
+function convertLongTimeToLocalTime(timediff,lag)
+{
+	if(timediff==null||timediff==""||timediff == "NaN" || timediff == "Invalid Date")return "";
+	if(timediff.indexOf('T')!=-1)
+	return convertUtcTimeToLocalTime(timediff,lag);
+	var localdate = new Date(eval(timediff) + lag*3600000);
+	return localdate.getFullYear()+"-"+(localdate.getMonth()+1)+"-"+localdate.getDate()+" "+(localdate.getHours()<10?("0"+localdate.getHours()):localdate.getHours())+":"+(localdate.getMinutes()<10 ? "0"+localdate.getMinutes():localdate.getMinutes());
+}
+
+function convertUtcTimeToLocalTime(utc_time, lag){
+	//e.g. Param: utc_time = "2011-09-22T09:13:07.0";	lag = +8;
+	//return 2011年9月22日 17:13:07
+	if(!utc_time)return "";	
+	var utcdate= new Date(Date.parse(utc_time.substr(0,utc_time.indexOf(".")).replace("T", " ").replace(/-/g, "/")));
+	if(utcdate == "NaN" || utcdate == "Invalid Date")
+	{
+		return utc_time;
+	}
+	var localdate = new Date(utcdate.getTime() + lag*3600000);
+	return localdate.getFullYear()+"-"+(localdate.getMonth()+1)+"-"+localdate.getDate()+" "+(localdate.getHours()<10?("0"+localdate.getHours()):localdate.getHours())+":"+(localdate.getMinutes()<10 ? "0"+localdate.getMinutes():localdate.getMinutes());
+}
+
+function resetFilter(){
+	document.getElementById("processtype").value = "";
+	document.getElementById("processcode").value = "";
+document.getElementById("processname").value = "";
+	document.getElementById("sender").value = "";
+document.getElementById("senderName").value = "";	
+document.getElementById("subject").value = "";
+	document.getElementById("fromdate").value = "";
+	document.getElementById("todate").value = "";
+}
+
+/********************************************************************
+ * 功能名称	: btn_selectprocess_Click();
+ * 描述: 选择流程代码
+ * 输入参数：eventObject
+ * 输出参数：oParam
+ */
+function btn_selectprocess_Click(eventObject)
+{
+    var oParam = new Object();
+    application.showDialog(Application_SelectProcess.XMLDocument.documentElement, oParam, null, closeHandler, false);
+	
+ }
+ 
+function closeHandler(dialogReturnValue) { 
+	debugger;
+	//The logic to handle the dialogReturnValue goes here. 
+	if(dialogReturnValue && dialogReturnValue.processCode){
+		document.getElementById("processcode").value = dialogReturnValue.processCode;
+		document.getElementById("processname").value= dialogReturnValue.processName;
+	}
+}
+</script>
+</head>
+<body style="overflow-x: hidden;overflow-y: auto" leftmargin="50px" topmargin="50px">
+	<div cordysType="wcp.library.data.BusDataIsland" async="false" id="bdi" automatic="false"></div>
+	<div cordysType="wcp.library.ui.Calendar" id="cal" showTitle="false" style="position:absolute;display:none;width:150;height:137;cursor:hand"></div>
+	<div cordysType="wcp.library.util.Validate"></div>
+	<div style="width:100%;">
+		<LEGEND style="width:100%;top=20">
+			<div class="groupheader expand" id="searchHeader" onclick="toggleSearchGroup()" noWrap><h5><label>查询</label></h5></div>
+		</LEGEND>
+	</div>
+	<div id="searchInputField" style="display:none">
+		<table id="searchTable" style="width:100%;border-collapse:collapse" border="1" bordercolor="#aa0000" cellspacing="0px">
+			<tr>
+				<td width="20%">流程类别：</td>
+				<td width="30%">
+					<div cordysType="wcp.library.ui.Dropdown" id="processtype" style="width:75%">
+						<div value ="" selected="true">--请选择流程类别--</div>
+						<div value ="01">新开店流程</div>
+<div value ="02">报销流程</div>
+				</div>
+					</td>
+				<td width="20%">流程名称：</td>
+				<td width="30%"><input style="width:70%" TYPE="text" class="input" datatype="string" id='processname'/><img src="/cordys/wcp/icons/action/find.gif" onclick="btn_selectprocess_Click('')"/>
+					<input type="hidden" datatype="string" id='processcode' />
+				</td>
+			</tr>
+			<tr>
+				<td width="20%">发送人：</td>
+				<td width="30%"><input style="width:70%" TYPE="text" class="input" datatype="string" id='senderName'/>
+					<input type="hidden" datatype="string" id='sender' />
+					<img src="/cordys/wcp/icons/action/find.gif" onclick="btn_selectpersons_Click('')"/>
+				</td>
+				<td width="20%">标题：</td>
+				<td width="30%"><input style="width:75%" TYPE="text" class="input" datatype="string" id='subject'/></td>
+			</tr>
+			<tr>
+				<td width="20%">发送时间从：</td>
+				<td width="30%"><div><input style="width:70%;cursor:hand" id="fromdate" class="input" fieldType="date" calendar="cal" filter="[\w +-/]" displayFormat="YYYY-MM-DD" ></input></div></td>
+				<td width="20%">到：</td>
+				<td width="30%"><div><input style="width:70%" id="todate" class="input" fieldType="date" calendar="cal" filter="[\w +-/]" displayFormat="YYYY-MM-DD" ></input></div></td>
+			</tr>
+			<tr>
+				<td width="20%">类型：</td>
+				<td width="30%">
+					<div cordysType="wcp.library.ui.Dropdown" id="selectedType" style="width:75%">
+						<div value="TASK_0" selected="true">未完成任务</div>
+						<div value="TASK_1">已完成任务</div>
+						<div value="INFO_0">未读消息</div>
+						<div value="INFO_1">已读消息</div>
+					</div>
+				</td>
+				<td width="20%" nowrap="nowrap">
+					<button id="searchButton" class="h_button" onClick="init()" style="width:100px;height:2em;margin-left:0px">查询</button>
+					<button id="searchButton" class="h_button" onClick="resetFilter()" style="width:100px;height:2em;margin-left:10px">重置</button>
+				</td>
+			</tr>
+		</table>
+	</div><br>
+	<div style="width:100%">
+		<table id="handleTable" class="grid" border="1" cellspacing="1" cellpadding="0" style="width:100%" displayContextMenu="false" toggleColumns="false" saveState="false" movableColumns="false" copiable="false">
+			<thead align="center">
+		  		<td width="3%"><label>序号</label></td>
+		    	<td width="5%"><label>优先级</label></td>
+				<td width="10%"><label>流程类别</label></td>
+				<td width="15%"><label>流程名称</label></td>
+		   <td width="15%"><label>当前节点名称</label></td>
+
+		    	<td width="15%"><label>流程启动时间</label></td>
+		    	<td width="15%"><label>发送时间</label></td>
+		  		<td width="10%"><label>发送人</label></td>
+			</thead>
+			<tbody>
+		  		<td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+			</tbody>
+		</table>
+	 	<div style="position:absolute;right:5px;">
+			<label id="pageInfoLabel" align="right"></label>
+			<a href="#" style="margin-left:3px;" title="首页" onClick="page('fisrt')"><img src="/cordys/wcp/theme/default/icon/pagination/first_eb.gif" width="16" height="15" border="0"></a>
+			<a href="#" style="margin-left:3px;" title="上一页" onClick="page('previous')"><img src="/cordys/wcp/theme/default/icon/pagination/previous_eb.gif" width="16" height="15" border="0"></a>
+			<a href="#" style="margin-left:3px;" title="下一页" onClick="page('next')"><img src="/cordys/wcp/theme/default/icon/pagination/next_eb.gif" width="16" height="15" border="0"></a>
+			<a href="#" style="margin-left:3px;" title="末页" onClick="page('last')"><img src="/cordys/wcp/theme/default/icon/pagination/last_eb.gif" width="16" height="15" border="0"></a>
+		</div>
+	</div>
+</body>
+</html>

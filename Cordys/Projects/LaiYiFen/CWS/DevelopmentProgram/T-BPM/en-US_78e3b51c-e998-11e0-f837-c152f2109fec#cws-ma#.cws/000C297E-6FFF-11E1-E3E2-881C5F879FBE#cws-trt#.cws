@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="000C297E-6FFF-11E1-E3E2-881C5F87BFBE">
+	<DocumentID>000C297E-6FFF-11E1-E3E2-881C5F879FBE</DocumentID>
+	<Name>000C297E-6FFF-11E1-E3E2-881C5F879FBE</Name>
+	<Description>EMPLOYEE_INFO_View</Description>
+	<CreatedBy>Administrator</CreatedBy>
+	<CreationDate>2011-12-05T08:04:24.671</CreationDate>
+	<Notes/>
+	<Text>EMPLOYEE_INFO_View</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="000C297E-6FFF-11E1-E3E2-881C5F875FBE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

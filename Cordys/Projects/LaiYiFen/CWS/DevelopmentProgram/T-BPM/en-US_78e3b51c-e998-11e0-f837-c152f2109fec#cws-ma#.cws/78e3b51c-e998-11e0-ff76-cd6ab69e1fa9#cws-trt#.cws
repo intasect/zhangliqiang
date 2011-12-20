@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff76-cd6ab6a45faa">
+	<DocumentID>78e3b51c-e998-11e0-ff76-cd6ab69e1fa9</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff76-cd6ab69e1fa9</Name>
+	<Description>手续、填写、附件是否完整 *</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-21T07:35:23.268</CreationDate>
+	<Notes/>
+	<Text>手续、填写、附件是否完整 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff76-cd6ab68f1fa7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

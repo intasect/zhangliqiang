@@ -1,0 +1,26 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c17885fc9be1">
+	<DocumentID>78e3b51c-e998-11e0-f837-c17885b19be0</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c17885b19be0</Name>
+	<Description>1.商超规划需求已产生.
+2.业务战略已完成.
+3.标准调研分板已完成.
+符合以上的一个标准就可以开始一个新的流程.</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:57.506</CreationDate>
+	<Notes/>
+	<DefaultText>1.商超规划需求已产生._2.业务战略已完成._3.标准调研分板已完成._符合以上的一个标准就可以开</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c178848a9bde"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

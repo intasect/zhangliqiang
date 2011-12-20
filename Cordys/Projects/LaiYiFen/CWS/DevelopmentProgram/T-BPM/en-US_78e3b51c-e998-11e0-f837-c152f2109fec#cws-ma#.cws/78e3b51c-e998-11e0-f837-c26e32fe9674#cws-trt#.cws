@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c26e332f5675">
+	<DocumentID>78e3b51c-e998-11e0-f837-c26e32fe9674</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c26e32fe9674</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:47.836</CreationDate>
+	<Notes/>
+	<Text>商圈成熟度及消费力分析</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c26e33a61676"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1a3c799945d">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1a3c75b145c</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1a3c75b145c</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:31.762</CreationDate>
+	<Notes/>
+	<Text>子公司银行出纳</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1a3c82e545e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

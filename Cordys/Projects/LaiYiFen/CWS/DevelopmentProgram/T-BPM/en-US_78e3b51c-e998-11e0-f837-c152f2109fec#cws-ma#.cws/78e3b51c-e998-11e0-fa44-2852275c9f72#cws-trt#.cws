@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa44-285227641f73">
+	<DocumentID>78e3b51c-e998-11e0-fa44-2852275c9f72</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa44-2852275c9f72</Name>
+	<Description>目标店调查表(一般店)</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-29T09:28:38.188</CreationDate>
+	<Notes/>
+	<Text>目标店调查表(一般店)</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa44-2852274d9f70"
+		/>
+	</TextIdentifier>
+</TranslatedText>

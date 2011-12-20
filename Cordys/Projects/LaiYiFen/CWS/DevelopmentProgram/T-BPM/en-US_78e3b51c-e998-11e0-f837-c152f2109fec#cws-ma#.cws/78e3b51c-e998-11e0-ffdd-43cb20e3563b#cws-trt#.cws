@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ffdd-43cb20ead63c">
+	<DocumentID>78e3b51c-e998-11e0-ffdd-43cb20e3563b</DocumentID>
+	<Name>78e3b51c-e998-11e0-ffdd-43cb20e3563b</Name>
+	<Description>门店主数据V2</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-25T09:29:23.43</CreationDate>
+	<Notes/>
+	<Text>门店主数据V2</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ffdd-43cb20d45639"
+		/>
+	</TextIdentifier>
+</TranslatedText>

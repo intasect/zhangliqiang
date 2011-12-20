@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc0b-59fc1cfd5dfc">
+	<DocumentID>78e3b51c-e998-11e0-fc0b-59fc1cf21dfb</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc0b-59fc1cf21dfb</Name>
+	<Description>各部门会签</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-16T11:56:50.806</CreationDate>
+	<Notes/>
+	<Text>各部门会签</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc0b-59fc1cd55df9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

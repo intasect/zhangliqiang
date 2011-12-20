@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9dd-c1a23bdad670">
+	<DocumentID>78e3b51c-e998-11e0-f9dd-c1a23bd4966f</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9dd-c1a23bd4966f</Name>
+	<Description>RENTAL</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-25T07:47:17.534</CreationDate>
+	<Notes/>
+	<Text>RENTAL</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9dd-c1a23bc6d66d"
+		/>
+	</TextIdentifier>
+</TranslatedText>

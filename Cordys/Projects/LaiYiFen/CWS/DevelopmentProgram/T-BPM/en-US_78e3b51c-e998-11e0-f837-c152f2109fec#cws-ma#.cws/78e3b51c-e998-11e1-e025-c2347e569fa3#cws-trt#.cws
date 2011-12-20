@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e025-c2347e5f5fa4">
+	<DocumentID>78e3b51c-e998-11e1-e025-c2347e569fa3</DocumentID>
+	<Name>78e3b51c-e998-11e1-e025-c2347e569fa3</Name>
+	<Description>标准配置人数 *</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-10-28T06:41:22.291</CreationDate>
+	<Notes/>
+	<Text>标准配置人数 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e025-c2347e465fa1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

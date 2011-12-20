@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9dd-c452048e1d13">
+	<DocumentID>78e3b51c-e998-11e0-f9dd-c4520487dd12</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9dd-c4520487dd12</Name>
+	<Description>SHORT_OPINION</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-25T07:47:17.513</CreationDate>
+	<Notes/>
+	<Text>SHORT_OPINION</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9dd-c452047a1d10"
+		/>
+	</TextIdentifier>
+</TranslatedText>

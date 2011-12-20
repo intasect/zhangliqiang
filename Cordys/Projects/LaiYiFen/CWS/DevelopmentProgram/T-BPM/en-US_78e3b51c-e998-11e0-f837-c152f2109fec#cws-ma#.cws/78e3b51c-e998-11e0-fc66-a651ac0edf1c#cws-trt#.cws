@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc66-a651ac165f1d">
+	<DocumentID>78e3b51c-e998-11e0-fc66-a651ac0edf1c</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc66-a651ac0edf1c</Name>
+	<Description>物料移动平均价格管理</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-20T03:16:59.956</CreationDate>
+	<Notes/>
+	<Text>物料移动平均价格管理</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc66-a651ac011f1a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faac-78c66ef69ff6">
+	<DocumentID>78e3b51c-e998-11e0-faac-78c66ef05ff5</DocumentID>
+	<Name>78e3b51c-e998-11e0-faac-78c66ef05ff5</Name>
+	<Description>SEAL_ID</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-02T13:15:15.894</CreationDate>
+	<Notes/>
+	<DefaultText>SEAL_ID</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-faac-78c66efe1ff7"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

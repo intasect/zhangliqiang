@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff25-816c2a97dbfd">
+	<DocumentID>78e3b51c-e998-11e0-ff25-816c2a905bfc</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff25-816c2a905bfc</Name>
+	<Description>物料编码</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-18T02:11:53.207</CreationDate>
+	<Notes/>
+	<Text>物料编码</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff25-816c2a829bfa"
+		/>
+	</TextIdentifier>
+</TranslatedText>

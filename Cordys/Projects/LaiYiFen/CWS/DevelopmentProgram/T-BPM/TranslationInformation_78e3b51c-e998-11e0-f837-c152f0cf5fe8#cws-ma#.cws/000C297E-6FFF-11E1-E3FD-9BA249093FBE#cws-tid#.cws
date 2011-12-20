@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="000C297E-6FFF-11E1-E3FD-9BA249095FBE">
+	<DocumentID>000C297E-6FFF-11E1-E3FD-9BA249093FBE</DocumentID>
+	<Name>000C297E-6FFF-11E1-E3FD-9BA249093FBE</Name>
+	<Description>离岗日期</Description>
+	<CreatedBy>Administrator</CreatedBy>
+	<CreationDate>2011-12-06T09:32:04.281</CreationDate>
+	<Notes/>
+	<DefaultText>离岗日期</DefaultText>
+	<Translations>
+		<uri
+			id="000C297E-6FFF-11E1-E3FD-9BA249097FBE"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

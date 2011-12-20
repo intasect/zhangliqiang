@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e020-dcc9ab785724">
+	<DocumentID>78e3b51c-e998-11e1-e020-dcc9ab6d1723</DocumentID>
+	<Name>78e3b51c-e998-11e1-e020-dcc9ab6d1723</Name>
+	<Description>开户银行</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-10-28T03:47:18.165</CreationDate>
+	<Notes/>
+	<Text>开户银行</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e020-dcc9ab569721"
+		/>
+	</TextIdentifier>
+</TranslatedText>

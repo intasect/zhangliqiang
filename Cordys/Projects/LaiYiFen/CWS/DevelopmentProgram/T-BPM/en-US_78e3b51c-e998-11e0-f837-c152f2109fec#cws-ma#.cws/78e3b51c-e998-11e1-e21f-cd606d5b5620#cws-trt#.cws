@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e21f-cd606d62d621">
+	<DocumentID>78e3b51c-e998-11e1-e21f-cd606d5b5620</DocumentID>
+	<Name>78e3b51c-e998-11e1-e21f-cd606d5b5620</Name>
+	<Description>COND_UNIT</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-11-17T09:39:53.795</CreationDate>
+	<Notes/>
+	<Text>COND_UNIT</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e21f-cd606d4d961e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

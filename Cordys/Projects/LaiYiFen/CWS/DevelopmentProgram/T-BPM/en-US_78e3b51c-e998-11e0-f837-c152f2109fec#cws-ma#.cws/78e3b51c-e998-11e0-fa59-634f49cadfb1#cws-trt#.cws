@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa59-634f49d25fb2">
+	<DocumentID>78e3b51c-e998-11e0-fa59-634f49cadfb1</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa59-634f49cadfb1</Name>
+	<Description>申请付款金额</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-08-30T06:02:21.38</CreationDate>
+	<Notes/>
+	<Text>申请付款金额</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa59-634f49ba9faf"
+		/>
+	</TextIdentifier>
+</TranslatedText>

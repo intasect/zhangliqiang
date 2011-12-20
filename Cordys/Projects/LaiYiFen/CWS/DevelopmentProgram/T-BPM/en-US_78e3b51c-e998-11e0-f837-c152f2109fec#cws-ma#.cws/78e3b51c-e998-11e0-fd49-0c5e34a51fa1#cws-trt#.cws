@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fd49-0c5e34ac9fa2">
+	<DocumentID>78e3b51c-e998-11e0-fd49-0c5e34a51fa1</DocumentID>
+	<Name>78e3b51c-e998-11e0-fd49-0c5e34a51fa1</Name>
+	<Description>预计竣工时间 *</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-29T03:21:33.972</CreationDate>
+	<Notes/>
+	<Text>预计竣工时间 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fd49-0c5e34975f9f"
+		/>
+	</TextIdentifier>
+</TranslatedText>

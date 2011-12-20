@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff2c-dea021f65701">
+	<DocumentID>78e3b51c-e998-11e0-ff2c-dea021eed700</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff2c-dea021eed700</Name>
+	<Description>物料组维护</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-18T08:55:57.163</CreationDate>
+	<Notes/>
+	<Text>物料组维护</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff2c-dea021e116fe"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1580a1f5f51">
+	<DocumentID>78e3b51c-e998-11e0-f837-c15809cf5f50</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c15809cf5f50</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:20.372</CreationDate>
+	<Notes/>
+	<Text>Reject to start</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1580ae4df52"
+		/>
+	</TextIdentifier>
+</TranslatedText>

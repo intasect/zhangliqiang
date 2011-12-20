@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc4e-28b908345679">
+	<DocumentID>78e3b51c-e998-11e0-fc4e-28b907ea9678</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc4e-28b907ea9678</Name>
+	<Description>是否是新店信息移交(一般店)</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-19T03:52:29.206</CreationDate>
+	<Notes/>
+	<Text>是否是新店信息移交(一般店)</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc4e-28b907dcd676"
+		/>
+	</TextIdentifier>
+</TranslatedText>

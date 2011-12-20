@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc50-f784a1a712e7">
+	<DocumentID>78e3b51c-e998-11e0-fc50-f784a19f92e6</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc50-f784a19f92e6</Name>
+	<Description>日志监控</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-19T06:32:21.722</CreationDate>
+	<Notes/>
+	<Text>日志监控</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc50-f784a191d2e4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

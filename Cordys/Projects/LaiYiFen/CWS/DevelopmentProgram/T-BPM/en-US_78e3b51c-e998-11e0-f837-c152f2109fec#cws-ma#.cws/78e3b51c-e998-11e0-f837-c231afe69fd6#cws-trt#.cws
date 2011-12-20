@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c231b02ddfd7">
+	<DocumentID>78e3b51c-e998-11e0-f837-c231afe69fd6</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c231afe69fd6</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:48.052</CreationDate>
+	<Notes/>
+	<Text>暂闭原因</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c231b0ea9fd8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c24775a55fa5">
+	<DocumentID>78e3b51c-e998-11e0-f837-c247755e1fa4</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c247755e1fa4</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:30.296</CreationDate>
+	<Notes/>
+	<Text>配送中心资产管理</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c2477660dfa6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c25842491bdf">
+	<DocumentID>78e3b51c-e998-11e0-f837-c258419c9bde</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c258419c9bde</Name>
+	<Description>面积（平方米）</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:34.002</CreationDate>
+	<Notes/>
+	<DefaultText>面积（平方米）</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c25840c59bdc"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

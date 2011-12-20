@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e2c7-3a21d0ee1545">
+	<DocumentID>78e3b51c-e998-11e1-e2c7-3a21d0e69544</DocumentID>
+	<Name>78e3b51c-e998-11e1-e2c7-3a21d0e69544</Name>
+	<Description>包装费用（元/份）</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-11-24T02:43:57.959</CreationDate>
+	<Notes/>
+	<Text>包装费用（元/份）</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e2c7-3a21d0d79542"
+		/>
+	</TextIdentifier>
+</TranslatedText>

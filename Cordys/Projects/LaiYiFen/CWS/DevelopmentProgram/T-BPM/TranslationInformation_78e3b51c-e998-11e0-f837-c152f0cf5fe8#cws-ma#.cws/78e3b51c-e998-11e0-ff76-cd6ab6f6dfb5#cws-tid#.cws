@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff76-cd6ab6fe5fb6">
+	<DocumentID>78e3b51c-e998-11e0-ff76-cd6ab6f6dfb5</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff76-cd6ab6f6dfb5</Name>
+	<Description>附件（份） *</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-21T07:35:23.278</CreationDate>
+	<Notes/>
+	<DefaultText>附件（份） *</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-ff76-cd6ab705dfb7"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

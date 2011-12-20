@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb3d-ea3adf46d6b2">
+	<DocumentID>78e3b51c-e998-11e0-fb3d-ea3adf4096b1</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb3d-ea3adf4096b1</Name>
+	<Description>MOBILE</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-08T08:18:55.279</CreationDate>
+	<Notes/>
+	<Text>MOBILE</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb3d-ea3adf3196af"
+		/>
+	</TextIdentifier>
+</TranslatedText>

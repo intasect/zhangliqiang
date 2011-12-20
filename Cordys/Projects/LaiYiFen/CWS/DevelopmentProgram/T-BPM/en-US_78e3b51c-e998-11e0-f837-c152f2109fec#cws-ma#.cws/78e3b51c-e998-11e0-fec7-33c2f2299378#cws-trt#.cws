@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fec7-33c2f2311379">
+	<DocumentID>78e3b51c-e998-11e0-fec7-33c2f2299378</DocumentID>
+	<Name>78e3b51c-e998-11e0-fec7-33c2f2299378</Name>
+	<Description>请选择预算科目</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-14T09:01:42.045</CreationDate>
+	<Notes/>
+	<Text>请选择预算科目</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fec7-33c2f21a9376"
+		/>
+	</TextIdentifier>
+</TranslatedText>

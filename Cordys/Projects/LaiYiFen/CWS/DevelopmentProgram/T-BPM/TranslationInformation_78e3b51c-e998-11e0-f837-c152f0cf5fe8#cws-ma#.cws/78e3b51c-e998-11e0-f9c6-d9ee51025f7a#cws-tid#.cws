@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9c6-d9ee5109df7b">
+	<DocumentID>78e3b51c-e998-11e0-f9c6-d9ee51025f7a</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9c6-d9ee51025f7a</Name>
+	<Description>刷新</Description>
+	<CreatedBy>wangzhiqiang</CreatedBy>
+	<CreationDate>2011-08-24T12:22:29.766</CreationDate>
+	<Notes/>
+	<DefaultText>刷新</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f9c6-d9ee51101f7c"
+		/>
+	</Translations>
+</TextIdentifier>

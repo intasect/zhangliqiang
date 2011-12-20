@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faab-e554565cd700">
+	<DocumentID>78e3b51c-e998-11e0-faab-e554565556ff</DocumentID>
+	<Name>78e3b51c-e998-11e0-faab-e554565556ff</Name>
+	<Description>对应的现金流量码</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-09-02T12:37:44.267</CreationDate>
+	<Notes/>
+	<Text>对应的现金流量码</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faab-e554564656fd"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff3e-50677b54df76">
+	<DocumentID>78e3b51c-e998-11e0-ff3e-50677b4d5f75</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff3e-50677b4d5f75</Name>
+	<Description>&lt;P&gt;填写说明：填写人必须选择印章类型，并上传要盖章文件，如果没有印章类型，请与盖章人（模块管理员）或系统管理员联系。&lt;/P&gt;</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-10-19T01:51:19.208</CreationDate>
+	<Notes/>
+	<Text>&lt;P&gt;填写说明：填写人必须选择印章类型，并上传要盖章文件，如果没有印章类型，请与盖章人（模块管理员）或系统管理员联系。&lt;/P&gt;</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff3e-50677b3f9f73"
+		/>
+	</TextIdentifier>
+</TranslatedText>

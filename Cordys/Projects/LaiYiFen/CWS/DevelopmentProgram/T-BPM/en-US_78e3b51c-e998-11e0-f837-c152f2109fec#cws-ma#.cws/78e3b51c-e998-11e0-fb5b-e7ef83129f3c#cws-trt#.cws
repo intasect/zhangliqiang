@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb5b-e7ef831a1f3d">
+	<DocumentID>78e3b51c-e998-11e0-fb5b-e7ef83129f3c</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb5b-e7ef83129f3c</Name>
+	<Description>供应商名称 *</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-09T12:46:42.79</CreationDate>
+	<Notes/>
+	<Text>供应商名称 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb5b-e7ef8304df3a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

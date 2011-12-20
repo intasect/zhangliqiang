@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f8e7-603825255b0b">
+	<DocumentID>78e3b51c-e998-11e0-f8e7-603824e95b0a</DocumentID>
+	<Name>78e3b51c-e998-11e0-f8e7-603824e95b0a</Name>
+	<Description/>
+	<CreatedBy>root</CreatedBy>
+	<CreationDate>2011-08-15T12:35:07.619</CreationDate>
+	<Notes/>
+	<Text>Fax</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f8e7-603825b51b0c"
+		/>
+	</TextIdentifier>
+</TranslatedText>

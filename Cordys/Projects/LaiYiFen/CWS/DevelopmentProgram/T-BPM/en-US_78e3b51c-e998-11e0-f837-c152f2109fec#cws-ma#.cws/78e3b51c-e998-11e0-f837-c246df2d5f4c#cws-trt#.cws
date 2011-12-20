@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c246df749f4d">
+	<DocumentID>78e3b51c-e998-11e0-f837-c246df2d5f4c</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c246df2d5f4c</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:04.624</CreationDate>
+	<Notes/>
+	<Text>营业员上班时间如何安排</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c246e0419f4e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

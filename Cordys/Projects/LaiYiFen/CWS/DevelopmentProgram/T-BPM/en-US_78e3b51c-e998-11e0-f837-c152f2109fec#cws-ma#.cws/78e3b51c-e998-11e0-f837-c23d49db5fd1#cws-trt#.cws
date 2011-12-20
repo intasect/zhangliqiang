@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c23d4a1d9fd2">
+	<DocumentID>78e3b51c-e998-11e0-f837-c23d49db5fd1</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c23d49db5fd1</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:51.518</CreationDate>
+	<Notes/>
+	<Text>采购/配送状态</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c23d4acf1fd3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

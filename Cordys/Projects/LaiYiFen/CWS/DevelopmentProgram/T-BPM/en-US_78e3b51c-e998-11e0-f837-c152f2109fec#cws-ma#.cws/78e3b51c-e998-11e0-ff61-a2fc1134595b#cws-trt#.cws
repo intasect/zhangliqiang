@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff61-a2fc113a995c">
+	<DocumentID>78e3b51c-e998-11e0-ff61-a2fc1134595b</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff61-a2fc1134595b</Name>
+	<Description>住宅区生活水平 *</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-20T11:24:09.62</CreationDate>
+	<Notes/>
+	<Text>住宅区生活水平 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff61-a2fc11269959"
+		/>
+	</TextIdentifier>
+</TranslatedText>

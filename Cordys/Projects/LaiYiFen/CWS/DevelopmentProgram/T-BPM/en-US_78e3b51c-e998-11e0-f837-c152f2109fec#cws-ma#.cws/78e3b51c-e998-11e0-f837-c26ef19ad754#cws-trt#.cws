@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c26ef1c7d755">
+	<DocumentID>78e3b51c-e998-11e0-f837-c26ef19ad754</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c26ef19ad754</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:08.508</CreationDate>
+	<Notes/>
+	<Text>人流数分为几个档次，可测试情况填写</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c26ef23e9756"
+		/>
+	</TextIdentifier>
+</TranslatedText>

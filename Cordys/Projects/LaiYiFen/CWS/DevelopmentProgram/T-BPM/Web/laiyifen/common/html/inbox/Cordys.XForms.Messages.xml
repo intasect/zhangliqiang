@@ -1,0 +1,782 @@
+﻿<MessageBundle id="Cordys.XForms.AlertMessages" xmlns="">
+	<Message id="AccessDenied">
+		<MessageText>You do not have sufficient privileges to access this form</MessageText>
+		<Description/>
+		<Annotations>			
+			<DocumenationURL/>			
+		</Annotations>		
+	</Message>
+	<Message id="MethodSetsNotAttached">
+		<MessageText>Could not find any method sets attached to XForms Processor. Add the required method sets.</MessageText>
+		<Description/>
+		<Annotations>			
+			<DocumenationURL/>			
+		</Annotations>		
+	</Message>
+	<Message id="DirectoryErrorWhileCheckingAttachedMethodset">
+		<MessageText>DirectoryException while checking the attached methodset</MessageText>
+		<Description/>
+		<Annotations>			
+			<DocumenationURL/>			
+		</Annotations>		
+	</Message>
+	<Message id="ExceptionGroupErrorWhileCreatingConnectorObject">
+		<MessageText>ExceptionGroup exception, while calling Connector.getInstance() method</MessageText>
+		<Description/>
+		<Annotations>			
+			<DocumenationURL/>			
+		</Annotations>		
+	</Message>
+	<Message id="DirectoryErrorWhileCreatingConnectorObject">
+		<MessageText>Directory exception, while calling Connector.getInstance() method</MessageText>
+		<Description/>
+		<Annotations>			
+			<DocumenationURL/>			
+		</Annotations>		
+	</Message>
+	<Message id="XFormsApplicationConnector">
+		<MessageText>XForms application connector</MessageText>
+		<Description/>
+		<Annotations>			
+			<DocumenationURL/>			
+		</Annotations>		
+	</Message>
+	<Message id="GeneratingObjectUsageDuration">
+		<MessageText>Frequency and duration taken to get the object either from Cache or to generate the object</MessageText>
+		<Description/>
+		<Annotations>			
+			<DocumenationURL/>			
+		</Annotations>		
+	</Message>
+	<Message id="CurrentCacheSize">
+		<MessageText>Current cache size of XForms Engine</MessageText>
+		<Description/>
+		<Annotations>			
+			<DocumenationURL/>			
+		</Annotations>		
+	</Message>
+	<Message id="CacheSize">
+		<MessageText>Maximum number of XForms that can be stored in the XForms cache</MessageText>
+		<Description/>
+		<Annotations>			
+			<DocumenationURL/>			
+		</Annotations>		
+	</Message>
+	<Message id="expiryType">
+		<MessageText>Set content Expiry type(possible values 1 or 2 or 3): \n1=Content Expires Immediately; \n2=Content Expires after the number of Days mentioned in 'expiryValue' field; \n3=Content Expires on the date mentioned in 'expiryValue' field. Date should be mentioned in milliseconds format.</MessageText>
+		<Description/>
+		<Annotations>			
+			<DocumenationURL/>			
+		</Annotations>		
+	</Message>
+	<Message id="expiryValue">
+		<MessageText>Set content Expiry value. \nIf the value in 'expiryType' field: \nis 1, then this field value should be 0(if the value is non-zero then it will not be taken into consideration); \nis 2, then this field should specified the number of days after which content expires; \nis 3, then this field should contain the expiry date in milliseconds format.</MessageText>
+		<Description/>
+		<Annotations>			
+			<DocumenationURL/>			
+		</Annotations>		
+	</Message>
+	<Message id="compression">
+		<MessageText>Set Compression value. \n If the value in 'compression' field: \nis true , then compression of generated html content will be enabled otherwise compression will not be done ( for false value )</MessageText>
+		<Description/>
+		<Annotations>			
+			<DocumenationURL/>			
+		</Annotations>		
+	</Message>
+	<Message id="form.constraint.saveconfirmation" type="ui">
+		<MessageText>保存确认消息</MessageText>
+	</Message>
+	<Message id="form.constraint.syncdialogclose" type="ui">
+		<MessageText>应用已经关闭，但是在同步对话框中有变更</MessageText>
+	</Message>	
+	<Message id="model.constraint.recordsdeletion" type="ui">
+		<MessageText>删除确认消息</MessageText>
+	</Message>
+	<Message id="model.constraint.savechanges" type="ui">
+		<MessageText>在浏览过程中弹出保存选项</MessageText>
+	</Message>	
+	<Message id="datatype.default.constraint.required" type="ui">
+		<MessageText>必填</MessageText>
+	</Message>	
+	<Message id="datatype.integer.constraint.invalidinteger" type="ui">
+		<MessageText>整数不正确</MessageText>
+	</Message>
+	<Message id="datatype.integer.constraint.totaldigits" type="ui">
+		<MessageText>数字位数超出限制</MessageText>
+	</Message>
+	<Message id="datatype.integer.constraint.mininclusiveless" type="ui">
+		<MessageText>数值低于闭区间的最小值</MessageText>
+	</Message>
+	<Message id="datatype.integer.constraint.maxinclusivemore" type="ui">
+		<MessageText>数值高于闭区间的最大值</MessageText>
+	</Message>
+	<Message id="datatype.integer.constraint.minexclusivemore" type="ui">
+		<MessageText>数值低于开区间的最小值</MessageText>
+	</Message>
+	<Message id="datatype.integer.constraint.maxexclusivemore" type="ui">
+		<MessageText>数值低于开区间的最大值</MessageText>
+	</Message>			
+	<Message id="datatype.creditcard.constraint.invalidcreditcard" type="ui">
+		<MessageText>信用卡号码正确</MessageText>
+	</Message>
+	<Message id="datatype.creditcard.constraint.creditcardminlength" type="ui">
+		<MessageText>信用卡号码少于16位</MessageText>
+	</Message>
+	<Message id="datatype.creditcard.constraint.creditcardmaxlength" type="ui">
+		<MessageText>信用卡号码多于16位</MessageText>
+	</Message>	
+	<Message id="datatype.float.constraint.invalidfloat" type="ui">
+		<MessageText>浮点数不正确</MessageText>
+	</Message>
+	<Message id="datatype.float.constraint.totaldigits" type="ui"> 
+		<MessageText>数字位数超出限制</MessageText>
+	</Message>
+	<Message id="datatype.float.constraint.fractiondigits" type="ui">
+		<MessageText>分隔符之后的数字位数超出小数位数</MessageText>
+	</Message>
+	<Message id="datatype.float.constraint.mininclusiveless" type="ui">
+		<MessageText>数值小于闭区间的最小值</MessageText>
+	</Message>
+	<Message id="datatype.float.constraint.maxinclusivemore" type="ui">
+		<MessageText>数值大于闭区间的最大值</MessageText>
+	</Message>
+	<Message id="datatype.float.constraint.minexclusivemore" type="ui">
+		<MessageText>数值小于开区间的最小值</MessageText>
+	</Message>
+	<Message id="datatype.float.constraint.maxexclusivemore" type="ui">
+		<MessageText>数值小于开区间的最大值</MessageText>
+	</Message>			
+	<Message id="datatype.double.constraint.invaliddouble" type="ui">
+		<MessageText>双精度（Double）浮点数不正确</MessageText>
+	</Message>
+	<Message id="datatype.double.constraint.totaldigits" type="ui">
+		<MessageText>数字位数超出限制</MessageText>
+	</Message>
+	<Message id="datatype.double.constraint.fractiondigits" type="ui">
+		<MessageText>分隔符之后的数字位数超出小数位数</MessageText>
+	</Message>
+	<Message id="datatype.double.constraint.mininclusiveless" type="ui">
+		<MessageText>数值小于闭区间的最小值</MessageText>
+	</Message>
+	<Message id="datatype.double.constraint.maxinclusivemore" type="ui">
+		<MessageText>数值大于闭区间的最大值</MessageText>
+	</Message>
+	<Message id="datatype.double.constraint.minexclusivemore" type="ui">
+		<MessageText>数值小于开区间的最小值</MessageText>
+	</Message>
+	<Message id="datatype.double.constraint.maxexclusivemore" type="ui">
+		<MessageText>数值小于开区间的最大值</MessageText>
+	</Message>		
+	<Message id="datatype.decimal.constraint.invaliddecimal" type="ui">
+		<MessageText>十进制（Decimal）数字不正确</MessageText>
+	</Message>
+	<Message id="datatype.decimal.constraint.totaldigits" type="ui">
+		<MessageText>数字位数超出限制</MessageText>
+	</Message>
+	<Message id="datatype.decimal.constraint.fractiondigits" type="ui">
+		<MessageText>分隔符之后的数字位数超出小数位数</MessageText>
+	</Message>
+	<Message id="datatype.decimal.constraint.mininclusiveless" type="ui">
+		<MessageText>数值小于闭区间的最小值</MessageText>
+	</Message>
+	<Message id="datatype.decimal.constraint.maxinclusivemore" type="ui">
+		<MessageText>数值大于闭区间的最大值</MessageText>
+	</Message>
+	<Message id="datatype.decimal.constraint.minexclusivemore" type="ui">
+		<MessageText>数值小于开区间的最小值</MessageText>
+	</Message>
+	<Message id="datatype.decimal.constraint.maxexclusivemore" type="ui">
+		<MessageText>数值小于开区间的最大值</MessageText>
+	</Message>	
+	<Message id="datatype.amount.constraint.invalidamount" type="ui">
+		<MessageText>数额不正确</MessageText>
+	</Message>
+	<Message id="datatype.amount.constraint.totaldigits" type="ui">
+		<MessageText>数字位数超出限制</MessageText>
+	</Message>
+	<Message id="datatype.amount.constraint.fractiondigits" type="ui">
+		<MessageText>分隔符之后的数字位数超出小数位数</MessageText>
+	</Message>
+	<Message id="datatype.amount.constraint.mininclusiveless" type="ui">
+		<MessageText>数值小于闭区间的最小值</MessageText>
+	</Message>
+	<Message id="datatype.amount.constraint.maxinclusivemore" type="ui">
+		<MessageText>数值大于闭区间的最大值</MessageText>
+	</Message>
+	<Message id="datatype.amount.constraint.minexclusivemore" type="ui">
+		<MessageText>数值小于开区间的最小值</MessageText>
+	</Message>
+	<Message id="datatype.amount.constraint.maxexclusivemore" type="ui">
+		<MessageText>数值小于开区间的最大值</MessageText>
+	</Message>		
+	<Message id="datatype.string.constraint.minlength" type="ui">
+		<MessageText>值的长度小于最小长度</MessageText>
+	</Message>
+	<Message id="datatype.string.constraint.maxlength" type="ui">
+		<MessageText>值的长度大于最大长度</MessageText>
+	</Message>
+	<Message id="datatype.string.constraint.valuelength" type="ui">
+		<MessageText>值的长度不等于规定的长度</MessageText>
+	</Message>
+	<Message id="datatype.string.constraint.pattern" type="ui">
+		<MessageText>值与设定的模式不匹配</MessageText>
+	</Message>
+	<Message id="datatype.string.constraint.legalcharacters" type="ui">
+		<MessageText>输入的值中包含没有设定的字符</MessageText>
+	</Message>
+	<Message id="datatype.string.constraint.illegalcharacters" type="ui">
+		<MessageText>输入的值中包含非法字符</MessageText>
+	</Message>	
+	<Message id="datatype.mail.constraint.invalidmail" type="ui">
+		<MessageText>电子邮件地址不正确</MessageText>
+	</Message>		
+	<Message id="datatype.text.constraint.minlength" type="ui">
+		<MessageText>值的长度小于最小长度</MessageText>
+	</Message>
+	<Message id="datatype.text.constraint.maxlength" type="ui">
+		<MessageText>值的长度大于最大长度</MessageText>
+	</Message>
+	<Message id="datatype.text.constraint.valuelength" type="ui">
+		<MessageText>值的长度不等于规定的长度</MessageText>
+	</Message>
+	<Message id="datatype.text.constraint.pattern" type="ui">
+		<MessageText>值与设定的模式不匹配</MessageText>
+	</Message>
+	<Message id="datatype.text.constraint.legalcharacters" type="ui">
+		<MessageText>输入的值中包含没有设定的字符</MessageText>
+	</Message>
+	<Message id="datatype.text.constraint.illegalcharacters" type="ui">
+		<MessageText>输入的值中包含非法字符</MessageText>
+	</Message>	
+	<Message id="datatype.date.constraint.invaliddate" type="ui">
+		<MessageText>日期不正确</MessageText>
+	</Message>
+	<Message id="datatype.date.constraint.invalidnumberfordate" type="ui">
+		<MessageText>日期中的数字不正确</MessageText>
+	</Message>
+	<Message id="datatype.date.constraint.invaliddateformat" type="ui">
+		<MessageText>日期格式不正确</MessageText>
+	</Message>
+	<Message id="datatype.date.constraint.displayformatdate" type="ui">
+		<MessageText>日期与设定的显示格式不符</MessageText>
+	</Message>
+	<Message id="datatype.date.constraint.mininclusiveless" type="ui">
+		<MessageText>数值小于闭区间的最小值</MessageText>
+	</Message>
+	<Message id="datatype.date.constraint.maxinclusivemore" type="ui">
+		<MessageText>数值大于闭区间的最大值</MessageText>
+	</Message>
+	<Message id="datatype.date.constraint.minexclusivemore" type="ui">
+		<MessageText>数值小于开区间的最小值</MessageText>
+	</Message>
+	<Message id="datatype.date.constraint.maxexclusivemore" type="ui">
+		<MessageText>数值小于开区间的最大值</MessageText>
+	</Message>	
+	<Message id="datatype.hexbinary.constraint.invalidhexbinary" type="ui">
+		<MessageText>十六进制数值不正确</MessageText>
+	</Message>
+	<Message id="datatype.hexbinary.constraint.minlength" type="ui">
+		<MessageText>值的长度小于最小长度</MessageText>
+	</Message>
+	<Message id="datatype.hexbinary.constraint.maxlength" type="ui">
+		<MessageText>值的长度大于最大长度</MessageText>
+	</Message>
+	<Message id="datatype.hexbinary.constraint.valuelength" type="ui">
+		<MessageText>值的长度不等于规定的长度</MessageText>
+	</Message>
+	<Message id="datatype.hexbinary.constraint.pattern" type="ui">
+		<MessageText>值与设定的模式不匹配</MessageText>
+	</Message>		
+	<Message id="datatype.base64binary.constraint.invalidbase64" type="ui">
+		<MessageText>Base64数值不正确</MessageText>
+	</Message>
+	<Message id="datatype.base64binary.constraint.minlength" type="ui">
+		<MessageText>值的长度小于最小长度</MessageText>
+	</Message>
+	<Message id="datatype.base64binary.constraint.maxlength" type="ui">
+		<MessageText>值的长度大于最大长度</MessageText>
+	</Message>
+	<Message id="datatype.base64binary.constraint.valuelength" type="ui">
+		<MessageText>值的长度不等于规定的长度</MessageText>
+	</Message>
+	<Message id="datatype.base64binary.constraint.pattern" type="ui">
+		<MessageText>值与设定的模式不匹配</MessageText>
+	</Message>	
+	<Message id="datatype.anyuri.constraint.invaliduri" type="ui">
+		<MessageText>URI不正确</MessageText>
+	</Message>
+	<Message id="datatype.anyuri.constraint.minlength" type="ui">
+		<MessageText>值的长度小于最小长度</MessageText>
+	</Message>
+	<Message id="datatype.anyuri.constraint.maxlength" type="ui">
+		<MessageText>值的长度大于最大长度</MessageText>
+	</Message>
+	<Message id="datatype.anyuri.constraint.valuelength" type="ui">
+		<MessageText>值的长度不等于规定的长度</MessageText>
+	</Message>
+	<Message id="datatype.anyuri.constraint.pattern" type="ui">
+		<MessageText>值与设定的模式不匹配</MessageText>
+	</Message>	
+	<Message id="message.saveconfirmation" type="ui">
+		<MessageText>您需要保存更改吗？</MessageText>
+	</Message>
+	<Message id="message.recordsdeletion" type="ui">
+		<MessageText>您确定要删除这些记录吗？</MessageText>
+	</Message>
+	<Message id="message.required" type="ui">
+		<MessageText>请输入一个非空的{0}</MessageText>
+	</Message>	
+	<Message id="message.savechanges" type="ui">
+		<MessageText>请保存更改，以便继续下一步。</MessageText>
+	</Message>
+	<Message id="message.syncdialogclose" type="ui">
+		<MessageText>当前应用还有一些相关的窗口处于开启状态，您确定要关闭当前窗口以及相关窗口吗？</MessageText>
+	</Message>
+	<Message id="message.invalidinteger" type="ui">
+		<MessageText>请输入正确的整数</MessageText>
+	</Message>		
+	<Message id="message.invalidcreditcard" type="ui">
+		<MessageText>请输入正确的信用卡号码</MessageText>
+	</Message>	
+	<Message id="message.invalidfloat" type="ui">
+		<MessageText>请输入正确的浮点数</MessageText>
+	</Message>
+	<Message id="message.invaliddecimal" type="ui">
+		<MessageText>请输入正确的十进制数</MessageText>
+	</Message>
+	<Message id="message.invaliddouble" type="ui">
+		<MessageText>请输入正确的双精度数</MessageText>
+	</Message>
+	<Message id="message.invalidamount" type="ui">
+		<MessageText>请输入正确的数额</MessageText>
+	</Message>
+	<Message id="message.invalidnumberfordate" type="ui">
+		<MessageText>数字不正确</MessageText>
+	</Message>
+	<Message id="message.invaliddate" type="ui">
+		<MessageText>请输入正确的日期/时间</MessageText>
+	</Message>
+	<Message id="message.invalidhexbinary" type="ui">
+		<MessageText>请输入正确的十六进制数</MessageText>
+	</Message>	
+	<Message id="message.invalidbase64" type="ui">
+		<MessageText>请输入正确的base64数值</MessageText>
+	</Message>
+	<Message id="message.invaliduri" type="ui">
+		<MessageText>请输入正确的UEI</MessageText>
+	</Message>
+	<Message id="message.invalidmail" type="ui">
+		<MessageText>请输入正确的电子邮件地址</MessageText>
+	</Message>		
+	<Message id="message.creditcardminlength" type="ui">
+		<MessageText>信用卡号码长度不够</MessageText>
+	</Message>
+	<Message id="message.creditcardmaxlength" type="ui">
+		<MessageText>信用卡号码过长</MessageText>
+	</Message>
+	<Message id="message.minlength" type="ui">
+		<MessageText>字段长度应该大于等于{0}</MessageText>
+	</Message>
+	<Message id="message.maxlength" type="ui">
+		<MessageText>字段长度应该小于等于{0}</MessageText>
+	</Message>
+	<Message id="message.valuelength" type="ui">
+		<MessageText>字段长度应该小于等于{0}</MessageText>
+	</Message>
+	<Message id="message.invaliddateformat" type="ui">
+		<MessageText>请按照正确的格式输入日期</MessageText>
+	</Message>
+	<Message id="message.displayformatdate" type="ui">
+		<MessageText>请按照此格式输入日期：{0}</MessageText>
+	</Message>
+	<Message id="message.totaldigits" type="ui">
+		<MessageText>请输入{0}位或{0}位以内的数字</MessageText>
+	</Message>		
+	<Message id="message.fractiondigits" type="ui">
+		<MessageText>请在分隔符之后输入{0}位或{0}位以内的数字</MessageText>
+	</Message>
+	<Message id="message.mininclusiveless" type="ui">
+		<MessageText>请输入大于等于{0}的数值</MessageText>
+	</Message>
+	<Message id="message.maxinclusivemore" type="ui">
+		<MessageText>请输入小于等于{0}的数值</MessageText>
+	</Message>
+	<Message id="message.minmaxinclusive" type="ui">
+		<MessageText>请输入{0}到{1}之间的数值</MessageText>
+	</Message>
+	<Message id="message.minexclusivemore" type="ui">
+		<MessageText>请输入大于{0}的数值</MessageText>
+	</Message>
+	<Message id="message.maxexclusivemore" type="ui">
+		<MessageText>请输入小于{0}的数值</MessageText>
+	</Message>
+	<Message id="message.minmaxexclusive" type="ui">
+		<MessageText>请输入{0}到{1}之间的数值</MessageText>
+	</Message>
+	<Message id="message.minvalue" type="ui">
+		<MessageText>请输入大于{0}的数值</MessageText>
+	</Message>
+	<Message id="message.maxvalue" type="ui">
+		<MessageText>请输入小于{0}的数值</MessageText>
+	</Message>
+	<Message id="message.legalcharacters" type="ui">
+		<MessageText>输入的值中包含没有设定的字符</MessageText>
+	</Message>
+	<Message id="message.illegalcharacters" type="ui">
+		<MessageText>输入的值中包含非法字符</MessageText>
+	</Message>
+	<Message id="message.pattern" type="ui">
+		<MessageText>请输入满足此条件的数值：{0}</MessageText>
+	</Message>
+	<Message id="message.requiredselect" type="ui">
+		<MessageText>请选择相应选项</MessageText>
+	</Message>
+	<Message id="tooltip.input">
+		<MessageText>请为{0}提供数值</MessageText>
+	</Message>
+	<Message id="tooltip.password">
+		<MessageText>请提供密码</MessageText>
+	</Message>
+	<Message id="tooltip.field">
+		<MessageText>请为该字段提供数值</MessageText>
+	</Message>
+	<Message id="tooltip.textarea.default">
+		<MessageText>请为文本框提供文本</MessageText>
+	</Message>
+	<Message id="tooltip.textarea">
+		<MessageText>请为{0}提供文本</MessageText>
+	</Message>
+	<Message id="tooltip.checkbox.default">
+		<MessageText>请点击选择该选项</MessageText>
+	</Message>
+	<Message id="tooltip.checkbox">
+		<MessageText>请点击选择{0}</MessageText>
+	</Message>
+	<Message id="tooltip.checkbox.checkall">
+		<MessageText>全选或全不选</MessageText>
+	</Message>
+	<Message id="tooltip.output.default">
+		<MessageText>输出值</MessageText>
+	</Message>
+	<Message id="tooltip.output">
+		<MessageText>{0}的值</MessageText>
+	</Message>
+	<Message id="tooltip.dropdown.default">
+		<MessageText>请从下拉列表中选择选项</MessageText>
+	</Message>
+	<Message id="tooltip.list.default">
+		<MessageText>请从列表中选择选项</MessageText>
+	</Message>
+	<Message id="tooltip.dropdown">
+		<MessageText>请从下拉列表中为{0}选择选项</MessageText>
+	</Message>
+	<Message id="tooltip.list">
+		<MessageText>请从列表中为{0}选择选项</MessageText>
+	</Message>
+	<Message id="tooltip.button">
+		<MessageText>请点击{0}</MessageText>
+	</Message>
+	<Message id="tooltip.save">
+		<MessageText>保存</MessageText>
+	</Message>
+	<Message id="tooltip.print">
+		<MessageText>打印</MessageText>
+	</Message>
+	<Message id="tooltip.insert">
+		<MessageText>插入</MessageText>
+	</Message>
+  <Message id="tooltip.add">
+    <MessageText>添加</MessageText>
+  </Message>
+  <Message id="tooltip.remove">
+    <MessageText>删除</MessageText>
+  </Message>
+	<Message id="tooltip.delete">
+		<MessageText>删除</MessageText>
+	</Message>
+	<Message id="tooltip.refresh">
+		<MessageText>刷新</MessageText>
+	</Message>
+	<Message id="tooltip.first">
+		<MessageText>第一</MessageText>
+	</Message>
+	<Message id="tooltip.last">
+		<MessageText>最后</MessageText>
+	</Message>
+	<Message id="tooltip.previous">
+		<MessageText>上一页</MessageText>
+	</Message>
+	<Message id="tooltip.next">
+		<MessageText>下一页</MessageText>
+	</Message>
+	<Message id="tooltip.find">
+		<MessageText>查找</MessageText>
+	</Message>
+	<Message id="tooltip.lookupdate">
+		<MessageText>查找日期</MessageText>
+	</Message>
+	<Message id="tooltip.lookup">
+		<MessageText>查找</MessageText>
+	</Message>
+	<Message id="tooltip.lookupfile">
+		<MessageText>查找文件</MessageText>
+	</Message>
+	<Message id="ElementPositionCanNotBeNull">
+		<MessageText>Element position can not be null</MessageText>
+		<Description>Element position can not be null</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+		</Message>
+	<Message id="ElementSizeCanNotBeNull">
+		<MessageText>Element size can not be null</MessageText>
+		<Description>Element size can not be null</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message id="InterruptedException">
+		<MessageText>Interrupted Exception {0}</MessageText>
+		<Description>Interrupted Exception {0}</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message id="ExceptionGroup">
+		<MessageText>ExceptionGroup : Exception while reading the task definition</MessageText>
+		<Description>ExceptionGroup : Exception while reading the task definition</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message id="TimeOutException">
+		<MessageText>TimeOutException : TimeOut while reading the task definition</MessageText>
+		<Description>TimeOutException : TimeOut while reading the task definition</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message id="Exception">
+		<MessageText>Exception : Exception while reading the task definition</MessageText>
+		<Description>Exception : Exception while reading the task definition</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="ClassNotFoundException">
+		<MessageText>Required class is unavailable</MessageText>
+		<Description>Required class is unavailable</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="InstantiationException">
+		<MessageText>Error occurred while creating object</MessageText>
+		<Description>Error occurred while creating object</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="IllegalAccessException">
+		<MessageText>Error occurred while accessing due to lack of permissions</MessageText>
+		<Description>Error occurred while accessing due to lack of permissions</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="CouldNotFindXformsDefintion">
+		<MessageText>Could not find XForms defintion for  {0}</MessageText>
+		<Description>Could not find XForms defintion for  {0}</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="NotFound">
+		<MessageText>{0} is not found</MessageText>
+		<Description>{0} is not found</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="NotImplementedClassToBeDynamicXform">
+		<MessageText>The class {0} hasn't implemented the 'com.eibus.xforms.persistence.IXFormsDefinition' class to be dynamic xform. </MessageText>
+		<Description>The class {0} hasn't implemented the 'com.eibus.xforms.persistence.IXFormsDefinition' class to be dynamic xform. </Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="KeyIsIncorrect">
+		<MessageText>Could not find {0} definition. Please make sure that the Key is correct.</MessageText>
+		<Description>Could not find {0} definition. Please make sure that the Key is correct.</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="UnsupportXformVersion">
+		<MessageText>Could not support xformsversion : {0} .</MessageText>
+		<Description>Could not support xformsversion : {0} .</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="NoMethodSetsToXFormsSoapNode">
+		<MessageText>No MethodSets are assigned to XForms Soap Node.</MessageText>
+		<Description>No MethodSets are assigned to XForms Soap Node.</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="DirectoryException">
+		<MessageText>DirectoryException while checking the attached methodset {0}</MessageText>
+		<Description>DirectoryException while checking the attached methodset {0}</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="ExceptionGroupWhileGettingConnectorObject">
+		<MessageText>ExceptionGroup while getting connector object - {0}</MessageText>
+		<Description>ExceptionGroup while getting connector object - {0}</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="DirectoryExceptionWhileGettingConnectorObject">
+		<MessageText>Directory exception while getting connector object - {0}</MessageText>
+		<Description>Directory exception while getting connector object - {0}</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="InvalidExpiryType">
+		<MessageText>Invalid value for Expiry type.  Value should be either 1 or 2 or 3.</MessageText>
+		<Description>Invalid value for Expiry type.  Value should be either 1 or 2 or 3.</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="WsdlNotValid">
+		<MessageText>WSDL is not valid</MessageText>
+		<Description>WSDL is not valid</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="SchemaDoesnotHaveTargetNamespace">
+		<MessageText>Schema doesn't have targetNamespace</MessageText>
+		<Description>Schema doesn't have targetNamespace</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="MethodNameNotValid">
+		<MessageText>Method name is not valid</MessageText>
+		<Description>Method name is not valid</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="UriNotValid">
+		<MessageText>URI is not valid</MessageText>
+		<Description>URI is not valid</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="VersionNotValid">
+		<MessageText>Version is not valid</MessageText>
+		<Description>Version is not valid</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="OrganizationNotSpecified">
+		<MessageText>Organization is not specified</MessageText>
+		<Description>Organization is not specified</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="UsernameNotSpecified">
+		<MessageText>User name is not specified</MessageText>
+		<Description>User name is not specified</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="IsEmptyOrNull">
+		<MessageText>{0} is empty or null</MessageText>
+		<Description>{0} is empty or null</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="ModelHasMoreThanOneInstances">
+		<MessageText>Model {0} has more than one instances.A Model can have only one instance. Please verify the XForm Definition.</MessageText>
+		<Description>Model {0} has more than one instances.A Model can have only one instance. Please verify the XForm Definition.</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="BusinessElementNameMissing">
+		<MessageText>Business element name missing for {0}. Specify the business element name for {0} model</MessageText>
+		<Description>Business element name missing for {0}. Specify the business element name for {0} model</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="PortTypeNodeFoundInWsdl">
+		<MessageText>Port Type node found in WSDL </MessageText>
+		<Description>Port Type node found in WSDL </Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="MethodNameOrNameSpacesNotFound">
+		<MessageText>Method name or Namespace not found while handling XML Objects</MessageText>
+		<Description>Method name or Namespace not found while handling XML Objects</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="ClassCastException">
+		<MessageText>Exception occured while attempting to cast an object to a subclass of which it is not an instance {0}</MessageText>
+		<Description>Exception occured while attempting to cast an object to a subclass of which it is not an instance {0}</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+	<Message
+		id="UnsupportedEncodingException">
+		<MessageText>Exception occured while Encoding. The Character Encoding is not supported {0}.</MessageText>
+		<Description>Exception occured while Encoding. The Character Encoding is not supported {0}.</Description>
+		<Annotations>
+			<DocumenationURL/>
+		</Annotations>
+	</Message>
+</MessageBundle>

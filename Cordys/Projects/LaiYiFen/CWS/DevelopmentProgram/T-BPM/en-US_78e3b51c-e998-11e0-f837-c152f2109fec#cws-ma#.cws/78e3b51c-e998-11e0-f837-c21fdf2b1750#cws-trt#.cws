@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c21fdf6e9751">
+	<DocumentID>78e3b51c-e998-11e0-f837-c21fdf2b1750</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c21fdf2b1750</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:45.215</CreationDate>
+	<Notes/>
+	<Text>附近有无“来伊份”门店</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c21fe01d9752"
+		/>
+	</TextIdentifier>
+</TranslatedText>

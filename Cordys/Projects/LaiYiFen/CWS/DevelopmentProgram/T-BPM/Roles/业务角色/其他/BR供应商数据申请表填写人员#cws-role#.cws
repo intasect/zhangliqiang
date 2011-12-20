@@ -1,0 +1,29 @@
+
+<RoleDesignTime
+	type="com.cordys.organization.role.RoleDesignTime"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbb7-252f58e55f92">
+	<DocumentID>78e3b51c-e998-11e0-fbb7-252f58dddf91</DocumentID>
+	<Name>BR供应商数据申请表填写人员</Name>
+	<Description>BR供应商数据申请表填写人员</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-09-13T06:42:59.947</CreationDate>
+	<Notes/>
+	<isFunctionalRole>true</isFunctionalRole>
+	<type>Functional</type>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<configuredTasks/>
+	<Subroles>
+		<uri
+			id="005056a3-4878-11e0-f462-0d1cd7b01d0a"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f462-300af2da5f58"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f462-300af3291f5f"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-fb1f-b9b33137578e"
+		/>
+	</Subroles>
+</RoleDesignTime>

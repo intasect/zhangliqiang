@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fec6-38ed49e85be7">
+	<DocumentID>78e3b51c-e998-11e0-fec6-38ed49e0dbe6</DocumentID>
+	<Name>78e3b51c-e998-11e0-fec6-38ed49e0dbe6</Name>
+	<Description>辅料商品信息列表</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-10-14T07:07:42.478</CreationDate>
+	<Notes/>
+	<Text>辅料商品信息列表</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fec6-38ed49d31be4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

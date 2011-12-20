@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa5e-17f34bbf9fe1">
+	<DocumentID>78e3b51c-e998-11e0-fa5e-17f34bb95fe0</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa5e-17f34bb95fe0</Name>
+	<Description>CONDITION_GROUP_MER_NAME</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-30T11:11:52.706</CreationDate>
+	<Notes/>
+	<Text>CONDITION_GROUP_MER_NAME</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa5e-17f34bacdfde"
+		/>
+	</TextIdentifier>
+</TranslatedText>

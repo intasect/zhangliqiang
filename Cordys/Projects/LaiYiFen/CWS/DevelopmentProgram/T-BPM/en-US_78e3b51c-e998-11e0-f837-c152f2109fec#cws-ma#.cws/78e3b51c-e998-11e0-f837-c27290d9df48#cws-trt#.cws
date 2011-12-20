@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c27291149f49">
+	<DocumentID>78e3b51c-e998-11e0-f837-c27290d9df48</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c27290d9df48</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:30.187</CreationDate>
+	<Notes/>
+	<Text>填写内容为月租金（含税价），并注明租赁年限和递增情况。如有转让费须注明金额，并写明支付原因</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c27291a6df4a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

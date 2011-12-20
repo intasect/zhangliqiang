@@ -1,0 +1,54 @@
+
+<WSAppServerJavaArchiveSource
+	type="com.cordys.wsappserver.WSAppServerJavaArchiveSource"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f87f-5fbbd5ea1f45">
+	<DocumentID>78e3b51c-e998-11e0-f87f-5fbbd5a55f44</DocumentID>
+	<Name>shop</Name>
+	<Description>shop</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-11T09:19:19.476</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<JarFileName>shop</JarFileName>
+	<SourceFolder>
+		<uri
+			id="000C297E-6FFF-11E1-E37B-ABCD08C09276"
+			path="T-BPM/Java/shop"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+	<WSAppServerPackage>
+		<uri
+			id="78e3b51c-e998-11e0-f87f-5fbac1ce5d77"
+		/>
+	</WSAppServerPackage>
+	<Dependencies>
+		<JavaArchiveReferenceDependency
+			type="com.cordys.cws.documenttypes.javaarchivesource.JavaArchiveReferenceDependency"
+			RuntimeDocumentID="78e3b51c-e998-11e0-f87f-5fbbd6bd5f47">
+			<DocumentID>78e3b51c-e998-11e0-f87f-5fbbd6801f46</DocumentID>
+			<Name>shop_Dependency</Name>
+			<Description/>
+			<CreatedBy>江庆荣</CreatedBy>
+			<CreationDate>2011-08-11T09:19:19.355</CreationDate>
+			<Notes/>
+			<ISVPName></ISVPName>
+			<DependsOnJAR>?CORDYS_INSTALL_DIR?/components/wsappserver/wsappserver.jar</DependsOnJAR>
+		</JavaArchiveReferenceDependency>
+		<JavaArchiveSourceDependency
+			type="com.cordys.cws.documenttypes.javaarchivesource.JavaArchiveSourceDependency"
+			RuntimeDocumentID="78e3b51c-e998-11e0-f8e2-363073abdf06">
+			<DocumentID>78e3b51c-e998-11e0-f8e2-363073a45f05</DocumentID>
+			<Name>78e3b51c-e998-11e0-f8e2-363073a45f05</Name>
+			<Description>T-BPM_Cordys Install Dir_com_laiyifen_application_common</Description>
+			<CreatedBy>江庆荣</CreatedBy>
+			<CreationDate>2011-08-15T09:10:33.736</CreationDate>
+			<Notes/>
+			<DependsOnJAS>
+				<uri
+					id="78e3b51c-e998-11e0-f8df-cc57cdd19f8c"
+				/>
+			</DependsOnJAS>
+		</JavaArchiveSourceDependency>
+	</Dependencies>
+</WSAppServerJavaArchiveSource>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faa5-7af3f6b35679">
+	<DocumentID>78e3b51c-e998-11e0-faa5-7af3f6ad1678</DocumentID>
+	<Name>78e3b51c-e998-11e0-faa5-7af3f6ad1678</Name>
+	<Description>当月各地区新开店数据统计图</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-09-02T06:29:18.733</CreationDate>
+	<Notes/>
+	<Text>当月各地区新开店数据统计图</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faa5-7af3f69f5676"
+		/>
+	</TextIdentifier>
+</TranslatedText>

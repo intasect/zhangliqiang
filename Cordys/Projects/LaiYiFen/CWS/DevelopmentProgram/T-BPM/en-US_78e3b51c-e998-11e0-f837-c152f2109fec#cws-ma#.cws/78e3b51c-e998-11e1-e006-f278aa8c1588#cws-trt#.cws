@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e006-f278aa939589">
+	<DocumentID>78e3b51c-e998-11e1-e006-f278aa8c1588</DocumentID>
+	<Name>78e3b51c-e998-11e1-e006-f278aa8c1588</Name>
+	<Description>更新流程状态</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-27T01:13:18.414</CreationDate>
+	<Notes/>
+	<Text>更新流程状态</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e006-f278aa7e5586"
+		/>
+	</TextIdentifier>
+</TranslatedText>

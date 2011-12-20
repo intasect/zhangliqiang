@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff25-6c54890d1b17">
+	<DocumentID>78e3b51c-e998-11e0-ff25-6c548906db16</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff25-6c548906db16</Name>
+	<Description>BUSINESS_CODE</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-18T02:31:26.639</CreationDate>
+	<Notes/>
+	<Text>BUSINESS_CODE</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff25-6c5488f7db14"
+		/>
+	</TextIdentifier>
+</TranslatedText>

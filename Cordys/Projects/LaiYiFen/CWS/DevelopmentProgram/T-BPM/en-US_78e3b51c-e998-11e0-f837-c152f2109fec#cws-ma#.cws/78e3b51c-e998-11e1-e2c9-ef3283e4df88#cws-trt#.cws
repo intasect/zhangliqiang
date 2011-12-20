@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e2c9-ef3283ec5f89">
+	<DocumentID>78e3b51c-e998-11e1-e2c9-ef3283e4df88</DocumentID>
+	<Name>78e3b51c-e998-11e1-e2c9-ef3283e4df88</Name>
+	<Description>是否重新生成SAP订单号</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-24T03:55:18.136</CreationDate>
+	<Notes/>
+	<Text>是否重新生成SAP订单号</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e2c9-ef3283d5df86"
+		/>
+	</TextIdentifier>
+</TranslatedText>

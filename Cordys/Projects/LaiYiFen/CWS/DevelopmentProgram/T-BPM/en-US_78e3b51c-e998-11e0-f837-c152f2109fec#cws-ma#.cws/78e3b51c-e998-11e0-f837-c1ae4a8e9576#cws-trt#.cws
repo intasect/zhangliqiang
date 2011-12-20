@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1ae4acd1577">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1ae4a8e9576</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1ae4a8e9576</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:39.388</CreationDate>
+	<Notes/>
+	<Text>来伊份采购一部采购助理</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1ae4b609578"
+		/>
+	</TextIdentifier>
+</TranslatedText>

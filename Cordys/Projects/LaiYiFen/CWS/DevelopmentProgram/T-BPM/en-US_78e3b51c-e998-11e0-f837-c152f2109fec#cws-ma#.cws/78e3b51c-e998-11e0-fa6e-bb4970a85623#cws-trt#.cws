@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa6e-bb4970afd624">
+	<DocumentID>78e3b51c-e998-11e0-fa6e-bb4970a85623</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa6e-bb4970a85623</Name>
+	<Description>GetShopTransInfoObjectResponse</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-31T02:40:18.451</CreationDate>
+	<Notes/>
+	<Text>GetShopTransInfoObjectResponse</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa6e-bb4970995621"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,26 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc4d-6fba75075f3b">
+	<DocumentID>78e3b51c-e998-11e0-fc4d-6fba74fc1f3a</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc4d-6fba74fc1f3a</Name>
+	<Description>目标调查表流程（一般店）</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-19T03:11:23.448</CreationDate>
+	<Notes/>
+	<DefaultText>目标调查表流程（一般店）</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fc4d-6fba7513df3c"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-fc97-5d92cd8b9ddc"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

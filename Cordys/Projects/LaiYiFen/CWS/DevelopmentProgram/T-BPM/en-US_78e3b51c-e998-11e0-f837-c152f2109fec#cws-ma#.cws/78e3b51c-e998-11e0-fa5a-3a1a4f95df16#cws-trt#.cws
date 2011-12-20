@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa5a-3a1a4f9fdf17">
+	<DocumentID>78e3b51c-e998-11e0-fa5a-3a1a4f95df16</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa5a-3a1a4f95df16</Name>
+	<Description>子公司应收会计</Description>
+	<CreatedBy>唐炜炜</CreatedBy>
+	<CreationDate>2011-08-30T06:48:10.36</CreationDate>
+	<Notes/>
+	<Text>子公司应收会计</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa5a-3a1a4f809f14"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fead-9562497c9f67">
+	<DocumentID>78e3b51c-e998-11e0-fead-956249765f66</DocumentID>
+	<Name>78e3b51c-e998-11e0-fead-956249765f66</Name>
+	<Description>促销处理接口轮询结果异常处理</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-13T07:29:36.138</CreationDate>
+	<Notes/>
+	<Text>促销处理接口轮询结果异常处理</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fead-956249675f64"
+		/>
+	</TextIdentifier>
+</TranslatedText>

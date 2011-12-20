@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e34b-9a9e5ee017c9">
+	<DocumentID>78e3b51c-e998-11e1-e34b-9a9e5ed617c8</DocumentID>
+	<Name>78e3b51c-e998-11e1-e34b-9a9e5ed617c8</Name>
+	<Description>门店税率表单</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-29T07:46:04.101</CreationDate>
+	<Notes/>
+	<Text>门店税率表单</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e34b-9a9e5ea2d7c6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

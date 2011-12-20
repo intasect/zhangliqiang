@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9c6-d9ee52d99fbc">
+	<DocumentID>78e3b51c-e998-11e0-f9c6-d9ee52d35fbb</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9c6-d9ee52d35fbb</Name>
+	<Description>网点规划汇总表V2</Description>
+	<CreatedBy>wangzhiqiang</CreatedBy>
+	<CreationDate>2011-08-24T09:52:55.689</CreationDate>
+	<Notes/>
+	<Text>网点规划汇总表V2</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9c6-d9ee52c59fb9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

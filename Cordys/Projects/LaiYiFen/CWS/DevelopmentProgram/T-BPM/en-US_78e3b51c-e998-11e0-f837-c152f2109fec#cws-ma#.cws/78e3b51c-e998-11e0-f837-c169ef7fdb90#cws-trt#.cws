@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c169efd25b91">
+	<DocumentID>78e3b51c-e998-11e0-f837-c169ef7fdb90</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c169ef7fdb90</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:27.365</CreationDate>
+	<Notes/>
+	<Text>标准新开店</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c169f0969b92"
+		/>
+	</TextIdentifier>
+</TranslatedText>

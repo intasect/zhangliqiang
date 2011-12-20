@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa5c-07e7efce5d5c">
+	<DocumentID>78e3b51c-e998-11e0-fa5c-07e7ef8add5b</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa5c-07e7ef8add5b</Name>
+	<Description/>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-30T08:15:40.595</CreationDate>
+	<Notes/>
+	<Text>Freight</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa5c-07e7f06f9d5d"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,161 @@
+BODY{
+	background-attachment: fixed;
+	background-image: url("/cordys/laiyifen/common/image/logo2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+#toolbar{
+	color: #091B63;
+	border-bottom:#DA5E00 3px solid !important;
+}
+#xbody_group{
+	top:27px !important;
+}
+.multdisplay .grid tbody tr{
+	border: 1px solid #DCE6F2;
+	height: 80px;
+	width: 100%;  
+}
+.multdisplay .grid thead tr{
+	height:23px;
+}
+.multdisplay  .hover{
+	background-image: none !important;
+}
+.holder{
+	position:relative;
+	height: 80px;
+	text-align: center;
+	width: 100%;
+}
+.details{
+	position:absolute;
+	height: 78px;
+	width: 390px;
+	overflow:hidden;
+	left:0px;
+	top:0px;
+	height: 80px;
+}
+.conentname{
+	position:absolute;
+	height: 78px;
+	width: auto;
+	left:392px;
+	right:0px;
+	top:0px;
+	overflow:auto;
+	font-weight: bold;
+	text-align: left;
+	border: 1px solid #C8D5E8;
+	background-color:#FAF9F4;
+}
+
+.conentname p{
+	margin: 0 0 0 3px;
+}
+
+.lbl1,.lbl2,.lbl3,.lbl4{
+	position:absolute;
+	height: 19px;
+	width: 150px;
+	left:1px;
+	top:0px;
+	border: 1px solid #D3DEED;
+	background: url("/cordys/wcp/theme/crystal/image/background/commonsprite.png");
+	background-color:#E7EDF5;
+}
+
+.val1,.val2,.val3,.val4{
+	position:absolute;
+	height: 19px;
+	width: auto;
+	overflow:hidden;
+	left:150px;
+	right:0px;
+	top:0px;
+	border: 1px solid #D3DEED;
+	background-color:#FAF9F4;
+}
+.lbl2 ,.val2{
+	top:19px;
+}
+.lbl3,.val3{
+	top:38px;
+}
+.lbl4,.val4{
+	top:58px;
+}
+.level0 .groupheader label {
+	margin: 0px 0px 0px 40px;
+}
+.level1 .groupheader label {
+margin: 0px 0px 0px 80px;
+}
+.level2 .groupheader label {
+margin: 0px 0px 0px 120px;
+}
+.level3 .groupheader label {
+margin: 0px 0px 0px 20px;
+}
+
+
+
+#indicator{
+	position:absolute;
+	background-image:url(/cordys/laiyifen/common/image/sprite.png);
+	background-position:0px -48px;
+	height: 22px;
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	width: 404px;
+}
+#battery{
+	position:absolute;
+	width:400px;
+	height:16px;
+	left:2px;
+	top:4px;
+}
+#mask{
+	position:absolute;
+	right:0px;
+	width:400px;
+	height:22px;
+	background-image:url(/cordys/laiyifen/common/image/sprite.png);
+	background-position:0px -48px;
+}
+#cool{
+	position:absolute;
+	background-color:#129012;
+	background-image:url(/cordys/laiyifen/common/image/sprite.png);
+	background-position:0px 0px;
+	backgroung-repeat:repeat-x;
+	height:100%;
+	top:0px;
+	left:0px;
+}
+#warm{
+	position:absolute;
+	background-color:#FFFB12;
+	background-image:url(/cordys/laiyifen/common/image/sprite.png);
+	height:100%;
+	background-position:0px -16px;
+	top:0px;
+}
+#hot{
+	position:absolute;
+	background-color:#FF6E12;
+	background-image:url(/cordys/laiyifen/common/image/sprite.png);
+	background-position:0px -32px;
+	height:100%;
+	top:0px;
+}
+#clock {
+	position: absolute;
+	right: 414px;
+	top: -1px;
+	height: 22px;
+	width: 24px;
+}

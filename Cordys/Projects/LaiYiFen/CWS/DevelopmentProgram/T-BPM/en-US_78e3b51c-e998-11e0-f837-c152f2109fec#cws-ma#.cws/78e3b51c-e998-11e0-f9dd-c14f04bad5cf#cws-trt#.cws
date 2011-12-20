@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9dd-c14f04c115d0">
+	<DocumentID>78e3b51c-e998-11e0-f9dd-c14f04bad5cf</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9dd-c14f04bad5cf</Name>
+	<Description>SUPER_MATURITY_CODE</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-25T07:47:17.571</CreationDate>
+	<Notes/>
+	<Text>SUPER_MATURITY_CODE</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9dd-c14f04aa95cd"
+		/>
+	</TextIdentifier>
+</TranslatedText>

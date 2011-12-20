@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e332-361ecf7e9ba4">
+	<DocumentID>78e3b51c-e998-11e1-e332-361ecf771ba3</DocumentID>
+	<Name>78e3b51c-e998-11e1-e332-361ecf771ba3</Name>
+	<Description>请输入姓名+八位工号</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-11-28T08:18:49.98</CreationDate>
+	<Notes/>
+	<Text>请输入姓名+八位工号</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e332-361ecf681ba1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

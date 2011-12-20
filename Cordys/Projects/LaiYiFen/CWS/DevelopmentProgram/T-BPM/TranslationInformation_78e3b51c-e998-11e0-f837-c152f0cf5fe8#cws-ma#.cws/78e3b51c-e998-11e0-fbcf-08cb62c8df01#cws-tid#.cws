@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbcf-08cb62cf1f02">
+	<DocumentID>78e3b51c-e998-11e0-fbcf-08cb62c8df01</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbcf-08cb62c8df01</Name>
+	<Description>订购地址</Description>
+	<CreatedBy>唐炜炜</CreatedBy>
+	<CreationDate>2011-09-14T02:41:15.243</CreationDate>
+	<Notes/>
+	<DefaultText>订购地址</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fbcf-08cb62d69f03"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

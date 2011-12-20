@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c2713e7c9d31">
+	<DocumentID>78e3b51c-e998-11e0-f837-c2713e4e5d30</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c2713e4e5d30</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:44.998</CreationDate>
+	<Notes/>
+	<Text>商超整体成熟度</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c2713ef49d32"
+		/>
+	</TextIdentifier>
+</TranslatedText>

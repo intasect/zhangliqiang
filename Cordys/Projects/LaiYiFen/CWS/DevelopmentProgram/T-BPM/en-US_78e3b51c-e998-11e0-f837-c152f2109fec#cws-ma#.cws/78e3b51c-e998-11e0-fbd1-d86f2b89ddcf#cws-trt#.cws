@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbd1-d86f2b915dd0">
+	<DocumentID>78e3b51c-e998-11e0-fbd1-d86f2b89ddcf</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbd1-d86f2b89ddcf</Name>
+	<Description>合计(元)</Description>
+	<CreatedBy>唐炜炜</CreatedBy>
+	<CreationDate>2011-09-14T05:03:50.793</CreationDate>
+	<Notes/>
+	<Text>合计(元)</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbd1-d86f2b7c1dcd"
+		/>
+	</TextIdentifier>
+</TranslatedText>

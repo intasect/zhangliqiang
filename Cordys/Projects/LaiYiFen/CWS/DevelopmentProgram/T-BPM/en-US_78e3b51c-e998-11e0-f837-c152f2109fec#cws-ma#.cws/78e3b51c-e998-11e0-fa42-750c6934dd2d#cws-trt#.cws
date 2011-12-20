@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa42-750c695cdd2e">
+	<DocumentID>78e3b51c-e998-11e0-fa42-750c6934dd2d</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa42-750c6934dd2d</Name>
+	<Description>内径宽（米）</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-29T08:04:02.511</CreationDate>
+	<Notes/>
+	<Text>内径宽（米）</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa42-750c69271d2b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

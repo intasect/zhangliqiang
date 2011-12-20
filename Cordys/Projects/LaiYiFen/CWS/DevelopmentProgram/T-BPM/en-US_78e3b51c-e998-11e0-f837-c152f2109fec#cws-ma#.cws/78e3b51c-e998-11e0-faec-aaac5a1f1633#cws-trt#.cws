@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faec-aaac5a269634">
+	<DocumentID>78e3b51c-e998-11e0-faec-aaac5a1f1633</DocumentID>
+	<Name>78e3b51c-e998-11e0-faec-aaac5a1f1633</Name>
+	<Description>深（米） *</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-05T02:32:30.221</CreationDate>
+	<Notes/>
+	<Text>深（米） *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faec-aaac5a115631"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c28a4bbd1f43">
+	<DocumentID>78e3b51c-e998-11e0-f837-c28a4b929f42</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c28a4b929f42</Name>
+	<Description>业绩提成比率</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:57.5</CreationDate>
+	<Notes/>
+	<DefaultText>业绩提成比率</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c28a4aeedf40"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

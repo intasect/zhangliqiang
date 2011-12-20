@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9bd-ffc6d2e19f07">
+	<DocumentID>78e3b51c-e998-11e0-f9bd-ffc6d2da1f06</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9bd-ffc6d2da1f06</Name>
+	<Description>门店编号</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-24T01:38:17.474</CreationDate>
+	<Notes/>
+	<Text>门店编号</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9bd-ffc6d2cc5f04"
+		/>
+	</TextIdentifier>
+</TranslatedText>

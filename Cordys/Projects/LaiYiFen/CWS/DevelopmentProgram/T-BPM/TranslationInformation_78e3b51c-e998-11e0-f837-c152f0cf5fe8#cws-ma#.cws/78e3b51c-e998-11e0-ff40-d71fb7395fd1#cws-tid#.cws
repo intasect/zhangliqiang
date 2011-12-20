@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff40-d71fb740dfd2">
+	<DocumentID>78e3b51c-e998-11e0-ff40-d71fb7395fd1</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff40-d71fb7395fd1</Name>
+	<Description>超时数</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-10-19T05:08:48.233</CreationDate>
+	<Notes/>
+	<DefaultText>超时数</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-ff40-d71fb7485fd3"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

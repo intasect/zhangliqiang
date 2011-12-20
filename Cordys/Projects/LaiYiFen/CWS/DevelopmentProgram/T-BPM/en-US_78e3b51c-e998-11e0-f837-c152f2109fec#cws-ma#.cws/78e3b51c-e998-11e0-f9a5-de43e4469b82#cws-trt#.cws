@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9a5-de43e44cdb83">
+	<DocumentID>78e3b51c-e998-11e0-f9a5-de43e4469b82</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9a5-de43e4469b82</Name>
+	<Description>公司名称</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-23T02:27:53.695</CreationDate>
+	<Notes/>
+	<Text>公司名称</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9a5-de43e438db80"
+		/>
+	</TextIdentifier>
+</TranslatedText>

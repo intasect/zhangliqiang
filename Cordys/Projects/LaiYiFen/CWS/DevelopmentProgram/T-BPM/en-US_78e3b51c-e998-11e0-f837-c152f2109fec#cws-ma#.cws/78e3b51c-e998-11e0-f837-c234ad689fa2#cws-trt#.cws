@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c234adb61fa3">
+	<DocumentID>78e3b51c-e998-11e0-f837-c234ad689fa2</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c234ad689fa2</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:32.642</CreationDate>
+	<Notes/>
+	<Text>该商圈内租金调查</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c234ae705fa4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

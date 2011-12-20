@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e008-8feb7953969e">
+	<DocumentID>78e3b51c-e998-11e1-e008-8feb794c169d</DocumentID>
+	<Name>78e3b51c-e998-11e1-e008-8feb794c169d</Name>
+	<Description>UpdateShopTransInfo</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-10-27T02:39:25.021</CreationDate>
+	<Notes/>
+	<Text>UpdateShopTransInfo</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e008-8feb793d169b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

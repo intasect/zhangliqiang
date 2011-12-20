@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa60-0f2f3835d7b5">
+	<DocumentID>78e3b51c-e998-11e0-fa60-0f2f382e57b4</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa60-0f2f382e57b4</Name>
+	<Description>经理</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-08-30T12:07:36.413</CreationDate>
+	<Notes/>
+	<Text>经理</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa60-0f2f382097b2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

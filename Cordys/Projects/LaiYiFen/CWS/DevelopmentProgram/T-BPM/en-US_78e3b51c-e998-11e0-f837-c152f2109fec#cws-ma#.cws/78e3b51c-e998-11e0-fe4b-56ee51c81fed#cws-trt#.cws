@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fe4b-56ee51cbdfee">
+	<DocumentID>78e3b51c-e998-11e0-fe4b-56ee51c81fed</DocumentID>
+	<Name>78e3b51c-e998-11e0-fe4b-56ee51c81fed</Name>
+	<Description>目标店租金（元/月）</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-10-09T09:41:17.553</CreationDate>
+	<Notes/>
+	<Text>目标店租金（元/月）</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fe4b-56ee51bf5feb"
+		/>
+	</TextIdentifier>
+</TranslatedText>

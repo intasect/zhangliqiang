@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff12-e5807e685747">
+	<DocumentID>78e3b51c-e998-11e0-ff12-e5807e60d746</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff12-e5807e60d746</Name>
+	<Description>EXT3</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-17T08:32:01.208</CreationDate>
+	<Notes/>
+	<Text>EXT3</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff12-e5807e51d744"
+		/>
+	</TextIdentifier>
+</TranslatedText>

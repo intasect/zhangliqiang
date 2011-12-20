@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbbc-bac33b2f97fe">
+	<DocumentID>78e3b51c-e998-11e0-fbbc-bb99b4e756cb</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbbc-bb99b4e756cb</Name>
+	<Description>DEPARTMENT_QN</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-09-13T08:55:03.117</CreationDate>
+	<Notes/>
+	<Text>DEPARTMENT_QN</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbbc-bb99b4d856c9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

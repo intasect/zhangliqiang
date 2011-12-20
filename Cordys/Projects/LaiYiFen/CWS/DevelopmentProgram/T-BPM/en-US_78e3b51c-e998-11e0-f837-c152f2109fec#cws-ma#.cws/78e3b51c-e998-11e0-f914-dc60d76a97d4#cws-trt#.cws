@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f914-dc60d77217d5">
+	<DocumentID>78e3b51c-e998-11e0-f914-dc60d76a97d4</DocumentID>
+	<Name>78e3b51c-e998-11e0-f914-dc60d76a97d4</Name>
+	<Description>Lakshman目标店调查表</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-17T07:59:59.671</CreationDate>
+	<Notes/>
+	<Text>Lakshman目标店调查表</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f914-dc60d75cd7d2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

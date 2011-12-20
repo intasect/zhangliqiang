@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ffc7-2a3f16ecd605">
+	<DocumentID>78e3b51c-e998-11e0-ffc7-2a3f16e19604</DocumentID>
+	<Name>78e3b51c-e998-11e0-ffc7-2a3f16e19604</Name>
+	<Description>省 *</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-24T12:42:01.413</CreationDate>
+	<Notes/>
+	<DefaultText>省 *</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-ffc7-2a3f1700d606"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

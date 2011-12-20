@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa8f-7733745dd954">
+	<DocumentID>78e3b51c-e998-11e0-fa8f-773374565953</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa8f-773374565953</Name>
+	<Description>促销规则申请表特殊促销</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-09-01T09:21:26.537</CreationDate>
+	<Notes/>
+	<Text>促销规则申请表特殊促销</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa8f-773374475951"
+		/>
+	</TextIdentifier>
+</TranslatedText>

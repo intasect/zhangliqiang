@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e1e5-7958ac7a1f05">
+	<DocumentID>78e3b51c-e998-11e1-e1e5-7958ac729f04</DocumentID>
+	<Name>78e3b51c-e998-11e1-e1e5-7958ac729f04</Name>
+	<Description>原折扣率 *</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-15T02:18:20.771</CreationDate>
+	<Notes/>
+	<Text>原折扣率 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e1e6-0258bbe9dfd3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

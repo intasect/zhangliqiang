@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9dd-c0558e6b94d2">
+	<DocumentID>78e3b51c-e998-11e0-f9dd-c0558e6414d1</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9dd-c0558e6414d1</Name>
+	<Description>ONEROOM</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-25T07:47:17.596</CreationDate>
+	<Notes/>
+	<Text>ONEROOM</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9dd-c0558e5654cf"
+		/>
+	</TextIdentifier>
+</TranslatedText>

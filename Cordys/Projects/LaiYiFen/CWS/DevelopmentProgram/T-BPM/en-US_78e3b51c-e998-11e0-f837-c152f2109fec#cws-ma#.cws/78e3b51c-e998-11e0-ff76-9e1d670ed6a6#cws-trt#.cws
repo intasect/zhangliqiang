@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff76-9e1d671656a7">
+	<DocumentID>78e3b51c-e998-11e0-ff76-9e1d670ed6a6</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff76-9e1d670ed6a6</Name>
+	<Description>&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;(请按照时:分的格式输入营业时间.半角状态下的冒号)&lt;/span&gt;</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-10-21T07:55:21.142</CreationDate>
+	<Notes/>
+	<Text>&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;(请按照时:分的格式输入营业时间.半角状态下的冒号)&lt;/span&gt;</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff76-9e1d66ffd6a4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa42-750c68ab5d1a">
+	<DocumentID>78e3b51c-e998-11e0-fa42-750c68a51d19</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa42-750c68a51d19</Name>
+	<Description>电费</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-29T08:08:44.635</CreationDate>
+	<Notes/>
+	<Text>电费</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa42-750c68961d17"
+		/>
+	</TextIdentifier>
+</TranslatedText>

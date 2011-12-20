@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f910-65f450465f9f">
+	<DocumentID>78e3b51c-e998-11e0-f910-65f4503edf9e</DocumentID>
+	<Name>78e3b51c-e998-11e0-f910-65f4503edf9e</Name>
+	<Description>物料状态异常</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-08-17T03:54:41.178</CreationDate>
+	<Notes/>
+	<Text>物料状态异常</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f910-65f450311f9c"
+		/>
+	</TextIdentifier>
+</TranslatedText>

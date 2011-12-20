@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e153-5daabe359745">
+	<DocumentID>78e3b51c-e998-11e1-e153-5daabe2e1744</DocumentID>
+	<Name>78e3b51c-e998-11e1-e153-5daabe2e1744</Name>
+	<Description>子公司特渠文员</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-11-09T06:48:15.278</CreationDate>
+	<Notes/>
+	<Text>子公司特渠文员</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e153-5daabe205742"
+		/>
+	</TextIdentifier>
+</TranslatedText>

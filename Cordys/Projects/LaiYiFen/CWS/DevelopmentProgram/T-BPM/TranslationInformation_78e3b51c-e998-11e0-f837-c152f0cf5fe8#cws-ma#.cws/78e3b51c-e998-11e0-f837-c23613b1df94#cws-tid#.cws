@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c23613f69f95">
+	<DocumentID>78e3b51c-e998-11e0-f837-c23613b1df94</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c23613b1df94</Name>
+	<Description>目前月租（必填）</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:54.759</CreationDate>
+	<Notes/>
+	<DefaultText>目前月租（必填）</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c23612b05f92"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

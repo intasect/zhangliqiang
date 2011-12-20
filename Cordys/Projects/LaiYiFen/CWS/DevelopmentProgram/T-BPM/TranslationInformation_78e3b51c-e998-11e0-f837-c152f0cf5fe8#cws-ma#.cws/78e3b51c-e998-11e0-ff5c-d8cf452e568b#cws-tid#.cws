@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff5c-d8cf4535d68c">
+	<DocumentID>78e3b51c-e998-11e0-ff5c-d8cf452e568b</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff5c-d8cf452e568b</Name>
+	<Description>使用面积（平方米）*</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-20T08:48:17.883</CreationDate>
+	<Notes/>
+	<DefaultText>使用面积（平方米）*</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-ff5c-d8cf453c168d"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

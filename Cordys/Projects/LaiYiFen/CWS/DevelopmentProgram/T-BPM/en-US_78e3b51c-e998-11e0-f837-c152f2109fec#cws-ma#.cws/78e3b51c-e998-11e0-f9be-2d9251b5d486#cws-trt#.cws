@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9be-2d9251bd5487">
+	<DocumentID>78e3b51c-e998-11e0-f9be-2d9251b5d486</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9be-2d9251b5d486</Name>
+	<Description>Input10</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-24T01:38:17.473</CreationDate>
+	<Notes/>
+	<Text>Input10</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9be-2d9251a6d484"
+		/>
+	</TextIdentifier>
+</TranslatedText>

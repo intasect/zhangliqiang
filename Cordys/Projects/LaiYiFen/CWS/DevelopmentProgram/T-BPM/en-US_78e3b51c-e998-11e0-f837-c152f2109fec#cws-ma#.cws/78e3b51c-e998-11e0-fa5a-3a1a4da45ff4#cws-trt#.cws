@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa5a-3a1a4dae5ff5">
+	<DocumentID>78e3b51c-e998-11e0-fa5a-3a1a4da45ff4</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa5a-3a1a4da45ff4</Name>
+	<Description>制定订单</Description>
+	<CreatedBy>唐炜炜</CreatedBy>
+	<CreationDate>2011-08-30T06:48:10.351</CreationDate>
+	<Notes/>
+	<Text>制定订单</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa5a-3a1a4d8f1ff2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

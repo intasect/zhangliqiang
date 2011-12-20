@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e025-c2347f5f9fc7">
+	<DocumentID>78e3b51c-e998-11e1-e025-c2347f595fc6</DocumentID>
+	<Name>78e3b51c-e998-11e1-e025-c2347f595fc6</Name>
+	<Description>填写的是门店的宽带付费专用的固定电话号码</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-10-28T06:37:46.259</CreationDate>
+	<Notes/>
+	<Text>填写的是门店的宽带付费专用的固定电话号码</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e025-c2347f4a5fc4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

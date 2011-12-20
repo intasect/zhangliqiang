@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c2459ab31f91">
+	<DocumentID>78e3b51c-e998-11e0-f837-c2459a6bdf90</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c2459a6bdf90</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:16.165</CreationDate>
+	<Notes/>
+	<Text>水表是否独立使用</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c2459b711f92"
+		/>
+	</TextIdentifier>
+</TranslatedText>

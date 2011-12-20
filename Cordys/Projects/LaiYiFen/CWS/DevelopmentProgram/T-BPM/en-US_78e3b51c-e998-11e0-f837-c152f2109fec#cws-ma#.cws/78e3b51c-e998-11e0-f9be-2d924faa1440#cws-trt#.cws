@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9be-2d924fb19441">
+	<DocumentID>78e3b51c-e998-11e0-f9be-2d924faa1440</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9be-2d924faa1440</Name>
+	<Description>BEST_LOCATION</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-24T01:39:33.97</CreationDate>
+	<Notes/>
+	<Text>BEST_LOCATION</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9be-2d924f9b143e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

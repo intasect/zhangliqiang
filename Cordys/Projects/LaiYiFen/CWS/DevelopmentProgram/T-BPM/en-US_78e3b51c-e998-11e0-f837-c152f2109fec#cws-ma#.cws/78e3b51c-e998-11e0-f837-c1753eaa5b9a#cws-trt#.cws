@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1753efb9b9b">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1753eaa5b9a</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1753eaa5b9a</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:04.596</CreationDate>
+	<Notes/>
+	<Text>只执行拆店流程中的拆店环节</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1753fc11b9c"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ffdb-9ce91ce7dfd8">
+	<DocumentID>78e3b51c-e998-11e0-ffdb-9ce91ce19fd7</DocumentID>
+	<Name>78e3b51c-e998-11e0-ffdb-9ce91ce19fd7</Name>
+	<Description>其他小额费用（元/年）</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-10-25T07:52:09.529</CreationDate>
+	<Notes/>
+	<Text>其他小额费用（元/年）</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ffdb-9ce91cd29fd5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

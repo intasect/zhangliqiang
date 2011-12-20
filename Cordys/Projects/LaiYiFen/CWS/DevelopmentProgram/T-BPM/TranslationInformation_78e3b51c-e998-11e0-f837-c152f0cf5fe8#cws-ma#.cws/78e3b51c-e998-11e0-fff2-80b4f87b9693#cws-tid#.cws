@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fff2-80b4f8831694">
+	<DocumentID>78e3b51c-e998-11e0-fff2-80b4f87b9693</DocumentID>
+	<Name>78e3b51c-e998-11e0-fff2-80b4f87b9693</Name>
+	<Description>类别（其他费用）</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-26T05:34:13.75</CreationDate>
+	<Notes/>
+	<DefaultText>类别（其他费用）</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fff2-80b4f88a9695"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

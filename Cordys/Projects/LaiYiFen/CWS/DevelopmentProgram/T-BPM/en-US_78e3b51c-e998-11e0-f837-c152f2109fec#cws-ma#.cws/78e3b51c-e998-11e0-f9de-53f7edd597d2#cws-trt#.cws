@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9de-53f7eddd17d3">
+	<DocumentID>78e3b51c-e998-11e0-f9de-53f7edd597d2</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9de-53f7edd597d2</Name>
+	<Description>CompanyCode</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-08-25T08:17:10.504</CreationDate>
+	<Notes/>
+	<Text>CompanyCode</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9de-53f7edc7d7d0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

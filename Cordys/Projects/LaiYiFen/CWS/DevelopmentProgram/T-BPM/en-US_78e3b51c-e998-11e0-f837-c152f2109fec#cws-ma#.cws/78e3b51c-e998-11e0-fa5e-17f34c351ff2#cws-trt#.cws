@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa5e-17f34c3b5ff3">
+	<DocumentID>78e3b51c-e998-11e0-fa5e-17f34c351ff2</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa5e-17f34c351ff2</Name>
+	<Description>PROMOTIONAL_RULE_DESC</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-30T11:11:52.707</CreationDate>
+	<Notes/>
+	<Text>PROMOTIONAL_RULE_DESC</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa5e-17f34c225ff0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

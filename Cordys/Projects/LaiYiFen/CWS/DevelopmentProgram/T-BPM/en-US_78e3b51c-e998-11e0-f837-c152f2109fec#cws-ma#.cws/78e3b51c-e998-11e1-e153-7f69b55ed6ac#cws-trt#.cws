@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e153-7f69b56516ad">
+	<DocumentID>78e3b51c-e998-11e1-e153-7f69b55ed6ac</DocumentID>
+	<Name>78e3b51c-e998-11e1-e153-7f69b55ed6ac</Name>
+	<Description>groupbuy_order_id</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-09T06:36:06.571</CreationDate>
+	<Notes/>
+	<Text>groupbuy_order_id</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e153-7f69b54fd6aa"
+		/>
+	</TextIdentifier>
+</TranslatedText>

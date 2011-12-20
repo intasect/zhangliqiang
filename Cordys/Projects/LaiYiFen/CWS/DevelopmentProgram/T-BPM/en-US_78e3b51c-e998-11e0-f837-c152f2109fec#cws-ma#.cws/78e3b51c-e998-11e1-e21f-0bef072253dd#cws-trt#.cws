@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e21f-0bef0729d3de">
+	<DocumentID>78e3b51c-e998-11e1-e21f-0bef072253dd</DocumentID>
+	<Name>78e3b51c-e998-11e1-e21f-0bef072253dd</Name>
+	<Description>制定商品表单</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-17T09:24:07.932</CreationDate>
+	<Notes/>
+	<Text>制定商品表单</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e21f-57bc3de8d551"
+		/>
+	</TextIdentifier>
+</TranslatedText>

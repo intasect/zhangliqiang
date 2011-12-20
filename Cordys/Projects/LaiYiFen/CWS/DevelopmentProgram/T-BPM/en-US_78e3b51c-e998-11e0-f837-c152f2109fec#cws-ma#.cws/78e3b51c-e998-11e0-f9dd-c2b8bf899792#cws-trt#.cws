@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9dd-c2b8bf8fd793">
+	<DocumentID>78e3b51c-e998-11e0-f9dd-c2b8bf899792</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9dd-c2b8bf899792</Name>
+	<Description>LIVING_QUALITY</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-25T07:47:17.587</CreationDate>
+	<Notes/>
+	<Text>LIVING_QUALITY</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9dd-c2b8bf7a9790"
+		/>
+	</TextIdentifier>
+</TranslatedText>

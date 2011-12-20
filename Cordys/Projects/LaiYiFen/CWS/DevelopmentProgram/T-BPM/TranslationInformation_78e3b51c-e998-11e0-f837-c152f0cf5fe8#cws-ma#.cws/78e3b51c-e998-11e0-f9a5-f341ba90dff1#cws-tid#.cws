@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9a5-f341ba9adff2">
+	<DocumentID>78e3b51c-e998-11e0-f9a5-f341ba90dff1</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9a5-f341ba90dff1</Name>
+	<Description>CORDYS角色名称</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-23T02:29:07.207</CreationDate>
+	<Notes/>
+	<DefaultText>CORDYS角色名称</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f9a5-f341baa39ff3"
+		/>
+	</Translations>
+</TextIdentifier>

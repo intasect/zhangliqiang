@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e06b-90495dfd9f06">
+	<DocumentID>78e3b51c-e998-11e1-e06b-90495df61f05</DocumentID>
+	<Name>78e3b51c-e998-11e1-e06b-90495df61f05</Name>
+	<Description>接口访问权限维护</Description>
+	<CreatedBy>徐新宇</CreatedBy>
+	<CreationDate>2011-10-31T02:42:23.661</CreationDate>
+	<Notes/>
+	<Text>接口访问权限维护</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e06b-90495de85f03"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faa7-a0bb12099f29">
+	<DocumentID>78e3b51c-e998-11e0-faa7-a0bb11fbdf28</DocumentID>
+	<Name>78e3b51c-e998-11e0-faa7-a0bb11fbdf28</Name>
+	<Description>testTransShop</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-02T08:34:55.288</CreationDate>
+	<Notes/>
+	<Text>testTransShop</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faa7-cd827ded1faf"
+		/>
+	</TextIdentifier>
+</TranslatedText>

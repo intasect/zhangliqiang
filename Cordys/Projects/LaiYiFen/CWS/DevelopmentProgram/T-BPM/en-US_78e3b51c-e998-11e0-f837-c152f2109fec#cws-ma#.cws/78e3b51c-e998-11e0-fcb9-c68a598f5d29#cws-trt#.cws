@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fcb9-c68a5996dd2a">
+	<DocumentID>78e3b51c-e998-11e0-fcb9-c68a598f5d29</DocumentID>
+	<Name>78e3b51c-e998-11e0-fcb9-c68a598f5d29</Name>
+	<Description>表示门店每周到货的日期</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-09-23T10:24:37.905</CreationDate>
+	<Notes/>
+	<Text>表示门店每周到货的日期</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fcb9-c68a59819d27"
+		/>
+	</TextIdentifier>
+</TranslatedText>

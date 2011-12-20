@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff75-d4cebeb59723">
+	<DocumentID>78e3b51c-e998-11e0-ff75-d4cebeab9722</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff75-d4cebeab9722</Name>
+	<Description>&lt;SPAN style=&quot;font-size: ;color: rgb(255,68,45);&quot;&gt;（* 如选择主管类型，请选择对应人再点击“确认”按钮；如选择经理类型，直接点击“确认”按钮。）&lt;/SPAN&gt;</Description>
+	<CreatedBy>徐新宇</CreatedBy>
+	<CreationDate>2011-10-21T06:53:54.448</CreationDate>
+	<Notes/>
+	<DefaultText>&lt;SPAN style=&quot;font-size: ;color: rgb(255,68,45);&quot;&gt;（* 如选择主管类型，请选择对应人再点击“确认”按钮；如选择经理类型，直接点击“确认”按钮。）&lt;/SPAN&gt;</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-ff75-d4cebebe5724"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

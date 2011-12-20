@@ -1,0 +1,31 @@
+
+<TranslatableUIText
+	type="com.cordys.xforms.TranslatableUIText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fd02-129bf31ad7fa">
+	<DocumentID>78e3b51c-e998-11e0-fd02-129bf31357f9</DocumentID>
+	<Name>78e3b51c-e998-11e0-fd02-129bf31357f9</Name>
+	<Description>78e3b51c-e998-11e0-fd02-129bf31357f9</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-26T07:29:48.184</CreationDate>
+	<Notes/>
+	<UIRef>input1</UIRef>
+	<XForm/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-fd02-129bf329d7fc">
+			<DocumentID>78e3b51c-e998-11e0-fd02-129bf32397fb</DocumentID>
+			<Name>78e3b51c-e998-11e0-fd02-129bf32397fb</Name>
+			<Description>78e3b51c-e998-11e0-fd02-129bf32397fb</Description>
+			<CreatedBy>江庆荣</CreatedBy>
+			<CreationDate>2011-09-26T07:29:48.183</CreationDate>
+			<Notes/>
+			<Identifier>
+				<uri
+					id="78e3b51c-e998-11e0-f837-c2179b8d9f8c"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+	<TooltipText/>
+</TranslatableUIText>

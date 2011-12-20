@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e0d6-3e4cc347179c">
+	<DocumentID>78e3b51c-e998-11e1-e0d6-3e4cc33f979b</DocumentID>
+	<Name>78e3b51c-e998-11e1-e0d6-3e4cc33f979b</Name>
+	<Description>AGENCY_FEES</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-11-04T06:56:19.08</CreationDate>
+	<Notes/>
+	<Text>AGENCY_FEES</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e0d6-3f3309039663"
+		/>
+	</TextIdentifier>
+</TranslatedText>

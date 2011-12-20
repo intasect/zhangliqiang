@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa6e-8ca0839cdfa5">
+	<DocumentID>78e3b51c-e998-11e0-fa6e-8ca083955fa4</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa6e-8ca083955fa4</Name>
+	<Description>SHOP_NO</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-31T02:01:08.216</CreationDate>
+	<Notes/>
+	<Text>SHOP_NO</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa6e-8ca083879fa2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

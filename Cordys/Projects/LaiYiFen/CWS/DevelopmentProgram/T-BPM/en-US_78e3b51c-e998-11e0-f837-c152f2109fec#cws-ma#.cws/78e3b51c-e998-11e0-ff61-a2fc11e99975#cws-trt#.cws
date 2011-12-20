@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff61-a2fc11f11976">
+	<DocumentID>78e3b51c-e998-11e0-ff61-a2fc11e99975</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff61-a2fc11e99975</Name>
+	<Description>目标门店楼层数 *</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-20T11:19:00.396</CreationDate>
+	<Notes/>
+	<Text>目标门店楼层数 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff61-a2fc11dbd973"
+		/>
+	</TextIdentifier>
+</TranslatedText>

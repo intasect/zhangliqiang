@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c24c2a22136d">
+	<DocumentID>78e3b51c-e998-11e0-f837-c24c29f5136c</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c24c29f5136c</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:26.209</CreationDate>
+	<Notes/>
+	<Text>远门点内有无漏水情况</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c24c2a9b536e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

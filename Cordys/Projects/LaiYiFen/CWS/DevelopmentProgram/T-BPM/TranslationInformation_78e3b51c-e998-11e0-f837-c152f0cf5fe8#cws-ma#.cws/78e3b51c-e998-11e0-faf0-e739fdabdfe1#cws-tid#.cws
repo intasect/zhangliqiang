@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faf0-e739fdb35fe2">
+	<DocumentID>78e3b51c-e998-11e0-faf0-e739fdabdfe1</DocumentID>
+	<Name>78e3b51c-e998-11e0-faf0-e739fdabdfe1</Name>
+	<Description>Groupbox2</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-09-05T06:41:49.162</CreationDate>
+	<Notes/>
+	<DefaultText>Groupbox2</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-faf0-e739fdbadfe3"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

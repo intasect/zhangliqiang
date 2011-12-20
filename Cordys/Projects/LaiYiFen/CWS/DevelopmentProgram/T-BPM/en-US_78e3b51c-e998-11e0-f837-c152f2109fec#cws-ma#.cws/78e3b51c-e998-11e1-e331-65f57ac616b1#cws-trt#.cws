@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e331-65f57acd96b2">
+	<DocumentID>78e3b51c-e998-11e1-e331-65f57ac616b1</DocumentID>
+	<Name>78e3b51c-e998-11e1-e331-65f57ac616b1</Name>
+	<Description>新开店主线流程状态列表</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-11-28T06:36:26.023</CreationDate>
+	<Notes/>
+	<Text>新开店主线流程状态列表</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e331-65f57ab856af"
+		/>
+	</TextIdentifier>
+</TranslatedText>

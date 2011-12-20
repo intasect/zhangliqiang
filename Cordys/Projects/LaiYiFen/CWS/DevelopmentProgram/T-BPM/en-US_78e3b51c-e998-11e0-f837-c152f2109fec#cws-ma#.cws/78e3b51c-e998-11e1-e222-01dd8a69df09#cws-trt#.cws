@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e222-01dd8a701f0a">
+	<DocumentID>78e3b51c-e998-11e1-e222-01dd8a69df09</DocumentID>
+	<Name>78e3b51c-e998-11e1-e222-01dd8a69df09</Name>
+	<Description>ABC</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-17T11:34:11.257</CreationDate>
+	<Notes/>
+	<Text>ABC</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e222-01dd8a5c1f07"
+		/>
+	</TextIdentifier>
+</TranslatedText>

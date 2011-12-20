@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e00f-1f71aa375fc9">
+	<DocumentID>78e3b51c-e998-11e1-e00f-1f71aa325fc8</DocumentID>
+	<Name>78e3b51c-e998-11e1-e00f-1f71aa325fc8</Name>
+	<Description>门头灯箱尺寸 *</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-10-27T09:05:36.093</CreationDate>
+	<Notes/>
+	<Text>门头灯箱尺寸 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e00f-1f71aa299fc6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

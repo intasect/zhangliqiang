@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f8e7-60386f9bdb37">
+	<DocumentID>78e3b51c-e998-11e0-f8e7-60386f661b36</DocumentID>
+	<Name>78e3b51c-e998-11e0-f8e7-60386f661b36</Name>
+	<Description/>
+	<CreatedBy>root</CreatedBy>
+	<CreationDate>2011-08-15T12:35:07.618</CreationDate>
+	<Notes/>
+	<Text>CategoryID</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f8e7-6038703bdb38"
+		/>
+	</TextIdentifier>
+</TranslatedText>

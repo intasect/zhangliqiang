@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fabb-4838f7a85d8d">
+	<DocumentID>78e3b51c-e998-11e0-fabb-4838f7a0dd8c</DocumentID>
+	<Name>78e3b51c-e998-11e0-fabb-4838f7a0dd8c</Name>
+	<Description>商超名称 *</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-03T03:11:23.823</CreationDate>
+	<Notes/>
+	<Text>商超名称 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fabb-4838f7931d8a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

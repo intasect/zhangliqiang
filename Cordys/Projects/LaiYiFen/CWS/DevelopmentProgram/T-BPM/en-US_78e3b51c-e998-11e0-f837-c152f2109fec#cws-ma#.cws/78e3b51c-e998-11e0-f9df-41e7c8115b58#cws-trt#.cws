@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9df-41e7c8179b59">
+	<DocumentID>78e3b51c-e998-11e0-f9df-41e7c8115b58</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9df-41e7c8115b58</Name>
+	<Description>ROLEDN</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-25T09:12:37.468</CreationDate>
+	<Notes/>
+	<Text>ROLEDN</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9df-41e7c8025b56"
+		/>
+	</TextIdentifier>
+</TranslatedText>

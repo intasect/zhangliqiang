@@ -1,0 +1,16 @@
+
+<TranslatableText
+	type="com.cordys.translation.TranslatableText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e29c-e05815071f9b">
+	<DocumentID>78e3b51c-e998-11e1-e29c-e05814ff9f9a</DocumentID>
+	<Name>78e3b51c-e998-11e1-e29c-e05814ff9f9a</Name>
+	<Description>78e3b51c-e998-11e1-e29c-e05814ff9f9a</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-22T11:47:50.478</CreationDate>
+	<Notes/>
+	<Identifier>
+		<uri
+			id="78e3b51c-e998-11e1-e202-211ca4e51f8a"
+		/>
+	</Identifier>
+</TranslatableText>

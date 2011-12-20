@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff12-e5807f18975f">
+	<DocumentID>78e3b51c-e998-11e0-ff12-e5807f11175e</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff12-e5807f11175e</Name>
+	<Description>GRP_SAPID</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-17T08:32:01.202</CreationDate>
+	<Notes/>
+	<Text>GRP_SAPID</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff12-e5807f02175c"
+		/>
+	</TextIdentifier>
+</TranslatedText>

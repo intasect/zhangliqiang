@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1c00cab979b">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1c00c72179a</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1c00c72179a</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:20.275</CreationDate>
+	<Notes/>
+	<Text>若不通过，则需要网点开发员继续进行谈判</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1c00d2d979c"
+		/>
+	</TextIdentifier>
+</TranslatedText>

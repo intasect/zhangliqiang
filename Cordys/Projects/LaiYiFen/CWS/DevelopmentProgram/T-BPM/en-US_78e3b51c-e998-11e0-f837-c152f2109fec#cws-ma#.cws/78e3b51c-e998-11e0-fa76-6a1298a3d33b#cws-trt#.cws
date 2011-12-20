@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa76-6a1298ab533c">
+	<DocumentID>78e3b51c-e998-11e0-fa76-6a1298a3d33b</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa76-6a1298a3d33b</Name>
+	<Description>网点开发人员评估及建议 *</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-31T09:33:41.001</CreationDate>
+	<Notes/>
+	<Text>网点开发人员评估及建议 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa76-6a1298961339"
+		/>
+	</TextIdentifier>
+</TranslatedText>

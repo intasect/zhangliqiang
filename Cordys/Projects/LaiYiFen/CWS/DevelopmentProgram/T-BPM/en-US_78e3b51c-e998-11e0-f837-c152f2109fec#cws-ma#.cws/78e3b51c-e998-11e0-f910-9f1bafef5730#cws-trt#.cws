@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f910-9f1baff6d731">
+	<DocumentID>78e3b51c-e998-11e0-f910-9f1bafef5730</DocumentID>
+	<Name>78e3b51c-e998-11e0-f910-9f1bafef5730</Name>
+	<Description>Delay</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-08-17T04:46:41.899</CreationDate>
+	<Notes/>
+	<Text>Delay</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f910-9f1bafe1972e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

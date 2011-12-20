@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fec4-53ad368d97e2">
+	<DocumentID>78e3b51c-e998-11e0-fec4-53ad368757e1</DocumentID>
+	<Name>78e3b51c-e998-11e0-fec4-53ad368757e1</Name>
+	<Description>审核意见</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-10-14T05:20:01.076</CreationDate>
+	<Notes/>
+	<Text>审核意见</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fec4-53ad367857df"
+		/>
+	</TextIdentifier>
+</TranslatedText>

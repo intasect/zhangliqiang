@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9ca-1ef8e25b9f16">
+	<DocumentID>78e3b51c-e998-11e0-f9ca-1ef8e2555f15</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9ca-1ef8e2555f15</Name>
+	<Description>网点管理专员复核</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-08-24T13:04:30.257</CreationDate>
+	<Notes/>
+	<Text>网点管理专员复核</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9ca-1ef8e2465f13"
+		/>
+	</TextIdentifier>
+</TranslatedText>
