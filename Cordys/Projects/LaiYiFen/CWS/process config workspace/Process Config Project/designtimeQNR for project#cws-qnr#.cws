@@ -1,0 +1,19 @@
+
+<QualifiedNameRoot
+	type="com.cordys.cws.namespace.qualifiedname.QualifiedNameRoot"
+	RuntimeDocumentID="000c29d2-6dc0-11e0-ff5e-03a4348bdf08">
+	<DocumentID>000c29d2-6dc0-11e0-ff5e-03a43422df07</DocumentID>
+	<Name>designtimeQNR for project</Name>
+	<Description/>
+	<CreatedBy>root</CreatedBy>
+	<CreationDate>2011-10-20T07:50:00.939</CreationDate>
+	<Notes/>
+	<RuntimeQNRFolder/>
+	<DesigntimeQNRFolder>
+		<uri
+			id="000C297E-6FFF-11E1-E4D8-2D4636203619"
+			path="Process Config Project"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</DesigntimeQNRFolder>
+</QualifiedNameRoot>
