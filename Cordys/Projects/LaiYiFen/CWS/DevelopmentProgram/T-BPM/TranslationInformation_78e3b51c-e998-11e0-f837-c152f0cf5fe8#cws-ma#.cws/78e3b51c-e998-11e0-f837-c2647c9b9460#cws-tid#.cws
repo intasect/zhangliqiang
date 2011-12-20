@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c2647ce19461">
+	<DocumentID>78e3b51c-e998-11e0-f837-c2647c9b9460</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c2647c9b9460</Name>
+	<Description>开间数</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:10.826</CreationDate>
+	<Notes/>
+	<DefaultText>开间数</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c2647b8d945e"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff5f-63762f9257c0">
+	<DocumentID>78e3b51c-e998-11e0-ff5f-63762f8ad7bf</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff5f-63762f8ad7bf</Name>
+	<Description>人流量统计时间：（晚）*</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-20T09:14:43.396</CreationDate>
+	<Notes/>
+	<Text>人流量统计时间：（晚）*</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff5f-63762f7d17bd"
+		/>
+	</TextIdentifier>
+</TranslatedText>

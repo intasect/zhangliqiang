@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa5b-ce7a00795d6c">
+	<DocumentID>78e3b51c-e998-11e0-fa5b-ce7a0071dd6b</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa5b-ce7a0071dd6b</Name>
+	<Description>货币代码</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-08-30T08:47:55.727</CreationDate>
+	<Notes/>
+	<Text>货币代码</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa5b-ce7a00641d69"
+		/>
+	</TextIdentifier>
+</TranslatedText>

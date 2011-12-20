@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff48-e32d51e15f50">
+	<DocumentID>78e3b51c-e998-11e0-ff48-e32d51d9df4f</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff48-e32d51d9df4f</Name>
+	<Description>店招</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-10-19T11:58:37.49</CreationDate>
+	<Notes/>
+	<DefaultText>店招</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-ff48-e32d51e79f51"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

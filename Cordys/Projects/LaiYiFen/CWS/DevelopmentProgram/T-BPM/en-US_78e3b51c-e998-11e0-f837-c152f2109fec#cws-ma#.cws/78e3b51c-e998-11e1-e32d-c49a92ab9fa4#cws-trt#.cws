@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e32d-c49a92b1dfa5">
+	<DocumentID>78e3b51c-e998-11e1-e32d-c49a92ab9fa4</DocumentID>
+	<Name>78e3b51c-e998-11e1-e32d-c49a92ab9fa4</Name>
+	<Description>主线流程阻塞情况</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-11-28T03:17:44.187</CreationDate>
+	<Notes/>
+	<Text>主线流程阻塞情况</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e32d-c49a929c9fa2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

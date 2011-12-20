@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e0d6-510dbbeb9787">
+	<DocumentID>78e3b51c-e998-11e1-e0d6-510dbbe41786</DocumentID>
+	<Name>78e3b51c-e998-11e1-e0d6-510dbbe41786</Name>
+	<Description>该节点不执行</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-11-04T07:05:16.336</CreationDate>
+	<Notes/>
+	<Text>该节点不执行</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e0d6-510dbbd65784"
+		/>
+	</TextIdentifier>
+</TranslatedText>

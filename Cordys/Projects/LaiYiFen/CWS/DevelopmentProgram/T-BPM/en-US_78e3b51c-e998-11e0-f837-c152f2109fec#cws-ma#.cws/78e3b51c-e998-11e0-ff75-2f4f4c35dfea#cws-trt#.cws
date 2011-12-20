@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff75-2f4f4c411feb">
+	<DocumentID>78e3b51c-e998-11e0-ff75-2f4f4c35dfea</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff75-2f4f4c35dfea</Name>
+	<Description>门店主数据（营运部）</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-10-21T05:57:00.32</CreationDate>
+	<Notes/>
+	<Text>门店主数据（营运部）</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff75-2f4f4c191fe8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

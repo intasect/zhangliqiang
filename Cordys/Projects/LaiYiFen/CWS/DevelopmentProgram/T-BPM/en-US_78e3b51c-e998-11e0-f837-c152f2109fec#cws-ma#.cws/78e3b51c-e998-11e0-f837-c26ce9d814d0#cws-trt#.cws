@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c26cea0794d1">
+	<DocumentID>78e3b51c-e998-11e0-f837-c26ce9d814d0</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c26ce9d814d0</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:57.713</CreationDate>
+	<Notes/>
+	<Text>目前是否正在进行道路改造或街道统一房屋大修</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c26cea8354d2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

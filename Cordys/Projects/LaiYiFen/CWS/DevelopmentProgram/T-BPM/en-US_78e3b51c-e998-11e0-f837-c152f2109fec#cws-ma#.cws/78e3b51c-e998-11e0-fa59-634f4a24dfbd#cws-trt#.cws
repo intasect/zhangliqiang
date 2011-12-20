@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa59-634f4a2b1fbe">
+	<DocumentID>78e3b51c-e998-11e0-fa59-634f4a24dfbd</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa59-634f4a24dfbd</Name>
+	<Description>纸质单据</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-08-30T06:02:21.367</CreationDate>
+	<Notes/>
+	<Text>纸质单据</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa59-634f4a15dfbb"
+		/>
+	</TextIdentifier>
+</TranslatedText>

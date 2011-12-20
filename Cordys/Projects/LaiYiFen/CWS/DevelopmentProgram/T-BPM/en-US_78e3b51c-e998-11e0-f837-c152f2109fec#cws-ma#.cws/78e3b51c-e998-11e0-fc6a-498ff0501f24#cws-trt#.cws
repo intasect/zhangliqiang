@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc6a-066b17961705">
+	<DocumentID>78e3b51c-e998-11e0-fc6a-498ff0501f24</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc6a-498ff0501f24</Name>
+	<Description>新增委托任务</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-20T06:32:31.672</CreationDate>
+	<Notes/>
+	<Text>新增委托任务</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc6a-498ff0425f22"
+		/>
+	</TextIdentifier>
+</TranslatedText>

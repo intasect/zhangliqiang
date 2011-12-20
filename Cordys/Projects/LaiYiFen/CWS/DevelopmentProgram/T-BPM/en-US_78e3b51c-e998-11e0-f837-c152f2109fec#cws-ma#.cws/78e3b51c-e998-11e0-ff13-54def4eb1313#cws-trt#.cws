@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff13-54def4f15314">
+	<DocumentID>78e3b51c-e998-11e0-ff13-54def4eb1313</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff13-54def4eb1313</Name>
+	<Description>预算接口</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-17T08:46:32.258</CreationDate>
+	<Notes/>
+	<Text>预算接口</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff13-54def4dc1311"
+		/>
+	</TextIdentifier>
+</TranslatedText>

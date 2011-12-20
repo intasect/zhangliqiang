@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fcb9-a3e296b35f8a">
+	<DocumentID>78e3b51c-e998-11e0-fcb9-a3e296ad1f89</DocumentID>
+	<Name>78e3b51c-e998-11e0-fcb9-a3e296ad1f89</Name>
+	<Description>根据不同地区门店的月度总销售额划分的等级标准，新开店为“暂无”</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-09-23T10:22:41.336</CreationDate>
+	<Notes/>
+	<Text>根据不同地区门店的月度总销售额划分的等级标准，新开店为“暂无”</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fcb9-a3e2969f5f87"
+		/>
+	</TextIdentifier>
+</TranslatedText>

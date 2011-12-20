@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e333-972d6a7dd645">
+	<DocumentID>78e3b51c-e998-11e1-e333-972d6a765644</DocumentID>
+	<Name>78e3b51c-e998-11e1-e333-972d6a765644</Name>
+	<Description>错误流程数</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-11-28T09:14:12.125</CreationDate>
+	<Notes/>
+	<Text>错误流程数</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e333-972d6a675642"
+		/>
+	</TextIdentifier>
+</TranslatedText>

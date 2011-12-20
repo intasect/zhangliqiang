@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc00-3e07e746df12">
+	<DocumentID>78e3b51c-e998-11e0-fc00-3e07e73f5f11</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc00-3e07e73f5f11</Name>
+	<Description>布局描述</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-16T01:45:26.794</CreationDate>
+	<Notes/>
+	<DefaultText>布局描述</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fc00-3e07e74e5f13"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

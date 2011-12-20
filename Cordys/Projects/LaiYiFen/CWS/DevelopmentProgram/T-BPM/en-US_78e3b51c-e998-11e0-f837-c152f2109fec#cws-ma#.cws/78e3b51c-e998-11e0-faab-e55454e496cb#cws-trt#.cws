@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faab-e55454ec16cc">
+	<DocumentID>78e3b51c-e998-11e0-faab-e55454e496cb</DocumentID>
+	<Name>78e3b51c-e998-11e0-faab-e55454e496cb</Name>
+	<Description>对应的会计科目核对，选择及修改</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-09-02T12:37:44.283</CreationDate>
+	<Notes/>
+	<Text>对应的会计科目核对，选择及修改</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faab-e55454cf56c9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

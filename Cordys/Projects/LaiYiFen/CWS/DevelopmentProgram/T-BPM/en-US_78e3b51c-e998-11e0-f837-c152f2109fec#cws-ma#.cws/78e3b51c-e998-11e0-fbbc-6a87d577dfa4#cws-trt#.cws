@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbbc-6a87d5aedfa5">
+	<DocumentID>78e3b51c-e998-11e0-fbbc-6a87d577dfa4</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbbc-6a87d577dfa4</Name>
+	<Description/>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-09-13T08:35:26.494</CreationDate>
+	<Notes/>
+	<Text>方法异常描述</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbbc-6a87d65a1fa6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

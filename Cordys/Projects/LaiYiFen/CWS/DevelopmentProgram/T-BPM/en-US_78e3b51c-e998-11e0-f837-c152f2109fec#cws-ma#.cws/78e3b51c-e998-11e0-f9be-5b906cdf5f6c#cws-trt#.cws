@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9be-5b906ce6df6d">
+	<DocumentID>78e3b51c-e998-11e0-f9be-5b906cdf5f6c</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9be-5b906cdf5f6c</Name>
+	<Description>Input18</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-24T01:48:48.148</CreationDate>
+	<Notes/>
+	<Text>Input18</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9be-5b906cd05f6a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

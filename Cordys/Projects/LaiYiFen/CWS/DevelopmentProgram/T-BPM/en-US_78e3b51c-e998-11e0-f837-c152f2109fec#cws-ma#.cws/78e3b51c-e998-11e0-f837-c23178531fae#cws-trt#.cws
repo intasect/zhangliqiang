@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c231789a5faf">
+	<DocumentID>78e3b51c-e998-11e0-f837-c23178531fae</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c23178531fae</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:14.194</CreationDate>
+	<Notes/>
+	<Text>SAP编码</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c23179625fb0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

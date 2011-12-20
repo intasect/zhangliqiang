@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c29d058fd7cd">
+	<DocumentID>78e3b51c-e998-11e0-f837-c29d056057cc</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c29d056057cc</Name>
+	<Description>&lt;P &gt;周&lt;/SPAN&gt;边&lt;/SPAN&gt;是&lt;/SPAN&gt;否&lt;/SPAN&gt;有&lt;/SPAN&gt;拆&lt;/SPAN&gt;迁&lt;/SPAN&gt;计&lt;/SPAN&gt;划&lt;/SPAN&gt;，&lt;/SPAN&gt;如&lt;/SPAN&gt;果&lt;/SPAN&gt;有&lt;/SPAN&gt;，&lt;/SPAN&gt;何&lt;/SPAN&gt;时&lt;/SPAN&gt;开&lt;/SPAN&gt;始&lt;/SPAN&gt;，&lt;/SPAN&gt;对&lt;/SPAN&gt;目&lt;/SPAN&gt;标&lt;/SPAN&gt;店&lt;/SPAN&gt;的&lt;/SPAN&gt;影&lt;/SPAN&gt;响 &lt;/SPAN&gt;&lt;/P&gt;</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:08.507</CreationDate>
+	<Notes/>
+	<DefaultText>_P__周__SPAN_边__SPAN_是__SPAN_否__SPAN_有__SPAN_拆__SPA</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c29d049d57ca"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

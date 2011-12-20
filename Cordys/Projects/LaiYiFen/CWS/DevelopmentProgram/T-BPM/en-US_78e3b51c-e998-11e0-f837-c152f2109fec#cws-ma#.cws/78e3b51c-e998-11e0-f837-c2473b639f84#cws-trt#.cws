@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c2473bac1f85">
+	<DocumentID>78e3b51c-e998-11e0-f837-c2473b639f84</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c2473b639f84</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:30.131</CreationDate>
+	<Notes/>
+	<Text>装修押金</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c2473c755f86"
+		/>
+	</TextIdentifier>
+</TranslatedText>

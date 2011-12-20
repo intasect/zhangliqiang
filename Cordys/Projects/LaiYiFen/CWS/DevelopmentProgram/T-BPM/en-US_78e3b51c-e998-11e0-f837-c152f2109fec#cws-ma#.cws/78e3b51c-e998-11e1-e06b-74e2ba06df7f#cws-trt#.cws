@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e06b-74e2ba0e5f80">
+	<DocumentID>78e3b51c-e998-11e1-e06b-74e2ba06df7f</DocumentID>
+	<Name>78e3b51c-e998-11e1-e06b-74e2ba06df7f</Name>
+	<Description>订单介绍方式</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-10-31T01:45:30.324</CreationDate>
+	<Notes/>
+	<Text>订单介绍方式</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e06b-74e2b9f7df7d"
+		/>
+	</TextIdentifier>
+</TranslatedText>

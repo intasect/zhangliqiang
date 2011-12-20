@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9f6-0222c4549d06">
+	<DocumentID>78e3b51c-e998-11e0-f9f6-0222c44e5d05</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9f6-0222c44e5d05</Name>
+	<Description>更新供应商主数据</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-26T07:41:46.887</CreationDate>
+	<Notes/>
+	<Text>更新供应商主数据</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9f6-0222c43f5d03"
+		/>
+	</TextIdentifier>
+</TranslatedText>

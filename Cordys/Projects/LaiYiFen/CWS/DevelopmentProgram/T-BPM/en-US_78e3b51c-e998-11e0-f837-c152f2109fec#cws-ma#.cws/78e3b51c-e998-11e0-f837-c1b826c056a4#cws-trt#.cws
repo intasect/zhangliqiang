@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1b826fed6a5">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1b826c056a4</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1b826c056a4</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:16.306</CreationDate>
+	<Notes/>
+	<Text>整体翻新门店状况反馈</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1b8279256a6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

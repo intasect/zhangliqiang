@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faa5-7af3f6441669">
+	<DocumentID>78e3b51c-e998-11e0-faa5-7af3f63c9668</DocumentID>
+	<Name>78e3b51c-e998-11e0-faa5-7af3f63c9668</Name>
+	<Description>当前开店总体匹配率</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-09-02T06:29:18.733</CreationDate>
+	<Notes/>
+	<Text>当前开店总体匹配率</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faa5-7af3f62ed666"
+		/>
+	</TextIdentifier>
+</TranslatedText>

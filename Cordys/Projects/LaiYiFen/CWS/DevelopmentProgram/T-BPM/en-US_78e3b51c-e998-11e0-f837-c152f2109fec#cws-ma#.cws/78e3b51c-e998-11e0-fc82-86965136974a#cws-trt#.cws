@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc82-86965143174b">
+	<DocumentID>78e3b51c-e998-11e0-fc82-86965136974a</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc82-86965136974a</Name>
+	<Description>日志级别</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-21T05:45:31.128</CreationDate>
+	<Notes/>
+	<Text>日志级别</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc82-9bb42a01578d"
+		/>
+	</TextIdentifier>
+</TranslatedText>

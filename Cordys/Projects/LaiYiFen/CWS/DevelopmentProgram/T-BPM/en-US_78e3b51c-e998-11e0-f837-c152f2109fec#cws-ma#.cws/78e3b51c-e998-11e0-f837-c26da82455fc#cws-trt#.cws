@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c26da853d5fd">
+	<DocumentID>78e3b51c-e998-11e0-f837-c26da82455fc</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c26da82455fc</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:08.387</CreationDate>
+	<Notes/>
+	<Text>经营品种</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c26da8ce55fe"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fd4f-2e7cce8bdf72">
+	<DocumentID>78e3b51c-e998-11e0-fd4f-2e7cce845f71</DocumentID>
+	<Name>78e3b51c-e998-11e0-fd4f-2e7cce845f71</Name>
+	<Description>当地税率（%）</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-09-29T09:12:19.924</CreationDate>
+	<Notes/>
+	<Text>当地税率（%）</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fd4f-2e7cce769f6f"
+		/>
+	</TextIdentifier>
+</TranslatedText>

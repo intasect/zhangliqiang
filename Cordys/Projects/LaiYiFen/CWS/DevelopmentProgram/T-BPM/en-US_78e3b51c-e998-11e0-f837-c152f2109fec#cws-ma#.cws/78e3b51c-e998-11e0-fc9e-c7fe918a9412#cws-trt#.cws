@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc9e-c7fe9190d413">
+	<DocumentID>78e3b51c-e998-11e0-fc9e-c7fe918a9412</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc9e-c7fe918a9412</Name>
+	<Description>开张/翻新距今期限</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-22T09:14:54.751</CreationDate>
+	<Notes/>
+	<Text>开张/翻新距今期限</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc9e-c7fe917b9410"
+		/>
+	</TextIdentifier>
+</TranslatedText>

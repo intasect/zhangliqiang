@@ -1,0 +1,18 @@
+
+<OrgUnitType
+	type="com.cordys.osd.OrgUnitType"
+	RuntimeDocumentID="005056a3-4878-11e0-f2c6-d8ae35d31f57">
+	<DocumentID>{113D4D89-BD27-4809-BC99-FF8D734E30B4}</DocumentID>
+	<Name>Independent Unit</Name>
+	<Description>Independent Unit</Description>
+	<CreatedBy>jiangqr</CreatedBy>
+	<CreationDate>2011-06-14T03:31:20.651</CreationDate>
+	<Notes/>
+	<Independent>true</Independent>
+	<IsDefaultUnitType>false</IsDefaultUnitType>
+	<VColor>RGB(255,210,127)</VColor>
+	<IsStaffUnit>false</IsStaffUnit>
+	<ShowInToolbar>true</ShowInToolbar>
+	<VIcon>/cordys/wcp/theme/default/icon/document/independentunit.png</VIcon>
+	<VShape></VShape>
+</OrgUnitType>

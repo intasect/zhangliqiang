@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc97-302496a8550d">
+	<DocumentID>78e3b51c-e998-11e0-fc97-302496a0d50c</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc97-302496a0d50c</Name>
+	<Description>驳回到前一环节</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-22T01:26:30.988</CreationDate>
+	<Notes/>
+	<Text>驳回到前一环节</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-fc89-9fe37a599fff"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c153ed699f4e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

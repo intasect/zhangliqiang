@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa60-f28d425b9f23">
+	<DocumentID>78e3b51c-e998-11e0-fa60-f28d42505f22</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa60-f28d42505f22</Name>
+	<Description>申请</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-08-30T12:59:28.624</CreationDate>
+	<Notes/>
+	<Text>申请</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa60-f28d42375f20"
+		/>
+	</TextIdentifier>
+</TranslatedText>

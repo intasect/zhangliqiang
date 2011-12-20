@@ -1,0 +1,16 @@
+
+<RoleDesignTime
+	type="com.cordys.organization.role.RoleDesignTime"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa40-05b4f5a6549e">
+	<DocumentID>78e3b51c-e998-11e0-fa40-05b4f5a0149d</DocumentID>
+	<Name>上海区域22经理</Name>
+	<Description>上海区域22经理</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-08-29T05:34:07.456</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<type>Functional</type>
+	<isFunctionalRole>true</isFunctionalRole>
+	<Subroles/>
+	<configuredTasks/>
+</RoleDesignTime>

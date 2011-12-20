@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9e0-df15078e9fa0">
+	<DocumentID>78e3b51c-e998-11e0-f9e0-df150785df9f</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9e0-df150785df9f</Name>
+	<Description>* 办证资料</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-25T11:10:25.974</CreationDate>
+	<Notes/>
+	<Text>* 办证资料</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9e0-df150771df9d"
+		/>
+	</TextIdentifier>
+</TranslatedText>

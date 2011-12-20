@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f910-0c36e6c61f11">
+	<DocumentID>78e3b51c-e998-11e0-f910-0c36e6be9f10</DocumentID>
+	<Name>78e3b51c-e998-11e0-f910-0c36e6be9f10</Name>
+	<Description>客户中心数据处理异常</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-08-17T03:30:39.628</CreationDate>
+	<Notes/>
+	<Text>客户中心数据处理异常</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f910-0c36e6b0df0e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

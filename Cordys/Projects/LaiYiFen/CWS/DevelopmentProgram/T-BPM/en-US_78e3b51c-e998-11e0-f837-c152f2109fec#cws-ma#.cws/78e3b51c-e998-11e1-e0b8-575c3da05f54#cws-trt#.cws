@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e0b8-575c3da7df55">
+	<DocumentID>78e3b51c-e998-11e1-e0b8-575c3da05f54</DocumentID>
+	<Name>78e3b51c-e998-11e1-e0b8-575c3da05f54</Name>
+	<Description>填制具体的数字，整数，单位：个。如无高壁柜，则填写“无”</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-03T02:33:41.097</CreationDate>
+	<Notes/>
+	<Text>填制具体的数字，整数，单位：个。如无高壁柜，则填写“无”</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e0b8-575c3d929f52"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa75-f8931d829f52">
+	<DocumentID>78e3b51c-e998-11e0-fa75-f8931d7c5f51</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa75-f8931d7c5f51</Name>
+	<Description>市（省）*</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-31T09:26:05.133</CreationDate>
+	<Notes/>
+	<Text>市（省）*</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa75-f8931d6d5f4f"
+		/>
+	</TextIdentifier>
+</TranslatedText>

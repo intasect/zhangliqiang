@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9dd-c0040a1d5462">
+	<DocumentID>78e3b51c-e998-11e0-f9dd-c0040a171461</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9dd-c0040a171461</Name>
+	<Description>NEARROAD</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-25T07:47:17.492</CreationDate>
+	<Notes/>
+	<Text>NEARROAD</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9dd-c0040a09545f"
+		/>
+	</TextIdentifier>
+</TranslatedText>

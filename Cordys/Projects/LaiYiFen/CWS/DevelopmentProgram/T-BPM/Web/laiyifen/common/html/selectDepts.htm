@@ -1,0 +1,413 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html onapplicationselect="selectApplication()" onapplicationready="applicationReady()">
+<title>选择部门</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<style type="text/css">
+		label { font-size:11; font-family:verdana; font-weight:normal; }
+		input { font-size:11; font-family:verdana; font-weight:normal; }
+		button { font-size:11; font-family:verdana; font-weight:normal;}
+		.medium{
+		color :#2F83B3 !important;
+		}
+			body{
+				height: 100%;
+				margin: 0;
+				position: absolute;
+				width: 100%;
+			}
+			.content {
+				height: 350px;
+				left: 50%;
+				margin-left: -300px;
+				position: absolute;
+				width: 600px;
+				}
+				
+			.treeholder {
+				height: 100%;
+				left: 10px;
+				position: absolute;
+				top: 0;
+				width: 240px;
+			}
+			.buttonholder {
+				height: 100%;
+				left: 260px;
+				position: absolute;
+				top: 0;
+				width: 100px;
+			}
+			.selectionholder {
+				height: 100%;
+				left: 370px;
+				position: absolute;
+				top: 0;
+				width: 220px;
+			}
+			.footer{
+				position:absolute;
+				width:200px;
+				height:60px;
+				left:50%;
+				margin-left:-100px;
+				bottom:0px;
+				top:380px;
+			}
+			.btn_over{
+			   background-color:#0000FF;
+			}
+			.btn_out{
+			   background-color:#0000FF;
+			}
+			
+	</style>
+	<script type="text/javascript" src="/cordys/wcp/application.js"></script>
+		<script type="text/javascript" src="/cordys/apptoolkit/usermanagement/scripts/utility.js"></script>
+		<script type="text/javascript">
+			var oParam;
+			var selectMode = "MULTIPLE";
+			var gOrganizationDN;
+			var gIsHidden = false;
+			var currentSelectedDeptList = "" ;
+			var currentSelectedDeptNameList = "" ;
+
+			function Dept(deptDN,deptName)
+			{
+				this.deptName = deptName;
+				this.deptDN = deptDN;
+			}
+
+			function applicationReady()
+			{
+			  var confirmButton=document.getElementById("confirmBtn");            
+			      confirmButton.style.backgroundColor="#FFFFFF";
+				  confirmButton.style.color="#000000";
+				  confirmButton.style.fontSize="14";
+			  var cancelButton=document.getElementById("cancelBtn");            
+			      cancelButton.style.backgroundColor="#FFFFFF";
+				  cancelButton.style.color="#000000";
+				  cancelButton.style.fontSize="14";
+			  var addButton=document.getElementById("btnAdd");            
+			      addButton.style.backgroundColor="#FFFFFF";
+				  addButton.style.color="#000000";
+				  addButton.style.fontSize="14";
+			  var removeButton=document.getElementById("btnRemove");            
+			      removeButton.style.backgroundColor="#FFFFFF";
+				  removeButton.style.color="#000000";
+				  removeButton.style.fontSize="14";
+			}
+
+			// Initialize the application
+			function selectApplication()
+			{
+				if (system&& system.windows && system.windows.Menu && system.windows.Menu.preferences && system.windows.Menu.preferences.getProperty("selectedOrganizationDN"))
+				{
+					gOrganizationDN = system.windows.Menu.preferences.getProperty("selectedOrganizationDN");
+				}
+				else
+				{
+					gOrganizationDN = application.organization;
+				}
+				oParam = window.application.event.data;
+				if (oParam && oParam.selectMode && oParam.selectMode != "" )
+				{
+					selectMode = oParam.selectMode;
+				}
+				else
+				{
+					selectMode = "MULTIPLE";
+				}
+
+				if (oParam && oParam.hideBtn && oParam.hideBtn != "" )
+				{
+					gIsHidden = oParam.hideBtn;
+				}
+				else
+				{
+					gIsHidden = false;
+				}
+				initializeTeamTree();
+				if (gIsHidden)
+				{
+					divToolbar.style.display = "none";
+				}
+				oParam.selectedDeptList = "";
+				oParam.selectedDeptNameList = "";
+			}
+
+            /** 初始化树型菜单.*/
+			function initializeTeamTree()
+			{
+				var topEntryNode = getTeamsObject();
+				var menutree = document.getElementById("menutree");
+				if (topEntryNode == null)
+				{
+					return;
+				}
+				else
+				{
+					appendEntryToTeamTree(topEntryNode, menutree.getRoot(),false,0);
+					menutree.getRoot().expand();
+				}
+			}
+			
+            /*
+			将科室的entry节点递归的添加到指定的树节点上
+			justAppendSubEntrys = true : 从entryNode的子节点开始添加到树
+			justAppendSubEntrys = false: 从entryNode开始添加树
+			flag = 0:顶级Team
+			flag = 1:子级Team
+			*/
+			function appendEntryToTeamTree(entryNode, teamTreeNode,justAppendSubEntrys,flag)
+			{
+				var subItem;
+				if(flag == 0){
+					var TopDeptNode = cordys.selectXMLNode(entryNode, ".//*[local-name()='ORG_DEPARTMENT_INFO'][*[local-name()='DEPT_ID']='10000110']");
+					if(TopDeptNode == null){
+						application.showError("未找到顶级部门");
+						return;
+					}
+					var description = cordys.getNodeText(TopDeptNode,".//*[local-name()='DEPT_NAME']");
+					var id = cordys.getNodeText(TopDeptNode,".//*[local-name()='DEPT_ID']");
+					var name = cordys.getNodeText(TopDeptNode,".//*[local-name()='DEPT_ID']");
+					if(!justAppendSubEntrys){
+						var rootItemData = cordys.cloneXMLDocument(DeptTemplate.XMLDocument);
+						cordys.setNodeText(rootItemData,".//*[local-name()='caption']",description);
+						cordys.setNodeText(rootItemData,".//*[local-name()='dn']",id);
+						cordys.setNodeText(rootItemData,".//*[local-name()='code']",name);
+						var deptNode = cordys.selectXMLNode(rootItemData,".//*[local-name()='Dept']")
+						menutree.setTreeData("menuData");
+						menutree.setTreeSchema("menuTreeSchema");
+						subItem = menutree.addItem(deptNode);
+						menutree.getRoot().expand();
+					}else{
+						subItem = teamTreeNode;
+					}
+				}else{
+					var subUnitNodes=cordys.selectXMLNodes(entryNode,".//*[local-name()='tuple']");
+					for(var i=0;i<subUnitNodes.length;i++)
+					{
+						var unitNode=subUnitNodes[i];
+						var unitDescription = cordys.getNodeText(unitNode,".//*[local-name()='DEPT_NAME']");
+						var id = cordys.getNodeText(unitNode,".//*[local-name()='DEPT_ID']");
+						var name = cordys.getNodeText(unitNode,".//*[local-name()='DEPT_ID']");
+						var menuItemData = cordys.cloneXMLDocument(DeptTemplate.XMLDocument);
+						cordys.setNodeText(menuItemData,".//*[local-name()='caption']",unitDescription);
+						cordys.setNodeText(menuItemData,".//*[local-name()='dn']",id);
+						cordys.setNodeText(menuItemData,".//*[local-name()='code']",name);
+						subItem = teamTreeNode.addItem(cordys.selectXMLNode(menuItemData,".//*[local-name()='Dept']"));
+						menutree.getRoot().hasExpanded = true;
+					}
+				}
+			}
+
+			function retrieveSubTeams(expandedNode)
+			{
+				if (expandedNode.hasExpanded )	return;
+				if (expandedNode.getChildContainer().childNodes.length > 0 )	return;
+				var dept_id = cordys.getNodeText(expandedNode.data,".//*[local-name()='dn']");
+				var topEntryNode = getChildDepts(dept_id);
+				appendEntryToTeamTree(topEntryNode,expandedNode,true,1);
+				expandedNode.hasExpanded = true;
+			}
+
+			function getTeamsObject()
+			{
+				var request = cordys.cloneXMLDocument(SOAP_GetDeptObjects.XMLDocument);
+				var bdi = document.getElementById("bdi")
+				bdi.request = request;
+				bdi.onsoapfault ="teamWithSOAPFault()";
+				bdi.clear();
+				bdi.reset();
+				return bdi.data;
+			}
+			
+			function teamWithSOAPFault(eventObject)
+			{
+				if (application.event.faultString == "还未建立组织结构！")
+				{
+					application.event.showError = false;
+					application.notify("未创建组织结构，请先建立顶级部门!");
+				}
+				else
+				{
+					application.event.showError = true;
+				}
+			}
+
+			function getChildDepts(dept_id)
+			{
+				var request = cordys.cloneXMLDocument(SOAP_GetChildDepts.XMLDocument);
+				cordys.setNodeText(request,".//*[local-name()='DEPT_ID']",dept_id);
+				var bdi = document.getElementById("bdi");
+				bdi.request = request;
+				bdi.onsoapfault ="dealWithSOAPFault()";
+				bdi.clear();
+				bdi.reset();
+				return bdi.data;
+			}
+
+			//关闭页面
+			function closeApplication()
+			{
+				application.container.close();
+			}
+
+			function commit()
+			{
+				if (selectMode == "SINGLE" && currentSelectedDeptList.indexOf(";") > 0)
+				{
+					alert("提示:只能选择一个部门");
+					return;
+				}
+				oParam.selectedDeptList = currentSelectedDeptList;
+				oParam.selectedDeptNameList = currentSelectedDeptNameList;
+				if (oParam.callBack)
+				{
+					oParam.callBack(oParam);
+				}
+				closeApplication();
+			}
+
+			function moveToGrid()
+			{
+				var menutree = document.getElementById("menutree");
+				var selectDeptItem = menutree.getSelectedItem();
+				if (!selectDeptItem) return;
+				var deptDN = cordys.getNodeText( selectDeptItem.data,".//*[local-name()='code']");
+				var deptName = cordys.getNodeText( selectDeptItem.data,".//*[local-name()='caption']");
+						
+				var deptObject = new Dept(deptDN,deptName);
+				if (currentSelectedDeptList.indexOf(deptDN)>=0) return;
+				var selectedDeptsGrid = document.getElementById("selectedDeptsGrid");
+				_addItemToAnyGrid(selectedDeptsGrid, deptObject, deptObject, deptName);
+				refreshCurrentSelectedDepts();
+			}
+
+			function removeFromGrid()
+			{
+				var selectedDeptsGrid = document.getElementById("selectedDeptsGrid");
+				var selectedRows = selectedDeptsGrid.getSelectedRows();
+				for (var i=0;i<selectedRows.length;i++)
+				{
+					if (typeof(selectedRows[i]) == "undefined")	continue;
+					var dept =  selectedRows[i].value;
+					var deptDN = dept.deptDN;
+					var deptName = dept.deptName;
+					selectedDeptsGrid.lastChild.removeChild(selectedRows[i]);
+					selectedDeptsGrid.selectRow(selectedRows[i], false);
+				}
+				refreshCurrentSelectedDepts();
+			}
+
+			function refreshCurrentSelectedDepts()
+			{
+				var selectedDeptsGrid = document.getElementById("selectedDeptsGrid");
+				currentSelectedDeptList = "";
+				currentSelectedDeptNameList = "";
+				var allRows = selectedDeptsGrid.rows;
+				for(var count=1; count<allRows.length; count++)
+				{
+				if (currentSelectedDeptList == "")
+				{
+					currentSelectedDeptList = allRows[count].value.deptDN;
+					currentSelectedDeptNameList = allRows[count].value.deptName;
+				}
+				else
+				{
+					currentSelectedDeptList += ";" + allRows[count].value.deptDN;
+					currentSelectedDeptNameList += ";" + allRows[count].value.deptName;
+				}
+			}
+			}
+
+			//C3 Dialog调用时返回选择结果
+			function dialogReturnValue()
+			{
+				var data = new Object();
+				data.selectedDeptList = currentSelectedDeptList;
+				data.selectedDeptNameList = currentSelectedDeptNameList;
+				return data;
+			}
+		</script>
+		<script type="cordys/xml" id="DeptTemplate">
+			<Dept>
+				<caption/>
+				<dn/>
+				<code/>
+			</Dept>
+		 </script>
+		<script type="cordys/xml" id="menuData">
+				<menu></menu>
+		 </script>
+		<script type="cordys/xml" id="menuTreeSchema">
+			  <TreeSchema>
+					<searchPath>//menu/</searchPath>
+					<TreeItem id="UnitApplication">
+						 <searchPath>Dept</searchPath>
+						 <description>caption</description>
+						 <onexpand>retrieveSubTeams</onexpand>
+						 <icons>
+							  <icon>/cordys/wcp/images/wizard/backward.gif</icon>
+							  <icon>/cordys/wcp/images/admin/organization.gif</icon>
+						 </icons>
+						 <openIcon>/cordys/wcp/images/wizard/forward.gif</openIcon>
+					</TreeItem>
+			  </TreeSchema>
+		 </script>
+		<script type="cordys/xml" id="SOAP_GetDeptObjects">
+			<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  				<SOAP:Body>
+    				<GetAllOrgDepartmentInfo xmlns="http://schemas.cordys.com/tbpm/common" preserveSpace="no" qAccess="0" qValues="">
+      					<cursor id="0" position="0" numRows="99999" maxRows="99999" sameConnection="false" />
+    				</GetAllOrgDepartmentInfo>
+ 	 			</SOAP:Body>
+			</SOAP:Envelope>
+		 </script>
+		<script type="cordys/xml" id="SOAP_GetChildDepts">
+			<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  				<SOAP:Body>
+    				<GetChildDept xmlns="http://schemas.cordys.com/tbpm/common" preserveSpace="no" qAccess="0" qValues="">
+      					<cursor id="0" position="0" numRows="99999" maxRows="99999" sameConnection="false" />
+      					<DEPT_ID></DEPT_ID>
+    				</GetChildDept>
+  				</SOAP:Body>
+			</SOAP:Envelope>
+		 </script>
+</head>
+<body>
+	<div cordysType="wcp.library.data.BusDataIsland " id="bdi" async="false" automatic="false" style="display:none"></div>
+		<div class='content'>
+			<div class='treeholder'>
+						<label>可选择的部门:</label>
+					<div style="overflow:auto;width:100%;height:95%;border:1px solid gray">
+						<div cordysType="wcp.library.ui.Tree" id="menutree" style="margin:0px 0px 0px 0px"></div>
+					</div>
+			</div>
+			<div class="buttonholder">
+					<button class="medium" id="btnAdd" onclick="moveToGrid()" onmouseover="this.className ='btn_over'" onmouseout="this.className='btn_out'" style="width:60px;position:relative;margin:160px 20px 0px 20px;" >&gt;&gt;</button>
+					<button class="medium" id="btnRemove" onclick="removeFromGrid()" onmouseover="this.className ='btn_over'" onmouseout="this.className='btn_out'" style="width:60px;position:relative;margin:20px 20px 0px 20px" >&lt;&lt;</button>
+			</div>
+			<div class='selectionholder'>
+				<label>已选择的部门:</label>
+				<div style="overflow-y:scroll;width:100%;height:95%;border:1px solid gray">
+					<table  id="selectedDeptsGrid" border="0" cellSpacing="1px" cellPadding="1px" width="100%" height="*" class="grid" toggleColumns="false" saveState="false" movableColumns="false" selectType="multiple">
+						<thead>
+							<tr>
+								<td width="35%">
+									<button class="medium" value="Name" style="height:18;width:100%" >部门名称</button>
+								</td>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class='footer'>
+			<button id="confirmBtn" class="medium" style="width:75px;margin-left:20px" onclick="commit()" onmouseover="this.className ='btn_over'" onmouseout="this.className='btn_out'">确 定</button>
+			<button id="cancelBtn" class="medium" style="width:75px;margin-left:20px;" onclick="closeApplication()" onmouseover="this.className ='btn_over'" onmouseout="this.className='btn_out'">取 消</button>
+		</div>
+	</body>
+</html>

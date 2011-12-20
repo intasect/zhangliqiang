@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e025-c2347e2d5f9e">
+	<DocumentID>78e3b51c-e998-11e1-e025-c2347e249f9d</DocumentID>
+	<Name>78e3b51c-e998-11e1-e025-c2347e249f9d</Name>
+	<Description>业绩提成比率（‰） *</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-10-28T06:41:22.293</CreationDate>
+	<Notes/>
+	<Text>业绩提成比率（‰） *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e025-c2347e11df9b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

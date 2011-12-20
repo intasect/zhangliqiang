@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1997b1b1fdd">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1997ae55fdc</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1997ae55fdc</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:04.691</CreationDate>
+	<Notes/>
+	<Text>新店信息移交单会签人员</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1997b9d1fde"
+		/>
+	</TextIdentifier>
+</TranslatedText>

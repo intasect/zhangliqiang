@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e29d-d258023c5f1a">
+	<DocumentID>78e3b51c-e998-11e1-e29d-d2580234df19</DocumentID>
+	<Name>78e3b51c-e998-11e1-e29d-d2580234df19</Name>
+	<Description>订单所基于的货币</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-11-22T09:45:54.727</CreationDate>
+	<Notes/>
+	<Text>订单所基于的货币</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e29d-d2580225df17"
+		/>
+	</TextIdentifier>
+</TranslatedText>

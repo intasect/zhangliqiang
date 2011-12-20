@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c2496e929355">
+	<DocumentID>78e3b51c-e998-11e0-f837-c2496e5f5354</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c2496e5f5354</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:16.224</CreationDate>
+	<Notes/>
+	<Text>&lt;P&gt;注：呈报-需对此事进行审核确认的对象&lt;/P&gt;</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c2496f1d5356"
+		/>
+	</TextIdentifier>
+</TranslatedText>

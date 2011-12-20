@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff46-89ebf965df95">
+	<DocumentID>78e3b51c-e998-11e0-ff46-89ebf95e5f94</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff46-89ebf95e5f94</Name>
+	<Description>&lt;SPAN style=&quot;font-size: ;color: rgb(255,46,30);&quot;&gt;（* 选择需要打开的表单名称，双击列表行进入查询详细信息）&lt;/SPAN&gt;</Description>
+	<CreatedBy>徐新宇</CreatedBy>
+	<CreationDate>2011-10-19T10:20:55.376</CreationDate>
+	<Notes/>
+	<Text>&lt;SPAN style=&quot;font-size: ;color: rgb(255,46,30);&quot;&gt;（* 选择需要打开的表单名称，双击列表行进入查询详细信息）&lt;/SPAN&gt;</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff46-89ebf94f5f92"
+		/>
+	</TextIdentifier>
+</TranslatedText>

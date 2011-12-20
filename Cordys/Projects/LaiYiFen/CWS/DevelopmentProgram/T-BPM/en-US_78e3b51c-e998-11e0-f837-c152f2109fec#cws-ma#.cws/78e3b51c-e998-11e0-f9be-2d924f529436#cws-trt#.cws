@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9be-2d924f5a1437">
+	<DocumentID>78e3b51c-e998-11e0-f9be-2d924f529436</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9be-2d924f529436</Name>
+	<Description>CIRCLE_BUSINESSSTATE_MATCH</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-24T01:39:53.389</CreationDate>
+	<Notes/>
+	<Text>CIRCLE_BUSINESSSTATE_MATCH</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9be-2d924f051434"
+		/>
+	</TextIdentifier>
+</TranslatedText>

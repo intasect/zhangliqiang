@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e2cf-6b76d39cdb1b">
+	<DocumentID>78e3b51c-e998-11e1-e2cf-6b76d3955b1a</DocumentID>
+	<Name>78e3b51c-e998-11e1-e2cf-6b76d3955b1a</Name>
+	<Description>查看超时环节</Description>
+	<CreatedBy>徐新宇</CreatedBy>
+	<CreationDate>2011-11-24T09:19:02.805</CreationDate>
+	<Notes/>
+	<Text>查看超时环节</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e2cf-6b76d3865b18"
+		/>
+	</TextIdentifier>
+</TranslatedText>

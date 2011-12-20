@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fcb9-9229e9701f97">
+	<DocumentID>78e3b51c-e998-11e0-fcb9-9229e9675f96</DocumentID>
+	<Name>78e3b51c-e998-11e0-fcb9-9229e9675f96</Name>
+	<Description>填制具体的数字，长*宽*高 单位MM如没有，则填写“无”，如形状不规则填写面积数字，单位㎡</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-09-23T10:19:02.654</CreationDate>
+	<Notes/>
+	<Text>填制具体的数字，长*宽*高 单位MM如没有，则填写“无”，如形状不规则填写面积数字，单位㎡</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fcb9-9229e9535f94"
+		/>
+	</TextIdentifier>
+</TranslatedText>

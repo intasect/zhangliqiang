@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c2580babdbaf">
+	<DocumentID>78e3b51c-e998-11e0-f837-c2580b6e9bae</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c2580b6e9bae</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:04.741</CreationDate>
+	<Notes/>
+	<Text>损失收回及违约赔付（实际结款金额见拆店信息移交）：</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c2580c459bb0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

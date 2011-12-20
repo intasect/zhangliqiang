@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="000C297E-6FFF-11E1-E3F9-704122CDBFBE">
+	<DocumentID>000C297E-6FFF-11E1-E3F9-704122CD9FBE</DocumentID>
+	<Name>000C297E-6FFF-11E1-E3F9-704122CD9FBE</Name>
+	<Description>SERIALNO</Description>
+	<CreatedBy>Administrator</CreatedBy>
+	<CreationDate>2011-12-06T05:33:21.64</CreationDate>
+	<Notes/>
+	<Text>SERIALNO</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="000C297E-6FFF-11E1-E3F9-704122CD5FBE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

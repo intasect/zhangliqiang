@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c236438f9fb7">
+	<DocumentID>78e3b51c-e998-11e0-f837-c23643471fb6</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c23643471fb6</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:54.788</CreationDate>
+	<Notes/>
+	<Text>谈判过程中，若有几次谈判，需把每次谈判的结果填写清楚，若只有一次，请在最后谈判结果中填写相关数据</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c23644489fb8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

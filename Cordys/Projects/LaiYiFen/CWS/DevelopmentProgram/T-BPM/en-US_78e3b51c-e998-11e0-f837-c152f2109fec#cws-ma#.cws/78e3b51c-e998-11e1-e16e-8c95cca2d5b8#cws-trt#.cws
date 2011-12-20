@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e16e-8c95cca695b9">
+	<DocumentID>78e3b51c-e998-11e1-e16e-8c95cca2d5b8</DocumentID>
+	<Name>78e3b51c-e998-11e1-e16e-8c95cca2d5b8</Name>
+	<Description>预算余额</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-11-10T08:18:52.567</CreationDate>
+	<Notes/>
+	<Text>预算余额</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e16e-8c95cc98d5b6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

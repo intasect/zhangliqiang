@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c28a5aa69f51">
+	<DocumentID>78e3b51c-e998-11e0-f837-c28a5a771f50</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c28a5a771f50</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:10.809</CreationDate>
+	<Notes/>
+	<Text>HR组织代码</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c28a5b4b9f52"
+		/>
+	</TextIdentifier>
+</TranslatedText>

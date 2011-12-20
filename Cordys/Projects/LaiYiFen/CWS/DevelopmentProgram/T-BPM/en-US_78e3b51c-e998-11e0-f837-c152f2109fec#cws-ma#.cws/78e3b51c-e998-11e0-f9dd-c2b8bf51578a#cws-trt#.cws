@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9dd-c2b8bf58d78b">
+	<DocumentID>78e3b51c-e998-11e0-f9dd-c2b8bf51578a</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9dd-c2b8bf51578a</Name>
+	<Description>ISMALL</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-25T07:47:17.556</CreationDate>
+	<Notes/>
+	<Text>ISMALL</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9dd-c2b8bf439788"
+		/>
+	</TextIdentifier>
+</TranslatedText>

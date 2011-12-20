@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9be-2d9250505455">
+	<DocumentID>78e3b51c-e998-11e0-f9be-2d925048d454</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9be-2d925048d454</Name>
+	<Description>AROUND_BUSINESS_STATE</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-24T01:38:53.274</CreationDate>
+	<Notes/>
+	<Text>AROUND_BUSINESS_STATE</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9be-2d925039d452"
+		/>
+	</TextIdentifier>
+</TranslatedText>

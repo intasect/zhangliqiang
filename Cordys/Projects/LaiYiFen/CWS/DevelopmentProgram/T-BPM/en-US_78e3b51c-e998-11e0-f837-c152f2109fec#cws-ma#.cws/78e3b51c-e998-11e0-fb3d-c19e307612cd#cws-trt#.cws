@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb3d-c19e307c52ce">
+	<DocumentID>78e3b51c-e998-11e0-fb3d-c19e307612cd</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb3d-c19e307612cd</Name>
+	<Description>HIREDATE</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-08T08:18:55.262</CreationDate>
+	<Notes/>
+	<Text>HIREDATE</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb3d-c19e306712cb"
+		/>
+	</TextIdentifier>
+</TranslatedText>

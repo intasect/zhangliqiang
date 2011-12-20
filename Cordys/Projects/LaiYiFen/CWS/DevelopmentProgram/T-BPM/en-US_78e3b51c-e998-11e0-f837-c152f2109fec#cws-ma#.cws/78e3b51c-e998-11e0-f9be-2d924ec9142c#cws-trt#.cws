@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9be-2d924ed1d42d">
+	<DocumentID>78e3b51c-e998-11e0-f9be-2d924ec9142c</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9be-2d924ec9142c</Name>
+	<Description>PLAN_SECTIONLOCATION_MATCH</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-24T01:40:17.257</CreationDate>
+	<Notes/>
+	<Text>PLAN_SECTIONLOCATION_MATCH</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9be-2d924eba142a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

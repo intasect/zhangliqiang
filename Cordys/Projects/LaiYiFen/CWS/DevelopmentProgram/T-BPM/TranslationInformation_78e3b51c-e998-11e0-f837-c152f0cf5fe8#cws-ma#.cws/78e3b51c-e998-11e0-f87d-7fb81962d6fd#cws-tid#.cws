@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f87d-7fb819af16fe">
+	<DocumentID>78e3b51c-e998-11e0-f87d-7fb81962d6fd</DocumentID>
+	<Name>78e3b51c-e998-11e0-f87d-7fb81962d6fd</Name>
+	<Description>注： 转让费分摊公式：总转让费/合同期总月份计算租金占比公式：（月租金+转让费分摊）/月营业额</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-11T07:41:48.576</CreationDate>
+	<Notes/>
+	<DefaultText>注： 转让费分摊公式：总转让费/合同期总月份计算租金占比公式：（月租金+转让费分摊）/月营业额</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f87d-7fb819c316ff"
+		/>
+	</Translations>
+</TextIdentifier>

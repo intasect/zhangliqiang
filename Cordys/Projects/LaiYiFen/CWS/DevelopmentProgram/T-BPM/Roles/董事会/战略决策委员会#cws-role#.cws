@@ -1,0 +1,16 @@
+
+<RoleDesignTime
+	type="com.cordys.organization.role.RoleDesignTime"
+	RuntimeDocumentID="005056a3-4878-11e0-f463-1d7debaad309">
+	<DocumentID>005056a3-4878-11e0-f463-1d7deb9f9308</DocumentID>
+	<Name>战略决策委员会</Name>
+	<Description>战略决策委员会</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-06-30T13:01:01.3</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<isFunctionalRole>true</isFunctionalRole>
+	<type>Functional</type>
+	<Subroles/>
+	<configuredTasks/>
+</RoleDesignTime>

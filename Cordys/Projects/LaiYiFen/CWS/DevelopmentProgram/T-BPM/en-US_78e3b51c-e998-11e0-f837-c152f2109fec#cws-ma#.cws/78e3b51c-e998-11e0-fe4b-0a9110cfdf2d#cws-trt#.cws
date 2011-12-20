@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fe4b-0a9110d75f2e">
+	<DocumentID>78e3b51c-e998-11e0-fe4b-0a9110cfdf2d</DocumentID>
+	<Name>78e3b51c-e998-11e0-fe4b-0a9110cfdf2d</Name>
+	<Description>门店道路宽度（米）</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-10-09T09:39:01.203</CreationDate>
+	<Notes/>
+	<Text>门店道路宽度（米）</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fe4b-0a9110c0df2b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbd8-cd9d892394f7">
+	<DocumentID>78e3b51c-e998-11e0-fbd8-cd9d891d54f6</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbd8-cd9d891d54f6</Name>
+	<Description>子公司工程部工程专员</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-14T11:51:25.195</CreationDate>
+	<Notes/>
+	<Text>子公司工程部工程专员</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbd8-cd9d890f94f4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

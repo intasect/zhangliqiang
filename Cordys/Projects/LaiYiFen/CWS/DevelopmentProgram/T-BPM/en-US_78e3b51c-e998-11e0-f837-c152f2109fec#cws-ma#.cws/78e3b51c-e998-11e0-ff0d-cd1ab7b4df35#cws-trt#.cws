@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff0d-cd1ab7bd9f36">
+	<DocumentID>78e3b51c-e998-11e0-ff0d-cd1ab7b4df35</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff0d-cd1ab7b4df35</Name>
+	<Description>结果组名称</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-17T03:40:52.362</CreationDate>
+	<Notes/>
+	<Text>结果组名称</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff0d-cd1ab79bdf33"
+		/>
+	</TextIdentifier>
+</TranslatedText>

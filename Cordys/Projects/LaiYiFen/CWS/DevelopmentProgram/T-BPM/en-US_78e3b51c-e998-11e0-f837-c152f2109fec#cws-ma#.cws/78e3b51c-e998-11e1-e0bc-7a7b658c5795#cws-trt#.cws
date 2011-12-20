@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e0bc-7a7b6593d796">
+	<DocumentID>78e3b51c-e998-11e1-e0bc-7a7b658c5795</DocumentID>
+	<Name>78e3b51c-e998-11e1-e0bc-7a7b658c5795</Name>
+	<Description>门店所属商圈的类型</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-11-03T08:35:25.502</CreationDate>
+	<Notes/>
+	<Text>门店所属商圈的类型</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e0bc-7a7b657e9793"
+		/>
+	</TextIdentifier>
+</TranslatedText>

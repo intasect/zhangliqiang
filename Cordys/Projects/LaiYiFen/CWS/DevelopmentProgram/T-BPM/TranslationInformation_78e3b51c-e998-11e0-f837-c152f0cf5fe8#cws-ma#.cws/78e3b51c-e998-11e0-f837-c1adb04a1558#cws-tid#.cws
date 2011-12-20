@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1adb084d559">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1adb04a1558</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1adb04a1558</Name>
+	<Description>填写降价促销申请单后进行促销主数据新增/变更</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:35.074</CreationDate>
+	<Notes/>
+	<DefaultText>填写降价促销申请单后进行促销主数据新增_变更</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1adaf5f1556"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

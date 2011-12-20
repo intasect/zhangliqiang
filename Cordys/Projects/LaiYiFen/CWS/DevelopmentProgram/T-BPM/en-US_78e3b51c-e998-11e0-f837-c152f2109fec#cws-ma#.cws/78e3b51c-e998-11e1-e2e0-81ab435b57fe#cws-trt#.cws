@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e2e0-81ab4362d7ff">
+	<DocumentID>78e3b51c-e998-11e1-e2e0-81ab435b57fe</DocumentID>
+	<Name>78e3b51c-e998-11e1-e2e0-81ab435b57fe</Name>
+	<Description>LOAN_SURPLUS</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-11-25T05:21:43.27</CreationDate>
+	<Notes/>
+	<Text>LOAN_SURPLUS</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e2e0-81ab434d97fc"
+		/>
+	</TextIdentifier>
+</TranslatedText>

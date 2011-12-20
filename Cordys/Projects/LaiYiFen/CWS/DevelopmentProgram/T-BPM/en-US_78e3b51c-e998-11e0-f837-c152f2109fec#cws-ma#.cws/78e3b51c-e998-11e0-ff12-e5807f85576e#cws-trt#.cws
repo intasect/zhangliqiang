@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff12-e5807f8cd76f">
+	<DocumentID>78e3b51c-e998-11e0-ff12-e5807f85576e</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff12-e5807f85576e</Name>
+	<Description>GRP_ID</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-17T08:32:01.204</CreationDate>
+	<Notes/>
+	<Text>GRP_ID</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff12-e5807f77976c"
+		/>
+	</TextIdentifier>
+</TranslatedText>

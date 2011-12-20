@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff7b-22f9c1515650">
+	<DocumentID>78e3b51c-e998-11e0-ff7b-22f9c149d64f</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff7b-22f9c149d64f</Name>
+	<Description>科目名称</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-21T11:43:51.351</CreationDate>
+	<Notes/>
+	<Text>科目名称</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff7b-22f9c13c164d"
+		/>
+	</TextIdentifier>
+</TranslatedText>

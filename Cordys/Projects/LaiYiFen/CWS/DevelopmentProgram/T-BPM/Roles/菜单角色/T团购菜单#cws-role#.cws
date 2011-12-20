@@ -1,0 +1,33 @@
+
+<RoleDesignTime
+	type="com.cordys.organization.role.RoleDesignTime"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e2e5-babeadda1f9e">
+	<DocumentID>78e3b51c-e998-11e1-e2e5-babeadd29f9d</DocumentID>
+	<Name>T团购菜单</Name>
+	<Description>T团购菜单</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-25T09:08:47.33</CreationDate>
+	<Notes/>
+	<isFunctionalRole>true</isFunctionalRole>
+	<type>Functional</type>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<configuredTasks>
+		<ConfiguredTask
+			type="com.cordys.task.ConfiguredTask"
+			RuntimeDocumentID="78e3b51c-e998-11e1-e2e5-babead8a1f93">
+			<DocumentID>78e3b51c-e998-11e1-e2e5-babead829f92</DocumentID>
+			<Name>商品订购表单_78e3b51c-e998-11e1-e2e5-babead829f92</Name>
+			<Description>商品订购表单_78e3b51c-e998-11e1-e2e5-babead829f92</Description>
+			<CreatedBy>杜兰</CreatedBy>
+			<CreationDate>2011-11-25T09:08:47.33</CreationDate>
+			<Notes/>
+			<configuredTaskParts/>
+			<uiTask>
+				<uri
+					id="78e3b51c-e998-11e1-e152-f2d3e493df7c"
+				/>
+			</uiTask>
+		</ConfiguredTask>
+	</configuredTasks>
+	<Subroles/>
+</RoleDesignTime>

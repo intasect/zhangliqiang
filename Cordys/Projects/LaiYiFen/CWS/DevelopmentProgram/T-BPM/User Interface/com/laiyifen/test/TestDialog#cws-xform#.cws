@@ -1,0 +1,330 @@
+
+<XFormDesigntime
+	type="com.cordys.xforms.XFormDesigntime"
+	typeVersion="005056C0-0008-11E0-F8FC-5E0A815B7FB8"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ffbd-1eeff955df49">
+	<DocumentID>78e3b51c-e998-11e0-ffbd-1eeff94a9f48</DocumentID>
+	<Name>TestDialog</Name>
+	<Description>TestDialog</Description>
+	<CreatedBy>徐新宇</CreatedBy>
+	<CreationDate>2011-10-24T02:50:38.714</CreationDate>
+	<Notes/>
+	<XFormContent>
+		<xformhtml
+			xmlns="http://schemas.cordys.com/1.0/xform"
+			xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+			xmlns:ev="http://www.w3.org/2001/xml-events"
+			xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+			xformsversion="2"
+			key="User Interface/com/laiyifen/test/TestDialog"
+			focusatstartup="true">
+			<xhead>
+				<xml
+					xmlns="">
+					<xml
+						id="Application_SelectTeams">
+						<Application>
+							<id>selectDepts</id>
+							<url>cordys/laiyifen/common/html/selectDepts.htm</url>
+							<caption>选择部门</caption>
+							<frame
+								features="dialogWidth:700px;dialogHeight:450px;center:yes;help:no;titlebar:no;status:no;">_modal</frame>
+							<data/>
+						</Application>
+					</xml>
+					<xml
+						id="Application_SelectLeader">
+						<Application>
+							<id>selectUsers</id>
+							<description>selectUsers</description>
+							<caption>选择用户</caption>
+							<url>cordys/laiyifen/common/html/selectUsers.htm</url>
+							<frame
+								features="dialogWidth:800px;dialogHeight:500px;resizable:yes">_modal</frame>
+						</Application>
+					</xml>
+				</xml>
+			</xhead>
+			<xbody>
+				<xforms:group
+					wcpforms:layout="vertical"
+					id="xbody_group"
+					wcpforms:labelalign="ontop">
+					<xforms:group
+						appearance="controlbox"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbox"
+						id="controlbox1"
+						controltype="button"
+						wcpforms:layout="horizontal"
+						wcpforms:class="v_layout autoextent"
+						wcpforms:align="left_align"
+						wcpforms:size="null auto">
+						<xforms:trigger
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+							id="button1"
+							wcpforms:class="h_button"
+							wcpforms:size="null 2em">
+							<xforms:label
+								textIdentifier="000C297E-6FFF-11E1-E391-A1D0D61415D6">SelectDept</xforms:label>
+							<xforms:action
+								ev:event="xforms-activate">
+								<xforms:button1_Click/>
+							</xforms:action>
+						</xforms:trigger>
+						<xforms:trigger
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+							id="button2"
+							wcpforms:class="h_button"
+							wcpforms:size="null 2em">
+							<xforms:label
+								textIdentifier="78e3b51c-e998-11e0-faec-469c655b1f1e">SelectUser</xforms:label>
+							<xforms:action
+								ev:event="xforms-activate">
+								<xforms:button2_Click/>
+							</xforms:action>
+						</xforms:trigger>
+					</xforms:group>
+					<xforms:textarea
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsTextarea"
+						id="textarea1"
+						doEBIValidate="false"
+						wcpforms:layout="vertical"
+						wcpforms:class="v_layout"
+						wcpforms:size="null 116px">
+						<xforms:label
+							textIdentifier="000C297E-6FFF-11E1-E391-A1D0D61355D6"
+							wcpforms:class="v_label">Selected Result</xforms:label>
+					</xforms:textarea>
+					<xforms:input
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+						id="input1"
+						doEBIValidate="false"
+						wcpforms:class="v_layout"
+						wcpforms:size="null 32px">
+						<xforms:label
+							textIdentifier="78e3b51c-e998-11e1-e123-1ea131afd242"
+							wcpforms:class="v_label">Input1</xforms:label>
+						<wcpforms:zoom>
+							<wcpforms:url
+								documentID="78e3b51c-e998-11e1-e222-0fc28b1a9f8f">/cordys/User Interface/com/laiyifen/goods/ABC.caf</wcpforms:url>
+							<wcpforms:businessAttribute>input1</wcpforms:businessAttribute>
+							<xforms:trigger>
+								<xforms:label>
+									<img
+										xmlns="http://schemas.cordys.com/1.0/xform"
+										src="/cordys/wcp/theme/default/icon/lookup/lookup_file.png"
+									/>
+								</xforms:label>
+							</xforms:trigger>
+						</wcpforms:zoom>
+					</xforms:input>
+				</xforms:group>
+			</xbody>
+			<xformsscript>
+				<![CDATA[function button1_Click(eventObject)
+{
+    var oParam = new Object();
+    oParam.deptDN = "";//all dept
+    oParam.selectMode = "MULTIPLE";
+    oParam.callBack = closeHandler;
+    application.showDialog(Application_SelectTeams.XMLDocument.documentElement, oParam, null, null, false);
+}
+
+function closeHandler(dialogReturnValue)
+{
+    //The logic to handle the dialogReturnValue goes here.
+    textarea1.setValue(dialogReturnValue.selectedDeptList + "===========" +dialogReturnValue.selectedDeptNameList);
+}
+
+function button2_Click(eventObject)
+{
+    var oParam = new Object();
+    oParam.selectMode = "MULTIPLE";
+    oParam.callBack = closeHandler1;
+    application.showDialog(Application_SelectLeader.XMLDocument.documentElement, oParam, null, null, false);
+}
+
+function closeHandler1(dialogReturnValue)
+{
+    //The logic to handle the dialogReturnValue goes here.
+    textarea1.setValue(dialogReturnValue.selectedUserList+ "===========" +dialogReturnValue.selectedUserNameList + "===========" +dialogReturnValue.currentSslectedUserCodeList);
+}]]>
+			</xformsscript>
+		</xformhtml>
+	</XFormContent>
+	<width></width>
+	<automatic>false</automatic>
+	<data/>
+	<XFormWSDL/>
+	<caption></caption>
+	<isInternal>false</isInternal>
+	<type>XForm</type>
+	<taskName>TestDialog</taskName>
+	<mode>full</mode>
+	<title>true</title>
+	<height></height>
+	<isLegacy>false</isLegacy>
+	<left></left>
+	<qualifiedclassname></qualifiedclassname>
+	<parameters/>
+	<showOnStartPage>false</showOnStartPage>
+	<taskDescription>TestDialog</taskDescription>
+	<top></top>
+	<TranslatableUITexts>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="000C297E-6FFF-11E1-E3F6-6A82FAFB9FBE">
+			<DocumentID>000C297E-6FFF-11E1-E3F6-6A82FAFB7FBE</DocumentID>
+			<Name>000C297E-6FFF-11E1-E3F6-6A82FAFB7FBE</Name>
+			<Description>000C297E-6FFF-11E1-E3F6-6A82FAFB7FBE</Description>
+			<CreatedBy>Administrator</CreatedBy>
+			<CreationDate>2011-12-06T02:42:33.312</CreationDate>
+			<Notes/>
+			<UIRef>input1</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e0-ffbd-1eeff94a9f48"
+				/>
+			</XForm>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="000C297E-6FFF-11E1-E3F6-6A82FAFBDFBE">
+					<DocumentID>000C297E-6FFF-11E1-E3F6-6A82FAFBBFBE</DocumentID>
+					<Name>000C297E-6FFF-11E1-E3F6-6A82FAFBBFBE</Name>
+					<Description>000C297E-6FFF-11E1-E3F6-6A82FAFBBFBE</Description>
+					<CreatedBy>Administrator</CreatedBy>
+					<CreationDate>2011-12-06T02:42:33.312</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e1-e123-1ea131afd242"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<TooltipText/>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-ffbd-1eeff7c21f2a">
+			<DocumentID>78e3b51c-e998-11e0-ffbd-1eeff7b45f29</DocumentID>
+			<Name>78e3b51c-e998-11e0-ffbd-1eeff7b45f29</Name>
+			<Description>78e3b51c-e998-11e0-ffbd-1eeff7b45f29</Description>
+			<CreatedBy>徐新宇</CreatedBy>
+			<CreationDate>2011-10-24T02:52:57.061</CreationDate>
+			<Notes/>
+			<UIRef>textarea1</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e0-ffbd-1eeff94a9f48"
+				/>
+			</XForm>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="000C297E-6FFF-11E1-E391-A1D0D61335D6">
+					<DocumentID>000C297E-6FFF-11E1-E391-A1D0D61315D6</DocumentID>
+					<Name>000C297E-6FFF-11E1-E391-A1D0D61315D6</Name>
+					<Description>000C297E-6FFF-11E1-E391-A1D0D61315D6</Description>
+					<CreatedBy>Administrator</CreatedBy>
+					<CreationDate>2011-12-02T03:39:11.453</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="000C297E-6FFF-11E1-E391-A1D0D61355D6"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<TooltipText/>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-ffbd-1eeff8491f37">
+			<DocumentID>78e3b51c-e998-11e0-ffbd-1eeff83f1f36</DocumentID>
+			<Name>78e3b51c-e998-11e0-ffbd-1eeff83f1f36</Name>
+			<Description>78e3b51c-e998-11e0-ffbd-1eeff83f1f36</Description>
+			<CreatedBy>徐新宇</CreatedBy>
+			<CreationDate>2011-10-24T02:52:57.06</CreationDate>
+			<Notes/>
+			<UIRef>button1</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e0-ffbd-1eeff94a9f48"
+				/>
+			</XForm>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="000C297E-6FFF-11E1-E391-A1D0D613F5D6">
+					<DocumentID>000C297E-6FFF-11E1-E391-A1D0D613D5D6</DocumentID>
+					<Name>000C297E-6FFF-11E1-E391-A1D0D613D5D6</Name>
+					<Description>000C297E-6FFF-11E1-E391-A1D0D613D5D6</Description>
+					<CreatedBy>Administrator</CreatedBy>
+					<CreationDate>2011-12-02T03:39:11.453</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="000C297E-6FFF-11E1-E391-A1D0D61415D6"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<TooltipText/>
+		</TranslatableUIText>
+	</TranslatableUITexts>
+	<Representations/>
+	<ReferredXForms>
+		<uri
+			id="78e3b51c-e998-11e1-e222-0fc28b1a9f8f"
+		/>
+	</ReferredXForms>
+	<image/>
+	<TranslatableApplications/>
+	<Images/>
+	<messages/>
+	<Webservices/>
+	<StyleSheets/>
+	<input/>
+	<taskParts/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-ffbd-1eeff8c4df3c">
+			<DocumentID>78e3b51c-e998-11e0-ffbd-1eeff8b21f3b</DocumentID>
+			<Name>78e3b51c-e998-11e0-ffbd-1eeff8b21f3b</Name>
+			<Description>78e3b51c-e998-11e0-ffbd-1eeff8b21f3b</Description>
+			<CreatedBy>徐新宇</CreatedBy>
+			<CreationDate>2011-10-24T02:50:38.713</CreationDate>
+			<Notes/>
+			<Identifier>
+				<uri
+					id="78e3b51c-e998-11e0-ffbd-1eeff8d01f3d"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+	<aclFragments/>
+	<tagsContainer/>
+	<deliveryModels/>
+	<messageParts>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="78e3b51c-e998-11e0-ffbd-1eeff78edf28">
+			<DocumentID>78e3b51c-e998-11e0-ffbd-1eeff784df27</DocumentID>
+			<Name>freeformcontrols</Name>
+			<Description>freeformcontrols</Description>
+			<CreatedBy>徐新宇</CreatedBy>
+			<CreationDate>2011-10-24T02:52:57.062</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<operationName>freeformcontrols</operationName>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+		</MessagePart>
+	</messageParts>
+	<InstanceSchemaFragments/>
+	<Htms/>
+	<output/>
+	<Javascripts/>
+</XFormDesigntime>

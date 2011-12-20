@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e0bc-7a7b6642d7ae">
+	<DocumentID>78e3b51c-e998-11e1-e0bc-7a7b663c97ad</DocumentID>
+	<Name>78e3b51c-e998-11e1-e0bc-7a7b663c97ad</Name>
+	<Description>门店所在的省+市+区+路+店；如有标志物（如商超门店名称中应含商超名称），则门店名称中包含标志物名；如一条路上有多家门店，则以一店、二店排序命名。</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-11-03T08:35:25.505</CreationDate>
+	<Notes/>
+	<Text>门店所在的省+市+区+路+店；如有标志物（如商超门店名称中应含商超名称），则门店名称中包含标志物名；如一条路上有多家门店，则以一店、二店排序命名。</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e0bc-7a7b662d97ab"
+		/>
+	</TextIdentifier>
+</TranslatedText>

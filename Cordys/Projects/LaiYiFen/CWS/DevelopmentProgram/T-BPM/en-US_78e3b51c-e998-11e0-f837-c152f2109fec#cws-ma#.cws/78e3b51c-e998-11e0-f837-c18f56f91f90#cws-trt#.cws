@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c18f57379f91">
+	<DocumentID>78e3b51c-e998-11e0-f837-c18f56f91f90</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c18f56f91f90</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:57.432</CreationDate>
+	<Notes/>
+	<Text>辅料配送需求单制定</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c18f57cedf92"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c260da65dfdb">
+	<DocumentID>78e3b51c-e998-11e0-f837-c260d9f05fda</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c260d9f05fda</Name>
+	<Description>装修样式(有何建议)</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:31.832</CreationDate>
+	<Notes/>
+	<DefaultText>装修样式(有何建议)</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c260d8ed9fd8"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

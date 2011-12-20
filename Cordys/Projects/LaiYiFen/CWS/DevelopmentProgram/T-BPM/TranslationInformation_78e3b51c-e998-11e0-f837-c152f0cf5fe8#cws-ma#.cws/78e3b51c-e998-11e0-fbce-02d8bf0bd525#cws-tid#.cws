@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbce-02d8bf10d526">
+	<DocumentID>78e3b51c-e998-11e0-fbce-02d8bf0bd525</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbce-02d8bf0bd525</Name>
+	<Description>TestUploadNamespace</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-14T01:23:11.343</CreationDate>
+	<Notes/>
+	<DefaultText>TestUploadNamespace</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fbce-02d8bf149527"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

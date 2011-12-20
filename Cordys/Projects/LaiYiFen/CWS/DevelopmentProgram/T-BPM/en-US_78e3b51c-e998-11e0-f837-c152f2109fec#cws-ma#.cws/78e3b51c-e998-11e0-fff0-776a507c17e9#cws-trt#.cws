@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fff0-776a5084d7ea">
+	<DocumentID>78e3b51c-e998-11e0-fff0-776a507c17e9</DocumentID>
+	<Name>78e3b51c-e998-11e0-fff0-776a507c17e9</Name>
+	<Description>数据下发总接口异常处理</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-26T03:40:41.569</CreationDate>
+	<Notes/>
+	<Text>数据下发总接口异常处理</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fff0-776a504657e7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

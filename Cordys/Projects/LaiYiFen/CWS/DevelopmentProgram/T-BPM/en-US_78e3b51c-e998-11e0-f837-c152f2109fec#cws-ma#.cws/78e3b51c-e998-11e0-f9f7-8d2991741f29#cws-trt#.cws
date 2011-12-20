@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9f7-8d29917b9f2a">
+	<DocumentID>78e3b51c-e998-11e0-f9f7-8d2991741f29</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9f7-8d2991741f29</Name>
+	<Description>新店信息移交后进行供应商主数据新增操作</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-26T08:23:03.916</CreationDate>
+	<Notes/>
+	<Text>新店信息移交后进行供应商主数据新增操作</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9f7-8d2991665f27"
+		/>
+	</TextIdentifier>
+</TranslatedText>

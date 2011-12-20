@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff2c-1a03b4471466">
+	<DocumentID>78e3b51c-e998-11e0-ff2c-1a03b43f9465</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff2c-1a03b43f9465</Name>
+	<Description>生活水平编码</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-18T08:27:56.236</CreationDate>
+	<Notes/>
+	<Text>生活水平编码</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff2c-1a03b42cd463"
+		/>
+	</TextIdentifier>
+</TranslatedText>

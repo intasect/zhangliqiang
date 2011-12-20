@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbcf-883f04fbdf76">
+	<DocumentID>78e3b51c-e998-11e0-fbcf-883f04f59f75</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbcf-883f04f59f75</Name>
+	<Description>结算方式</Description>
+	<CreatedBy>唐炜炜</CreatedBy>
+	<CreationDate>2011-09-14T03:06:15.518</CreationDate>
+	<Notes/>
+	<Text>结算方式</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbcf-883f04e69f73"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e334-37e638535d4d">
+	<DocumentID>78e3b51c-e998-11e1-e334-37e6384d1d4c</DocumentID>
+	<Name>78e3b51c-e998-11e1-e334-37e6384d1d4c</Name>
+	<Description>问题流程数</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-11-28T09:22:13.395</CreationDate>
+	<Notes/>
+	<DefaultText>问题流程数</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e1-e334-37e6385add4e"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

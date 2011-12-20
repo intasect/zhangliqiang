@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e06d-2fd6c3725b73">
+	<DocumentID>78e3b51c-e998-11e1-e06d-2fd6c36adb72</DocumentID>
+	<Name>78e3b51c-e998-11e1-e06d-2fd6c36adb72</Name>
+	<Description>填制具体数字，单位：MM，如没有，则填写“无”，如有多个，中间请用半角逗号隔开。</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-10-31T02:48:08.012</CreationDate>
+	<Notes/>
+	<Text>填制具体数字，单位：MM，如没有，则填写“无”，如有多个，中间请用半角逗号隔开。</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e06d-2fd6c35bdb70"
+		/>
+	</TextIdentifier>
+</TranslatedText>

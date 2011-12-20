@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa5a-51ee9c9b532b">
+	<DocumentID>78e3b51c-e998-11e0-fa5a-51ee9c95132a</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa5a-51ee9c95132a</Name>
+	<Description>门店地区</Description>
+	<CreatedBy>wangzhiqiang</CreatedBy>
+	<CreationDate>2011-08-30T06:58:42.592</CreationDate>
+	<Notes/>
+	<Text>门店地区</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa5a-51ee9c861328"
+		/>
+	</TextIdentifier>
+</TranslatedText>

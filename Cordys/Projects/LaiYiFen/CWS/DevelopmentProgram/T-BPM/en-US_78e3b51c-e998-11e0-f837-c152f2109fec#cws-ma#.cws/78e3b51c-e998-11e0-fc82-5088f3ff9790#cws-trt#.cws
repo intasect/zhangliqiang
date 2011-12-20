@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc82-5088f4071791">
+	<DocumentID>78e3b51c-e998-11e0-fc82-5088f3ff9790</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc82-5088f3ff9790</Name>
+	<Description>shopId</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-21T05:40:44.458</CreationDate>
+	<Notes/>
+	<Text>shopId</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc82-5088f3f1d78e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

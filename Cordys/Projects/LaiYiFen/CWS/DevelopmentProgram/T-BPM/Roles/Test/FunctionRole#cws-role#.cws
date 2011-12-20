@@ -1,0 +1,26 @@
+
+<RoleDesignTime
+	type="com.cordys.organization.role.RoleDesignTime"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb07-483b40a89638">
+	<DocumentID>78e3b51c-e998-11e0-fb07-483b40a11637</DocumentID>
+	<Name>FunctionRole</Name>
+	<Description>FunctionRole</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-06T03:51:19.991</CreationDate>
+	<Notes/>
+	<isFunctionalRole>true</isFunctionalRole>
+	<type>Functional</type>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<configuredTasks/>
+	<Subroles>
+		<uri
+			id="005056a3-4878-11e0-f471-a337fd0ed6e8"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f2-3cc751081f9e"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f2-b91c6cad5fd0"
+		/>
+	</Subroles>
+</RoleDesignTime>

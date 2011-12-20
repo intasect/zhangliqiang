@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c168eb749b57">
+	<DocumentID>78e3b51c-e998-11e0-f837-c168eb1f9b56</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c168eb1f9b56</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:48.048</CreationDate>
+	<Notes/>
+	<Text>开店主线业务流程</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c168ec4b9b58"
+		/>
+	</TextIdentifier>
+</TranslatedText>

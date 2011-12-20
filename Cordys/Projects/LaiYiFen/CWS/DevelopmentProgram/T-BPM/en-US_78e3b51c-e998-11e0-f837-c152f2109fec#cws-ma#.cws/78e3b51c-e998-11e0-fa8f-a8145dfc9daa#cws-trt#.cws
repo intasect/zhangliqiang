@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa8f-a8145e041dab">
+	<DocumentID>78e3b51c-e998-11e0-fa8f-a8145dfc9daa</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa8f-a8145dfc9daa</Name>
+	<Description>证照办理表单查询</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-09-01T09:33:11.469</CreationDate>
+	<Notes/>
+	<Text>证照办理表单查询</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa8f-a8145deedda8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

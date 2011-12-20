@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc82-5088f49817a5">
+	<DocumentID>78e3b51c-e998-11e0-fc82-5088f49097a4</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc82-5088f49097a4</Name>
+	<Description>CommonLogViewer</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-21T05:39:08.93</CreationDate>
+	<Notes/>
+	<Text>CommonLogViewer</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc82-5088f48197a2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

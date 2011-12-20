@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fe99-2006ba5e5f2e">
+	<DocumentID>78e3b51c-e998-11e0-fe99-2006ba581f2d</DocumentID>
+	<Name>78e3b51c-e998-11e0-fe99-2006ba581f2d</Name>
+	<Description>REVERTUSER</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-10-12T12:11:59.409</CreationDate>
+	<Notes/>
+	<Text>REVERTUSER</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fe99-2006ba4a5f2b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

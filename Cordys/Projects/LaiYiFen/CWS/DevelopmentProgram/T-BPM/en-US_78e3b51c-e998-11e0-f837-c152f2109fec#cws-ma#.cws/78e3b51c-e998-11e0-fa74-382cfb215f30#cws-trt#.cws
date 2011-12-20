@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa74-382cfb28df31">
+	<DocumentID>78e3b51c-e998-11e0-fa74-382cfb215f30</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa74-382cfb215f30</Name>
+	<Description>CHECKER_CODE</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-31T07:29:18.864</CreationDate>
+	<Notes/>
+	<Text>CHECKER_CODE</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa74-382cfb139f2e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

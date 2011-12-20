@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fe5e-652874ba9762">
+	<DocumentID>78e3b51c-e998-11e0-fe5e-652874b45761</DocumentID>
+	<Name>78e3b51c-e998-11e0-fe5e-652874b45761</Name>
+	<Description>开店平均周期(天)</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-10-10T05:50:34.4</CreationDate>
+	<Notes/>
+	<Text>开店平均周期(天)</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fe5e-652874a5575f"
+		/>
+	</TextIdentifier>
+</TranslatedText>

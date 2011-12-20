@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1c7d080945d">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1c7d02a545c</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1c7d02a545c</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:45.171</CreationDate>
+	<Notes/>
+	<Text>提交暂闭店申请</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1c7d14ed45e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

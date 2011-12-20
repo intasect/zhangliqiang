@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fead-6462d707df88">
+	<DocumentID>78e3b51c-e998-11e0-fead-6462d7005f87</DocumentID>
+	<Name>78e3b51c-e998-11e0-fead-6462d7005f87</Name>
+	<Description>成本中心接口异常处理</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-13T07:19:44.964</CreationDate>
+	<Notes/>
+	<Text>成本中心接口异常处理</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fead-6462d6f29f85"
+		/>
+	</TextIdentifier>
+</TranslatedText>

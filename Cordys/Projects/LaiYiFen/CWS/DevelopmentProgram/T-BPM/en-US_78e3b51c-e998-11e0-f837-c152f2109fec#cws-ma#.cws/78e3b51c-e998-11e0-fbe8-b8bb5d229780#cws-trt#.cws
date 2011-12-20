@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbe8-b8bb5d2a1781">
+	<DocumentID>78e3b51c-e998-11e0-fbe8-b8bb5d229780</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbe8-b8bb5d229780</Name>
+	<Description>付款条件 *</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-15T03:17:41.452</CreationDate>
+	<Notes/>
+	<Text>付款条件 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbe8-b8bb5d14d77e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c2354ab91f23">
+	<DocumentID>78e3b51c-e998-11e0-f837-c2354a709f22</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c2354a709f22</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:54.605</CreationDate>
+	<Notes/>
+	<Text>年度租金平均占比</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c2354b735f24"
+		/>
+	</TextIdentifier>
+</TranslatedText>

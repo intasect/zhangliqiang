@@ -1,0 +1,24 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fe93-3ea6b8e3577a">
+	<DocumentID>78e3b51c-e998-11e0-fe93-3ea6b8da9779</DocumentID>
+	<Name>78e3b51c-e998-11e0-fe93-3ea6b8da9779</Name>
+	<Description>是否生成
+SAP凭证</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-12T06:31:17.943</CreationDate>
+	<Notes/>
+	<Text>是否生成
+SAP凭证</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fe93-3ea6b8ccd777"
+		/>
+	</TextIdentifier>
+</TranslatedText>

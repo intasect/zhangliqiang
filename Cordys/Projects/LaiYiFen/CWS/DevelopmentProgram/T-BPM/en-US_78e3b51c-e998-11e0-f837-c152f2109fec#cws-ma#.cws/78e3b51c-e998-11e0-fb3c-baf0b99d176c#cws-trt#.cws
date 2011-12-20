@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb3c-baf0b9a4976d">
+	<DocumentID>78e3b51c-e998-11e0-fb3c-baf0b99d176c</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb3c-baf0b99d176c</Name>
+	<Description>3月 *</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-08T06:45:16.876</CreationDate>
+	<Notes/>
+	<Text>3月 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb3c-baf0b98e176a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

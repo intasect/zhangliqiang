@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb59-cb07b86e1f31">
+	<DocumentID>78e3b51c-e998-11e0-fb59-cb07b86a5f30</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb59-cb07b86a5f30</Name>
+	<Description>是否标准合同 *</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-09T12:17:47.692</CreationDate>
+	<Notes/>
+	<Text>是否标准合同 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb59-cb07b8619f2e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

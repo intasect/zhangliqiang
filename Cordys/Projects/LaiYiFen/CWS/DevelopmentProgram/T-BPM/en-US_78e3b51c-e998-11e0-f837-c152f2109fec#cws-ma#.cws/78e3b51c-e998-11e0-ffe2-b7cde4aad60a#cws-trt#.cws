@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ffe2-b7cde4b2560b">
+	<DocumentID>78e3b51c-e998-11e0-ffe2-b7cde4aad60a</DocumentID>
+	<Name>78e3b51c-e998-11e0-ffe2-b7cde4aad60a</Name>
+	<Description>Decision Table</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-25T14:30:30.044</CreationDate>
+	<Notes/>
+	<Text>Decision Table</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ffe2-b7cde49d1608"
+		/>
+	</TextIdentifier>
+</TranslatedText>

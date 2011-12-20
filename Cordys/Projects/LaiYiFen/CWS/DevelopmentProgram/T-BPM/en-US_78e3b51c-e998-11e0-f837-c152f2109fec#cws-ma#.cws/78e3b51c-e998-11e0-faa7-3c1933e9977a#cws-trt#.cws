@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faa7-3c1933f1177b">
+	<DocumentID>78e3b51c-e998-11e0-faa7-3c1933e9977a</DocumentID>
+	<Name>78e3b51c-e998-11e0-faa7-3c1933e9977a</Name>
+	<Description>申请新店移交信息填</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-02T08:15:01.037</CreationDate>
+	<Notes/>
+	<Text>申请新店移交信息填</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faa7-3c1933da9778"
+		/>
+	</TextIdentifier>
+</TranslatedText>

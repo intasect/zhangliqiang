@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c2589b02db13">
+	<DocumentID>78e3b51c-e998-11e0-f837-c2589ac45b12</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c2589ac45b12</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:26.331</CreationDate>
+	<Notes/>
+	<Text>申请人对拆店的原因分析及意见须填写明确和完善，理由充分，若有替代门店，请在旁边写清楚替代门店的租金等情况</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c2589ba41b14"
+		/>
+	</TextIdentifier>
+</TranslatedText>

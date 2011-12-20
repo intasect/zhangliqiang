@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9be-5b906a9b5f1d">
+	<DocumentID>78e3b51c-e998-11e0-f9be-5b906a93df1c</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9be-5b906a93df1c</Name>
+	<Description>Input29</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-24T01:48:48.149</CreationDate>
+	<Notes/>
+	<Text>Input29</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9be-652b52465d0b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

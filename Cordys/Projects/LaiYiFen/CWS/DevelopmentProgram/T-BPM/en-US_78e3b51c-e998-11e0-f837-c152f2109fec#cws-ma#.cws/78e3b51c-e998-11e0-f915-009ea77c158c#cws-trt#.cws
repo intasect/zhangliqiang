@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f915-009ea7d4d58d">
+	<DocumentID>78e3b51c-e998-11e0-f915-009ea77c158c</DocumentID>
+	<Name>78e3b51c-e998-11e0-f915-009ea77c158c</Name>
+	<Description>财务级别</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-08-17T08:20:30.742</CreationDate>
+	<Notes/>
+	<Text>财务级别</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f915-009ea76e558a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

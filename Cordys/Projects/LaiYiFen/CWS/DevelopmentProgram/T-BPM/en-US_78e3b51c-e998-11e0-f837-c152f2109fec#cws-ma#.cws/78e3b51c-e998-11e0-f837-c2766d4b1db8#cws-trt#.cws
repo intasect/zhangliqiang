@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c2766d8c1db9">
+	<DocumentID>78e3b51c-e998-11e0-f837-c2766d4b1db8</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c2766d4b1db8</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:45.207</CreationDate>
+	<Notes/>
+	<Text>现要求柜台规格</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c2766e299dba"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff57-fe5b139cdbb8">
+	<DocumentID>78e3b51c-e998-11e0-ff57-fe5b13955bb7</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff57-fe5b13955bb7</Name>
+	<Description>中介费</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-10-20T02:17:42.018</CreationDate>
+	<Notes/>
+	<Text>中介费</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff57-fe5b13879bb5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

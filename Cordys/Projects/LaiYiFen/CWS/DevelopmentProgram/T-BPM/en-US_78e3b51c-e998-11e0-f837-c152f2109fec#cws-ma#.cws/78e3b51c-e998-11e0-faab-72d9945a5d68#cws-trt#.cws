@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faab-72d994645d69">
+	<DocumentID>78e3b51c-e998-11e0-faab-72d9945a5d68</DocumentID>
+	<Name>78e3b51c-e998-11e0-faab-72d9945a5d68</Name>
+	<Description>借款核销单</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-09-02T12:03:41.793</CreationDate>
+	<Notes/>
+	<Text>借款核销单</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faab-72d994465d66"
+		/>
+	</TextIdentifier>
+</TranslatedText>

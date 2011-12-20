@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9dd-c0fabbeed55e">
+	<DocumentID>78e3b51c-e998-11e0-f9dd-c0fabbe7555d</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9dd-c0fabbe7555d</Name>
+	<Description>ISLEASE_FITMENT_CODE</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-25T07:47:17.628</CreationDate>
+	<Notes/>
+	<Text>ISLEASE_FITMENT_CODE</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9dd-c14f07155625"
+		/>
+	</TextIdentifier>
+</TranslatedText>

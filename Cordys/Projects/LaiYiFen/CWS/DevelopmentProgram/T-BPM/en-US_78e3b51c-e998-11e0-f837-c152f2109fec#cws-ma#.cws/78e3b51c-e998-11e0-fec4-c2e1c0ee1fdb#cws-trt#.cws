@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fec4-c2e1c0f45fdc">
+	<DocumentID>78e3b51c-e998-11e0-fec4-c2e1c0ee1fdb</DocumentID>
+	<Name>78e3b51c-e998-11e0-fec4-c2e1c0ee1fdb</Name>
+	<Description>总部报销审批流程</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-14T05:36:48.039</CreationDate>
+	<Notes/>
+	<Text>总部报销审批流程</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fec4-c2e1c0df1fd9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

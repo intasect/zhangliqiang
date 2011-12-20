@@ -1,0 +1,26 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc4e-28b9079d166d">
+	<DocumentID>78e3b51c-e998-11e0-fc4e-28b90795966c</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc4e-28b90795966c</Name>
+	<Description>新店信息移交流程(商超)</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-19T03:52:52.079</CreationDate>
+	<Notes/>
+	<DefaultText>新店信息移交流程(商超)</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fc4e-28b907a3566e"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-fc97-5d92ccabddbc"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

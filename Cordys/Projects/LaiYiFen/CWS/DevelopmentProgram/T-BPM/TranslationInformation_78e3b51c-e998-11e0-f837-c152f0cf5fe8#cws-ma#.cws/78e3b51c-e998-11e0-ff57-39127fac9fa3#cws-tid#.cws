@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff57-39127fb55fa4">
+	<DocumentID>78e3b51c-e998-11e0-ff57-39127fac9fa3</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff57-39127fac9fa3</Name>
+	<Description>网店目标店调查申请表(商超店)</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-20T01:42:53.561</CreationDate>
+	<Notes/>
+	<DefaultText>网店目标店调查申请表(商超店)</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-ff57-39127fbb9fa5"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

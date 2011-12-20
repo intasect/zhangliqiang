@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ffbd-1eeff8ef5f40">
+	<DocumentID>78e3b51c-e998-11e0-ffbd-1eeff8e55f3f</DocumentID>
+	<Name>78e3b51c-e998-11e0-ffbd-1eeff8e55f3f</Name>
+	<Description>TestDialog</Description>
+	<CreatedBy>徐新宇</CreatedBy>
+	<CreationDate>2011-10-24T02:50:38.713</CreationDate>
+	<Notes/>
+	<Text>TestDialog</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ffbd-1eeff8d01f3d"
+		/>
+	</TextIdentifier>
+</TranslatedText>

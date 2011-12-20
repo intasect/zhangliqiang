@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa5c-8cbd9bbfd65e">
+	<DocumentID>78e3b51c-e998-11e0-fa5c-8cbd9bb8565d</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa5c-8cbd9bb8565d</Name>
+	<Description>Input6</Description>
+	<CreatedBy>wangzhiqiang</CreatedBy>
+	<CreationDate>2011-08-30T08:48:53.469</CreationDate>
+	<Notes/>
+	<Text>Input6</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa5c-8cbd9ba9565b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

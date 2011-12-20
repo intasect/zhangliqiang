@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c298eee1dfb1">
+	<DocumentID>78e3b51c-e998-11e0-f837-c298ee981fb0</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c298ee981fb0</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:05.151</CreationDate>
+	<Notes/>
+	<Text>利润分配方案</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c298ef9c1fb2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

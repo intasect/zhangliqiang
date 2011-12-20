@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9f5-3bfca29bdf52">
+	<DocumentID>78e3b51c-e998-11e0-f9f5-3bfca2959f51</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9f5-3bfca2959f51</Name>
+	<Description>网点月度计划管理</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-08-26T06:32:36.183</CreationDate>
+	<Notes/>
+	<Text>网点月度计划管理</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9f5-3bfca287df4f"
+		/>
+	</TextIdentifier>
+</TranslatedText>

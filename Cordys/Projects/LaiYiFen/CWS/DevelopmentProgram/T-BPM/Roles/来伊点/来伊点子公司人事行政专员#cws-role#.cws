@@ -1,0 +1,16 @@
+
+<RoleDesignTime
+	type="com.cordys.organization.role.RoleDesignTime"
+	RuntimeDocumentID="005056a3-4878-11e0-f472-78a957a3df5e">
+	<DocumentID>005056a3-4878-11e0-f472-78a957989f5d</DocumentID>
+	<Name>来伊点子公司人事行政专员</Name>
+	<Description>来伊点子公司人事行政专员</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-07-01T03:43:31.457</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<isFunctionalRole>true</isFunctionalRole>
+	<type>Functional</type>
+	<Subroles/>
+	<configuredTasks/>
+</RoleDesignTime>

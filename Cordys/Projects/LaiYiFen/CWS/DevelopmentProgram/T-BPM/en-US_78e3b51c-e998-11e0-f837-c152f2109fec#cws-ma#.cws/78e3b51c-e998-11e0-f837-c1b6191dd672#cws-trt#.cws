@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1b61954d673">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1b6191dd672</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1b6191dd672</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:26.724</CreationDate>
+	<Notes/>
+	<Text>新品门店数据</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1b619d1d674"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa91-c0d998261d26">
+	<DocumentID>78e3b51c-e998-11e0-fa91-c0d9981fdd25</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa91-c0d9981fdd25</Name>
+	<Description>SHOP_DETAIL_ADDR</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-09-01T11:33:03.464</CreationDate>
+	<Notes/>
+	<Text>SHOP_DETAIL_ADDR</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa91-c0d99810dd23"
+		/>
+	</TextIdentifier>
+</TranslatedText>

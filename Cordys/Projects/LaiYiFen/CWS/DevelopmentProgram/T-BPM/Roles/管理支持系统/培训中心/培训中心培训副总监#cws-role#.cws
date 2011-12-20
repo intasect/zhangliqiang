@@ -1,0 +1,16 @@
+
+<RoleDesignTime
+	type="com.cordys.organization.role.RoleDesignTime"
+	RuntimeDocumentID="005056a3-4878-11e0-f46f-c3c3d027dbda">
+	<DocumentID>005056a3-4878-11e0-f46f-c3c3d01c9bd9</DocumentID>
+	<Name>培训中心培训副总监</Name>
+	<Description>培训中心培训副总监</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-07-01T01:34:02.869</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<isFunctionalRole>true</isFunctionalRole>
+	<type>Functional</type>
+	<Subroles/>
+	<configuredTasks/>
+</RoleDesignTime>

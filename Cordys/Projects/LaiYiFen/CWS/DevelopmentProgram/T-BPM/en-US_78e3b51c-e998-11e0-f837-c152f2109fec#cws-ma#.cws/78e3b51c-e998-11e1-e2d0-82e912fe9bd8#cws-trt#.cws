@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e2d0-82e913025bd9">
+	<DocumentID>78e3b51c-e998-11e1-e2d0-82e912fe9bd8</DocumentID>
+	<Name>78e3b51c-e998-11e1-e2d0-82e912fe9bd8</Name>
+	<Description>CUSTOMER_ADDR</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-11-24T10:59:15.661</CreationDate>
+	<Notes/>
+	<Text>CUSTOMER_ADDR</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e2d0-82e912f49bd6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

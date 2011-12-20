@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e020-ebc48e60d238">
+	<DocumentID>78e3b51c-e998-11e1-e020-ebc48e595237</DocumentID>
+	<Name>78e3b51c-e998-11e1-e020-ebc48e595237</Name>
+	<Description>城市</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-10-28T02:41:39.3</CreationDate>
+	<Notes/>
+	<Text>城市</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e020-ebc48e4b9235"
+		/>
+	</TextIdentifier>
+</TranslatedText>

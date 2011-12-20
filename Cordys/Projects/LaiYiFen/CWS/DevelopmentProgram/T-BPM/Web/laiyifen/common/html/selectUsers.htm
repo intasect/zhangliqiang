@@ -1,0 +1,540 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html onapplicationselect="selectApplication()" onapplicationready="applicationReady()">
+<head>
+	<title>选择用户</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<style type=text/css>
+			label {font-size:11; font-family:verdana; font-weight:normal;}
+		input {font-size:11; font-family:verdana; font-weight:normal;}
+		button {font-size:11; font-family:verdana; font-weight:normal;}
+		.medium, .medium *{
+		color:#4874AD !important;
+		}
+		.content{
+			position:absolute;
+			width:800px;
+			height:400px;
+			left:50%;
+			margin-left:-400px;
+			right:20px;
+			top:30px;
+			bottom:150px;
+		}
+		.footer{
+			position:absolute;
+			width:200px;
+			height:60px;
+			left:50%;
+			margin-left:-100px;
+			bottom:0px;
+			top:460px;
+		}
+		.treeholder{
+			position:absolute;
+			width:240px;
+			height:100%;
+			left:0px;
+			top:0px;
+		}
+		.alluserholder{
+			position:absolute;
+			width:200px;
+			height:100%;
+			left:260px;
+			top:0px;
+		}
+		.buttonholder{
+			position:absolute;
+			width:100px;
+			height:100%;
+			left:465px;
+			top:0px;
+		}
+		.selectionholder{
+			position:absolute;
+			width:200px;
+			height:100%;
+			left:564px;
+			top:0px;
+		}
+		.btn_over{
+	       background-color:#0000FF;
+	    }
+		.btn_out{
+		   background-color:#0000FF;
+		}
+	</style>
+	<script type="text/javascript" src="/cordys/wcp/application.js"></script>
+	<script type="text/javascript" src="/cordys/apptoolkit/usermanagement/scripts/utility.js"></script>
+	<script type="cordys/xml" id="DeptTemplate">
+		<Dept>
+			<caption></caption>
+			<dn></dn>
+		</Dept>
+	</script>
+	<script type="cordys/xml" id="menuData">
+		<menu></menu>
+	</script>
+	<script type="cordys/xml" id="menuTreeSchema">
+		<TreeSchema>
+			<searchPath>//menu/</searchPath>
+			<TreeItem id="UnitApplication">
+				<searchPath>Dept</searchPath>
+				<description>caption</description>
+				<onselect>retrieveTeamUsers</onselect>
+				<onexpand>retrieveSubTeams</onexpand>
+				<icons>
+					<icon>/cordys/wcp/images/wizard/backward.gif</icon>
+					<icon>/cordys/wcp/images/admin/organization.gif</icon>
+				</icons>
+				<openIcon>/cordys/wcp/images/wizard/forward.gif</openIcon>
+			</TreeItem>
+		</TreeSchema>
+	</script>
+	<!--查询一个Team(可以理解为部门)内，已经分配了多少用户.-->
+	<script type="cordys/xml" id="SOAP_GetUsersForDept">
+		<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+ 	 		<SOAP:Body>
+			    <GetEmployeeByDeptid xmlns="http://schemas.cordys.com/tbpm/common" preserveSpace="no" qAccess="0" qValues="">
+      				<cursor id="0" position="0" numRows="99999" maxRows="99999" sameConnection="false" />
+      				<DEPTID></DEPTID>
+    			</GetEmployeeByDeptid>
+			</SOAP:Body>
+		</SOAP:Envelope>
+	</script>
+	<script type="cordys/xml" id="SOAP_GetDeptObjects">
+			<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  				<SOAP:Body>
+    				<GetAllOrgDepartmentInfo xmlns="http://schemas.cordys.com/tbpm/common" preserveSpace="no" qAccess="0" qValues="">
+      					<cursor id="0" position="0" numRows="99999" maxRows="99999" sameConnection="false" />
+    				</GetAllOrgDepartmentInfo>
+ 	 			</SOAP:Body>
+			</SOAP:Envelope>
+	</script>
+	<script type="cordys/xml" id="SOAP_GetChildDepts">
+			<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  				<SOAP:Body>
+    				<GetChildDept xmlns="http://schemas.cordys.com/tbpm/common" preserveSpace="no" qAccess="0" qValues="">
+      					<cursor id="0" position="0" numRows="99999" maxRows="99999" sameConnection="false" />
+      					<DEPT_ID></DEPT_ID>
+    				</GetChildDept>
+  				</SOAP:Body>
+			</SOAP:Envelope>
+	</script>
+	<script type="text/javascript">
+		var oParam;
+		//科室dn
+		var deptDN;;
+		var deptName;
+		var selectMode = "MULTIPLE";
+		var gOrganizationDN;
+		var gOrganizationUserDN;
+		var gIsHidden = false;
+		var currentSelectedUserList = "" ;
+		var currentSelectedUserNameList = "" ;
+		var currentSslectedUserCodeList="";
+		//var selectedUsersGrid;
+		//var allUsersGrid;
+		function User(userCN, userName, userDN)
+		{
+			this.userCN = userCN;
+			this.userName = userName;
+			this.userDN = userDN;
+		}
+
+		function applicationReady()
+		{
+		  var confirmButton=document.getElementById("confirmBtn");            
+			  confirmButton.style.backgroundColor="#FFFFFF";
+			  confirmButton.style.color="#000000";
+			  confirmButton.style.fontSize="14";
+		  var cancelButton=document.getElementById("cancelBtn");            
+			  cancelButton.style.backgroundColor="#FFFFFF";
+			  cancelButton.style.color="#000000";
+			  cancelButton.style.fontSize="14";
+		  var addButton=document.getElementById("btnAddAdministrator");            
+			  addButton.style.backgroundColor="#FFFFFF";
+			  addButton.style.color="#000000";
+			  addButton.style.fontSize="14";
+		  var removeButton=document.getElementById("btnRemoveAdministrator");            
+			  removeButton.style.backgroundColor="#FFFFFF";
+			  removeButton.style.color="#000000";
+			  removeButton.style.fontSize="14";
+		}
+
+		// Initialize the application
+		function selectApplication()
+		{
+			//	if (system.windows.Menu && system.windows.Menu.preferences.getProperty("selectedOrganizationDN"))
+			if(system&& system.windows && system.windows.Menu && system.windows.Menu.preferences && system.windows.Menu.preferences.getProperty("selectedOrganizationDN"))
+			{
+				gOrganizationDN = system.windows.Menu.preferences.getProperty("selectedOrganizationDN");
+			}
+			else
+			{
+				gOrganizationDN = application.organization;
+			}
+			gOrganizationUsersDN = "cn=organizational users," + gOrganizationDN; 	
+			oParam = window.application.event.data;
+			if (oParam && oParam.selectMode && oParam.selectMode != "" )
+			{
+				//默认选择类型为多选
+				selectMode = oParam.selectMode;
+			}
+			else
+			{
+				selectMode = "MULTIPLE";
+			}
+			if (oParam && oParam.hideBtn && oParam.hideBtn != "" )
+			{
+				gIsHidden = oParam.hideBtn;
+			}
+			else
+			{
+				gIsHidden = false;
+			}
+			initializeTeamTree();
+
+			if (gIsHidden)
+			{
+				confirmBtn.style.display = "none";
+				cancelBtn.style.display = "none";
+			}	
+			oParam.selectedUserList = "";
+			oParam.selectedUserNameList = "";	
+		}
+
+		function initializeTeamTree()
+		{
+			var topEntryNode = getTeamsObject();
+			if (topEntryNode == null)
+			{
+				return;
+			}
+			else
+			{
+				appendEntryToTeamTree(topEntryNode, menutree.getRoot(),false,0);
+				//menutree.getRoot().expand();
+			}
+		}
+
+		/** 方法:用来获取所有的Team.*/
+		function getTeamsObject()
+		{
+			var request =cordys.cloneXMLDocument(SOAP_GetDeptObjects.XMLDocument);
+			var bdi = document.getElementById("bdi");
+			bdi.request = request;
+			bdi.onsoapfault ="teamWithSOAPFault()";
+			bdi.clear();
+			bdi.reset();
+			return bdi.data;
+		}
+		
+		function teamWithSOAPFault(eventObject)
+		{
+			if (application.event.faultString == "还未建立组织结构！")
+			{
+				application.event.showError = false;
+				application.notify("未创建组织结构，请先建立顶级部门!");
+			}
+			else
+			{
+				application.event.showError = true;
+			}
+		}
+
+		/*
+		将科室的entry节点递归的添加到指定的树节点上
+		justAppendSubEntrys = true : 从entryNode的子节点开始添加到树
+		justAppendSubEntrys = false: 从entryNode开始添加树
+		flag = 0:顶级Team
+		flag = 1:子级Team
+		*/
+		function appendEntryToTeamTree(entryNode, teamTreeNode,justAppendSubEntrys,flag)
+		{
+			var subItem;
+			if(flag == 0){
+				var TopDeptNode = cordys.selectXMLNode(entryNode, ".//*[local-name()='ORG_DEPARTMENT_INFO'][*[local-name()='DEPT_ID']='10000110']");
+				if(TopDeptNode == null){
+					application.showError("未找到顶级部门");
+					return;
+				}
+				var description = cordys.getNodeText(TopDeptNode,".//*[local-name()='DEPT_NAME']");
+				var id = cordys.getNodeText(TopDeptNode,".//*[local-name()='DEPT_ID']");
+				var name = cordys.getNodeText(TopDeptNode,".//*[local-name()='DEPT_ID']");
+				if(!justAppendSubEntrys){
+					var rootItemData = cordys.cloneXMLDocument(DeptTemplate.XMLDocument);
+					cordys.setNodeText(rootItemData,".//*[local-name()='caption']",description);
+					cordys.setNodeText(rootItemData,".//*[local-name()='dn']",id);
+					cordys.setNodeText(rootItemData,".//*[local-name()='code']",name);
+					var deptNode = cordys.selectXMLNode(rootItemData,".//*[local-name()='Dept']")
+					menutree.setTreeData("menuData");
+					menutree.setTreeSchema("menuTreeSchema");
+					subItem = menutree.addItem(deptNode);
+					menutree.getRoot().expand();
+				}else{
+					subItem = teamTreeNode;
+				}
+			}else{
+				var subUnitNodes=cordys.selectXMLNodes(entryNode,".//*[local-name()='tuple']");
+				for(var i=0;i<subUnitNodes.length;i++)
+				{
+					var unitNode=subUnitNodes[i];
+					var unitDescription = cordys.getNodeText(unitNode,".//*[local-name()='DEPT_NAME']");
+					var id = cordys.getNodeText(unitNode,".//*[local-name()='DEPT_ID']");
+					var name = cordys.getNodeText(unitNode,".//*[local-name()='DEPT_ID']");
+					var menuItemData = cordys.cloneXMLDocument(DeptTemplate.XMLDocument);
+					cordys.setNodeText(menuItemData,".//*[local-name()='caption']",unitDescription);
+					cordys.setNodeText(menuItemData,".//*[local-name()='dn']",id);
+					cordys.setNodeText(menuItemData,".//*[local-name()='code']",name);
+					subItem = teamTreeNode.addItem(cordys.selectXMLNode(menuItemData,".//*[local-name()='Dept']"));
+					menutree.getRoot().hasExpanded = true;
+				}
+			}
+		}
+
+		/** 展开当前Team的下级Team. */
+		function retrieveSubTeams(expandedNode)
+		{
+			if (expandedNode.hasExpanded )	return;
+			if (expandedNode.getChildContainer().childNodes.length > 0 )	return;
+			var dept_id = cordys.getNodeText(expandedNode.data,".//*[local-name()='dn']");
+			var topEntryNode = getChildDepts(dept_id);
+			appendEntryToTeamTree(topEntryNode,expandedNode,true,1);
+			expandedNode.hasExpanded = true;
+		}
+
+		/** 方法:用来获取子Team,depth表示下级的层次.*/
+		function getChildDepts(dept_id)
+			{
+				var request = cordys.cloneXMLDocument(SOAP_GetChildDepts.XMLDocument);
+				cordys.setNodeText(request,".//*[local-name()='DEPT_ID']",dept_id);
+				var bdi = document.getElementById("bdi");
+				bdi.request = request;
+				bdi.onsoapfault ="dealWithSOAPFault()";
+				bdi.clear();
+				bdi.reset();
+				return bdi.data;
+			}
+
+		/* Team菜单项单击事件:取出这个Team下的用户并显示出来 */
+		function retrieveTeamUsers(expandedNode)
+		{
+			//1. 清空用户列表
+			var allUsersGrid = document.getElementById("allUsersGrid")
+			var allRows = allUsersGrid.rows;		
+			for(var len=allRows.length, count=len-1; count>0; count--)
+			{
+				allUsersGrid.selectRow(allRows[count], false);					
+				allUsersGrid.lastChild.removeChild(allRows[count]);
+			}	
+			//2. 取Team用户并显示
+			var filter="";
+			     filter="(|";
+			var dept_id =cordys.getNodeText(expandedNode.data,".//*[local-name()='dn']");
+			var userNodes = getUsersForDept(dept_id);
+			for(var i=0; i<userNodes.length; i++){
+				var SN = cordys.getNodeText(userNodes[i],".//*[local-name()='SN']");
+				var GIVENNAME = cordys.getNodeText(userNodes[i],".//*[local-name()='GIVENNAME']");
+				var userName = SN + GIVENNAME;
+				var userCN = cordys.getNodeText(userNodes[i],".//*[local-name()='EMPLOYEEID']");
+				var userDN = "cn=" + userCN + "," + gOrganizationUsersDN;
+				var isEnabled = cordys.getNodeText(userNodes[i],".//*[local-name()='PERSONALSTATUS']");
+				if(isEnabled == "0")//是否在职,0在职,1离职
+				{
+					var user = new User(userCN, userName, userDN);
+				    _addItemToAnyGrid(allUsersGrid,user,user,userName+"["+userCN+"]");
+				}
+			}
+		}
+		/** 获取Team中分配的所有用户.*/
+		function getUsersForDept(dept_id)
+		{
+			var request = cordys.cloneXMLDocument(SOAP_GetUsersForDept.XMLDocument);
+			cordys.setNodeText(request,".//*[local-name()='DEPTID']",dept_id);
+			var CommonDataIsland = document.getElementById("CommonDataIsland");
+			CommonDataIsland.request = request;
+			CommonDataIsland.clear();
+			CommonDataIsland.reset();
+			var tupleNodes=cordys.selectXMLNodes(CommonDataIsland.data,".//*[local-name()='tuple']");
+			return tupleNodes;
+		}
+
+		//关闭页面
+		function closeApplication()
+		{
+			application.container.close();
+		}
+
+		//保存并关闭页面
+		function selectUsers()
+		{
+			if (selectMode == "SINGLE" && currentSelectedUserList.indexOf(";") > 0)
+			{
+				alert("提示:只能选择一个用户");
+				return;
+			}
+			oParam.selectedUserList = currentSelectedUserList;
+			oParam.selectedUserNameList = currentSelectedUserNameList;
+            oParam.currentSslectedUserCodeList = currentSslectedUserCodeList;
+			if (oParam.callBack)
+			{
+				oParam.callBack(oParam);
+			}
+			closeApplication();
+		}
+
+		// This function moves some rows from the fromGrid to the toGrid.
+		function moveRowFromGrid(fromGrid,toGrid,status)
+		{
+			var selectedRows = fromGrid.getSelectedRows();
+			var numRows = selectedRows.length;
+			var selectUserArray = new Array();
+			for(var i=0;i<numRows;i++)
+			{
+				if(typeof(selectedRows[i]) == "undefined") continue;
+				var user =  selectedRows[i].value;
+				var userCN = user.userCN;
+				var userName = user.userName;
+				var selectedUsersGrid="";
+				var allRows="";
+				if(status=="1"){
+				   selectedUsersGrid = document.getElementById("selectedUsersGrid");
+				   allRows = selectedUsersGrid.rows;
+				}else{
+				   selectedUsersGrid = document.getElementById("allUsersGrid");
+				   allRows = selectedUsersGrid.rows;
+				}
+				if(allRows.length!=1){
+					for(var count=1; count<allRows.length; count++)
+					{
+					  var userInfoArray=allRows[count].value;
+					      selectUserArray.push(userInfoArray.userCN);
+					}
+					 var selectUserStr=selectUserArray.join();
+					 if(selectUserStr.indexOf(userCN)!=-1){
+						 alert("提示:请先选择用户");
+						 return;
+					 }else{
+						 _addItemToAnyGrid(toGrid, user, user, userName+"["+userCN+"]");
+						 fromGrid.lastChild.removeChild(selectedRows[i]);
+						 fromGrid.selectRow(selectedRows[i], false);
+					  }
+				}else{
+				   _addItemToAnyGrid(toGrid, user, user, userName+"["+userCN+"]");
+				   fromGrid.lastChild.removeChild(selectedRows[i]);
+				   fromGrid.selectRow(selectedRows[i], false);
+				}
+			}
+			refreshCurrentSelectedUsers();
+		}
+
+		//刷新当前选中管理员全局变量
+		function refreshCurrentSelectedUsers()
+		{
+			currentSelectedUserList = "";
+			currentSelectedUserNameList = "";
+			var selectedUsersGrid = document.getElementById("selectedUsersGrid");
+			var allRows = selectedUsersGrid.rows;	
+			for(var count=1; count<allRows.length; count++)
+			{
+				if (currentSelectedUserList == "")
+				{
+				    currentSslectedUserCodeList=allRows[count].value.userCN;
+					currentSelectedUserList = allRows[count].value.userDN;
+					currentSelectedUserNameList = allRows[count].value.userName;
+				}
+				else
+				{
+				    currentSslectedUserCodeList+= ";" + allRows[count].value.userCN;
+					currentSelectedUserList += ";" + allRows[count].value.userDN;
+					currentSelectedUserNameList += ";" + allRows[count].value.userName;
+				}		
+			}
+		}
+
+		function cancelSelection()
+		{
+			currentSelectedUserList = "";
+			currentSelectedUserNameList = "";
+			closeApplication();
+		}
+		//C3 Dialog调用时返回选择结果
+		function dialogReturnValue()
+		{
+			var data = new Object();
+			data.selectedUserList = currentSelectedUserList;
+			data.selectedUserNameList = currentSelectedUserNameList;
+			return data;
+		}
+		function moveusersFromAlluser()
+		{
+			var selectedUsersGrid  = document.getElementById("selectedUsersGrid");
+			var allUsersGrid =document.getElementById("allUsersGrid");
+			moveRowFromGrid(allUsersGrid, selectedUsersGrid,"1");
+		}
+		function moveusersFromSelected()
+		{
+			var selectedUsersGrid  = document.getElementById("selectedUsersGrid");
+			var allUsersGrid  = document.getElementById("allUsersGrid");
+			moveRowFromGrid(selectedUsersGrid, allUsersGrid,"2");
+		}
+	</script>
+</head>
+
+
+<body style="margin:0px;height:100%;width:100%;position:fixed">
+	<div cordysType="wcp.library.data.BusDataIsland " id="bdi" async="false" automatic="false" style="display:none"></div>
+	<div cordysType="wcp.library.data.BusDataIsland " id="CommonDataIsland" async="false" automatic="false" onsoapfault = "soapFaultHandler()" style="display:none"></div>
+	<div style="height:540px;width:100%;overflow-y:auto;position:relative;margin:15px">
+		<div class='content'>
+			<div class='treeholder'>
+				<label>可选择的部门:</label>
+				<div style="overflow:auto;width:100%;height:95%;border:1px solid gray">
+					<div cordysType="wcp.library.ui.Tree" id="menutree"> </div>
+				</div>
+			</div>
+			<div class='alluserholder'>
+				<label>部门内用户:</label>
+				<div style="overflow-y:scroll;width:100%;height:95%;border:1px solid gray">
+					<table  id="allUsersGrid" border="0" cellSpacing="1px" cellPadding="1px" width="100%" class="grid" toggleColumns="false" saveState="false" movableColumns="false" selectType="multiple">
+					<thead>
+						<tr>
+							<td width="35%">
+								<button class="medium" value="Name" style="height:18;width:100%" >用户名称</button>
+							</td>
+						</tr>
+					</thead>
+					<tbody>
+					</tbody>
+					</table>
+				</div>
+			</div>
+			<div class='buttonholder'>
+				<button class="medium" id="btnAddAdministrator" style="width:60px;position:relative;margin:160px 20px 0px 20px;" onclick="moveusersFromAlluser()" onmouseover="this.className ='btn_over'" onmouseout="this.className='btn_out'">&gt;&gt;</button>
+				<button class="medium" id="btnRemoveAdministrator" style="width:60px;position:relative;margin:20px 20px 0px 20px" onclick="moveusersFromSelected()" onmouseover="this.className ='btn_over'" onmouseout="this.className='btn_out'">&lt;&lt;</button>
+			</div>
+			<div class='selectionholder'>
+				<label>已选择的用户:</label>
+				<div style="overflow-y:scroll;width:100%;height:95%;border:1px solid gray">
+					<table  id="selectedUsersGrid" border="0" cellSpacing="1px" cellPadding="1px" width="100%" class="grid" toggleColumns="false" saveState="false" movableColumns="false" selectType="multiple">
+						<thead>
+							<tr>
+							<td width="35%">
+								<button class="medium" value="Name" style="height:18;width:100%" >用户名称</button>
+							</td>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>	
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class='footer'>
+			<button id="confirmBtn" class="medium" style="width:75px;margin-left:20px" onclick="selectUsers()" onmouseover="this.className ='btn_over'" onmouseout="this.className='btn_out'">确定</button>
+			<button id="cancelBtn" class="medium" style="width:75px;margin-left:20px" onclick="cancelSelection()" onmouseover="this.className ='btn_over'" onmouseout="this.className='btn_out'">取消</button>
+		</div>
+	</div>
+</body>
+</html>

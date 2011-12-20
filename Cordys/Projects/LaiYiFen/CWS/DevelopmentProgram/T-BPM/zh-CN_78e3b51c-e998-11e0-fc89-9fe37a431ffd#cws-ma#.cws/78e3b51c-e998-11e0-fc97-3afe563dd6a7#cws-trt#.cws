@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc97-3afe564556a8">
+	<DocumentID>78e3b51c-e998-11e0-fc97-3afe563dd6a7</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc97-3afe563dd6a7</Name>
+	<Description>否</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-22T01:34:59.367</CreationDate>
+	<Notes/>
+	<Text>否</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-fc89-9fe37a599fff"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c16149cb1f0e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faa8-68360d515658">
+	<DocumentID>78e3b51c-e998-11e0-faa8-68360d4b1657</DocumentID>
+	<Name>78e3b51c-e998-11e0-faa8-68360d4b1657</Name>
+	<Description>填写申批意见</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-02T09:14:26.009</CreationDate>
+	<Notes/>
+	<Text>填写申批意见</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faa8-68360d3d5655"
+		/>
+	</TextIdentifier>
+</TranslatedText>

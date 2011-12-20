@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c16341465f45">
+	<DocumentID>78e3b51c-e998-11e0-f837-c16340fddf44</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c16340fddf44</Name>
+	<Description>折店信息移交人员</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:26.739</CreationDate>
+	<Notes/>
+	<DefaultText>折店信息移交人员</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1633fd81f42"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

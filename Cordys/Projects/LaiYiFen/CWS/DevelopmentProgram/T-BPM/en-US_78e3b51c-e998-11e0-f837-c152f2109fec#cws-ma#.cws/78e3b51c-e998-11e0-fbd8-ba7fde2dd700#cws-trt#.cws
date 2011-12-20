@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbd8-ba7fde341701">
+	<DocumentID>78e3b51c-e998-11e0-fbd8-ba7fde2dd700</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbd8-ba7fde2dd700</Name>
+	<Description>交货单号</Description>
+	<CreatedBy>唐炜炜</CreatedBy>
+	<CreationDate>2011-09-14T11:44:34.785</CreationDate>
+	<Notes/>
+	<Text>交货单号</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbd8-ba7fde2016fe"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e332-3ba8b6ba1f2b">
+	<DocumentID>78e3b51c-e998-11e1-e332-3ba8b6b01f2a</DocumentID>
+	<Name>78e3b51c-e998-11e1-e332-3ba8b6b01f2a</Name>
+	<Description>部门流程业务告警问题月度统计图</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-11-28T07:49:14.517</CreationDate>
+	<Notes/>
+	<Text>部门流程业务告警问题月度统计图</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e332-3ba8b69c1f28"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f913-9bd77b72537f">
+	<DocumentID>78e3b51c-e998-11e0-f913-9bd77b6ad37e</DocumentID>
+	<Name>78e3b51c-e998-11e0-f913-9bd77b6ad37e</Name>
+	<Description>填意见</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-17T06:53:13.583</CreationDate>
+	<Notes/>
+	<Text>填意见</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f913-9bd77b5d137c"
+		/>
+	</TextIdentifier>
+</TranslatedText>

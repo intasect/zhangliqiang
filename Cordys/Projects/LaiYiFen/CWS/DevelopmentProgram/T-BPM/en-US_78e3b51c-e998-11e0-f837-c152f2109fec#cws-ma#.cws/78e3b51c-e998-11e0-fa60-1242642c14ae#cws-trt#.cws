@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa60-0f2f37d317a8">
+	<DocumentID>78e3b51c-e998-11e0-fa60-1242642c14ae</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa60-1242642c14ae</Name>
+	<Description>直线总监</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-08-30T12:07:36.404</CreationDate>
+	<Notes/>
+	<Text>直线总监</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa60-1242641e54ac"
+		/>
+	</TextIdentifier>
+</TranslatedText>

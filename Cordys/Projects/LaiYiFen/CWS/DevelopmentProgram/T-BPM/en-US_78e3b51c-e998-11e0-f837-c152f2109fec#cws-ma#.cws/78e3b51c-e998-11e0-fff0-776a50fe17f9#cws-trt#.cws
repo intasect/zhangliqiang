@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fff0-776a510597fa">
+	<DocumentID>78e3b51c-e998-11e0-fff0-776a50fe17f9</DocumentID>
+	<Name>78e3b51c-e998-11e0-fff0-776a50fe17f9</Name>
+	<Description>HR组织代码创建异常处理</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-26T03:40:23.646</CreationDate>
+	<Notes/>
+	<Text>HR组织代码创建异常处理</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fff0-776a50ef17f7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

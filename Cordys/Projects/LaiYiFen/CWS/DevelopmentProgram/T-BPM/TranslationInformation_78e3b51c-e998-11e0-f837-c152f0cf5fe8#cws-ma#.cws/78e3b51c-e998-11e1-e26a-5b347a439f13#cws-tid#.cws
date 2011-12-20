@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e26a-5b347a49df14">
+	<DocumentID>78e3b51c-e998-11e1-e26a-5b347a439f13</DocumentID>
+	<Name>78e3b51c-e998-11e1-e26a-5b347a439f13</Name>
+	<Description>&lt;9.5折</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-20T08:39:49.133</CreationDate>
+	<Notes/>
+	<DefaultText>&lt;9.5折</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e1-e269-e2953182dbf6"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

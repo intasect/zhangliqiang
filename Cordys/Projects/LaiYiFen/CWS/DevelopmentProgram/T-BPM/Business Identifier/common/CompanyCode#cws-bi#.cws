@@ -1,0 +1,31 @@
+
+<BusinessIdentifier
+	type="com.cordys.businessidentifier.BusinessIdentifier"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9d9-7f35ea7ad5e8">
+	<DocumentID>78e3b51c-e998-11e0-f9d9-7f35ea7355e7</DocumentID>
+	<Name>CompanyCode</Name>
+	<Description>公司代码</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-08-25T07:13:55.925</CreationDate>
+	<Notes/>
+	<DataType>1</DataType>
+	<Precision>0</Precision>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-fa72-7ba6af65179f">
+			<DocumentID>78e3b51c-e998-11e0-fa72-7ba6af13d79e</DocumentID>
+			<Name>78e3b51c-e998-11e0-fa72-7ba6af13d79e</Name>
+			<Description>78e3b51c-e998-11e0-fa72-7ba6af13d79e</Description>
+			<CreatedBy>TBPM管理员</CreatedBy>
+			<CreationDate>2011-08-31T05:44:32.228</CreationDate>
+			<Notes/>
+			<Identifier>
+				<uri
+					id="78e3b51c-e998-11e0-f837-c24561a11f72"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+	<TranslatableDescription/>
+</BusinessIdentifier>

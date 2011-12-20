@@ -1,0 +1,246 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html onapplicationready="selectApplication()">
+	<head>
+		<title>选择角色</title>
+		<style type="text/css">
+			li {font-size:11; font-family:verdana; }
+			div {font-size:11; font-family:verdana; }
+			label {font-size:11; font-family:verdana; }
+			li {font-size:11; font-family:verdana; }
+			input {font-size:11; font-family:verdana;width:99% }
+			.medium, .medium *{
+			color:#4874AD !important;
+			}
+.searchbox{
+	position:absolute;
+	height: 100px;
+	width:100%;
+	left:0px;
+	right:0px;
+	top:0px;
+}
+.content{
+	position:absolute;
+	height: auto;
+	width:100%;
+	left:0px;
+	right:0px;
+	bottom:100px;
+	top:100px;
+	overflow:auto;
+}
+.buttonholder{
+	position:absolute;
+	height:100px;
+	width:100%;
+	bottom:0px;
+	left:0px;
+	right:0px;
+}
+td label{
+background-color:transparent !important;
+}
+		</style>
+		<script type="text/javascript" src="/cordys/wcp/application.js"></script>
+		<script type="text/javascript">
+			var srcWindow;
+			var oParam;
+			var RoleNodes;
+			var currentSelectedroleDNList ="";
+			var currentSelectedroleNameList ="";
+			var pDocOldUser = null;
+			var roleDNArrays = new Array();
+			function selectApplication()
+			{
+				oParam = application.event.data;
+			}
+			function getAllRoles()
+			{
+				var dn="cn=organizational roles,"+application.organization;
+				var request = cordys.cloneXMLDocument(SOAP_GetAllRoles.XMLDocument);
+				var CommonDataIsland = document.getElementById("CommonDataIsland");
+				CommonDataIsland.request = request;
+				CommonDataIsland.clear();
+				CommonDataIsland.reset();
+				var tupleNodes = cordys.selectXMLNodes(CommonDataIsland.data,".//*[local-name()='tuple']");
+				return tupleNodes;
+			}
+
+			function getAllRoles(roleName)
+			{
+				if (roleName==null) roleName="";
+				var dn="cn=organizational roles,"+application.organization;
+				var request = cordys.cloneXMLDocument(SOAP_GetAllRoles.XMLDocument);
+				var filterText = "&(objectclass=busorganizationalrole)(|(cn=" +roleName+ "*))";
+				cordys.setNodeText(request,".//*[local-name()='filter']",filterText);
+				var CommonDataIsland = document.getElementById("CommonDataIsland");
+				CommonDataIsland.clear();
+				CommonDataIsland.request = request;
+				CommonDataIsland.reset();
+				var tupleNodes = cordys.selectXMLNodes(CommonDataIsland.data,".//*[local-name()='tuple']");
+				return tupleNodes;
+			}
+
+			function addQueryRoleDetail(roleNode,category)
+			{
+				var roleName="";
+				var roleDN="";
+				var row="";
+				var select="";
+				var roleH="";
+				var roleDNH="";
+				if(category=="1")
+				{
+					roleName = cordys.getNodeText(roleNode,".//*[local-name()='description']/*[local-name()='string']");
+					roleDN = cordys.selectXMLNode(roleNode,".//*[local-name()='old']/*[local-name()='entry']").getAttribute("dn");
+				}
+				else
+				{
+					var description  = cordys.getTextContent(roleNode,".//*[local-name()='Description']");
+					roleName = description ? description: cordys.getTextContent(roleNode,".//*[local-name()='Name']");
+					roleDN = cordys.getTextContent(roleNode,".//*[local-name()='RoleDN']");
+				}
+				var recTable = document.getElementById("navGridTable");
+				var tableBody = document.getElementById("navGridTableBody")
+				var numRows = tableBody.getElementsByTagName("tr").length;
+				if(system.isIE) row = recTable.insertRow();
+				else	row = tableBody.insertRow(-1);
+				
+				select = row.insertCell(0);
+				if(oParam.selectMode == "SINGLE")
+				{
+					select.innerHTML = "<input type='radio' name='RoleSelection' id='"+roleDN+"' value='"+roleName+"'></input>";
+				}
+				else{
+					select.innerHTML = "<input type='checkbox' id='"+roleDN+"' value='"+roleName+"'></input>";
+				}
+				roleH = row.insertCell(1);
+				roleH.innerHTML = "<label>"+roleName+"</label>";
+				roleDNH = row.insertCell(2);
+				roleDNH.innerHTML = "<label>"+roleDN+"</label>";
+			}
+			function selectUser()
+			{
+				var RoleDN = "";
+				var RoleName = "";
+				for(var i=0;i<RoleNodes.length;i++)
+				{
+					var EleId = "";
+					var roleDn_Text =  cordys.getNodeText(RoleNodes[i],".//*[local-name()='RoleDN']");
+					EleId = roleDn_Text?roleDn_Text :(cordys.selectXMLNode(RoleNodes[i],".//*[local-name()='old']/*[local-name()='entry']").getAttribute("dn"));
+					var flag = document.getElementById(EleId);
+					var id = flag.id;
+					var value = flag.value;
+					if (flag.checked)
+					{
+						RoleDN+=id+";"; 
+						RoleName+=value+";"; 
+					}
+				}
+				var roleDNLength = RoleDN.length;
+				var RoleNameLength = RoleName.length;
+				RoleDN = RoleDN.substring(0, roleDNLength-1);
+				RoleName = RoleName.substring(0, RoleNameLength-1);
+				currentSelectedRoleDNList = RoleDN;
+				currentSelectedRoleNameList = RoleName;
+				oParam.selectedRoleList = currentSelectedRoleDNList;
+				oParam.selectedRoleNameList = currentSelectedRoleNameList;
+				if (oParam.callBack)
+				{
+					oParam.callBack(oParam);
+				}
+				application.container.close();
+			}
+
+			function cancelSelection()
+			{
+				application.container.close();
+			}
+
+			function dialogReturnValue()
+			{
+				var data = new Object();
+				data.selectedRoleList = currentSelectedRoleDNList;
+				data.selectedRoleNameList = currentSelectedRoleNameList;
+				return data;
+			}
+			function removeAllrecords()
+			{
+				var navGridTableBody = document.getElementById("navGridTableBody");
+				try
+				{
+					navGridTableBody.innerHTML = "";
+				}
+				catch(e)
+				{
+					var rows = navGridTableBody.getElementsByTagName("tr");
+					for(var i=rows.length-1;i>=0;i--)
+					{
+						navGridTableBody.deleteRow();
+					}
+				}
+			}
+			function queryRoles()
+			{
+				var rolenameinput=document.getElementById("rolename");
+				RoleNodes=getAllRoles(rolenameinput.value);
+				removeAllrecords();
+				for(var j=0;j<RoleNodes.length;j++)
+				{
+					addQueryRoleDetail(RoleNodes[j],"1");
+				}
+			}
+		</script>
+		<script type ="cordys/xml" id="SOAP_GetAllRoles">
+			 <SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+				<SOAP:Body>
+					<SearchLDAP xmlns="http://schemas.cordys.com/1.0/ldap">
+						<dn xmlns="http://schemas.cordys.com/1.0/ldap">o=laiyifen,cn=cordys,cn=defaultInst,o=laiyifen</dn>
+						<filter xmlns="http://schemas.cordys.com/1.0/ldap">objectclass=busorganizationalrole</filter>
+						<scope xmlns="http://schemas.cordys.com/1.0/ldap">2</scope>
+						<sort xmlns="http://schemas.cordys.com/1.0/ldap">ascending</sort>
+						<returnValues xmlns="http://schemas.cordys.com/1.0/ldap">false</returnValues>
+					</SearchLDAP>
+				</SOAP:Body>
+			</SOAP:Envelope>
+		</script>
+	</head>
+	<body style="position:fixed;">
+		<div cordysType="wcp.library.data.BusDataIsland " id="bdiRoles" async="false" automatic="false" style="display:none"></div>
+		<div cordysType="wcp.library.data.BusDataIsland " id="bdiDept" async="false" automatic="false"  style="display:none"></div>
+		<div cordysType="wcp.library.data.BusDataIsland " id="CommonDataIsland" async="false" automatic="false" onsoapfault = "soapFaultHandler()" style="display:none"></div>
+		<div class="searchbox">
+		<div style="position:absolute;width:400px;left:50%;margin-left:-200px;top:0px">
+			<div style="position:relative;margin-top:40px;width:200px">please Input part of roleName: </div>
+			<input name="rolename" id="rolename" style="position:relative;width:250px;height:18px;margin-top:3px;padding:0px"/>
+			<button id="btn_query" onclick="queryRoles()" class="medium" style="position:relative;width:60px;height:20px;margin-left:5px"><label>查询</label></button>
+		</div>
+		</div>
+		<div class="content">
+			<div style="margin:15px">
+				<table id='navGridTable'  class='grid navigational' cellpadding='2' cellspacing='0' style='width:94%;'>
+					<thead align="center" class="medium" >
+						<tr id="header" style='height:28'>
+							<td style="width:10%"><label >选择角色</label></td>
+							<td style="width:40%"><label >角色</label></td>
+							<td style="width:50%"><label >角色DN</label></td>
+						</tr>
+					</thead>
+					<tbody align="left" class="BusControl" id="navGridTableBody">
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div class="buttonholder">
+			<table cellpadding='2' cellspacing='0' style='width:96%;'>
+				<tr valign="top" >
+					<td align='center' >
+						<button id="confirmBtn" class="medium" style="width:75px;" onClick="selectUser()">确定</button>
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						<button id="cancelBtn" class="medium" style="width:75px;" onClick="cancelSelection()">取消</button>
+					</td>		
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>

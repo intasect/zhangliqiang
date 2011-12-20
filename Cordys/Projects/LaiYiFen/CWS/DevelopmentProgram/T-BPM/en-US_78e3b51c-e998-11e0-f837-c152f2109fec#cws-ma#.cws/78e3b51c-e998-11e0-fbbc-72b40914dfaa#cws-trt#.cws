@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbbc-72b4091b1fab">
+	<DocumentID>78e3b51c-e998-11e0-fbbc-72b40914dfaa</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbbc-72b40914dfaa</Name>
+	<Description>借款单选择表单</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-09-13T08:37:20.687</CreationDate>
+	<Notes/>
+	<Text>借款单选择表单</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbbc-72b409071fa8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

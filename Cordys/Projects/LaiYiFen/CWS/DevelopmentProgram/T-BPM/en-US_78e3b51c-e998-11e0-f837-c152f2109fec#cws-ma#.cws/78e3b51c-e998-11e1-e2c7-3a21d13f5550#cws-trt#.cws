@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e2c7-3a21d146d551">
+	<DocumentID>78e3b51c-e998-11e1-e2c7-3a21d13f5550</DocumentID>
+	<Name>78e3b51c-e998-11e1-e2c7-3a21d13f5550</Name>
+	<Description>合计数量(公斤)</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-11-24T02:43:12.105</CreationDate>
+	<Notes/>
+	<Text>合计数量(公斤)</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e2c7-3a21d130554e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

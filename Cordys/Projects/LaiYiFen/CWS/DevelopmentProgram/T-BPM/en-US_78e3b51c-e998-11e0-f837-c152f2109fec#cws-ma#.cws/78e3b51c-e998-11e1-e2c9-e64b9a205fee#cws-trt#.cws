@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e2c9-e64b9a27dfef">
+	<DocumentID>78e3b51c-e998-11e1-e2c9-e64b9a205fee</DocumentID>
+	<Name>78e3b51c-e998-11e1-e2c9-e64b9a205fee</Name>
+	<Description>发起人</Description>
+	<CreatedBy>徐新宇</CreatedBy>
+	<CreationDate>2011-11-24T04:27:15.801</CreationDate>
+	<Notes/>
+	<Text>发起人</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e2c9-e64b9a129fec"
+		/>
+	</TextIdentifier>
+</TranslatedText>

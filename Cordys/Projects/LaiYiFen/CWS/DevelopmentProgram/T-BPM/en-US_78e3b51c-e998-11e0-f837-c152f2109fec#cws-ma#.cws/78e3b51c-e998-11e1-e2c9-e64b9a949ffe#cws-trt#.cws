@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e2c9-e64b9a9adfff">
+	<DocumentID>78e3b51c-e998-11e1-e2c9-e64b9a949ffe</DocumentID>
+	<Name>78e3b51c-e998-11e1-e2c9-e64b9a949ffe</Name>
+	<Description>目前审批人</Description>
+	<CreatedBy>徐新宇</CreatedBy>
+	<CreationDate>2011-11-24T03:58:05.714</CreationDate>
+	<Notes/>
+	<Text>目前审批人</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e2c9-e64b9a859ffc"
+		/>
+	</TextIdentifier>
+</TranslatedText>

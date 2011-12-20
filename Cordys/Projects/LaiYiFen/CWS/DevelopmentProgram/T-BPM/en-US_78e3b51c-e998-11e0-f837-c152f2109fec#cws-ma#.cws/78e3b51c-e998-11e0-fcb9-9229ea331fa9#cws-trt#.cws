@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fcb9-9229ea3d1faa">
+	<DocumentID>78e3b51c-e998-11e0-fcb9-9229ea331fa9</DocumentID>
+	<Name>78e3b51c-e998-11e0-fcb9-9229ea331fa9</Name>
+	<Description>HR系统组织编码，如暂时不明，可填暂无，待开店前提交更改申请补上</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-09-23T10:13:01.661</CreationDate>
+	<Notes/>
+	<Text>HR系统组织编码，如暂时不明，可填暂无，待开店前提交更改申请补上</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fcb9-9229ea1ddfa7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

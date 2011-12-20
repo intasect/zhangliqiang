@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc4c-9d1b7b2d57f2">
+	<DocumentID>78e3b51c-e998-11e0-fc4c-9d1b7b25d7f1</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc4c-9d1b7b25d7f1</Name>
+	<Description>Sub-process</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-19T02:33:49.769</CreationDate>
+	<Notes/>
+	<Text>Sub-process</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc4c-9d1b7b16d7ef"
+		/>
+	</TextIdentifier>
+</TranslatedText>

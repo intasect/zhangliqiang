@@ -1,0 +1,16 @@
+
+<RoleDesignTime
+	type="com.cordys.organization.role.RoleDesignTime"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ffed-e459470417c5">
+	<DocumentID>78e3b51c-e998-11e0-ffed-e45946fc97c4</DocumentID>
+	<Name>BPC项目经理</Name>
+	<Description>BPC项目经理</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-10-26T01:18:00.795</CreationDate>
+	<Notes/>
+	<isFunctionalRole>true</isFunctionalRole>
+	<type>Functional</type>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<configuredTasks/>
+	<Subroles/>
+</RoleDesignTime>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa59-634f496f9fa6">
+	<DocumentID>78e3b51c-e998-11e0-fa59-634f49681fa5</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa59-634f49681fa5</Name>
+	<Description>年度使用比率</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-08-30T06:02:21.367</CreationDate>
+	<Notes/>
+	<Text>年度使用比率</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa59-634f49591fa3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

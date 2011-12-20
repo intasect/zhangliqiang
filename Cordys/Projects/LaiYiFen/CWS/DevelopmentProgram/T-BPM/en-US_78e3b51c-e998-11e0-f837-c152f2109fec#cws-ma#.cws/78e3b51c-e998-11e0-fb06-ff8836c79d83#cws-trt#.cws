@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb06-ff8836cf1d84">
+	<DocumentID>78e3b51c-e998-11e0-fb06-ff8836c79d83</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb06-ff8836c79d83</Name>
+	<Description>费用报销管理</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-09-06T03:26:22.81</CreationDate>
+	<Notes/>
+	<Text>费用报销管理</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb06-ff8836b9dd81"
+		/>
+	</TextIdentifier>
+</TranslatedText>

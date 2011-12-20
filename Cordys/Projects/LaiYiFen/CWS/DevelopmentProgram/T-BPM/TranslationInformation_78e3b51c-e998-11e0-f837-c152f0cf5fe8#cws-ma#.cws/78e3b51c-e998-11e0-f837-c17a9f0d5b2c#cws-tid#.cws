@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c17a9f549b2d">
+	<DocumentID>78e3b51c-e998-11e0-f837-c17a9f0d5b2c</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c17a9f0d5b2c</Name>
+	<Description>来伊份网点管理部网点管理专员</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:10.812</CreationDate>
+	<Notes/>
+	<DefaultText>来伊份网点管理部网点管理专员</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c17a9df91b2a"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

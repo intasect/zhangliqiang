@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="000C297E-6FFF-11E1-E40F-759C9725FFBE">
+	<DocumentID>000C297E-6FFF-11E1-E40F-759C9725DFBE</DocumentID>
+	<Name>000C297E-6FFF-11E1-E40F-759C9725DFBE</Name>
+	<Description>同步数据</Description>
+	<CreatedBy>Administrator</CreatedBy>
+	<CreationDate>2011-12-07T02:43:49.578</CreationDate>
+	<Notes/>
+	<Text>同步数据</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="000C297E-6FFF-11E1-E40F-759C97259FBE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

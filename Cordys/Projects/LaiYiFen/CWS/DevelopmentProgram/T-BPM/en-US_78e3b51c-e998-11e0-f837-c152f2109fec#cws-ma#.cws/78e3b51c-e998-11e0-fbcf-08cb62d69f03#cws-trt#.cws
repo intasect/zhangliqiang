@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbcf-08cb62de1f04">
+	<DocumentID>78e3b51c-e998-11e0-fbcf-08cb62d69f03</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbcf-08cb62d69f03</Name>
+	<Description>订购地址</Description>
+	<CreatedBy>唐炜炜</CreatedBy>
+	<CreationDate>2011-09-14T02:41:15.246</CreationDate>
+	<Notes/>
+	<Text>订购地址</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbcf-08cb62c8df01"
+		/>
+	</TextIdentifier>
+</TranslatedText>

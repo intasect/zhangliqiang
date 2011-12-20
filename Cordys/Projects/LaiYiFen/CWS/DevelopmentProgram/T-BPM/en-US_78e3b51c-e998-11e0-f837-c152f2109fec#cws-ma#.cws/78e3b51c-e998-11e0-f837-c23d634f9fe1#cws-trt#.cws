@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c23d6391dfe2">
+	<DocumentID>78e3b51c-e998-11e0-f837-c23d634f9fe1</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c23d634f9fe1</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:08.37</CreationDate>
+	<Notes/>
+	<Text>可销售状态</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c23d6440dfe3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fd03-4c61b5901f95">
+	<DocumentID>78e3b51c-e998-11e0-fd03-4c61b589df94</DocumentID>
+	<Name>78e3b51c-e998-11e0-fd03-4c61b589df94</Name>
+	<Description>状况</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-09-26T08:36:06.179</CreationDate>
+	<Notes/>
+	<DefaultText>状况</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fd03-4c61b5979f96"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

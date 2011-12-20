@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fd00-5b1a694b5688">
+	<DocumentID>78e3b51c-e998-11e0-fd00-5b1a69465687</DocumentID>
+	<Name>78e3b51c-e998-11e0-fd00-5b1a69465687</Name>
+	<Description>应答报文</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-09-26T08:36:06.165</CreationDate>
+	<Notes/>
+	<Text>应答报文</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fd00-5b1a693c5685"
+		/>
+	</TextIdentifier>
+</TranslatedText>

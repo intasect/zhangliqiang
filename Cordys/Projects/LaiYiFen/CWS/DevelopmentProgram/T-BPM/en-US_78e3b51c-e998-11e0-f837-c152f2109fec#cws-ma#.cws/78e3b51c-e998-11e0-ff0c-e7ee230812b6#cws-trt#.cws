@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff0c-e7ee230f92b7">
+	<DocumentID>78e3b51c-e998-11e0-ff0c-e7ee230812b6</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff0c-e7ee230812b6</Name>
+	<Description>确定</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-17T02:34:01.775</CreationDate>
+	<Notes/>
+	<Text>确定</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff0c-e7ee22fa52b4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

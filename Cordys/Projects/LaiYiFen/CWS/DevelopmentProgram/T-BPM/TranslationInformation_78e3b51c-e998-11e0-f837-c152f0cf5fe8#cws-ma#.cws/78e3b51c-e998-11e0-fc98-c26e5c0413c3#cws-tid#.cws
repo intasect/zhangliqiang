@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc98-c26e5c4dd3c4">
+	<DocumentID>78e3b51c-e998-11e0-fc98-c26e5c0413c3</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc98-c26e5c0413c3</Name>
+	<Description>ESTIMATE_TIME</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-22T03:31:52.406</CreationDate>
+	<Notes/>
+	<DefaultText>ESTIMATE_TIME</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fc98-c26e5c5f53c5"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

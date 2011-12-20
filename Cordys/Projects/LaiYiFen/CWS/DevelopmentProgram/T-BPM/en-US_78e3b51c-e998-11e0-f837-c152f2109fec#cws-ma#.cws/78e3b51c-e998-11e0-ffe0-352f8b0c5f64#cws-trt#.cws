@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ffe0-352f8b13df65">
+	<DocumentID>78e3b51c-e998-11e0-ffe0-352f8b0c5f64</DocumentID>
+	<Name>78e3b51c-e998-11e0-ffe0-352f8b0c5f64</Name>
+	<Description>计租日期 *</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-10-25T12:06:39.014</CreationDate>
+	<Notes/>
+	<Text>计租日期 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ffe0-352f8afe9f62"
+		/>
+	</TextIdentifier>
+</TranslatedText>

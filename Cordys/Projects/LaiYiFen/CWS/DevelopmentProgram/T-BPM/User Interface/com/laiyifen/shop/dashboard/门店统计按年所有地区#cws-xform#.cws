@@ -1,0 +1,530 @@
+
+<XFormDesigntime
+	type="com.cordys.xforms.XFormDesigntime"
+	typeVersion="005056C0-0008-11E0-F8FC-5E0A815B7FB8"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fe42-84560f6c9754">
+	<DocumentID>78e3b51c-e998-11e0-fe42-84560f651753</DocumentID>
+	<Name>门店统计按年所有地区</Name>
+	<Description>门店统计按年所有地区</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-10-09T01:25:25.194</CreationDate>
+	<Notes/>
+	<XFormContent>
+		<xformhtml
+			xmlns="http://schemas.cordys.com/1.0/xform"
+			xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+			xmlns:ev="http://www.w3.org/2001/xml-events"
+			xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+			xformsversion="2"
+			key="User Interface/com/laiyifen/shop/dashboard/门店统计按年所有地区"
+			focusatstartup="true">
+			<xhead>
+				<xforms:model
+					id="SOAPRequestModel"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					wcpforms:automatic="false"
+					wcpforms:businessElement="SOAPRequest"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:timeout=""
+						wcpforms:iteratorSize="50"
+					/>
+					<wcpforms:instanceschema/>
+				</xforms:model>
+				<xml
+					xmlns="">
+					<xml
+						id="SOAP_StatisticsOfShopByYearAndMonth">
+						<SOAP:Envelope
+							xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+							<SOAP:Body>
+								<StatisticsOfShopByYearAndMonth
+									xmlns="http://schemas.cordys.com/tbpm/shop"
+									preserveSpace="no"
+									qAccess="0"
+									qValues="">
+									<year>PARAMETER</year>
+									<month>PARAMETER</month>
+								</StatisticsOfShopByYearAndMonth>
+							</SOAP:Body>
+						</SOAP:Envelope>
+					</xml>
+					<xml
+						id="App_StatisticsOpenShopDetails">
+						<Application>
+							<id>App_StatisticsOpenShopDetailByArea</id>
+							<description>地区新开门店详情统计图</description>
+							<caption>地区新开门店详情统计图</caption>
+							<url>/User Interface/com/laiyifen/shop/dashboard/门店统计按年地区详情.caf</url>
+							<frame
+								features="dialogWidth:100%;dialogHeight:100%;resizable:yes;center:yes">_modal</frame>
+						</Application>
+					</xml>
+				</xml>
+			</xhead>
+			<xbody>
+				<xforms:group
+					appearance="toolbar"
+					id="toolbar">
+					<xforms:trigger
+						appearance="toolbarbutton"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsToolbarItem"
+						imageURL="/cordys/wcp/theme/default/icon/action/out-of-office.png"
+						id="toolbarbuttonExit"
+						caption="退出">
+						<xforms:hint>退出</xforms:hint>
+						<xforms:action
+							ev:event="xforms-activate">
+							<xforms:toolbarbuttonExit_Click/>
+						</xforms:action>
+					</xforms:trigger>
+				</xforms:group>
+				<xforms:group
+					wcpforms:layout="vertical"
+					id="xbody_group"
+					wcpforms:labelalign="ontop">
+					<xforms:group
+						appearance="group"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+						id="group1"
+						wcpforms:layout="free"
+						wcpforms:class="f_layout"
+						wcpforms:size="auto auto"
+						wcpforms:anchors="5px 5px 5px 5px"
+						wcpforms:position="5px 5px"
+						wcpforms:labelalign="ontop">
+						<xforms:select1
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+							id="selYear"
+							doEBIValidate="false"
+							initializeValueSets="0"
+							wcpforms:enumerated="false"
+							multiple="false"
+							wcpforms:class="f_layout"
+							wcpforms:size="auto 15px"
+							wcpforms:anchors="20px 3px 83% null"
+							wcpforms:position="20px 3px">
+							<xforms:label
+								textIdentifier="78e3b51c-e998-11e0-fe34-8b5a620257f0"
+								wcpforms:size="59px null"
+								wcpforms:class="h_label left_align">选择年份</xforms:label>
+						</xforms:select1>
+						<xforms:select1
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsSelect"
+							id="selMonth"
+							doEBIValidate="false"
+							initializeValueSets="0"
+							wcpforms:enumerated="false"
+							multiple="false"
+							wcpforms:class="f_layout"
+							wcpforms:size="auto 15px"
+							wcpforms:anchors="18% 3px 72% null"
+							wcpforms:position="18% 3px">
+							<xforms:label
+								textIdentifier="78e3b51c-e998-11e0-fe42-e389f31edd60"
+								wcpforms:size="33px null"
+								wcpforms:class="h_label left_align">月份</xforms:label>
+						</xforms:select1>
+						<xforms:group
+							appearance="controlbox"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsControlbox"
+							id="controlbox1"
+							controltype="button"
+							wcpforms:layout="horizontal"
+							wcpforms:class="f_layout"
+							wcpforms:align="left_align"
+							wcpforms:size="auto auto"
+							wcpforms:anchors="30% 0px 59.991167608286254% 512.01px"
+							wcpforms:position="30% 0px">
+							<xforms:trigger
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsButton"
+								id="btnQuery"
+								wcpforms:class="h_button"
+								wcpforms:size="null 1.7372727272727273em">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-f9a7-83d963741704">查询</xforms:label>
+								<xforms:action
+									ev:event="xforms-activate">
+									<xforms:btnQuery_Click/>
+								</xforms:action>
+							</xforms:trigger>
+						</xforms:group>
+						<div
+							xmlns="http://www.w3.org/2002/xforms/cr"
+							xformextendedname="chart"
+							id="chart1"
+							namespace="cas.xforms.runtimelibrary.MultiSeries"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.extensions.MultiSeries"
+							caption="所有地区门店统计"
+							chartType="Scroll Column 2D"
+							xAxisCaption="地区"
+							yAxisCaption="数量"
+							showAllRecords="1"
+							highlightActiveRecord="1"
+							yAxisMinValue="0"
+							yAxisMaxValue="10"
+							wcpforms:class="f_layout"
+							wcpforms:size="auto auto"
+							wcpforms:anchors="5px 25px 5px 5px"
+							wcpforms:position="5px 25px">
+							<xforms:action
+								xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+								xmlns:ev="http://www.w3.org/2001/xml-events"
+								external="true"
+								ev:event="ondataclick">
+								<xforms:chart1_ondataclick/>
+							</xforms:action>
+						</div>
+						<xforms:hint
+							textIdentifier="78e3b51c-e998-11e0-fe42-84560f151748">门店统计按年所有地区</xforms:hint>
+					</xforms:group>
+				</xforms:group>
+			</xbody>
+			<xformsscript>
+				<![CDATA[function chart1_ondataclick(eventObject)
+{
+    //debugger;
+    var obj = new Object;
+    obj.year = selYear.getValue();
+    obj.month = selMonth.getValue();
+    obj.area = eventObject.label;
+    
+    var appDef = cordys.cloneXMLDocument(App_StatisticsOpenShopDetails.XMLDocument);
+    //application.select(appDef.documentElement,obj);
+    application.showDialog(appDef.documentElement,obj);
+
+}
+
+function btnQuery_Click(eventObject)
+{
+    show_chart1(selYear.getValue(),selMonth.getValue());
+}
+
+function Form_InitDone(eventObject)
+{
+    application.container.maximize();
+    
+    var today = new Date();
+    var year = today.getFullYear();
+    for(var i = 2050; i >= 1995; i--){
+        var option = {value:i, description:i};
+        selYear.addOption(option,false,0,false);   
+    }
+
+    selYear.setValue(year);
+    
+    var month = today.getMonth() + 1;
+    for(var i = 12; i >= 1; i--){
+        var option = {value:i, description:i};
+        selMonth.addOption(option,false,0,false);   
+    }
+
+    selMonth.setValue(month);
+    
+    show_chart1(year,month)
+}
+
+function show_chart1(Year,Month)
+{
+    //debugger;
+    SOAPRequestModel.clear();
+    var req = cordys.cloneXMLDocument(SOAP_StatisticsOfShopByYearAndMonth.XMLDocument);
+    cordys.setNodeText(req, ".//*[local-name()='year']", Year);
+    cordys.setNodeText(req, ".//*[local-name()='month']", Month);
+
+    SOAPRequestModel.setMethodRequest(req);
+    SOAPRequestModel.reset();
+    
+    chart1.setChartData(SOAPRequestModel.getData(), true);
+    chart1.setLabelColumn(".//*[local-name()='shop_area']");
+    chart1.setValueColumn([".//*[local-name()='shop_number']"]);
+    chart1.render();
+}
+
+function toolbarbuttonExit_Click(eventObject)
+{
+    application.container.close();
+}
+]]>
+			</xformsscript>
+			<xforms:action
+				ev:event="xforms-initialize-done">
+				<xforms:Form_InitDone/>
+			</xforms:action>
+		</xformhtml>
+	</XFormContent>
+	<width></width>
+	<automatic>false</automatic>
+	<data/>
+	<XFormWSDL/>
+	<caption></caption>
+	<isInternal>false</isInternal>
+	<type>XForm</type>
+	<taskName>门店统计按年所有地区</taskName>
+	<mode>full</mode>
+	<title>true</title>
+	<height></height>
+	<isLegacy>false</isLegacy>
+	<left></left>
+	<qualifiedclassname></qualifiedclassname>
+	<parameters/>
+	<showOnStartPage>false</showOnStartPage>
+	<taskDescription>门店统计按年所有地区</taskDescription>
+	<top></top>
+	<TranslatableUITexts>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-fe42-84560e891735">
+			<DocumentID>78e3b51c-e998-11e0-fe42-84560e819734</DocumentID>
+			<Name>78e3b51c-e998-11e0-fe42-84560e819734</Name>
+			<Description>78e3b51c-e998-11e0-fe42-84560e819734</Description>
+			<CreatedBy>TBPM管理员</CreatedBy>
+			<CreationDate>2011-10-09T01:31:16.43</CreationDate>
+			<Notes/>
+			<UIRef>selMonth</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e0-fe42-84560f651753"
+				/>
+			</XForm>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-fe42-84560e981737">
+					<DocumentID>78e3b51c-e998-11e0-fe42-84560e909736</DocumentID>
+					<Name>78e3b51c-e998-11e0-fe42-84560e909736</Name>
+					<Description>78e3b51c-e998-11e0-fe42-84560e909736</Description>
+					<CreatedBy>TBPM管理员</CreatedBy>
+					<CreationDate>2011-10-09T01:31:16.433</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-fe42-84560e9f9738"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<TooltipText/>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-fe42-84560ee1d741">
+			<DocumentID>78e3b51c-e998-11e0-fe42-84560eda5740</DocumentID>
+			<Name>78e3b51c-e998-11e0-fe42-84560eda5740</Name>
+			<Description>78e3b51c-e998-11e0-fe42-84560eda5740</Description>
+			<CreatedBy>TBPM管理员</CreatedBy>
+			<CreationDate>2011-10-09T01:31:16.433</CreationDate>
+			<Notes/>
+			<UIRef>selYear</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e0-fe42-84560f651753"
+				/>
+			</XForm>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-fe42-84560ed2d73f">
+					<DocumentID>78e3b51c-e998-11e0-fe42-84560ecb573e</DocumentID>
+					<Name>78e3b51c-e998-11e0-fe42-84560ecb573e</Name>
+					<Description>78e3b51c-e998-11e0-fe42-84560ecb573e</Description>
+					<CreatedBy>TBPM管理员</CreatedBy>
+					<CreationDate>2011-10-09T01:31:16.43</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-fe34-8b5a620257f0"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<TooltipText/>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-fe42-e389f3431d65">
+			<DocumentID>78e3b51c-e998-11e0-fe42-e389f33b9d64</DocumentID>
+			<Name>78e3b51c-e998-11e0-fe42-e389f33b9d64</Name>
+			<Description>78e3b51c-e998-11e0-fe42-e389f33b9d64</Description>
+			<CreatedBy>TBPM管理员</CreatedBy>
+			<CreationDate>2011-10-09T01:37:35.543</CreationDate>
+			<Notes/>
+			<UIRef>selMonth</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e0-fe42-84560f651753"
+				/>
+			</XForm>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-fe42-e389f3175d5f">
+					<DocumentID>78e3b51c-e998-11e0-fe42-e389f30fdd5e</DocumentID>
+					<Name>78e3b51c-e998-11e0-fe42-e389f30fdd5e</Name>
+					<Description>78e3b51c-e998-11e0-fe42-e389f30fdd5e</Description>
+					<CreatedBy>TBPM管理员</CreatedBy>
+					<CreationDate>2011-10-09T01:37:35.545</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-fe42-e389f31edd60"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<TooltipText/>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-ffee-8ef56deb1f3f">
+			<DocumentID>78e3b51c-e998-11e0-ffee-8ef56de4df3e</DocumentID>
+			<Name>78e3b51c-e998-11e0-ffee-8ef56de4df3e</Name>
+			<Description>78e3b51c-e998-11e0-ffee-8ef56de4df3e</Description>
+			<CreatedBy>徐新宇</CreatedBy>
+			<CreationDate>2011-10-26T01:57:49.868</CreationDate>
+			<Notes/>
+			<UIRef>group1</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e0-fe42-84560f651753"
+				/>
+			</XForm>
+			<TranslatableName/>
+			<TooltipText>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-ffee-8ef56dc6df3a">
+					<DocumentID>78e3b51c-e998-11e0-ffee-8ef56dc09f39</DocumentID>
+					<Name>78e3b51c-e998-11e0-ffee-8ef56dc09f39</Name>
+					<Description>78e3b51c-e998-11e0-ffee-8ef56dc09f39</Description>
+					<CreatedBy>徐新宇</CreatedBy>
+					<CreationDate>2011-10-26T01:57:49.868</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-fe42-84560f151748"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TooltipText>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e1-e2cf-6b76d4701b38">
+			<DocumentID>78e3b51c-e998-11e1-e2cf-6b76d4689b37</DocumentID>
+			<Name>78e3b51c-e998-11e1-e2cf-6b76d4689b37</Name>
+			<Description>78e3b51c-e998-11e1-e2cf-6b76d4689b37</Description>
+			<CreatedBy>徐新宇</CreatedBy>
+			<CreationDate>2011-11-24T09:14:23.32</CreationDate>
+			<Notes/>
+			<UIRef>toolbarbuttonExit</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e0-fe42-84560f651753"
+				/>
+			</XForm>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e1-e2cf-6b76d4521b34">
+					<DocumentID>78e3b51c-e998-11e1-e2cf-6b76d44a9b33</DocumentID>
+					<Name>78e3b51c-e998-11e1-e2cf-6b76d44a9b33</Name>
+					<Description>78e3b51c-e998-11e1-e2cf-6b76d44a9b33</Description>
+					<CreatedBy>徐新宇</CreatedBy>
+					<CreationDate>2011-11-24T09:14:23.321</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-f9a6-9329534a576f"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<TooltipText>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e1-e2cf-6b76d4611b36">
+					<DocumentID>78e3b51c-e998-11e1-e2cf-6b76d4599b35</DocumentID>
+					<Name>78e3b51c-e998-11e1-e2cf-6b76d4599b35</Name>
+					<Description>78e3b51c-e998-11e1-e2cf-6b76d4599b35</Description>
+					<CreatedBy>徐新宇</CreatedBy>
+					<CreationDate>2011-11-24T09:14:23.321</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-f9a6-9329534a576f"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TooltipText>
+		</TranslatableUIText>
+	</TranslatableUITexts>
+	<Representations/>
+	<ReferredXForms/>
+	<image/>
+	<TranslatableApplications/>
+	<Images/>
+	<messages/>
+	<Webservices/>
+	<StyleSheets/>
+	<input/>
+	<taskParts/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-fe42-84560f0d9747">
+			<DocumentID>78e3b51c-e998-11e0-fe42-84560f061746</DocumentID>
+			<Name>78e3b51c-e998-11e0-fe42-84560f061746</Name>
+			<Description>78e3b51c-e998-11e0-fe42-84560f061746</Description>
+			<CreatedBy>TBPM管理员</CreatedBy>
+			<CreationDate>2011-10-09T01:25:25.193</CreationDate>
+			<Notes/>
+			<Identifier>
+				<uri
+					id="78e3b51c-e998-11e0-fe42-84560f151748"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+	<aclFragments/>
+	<tagsContainer/>
+	<deliveryModels/>
+	<messageParts>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="78e3b51c-e998-11e0-fe42-84560e4f972d">
+			<DocumentID>78e3b51c-e998-11e0-fe42-84560e48172c</DocumentID>
+			<Name>freeformcontrols</Name>
+			<Description>freeformcontrols</Description>
+			<CreatedBy>TBPM管理员</CreatedBy>
+			<CreationDate>2011-10-09T01:31:16.431</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<operationName>freeformcontrols</operationName>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="78e3b51c-e998-11e0-fe43-4bebbbba1309">
+			<DocumentID>78e3b51c-e998-11e0-fe43-4bebbbb29308</DocumentID>
+			<Name>SOAPRequestModel</Name>
+			<Description>SOAPRequestModel</Description>
+			<CreatedBy>TBPM管理员</CreatedBy>
+			<CreationDate>2011-10-09T02:34:05.812</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<operationName></operationName>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+		</MessagePart>
+	</messageParts>
+	<InstanceSchemaFragments/>
+	<Htms/>
+	<output/>
+	<Javascripts/>
+</XFormDesigntime>

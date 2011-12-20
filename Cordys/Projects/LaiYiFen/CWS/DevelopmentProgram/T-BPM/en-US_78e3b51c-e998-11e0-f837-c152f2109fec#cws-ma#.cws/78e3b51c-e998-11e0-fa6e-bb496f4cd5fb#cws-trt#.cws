@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa6e-bb496f7c55fc">
+	<DocumentID>78e3b51c-e998-11e0-fa6e-bb496f4cd5fb</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa6e-bb496f4cd5fb</Name>
+	<Description>TOTAL_AREA</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-31T02:40:18.464</CreationDate>
+	<Notes/>
+	<Text>TOTAL_AREA</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa6e-bb496f0bd5f9"
+		/>
+	</TextIdentifier>
+</TranslatedText>

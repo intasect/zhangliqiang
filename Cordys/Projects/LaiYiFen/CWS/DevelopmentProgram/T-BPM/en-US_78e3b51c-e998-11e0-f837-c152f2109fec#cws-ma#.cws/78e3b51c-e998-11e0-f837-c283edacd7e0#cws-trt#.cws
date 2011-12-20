@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c283ee01d7e1">
+	<DocumentID>78e3b51c-e998-11e0-f837-c283edacd7e0</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c283edacd7e0</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:29.957</CreationDate>
+	<Notes/>
+	<Text>结果组商品数量</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c283eec397e2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

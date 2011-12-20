@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff0f-f42b9f301fa5">
+	<DocumentID>78e3b51c-e998-11e0-ff0f-f42b9f289fa4</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff0f-f42b9f289fa4</Name>
+	<Description>物料清单</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-17T06:46:49.542</CreationDate>
+	<Notes/>
+	<Text>物料清单</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff0f-f42b9f10dfa2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

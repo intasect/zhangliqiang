@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e0ab-38a18fed1f0e">
+	<DocumentID>78e3b51c-e998-11e1-e0ab-38a18fe6df0d</DocumentID>
+	<Name>78e3b51c-e998-11e1-e0ab-38a18fe6df0d</Name>
+	<Description>shop_status_1</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-02T14:15:07.633</CreationDate>
+	<Notes/>
+	<DefaultText>shop_status_1</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e1-e0ab-38a18ff49f0f"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

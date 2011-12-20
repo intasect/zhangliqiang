@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fcb8-8cbde6be5daa">
+	<DocumentID>78e3b51c-e998-11e0-fcb8-8cbde6b6dda9</DocumentID>
+	<Name>78e3b51c-e998-11e0-fcb8-8cbde6b6dda9</Name>
+	<Description>0-正常营业,1-暂闭店,2-拆店，3-未开张</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-09-23T10:11:25.378</CreationDate>
+	<Notes/>
+	<Text>0-正常营业,1-暂闭店,2-拆店，3-未开张</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fcb8-8cbde6a91da7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c23e1d5b1bf9">
+	<DocumentID>78e3b51c-e998-11e0-f837-c23e1cffdbf8</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c23e1cffdbf8</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:04.642</CreationDate>
+	<Notes/>
+	<Text>分配商品预置键维护人员表</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c23e1e321bfa"
+		/>
+	</TextIdentifier>
+</TranslatedText>

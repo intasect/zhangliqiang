@@ -1,0 +1,81 @@
+
+.multdisplay .grid tbody tr{
+   border: 1px solid #DCE6F2;
+   height: 80px;
+   width: 100%;  
+   
+}
+.multdisplay .grid thead tr{
+   height:23px;
+}
+.multdisplay .highlight{
+   
+}
+.multdisplay  .hover{
+   background-image: none !important;
+}
+.multdisplay .grid.data .evenrow,.multdisplay .grid.data .oddrow
+{
+} 
+.holder{
+    position:relative;
+    height: 80px;
+    text-align: center;
+    width: 100%;
+}
+.conentname{
+  position:absolute;
+  height: 78px;
+  width: 598px;
+  left:0px;
+  top:0px;
+  overflow:auto;
+  font-weight: bold;
+  text-align: left;
+  border: 1px solid #C8D5E8;
+  background-color:#FAF9F4;
+}
+.conentname p{
+   margin: 0 0 0 3px;
+}
+.details{
+		position:absolute;
+		height: 78px;
+		width: auto;
+		width: auto;
+		left:602px;
+		top:0px;
+		right:0px;
+    height: 80px;
+
+}
+.lbl1,.lbl2,.lbl3,.lbl4{
+	position:absolute;
+	height: 19px;
+	width: 150px;
+	left:1px;
+	top:0px;
+  border: 1px solid #D3DEED;
+  background: url("/cordys/wcp/theme/crystal/image/background/commonsprite.png");
+  background-color:#E7EDF5;
+}
+
+.val1,.val2,.val3,.val4{
+	position:absolute;
+	height: 19px;
+	width: auto;
+	left:150px;
+	right:0px;
+	top:0px;
+  border: 1px solid #D3DEED;
+  background-color:#FAF9F4;
+}
+.lbl2 ,.val2{
+	top:19px;
+}
+.lbl3,.val3{
+	top:38px;
+}
+.lbl4,.val4{
+	top:58px;
+}

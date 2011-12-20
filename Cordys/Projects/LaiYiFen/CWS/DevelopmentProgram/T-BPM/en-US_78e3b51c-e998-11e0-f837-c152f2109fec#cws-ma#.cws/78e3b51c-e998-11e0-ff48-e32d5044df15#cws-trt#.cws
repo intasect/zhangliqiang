@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff48-e32d504c5f16">
+	<DocumentID>78e3b51c-e998-11e0-ff48-e32d5044df15</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff48-e32d5044df15</Name>
+	<Description>其他小额费用</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-10-19T11:58:37.492</CreationDate>
+	<Notes/>
+	<Text>其他小额费用</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff48-e32d5035df13"
+		/>
+	</TextIdentifier>
+</TranslatedText>

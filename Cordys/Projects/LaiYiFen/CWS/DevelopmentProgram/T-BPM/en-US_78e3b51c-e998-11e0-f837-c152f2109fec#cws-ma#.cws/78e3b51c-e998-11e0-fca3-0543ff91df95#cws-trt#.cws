@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fca3-0543ff995f96">
+	<DocumentID>78e3b51c-e998-11e0-fca3-0543ff91df95</DocumentID>
+	<Name>78e3b51c-e998-11e0-fca3-0543ff91df95</Name>
+	<Description>后仓面积（㎡） *</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-22T13:15:28.919</CreationDate>
+	<Notes/>
+	<Text>后仓面积（㎡） *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fca3-0543ff841f93"
+		/>
+	</TextIdentifier>
+</TranslatedText>

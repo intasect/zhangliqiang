@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb2a-19fabb951f73">
+	<DocumentID>78e3b51c-e998-11e0-fb2a-19fabb8d9f72</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb2a-19fabb8d9f72</Name>
+	<Description>&lt;div style=&quot;text-align: center;&quot;&gt;门店地图&lt;/div&gt;</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-07T13:11:08.414</CreationDate>
+	<Notes/>
+	<Text>&lt;div style=&quot;text-align: center;&quot;&gt;门店地图&lt;/div&gt;</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb2a-19fabb7fdf70"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fe61-d5ebe69b1f72">
+	<DocumentID>78e3b51c-e998-11e0-fe61-d5ebe6939f71</DocumentID>
+	<Name>78e3b51c-e998-11e0-fe61-d5ebe6939f71</Name>
+	<Description>2_HG1</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-10-10T08:30:04.682</CreationDate>
+	<Notes/>
+	<Text>2_HG1</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fe61-d5ebe685df6f"
+		/>
+	</TextIdentifier>
+</TranslatedText>

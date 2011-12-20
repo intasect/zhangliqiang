@@ -1,0 +1,19 @@
+
+<QualifiedNameRoot
+	type="com.cordys.cws.namespace.qualifiedname.QualifiedNameRoot"
+	RuntimeDocumentID="005056a3-4878-11e0-f7c6-c574560657f4">
+	<DocumentID>005056a3-4878-11e0-f7c6-c57455fb17f3</DocumentID>
+	<Name>runtimeQNR for folder</Name>
+	<Description>runtimeQNR for folder</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-04T01:41:42.666</CreationDate>
+	<Notes/>
+	<RuntimeQNRFolder>
+		<uri
+			id="000C297E-6FFF-11E1-E37B-A5C67622F276"
+			path="T-BPM/Web"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</RuntimeQNRFolder>
+	<DesigntimeQNRFolder/>
+</QualifiedNameRoot>

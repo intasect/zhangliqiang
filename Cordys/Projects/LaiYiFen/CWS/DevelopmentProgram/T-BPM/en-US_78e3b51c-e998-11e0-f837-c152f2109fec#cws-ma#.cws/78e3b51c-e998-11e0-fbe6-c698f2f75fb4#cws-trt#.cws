@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbe6-c698f2fedfb5">
+	<DocumentID>78e3b51c-e998-11e0-fbe6-c698f2f75fb4</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbe6-c698f2f75fb4</Name>
+	<Description>预计竣工日期 *</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-15T01:13:17.235</CreationDate>
+	<Notes/>
+	<Text>预计竣工日期 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbe6-c698f2e99fb2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

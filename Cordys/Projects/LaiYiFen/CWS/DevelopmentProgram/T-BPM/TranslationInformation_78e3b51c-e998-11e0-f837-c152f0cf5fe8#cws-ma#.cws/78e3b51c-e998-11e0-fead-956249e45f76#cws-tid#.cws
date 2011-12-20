@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fead-956249ebdf77">
+	<DocumentID>78e3b51c-e998-11e0-fead-956249e45f76</DocumentID>
+	<Name>78e3b51c-e998-11e0-fead-956249e45f76</Name>
+	<Description>促销处理接口异常处理</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-13T07:28:18.729</CreationDate>
+	<Notes/>
+	<DefaultText>促销处理接口异常处理</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fead-956249f35f78"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

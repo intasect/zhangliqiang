@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa59-634f4943dfa0">
+	<DocumentID>78e3b51c-e998-11e0-fa59-634f493c5f9f</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa59-634f493c5f9f</Name>
+	<Description>后期可使用预算总额</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-08-30T06:02:21.384</CreationDate>
+	<Notes/>
+	<Text>后期可使用预算总额</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa59-634f492c1f9d"
+		/>
+	</TextIdentifier>
+</TranslatedText>

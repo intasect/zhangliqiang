@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff75-d4cebf88d738">
+	<DocumentID>78e3b51c-e998-11e0-ff75-d4cebf7ed737</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff75-d4cebf7ed737</Name>
+	<Description>取 消</Description>
+	<CreatedBy>徐新宇</CreatedBy>
+	<CreationDate>2011-10-21T06:49:05.057</CreationDate>
+	<Notes/>
+	<Text>取 消</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff75-d4cebf6ad735"
+		/>
+	</TextIdentifier>
+</TranslatedText>

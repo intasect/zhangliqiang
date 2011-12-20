@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f90f-fea50c735f2c">
+	<DocumentID>78e3b51c-e998-11e0-f90f-fea50c6d1f2b</DocumentID>
+	<Name>78e3b51c-e998-11e0-f90f-fea50c6d1f2b</Name>
+	<Description>门店主数据添加</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-08-17T03:30:39.62</CreationDate>
+	<Notes/>
+	<Text>门店主数据添加</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f90f-fea50c5f5f29"
+		/>
+	</TextIdentifier>
+</TranslatedText>

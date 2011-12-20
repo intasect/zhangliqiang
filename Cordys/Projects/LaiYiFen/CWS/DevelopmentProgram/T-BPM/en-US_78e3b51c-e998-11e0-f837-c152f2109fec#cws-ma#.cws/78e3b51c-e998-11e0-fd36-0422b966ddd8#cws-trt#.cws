@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fd36-0422b96e5dd9">
+	<DocumentID>78e3b51c-e998-11e0-fd36-0422b966ddd8</DocumentID>
+	<Name>78e3b51c-e998-11e0-fd36-0422b966ddd8</Name>
+	<Description>TestValidateForm</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-28T09:12:28.539</CreationDate>
+	<Notes/>
+	<Text>TestValidateForm</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fd36-0422b957ddd6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c25b4915df3b">
+	<DocumentID>78e3b51c-e998-11e0-f837-c25b48cd5f3a</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c25b48cd5f3a</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:57.535</CreationDate>
+	<Notes/>
+	<Text>预计竣工时间</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c25b49cc5f3c"
+		/>
+	</TextIdentifier>
+</TranslatedText>

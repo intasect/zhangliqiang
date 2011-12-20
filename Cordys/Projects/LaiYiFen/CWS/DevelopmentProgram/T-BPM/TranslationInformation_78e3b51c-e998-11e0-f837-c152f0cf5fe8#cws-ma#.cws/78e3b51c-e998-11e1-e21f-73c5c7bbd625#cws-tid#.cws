@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e21f-73c5c7c35626">
+	<DocumentID>78e3b51c-e998-11e1-e21f-73c5c7bbd625</DocumentID>
+	<Name>78e3b51c-e998-11e1-e21f-73c5c7bbd625</Name>
+	<Description>驳回上一级</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-17T09:24:07.922</CreationDate>
+	<Notes/>
+	<DefaultText>驳回上一级</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e1-e21f-57bc3acf14ee"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

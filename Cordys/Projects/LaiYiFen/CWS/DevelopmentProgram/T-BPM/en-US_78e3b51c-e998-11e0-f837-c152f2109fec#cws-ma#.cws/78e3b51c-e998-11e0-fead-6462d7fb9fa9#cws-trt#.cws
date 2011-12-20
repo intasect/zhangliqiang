@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fead-6462d8031faa">
+	<DocumentID>78e3b51c-e998-11e0-fead-6462d7fb9fa9</DocumentID>
+	<Name>78e3b51c-e998-11e0-fead-6462d7fb9fa9</Name>
+	<Description>客户创建接口异常处理结果</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-13T07:16:58.474</CreationDate>
+	<Notes/>
+	<Text>客户创建接口异常处理结果</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fead-6462d7e8dfa7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

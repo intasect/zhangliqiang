@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb3b-9a848044d65c">
+	<DocumentID>78e3b51c-e998-11e0-fb3b-9a848039965b</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb3b-9a848039965b</Name>
+	<Description>费用子公司</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-09-08T06:31:12.236</CreationDate>
+	<Notes/>
+	<Text>费用子公司</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb3b-9a8480295659"
+		/>
+	</TextIdentifier>
+</TranslatedText>

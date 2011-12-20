@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fd4e-8953684a17a3">
+	<DocumentID>78e3b51c-e998-11e0-fd4e-8953684297a2</DocumentID>
+	<Name>78e3b51c-e998-11e0-fd4e-8953684297a2</Name>
+	<Description>SN</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-29T08:25:25.099</CreationDate>
+	<Notes/>
+	<Text>SN</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fd4e-89536834d7a0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

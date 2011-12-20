@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff13-54def522131a">
+	<DocumentID>78e3b51c-e998-11e0-ff13-54def5195319</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff13-54def5195319</Name>
+	<Description>根据成本中心同步预算数据</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-17T08:46:32.258</CreationDate>
+	<Notes/>
+	<Text>根据成本中心同步预算数据</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff13-54def5069317"
+		/>
+	</TextIdentifier>
+</TranslatedText>

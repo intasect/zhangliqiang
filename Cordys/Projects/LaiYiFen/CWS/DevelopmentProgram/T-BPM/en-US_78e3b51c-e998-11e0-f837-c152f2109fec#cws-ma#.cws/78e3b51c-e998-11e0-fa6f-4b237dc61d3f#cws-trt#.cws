@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa6f-4b237dcd9d40">
+	<DocumentID>78e3b51c-e998-11e0-fa6f-4b237dc61d3f</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa6f-4b237dc61d3f</Name>
+	<Description>RENTFREE_PERIOD</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-31T02:40:18.447</CreationDate>
+	<Notes/>
+	<Text>RENTFREE_PERIOD</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa6f-4b237db85d3d"
+		/>
+	</TextIdentifier>
+</TranslatedText>

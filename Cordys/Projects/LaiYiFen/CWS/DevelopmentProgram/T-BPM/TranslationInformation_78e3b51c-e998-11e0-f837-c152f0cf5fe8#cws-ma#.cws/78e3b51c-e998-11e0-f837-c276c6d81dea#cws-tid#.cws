@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c276c7119deb">
+	<DocumentID>78e3b51c-e998-11e0-f837-c276c6d81dea</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c276c6d81dea</Name>
+	<Description>需安装的雨蓬样式</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:02.487</CreationDate>
+	<Notes/>
+	<DefaultText>需安装的雨蓬样式</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c276c6011de8"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

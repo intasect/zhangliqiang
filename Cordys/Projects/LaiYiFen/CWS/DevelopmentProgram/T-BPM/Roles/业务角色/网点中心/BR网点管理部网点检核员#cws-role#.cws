@@ -1,0 +1,20 @@
+
+<RoleDesignTime
+	type="com.cordys.organization.role.RoleDesignTime"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb39-27aeb25f17b3">
+	<DocumentID>78e3b51c-e998-11e0-fb39-27aeb25797b2</DocumentID>
+	<Name>BR网点管理部网点检核员</Name>
+	<Description>BR网点管理部网点检核员</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-09-08T05:51:32.907</CreationDate>
+	<Notes/>
+	<isFunctionalRole>true</isFunctionalRole>
+	<type>Functional</type>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<configuredTasks/>
+	<Subroles>
+		<uri
+			id="005056a3-4878-11e0-f45e-132c50e69f4e"
+		/>
+	</Subroles>
+</RoleDesignTime>

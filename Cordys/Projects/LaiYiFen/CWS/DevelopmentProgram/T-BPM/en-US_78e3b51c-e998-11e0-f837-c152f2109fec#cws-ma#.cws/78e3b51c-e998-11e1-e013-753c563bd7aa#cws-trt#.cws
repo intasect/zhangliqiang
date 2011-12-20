@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e013-753c5640d7ab">
+	<DocumentID>78e3b51c-e998-11e1-e013-753c563bd7aa</DocumentID>
+	<Name>78e3b51c-e998-11e1-e013-753c563bd7aa</Name>
+	<Description>租金付款方式（月） *</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-27T13:19:48.228</CreationDate>
+	<Notes/>
+	<Text>租金付款方式（月） *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e013-753c563457a8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

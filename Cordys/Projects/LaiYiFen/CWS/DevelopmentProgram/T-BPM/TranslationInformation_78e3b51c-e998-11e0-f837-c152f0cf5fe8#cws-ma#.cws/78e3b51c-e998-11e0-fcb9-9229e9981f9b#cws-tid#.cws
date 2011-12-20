@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fcb9-9229e9a35f9c">
+	<DocumentID>78e3b51c-e998-11e0-fcb9-9229e9981f9b</DocumentID>
+	<Name>78e3b51c-e998-11e0-fcb9-9229e9981f9b</Name>
+	<Description>门店开间类型，单开:单樘门,双开:双樘门等，或没有门选其它</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-09-23T10:19:02.663</CreationDate>
+	<Notes/>
+	<DefaultText>门店开间类型，单开:单樘门,双开:双樘门等，或没有门选其它</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fcb9-9229e9ac1f9d"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

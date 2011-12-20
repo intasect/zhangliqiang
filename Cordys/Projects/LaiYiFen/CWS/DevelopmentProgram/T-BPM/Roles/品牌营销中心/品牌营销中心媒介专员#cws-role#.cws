@@ -1,0 +1,16 @@
+
+<RoleDesignTime
+	type="com.cordys.organization.role.RoleDesignTime"
+	RuntimeDocumentID="005056a3-4878-11e0-f4ee-04114cd99f59">
+	<DocumentID>005056a3-4878-11e0-f4ee-04114ccd1f58</DocumentID>
+	<Name>品牌营销中心媒介专员</Name>
+	<Description>品牌营销中心媒介专员</Description>
+	<CreatedBy>hougang</CreatedBy>
+	<CreationDate>2011-07-06T01:44:12.647</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<isFunctionalRole>true</isFunctionalRole>
+	<type>Functional</type>
+	<Subroles/>
+	<configuredTasks/>
+</RoleDesignTime>

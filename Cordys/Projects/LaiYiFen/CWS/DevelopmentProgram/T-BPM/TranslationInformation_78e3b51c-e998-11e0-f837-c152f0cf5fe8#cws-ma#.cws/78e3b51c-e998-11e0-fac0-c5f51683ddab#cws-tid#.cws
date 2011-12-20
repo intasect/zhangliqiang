@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fac0-c5f516905dac">
+	<DocumentID>78e3b51c-e998-11e0-fac0-c5f51683ddab</DocumentID>
+	<Name>78e3b51c-e998-11e0-fac0-c5f51683ddab</Name>
+	<Description>隐藏域</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-09-03T08:51:17.968</CreationDate>
+	<Notes/>
+	<DefaultText>隐藏域</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fac0-c5f5169b9dad"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

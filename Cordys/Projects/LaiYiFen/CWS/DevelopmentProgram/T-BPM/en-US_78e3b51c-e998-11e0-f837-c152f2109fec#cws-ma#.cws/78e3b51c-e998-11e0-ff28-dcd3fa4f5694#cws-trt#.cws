@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff28-dcd3fa56d695">
+	<DocumentID>78e3b51c-e998-11e0-ff28-dcd3fa4f5694</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff28-dcd3fa4f5694</Name>
+	<Description>预算数据导入流程</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-18T05:06:19.835</CreationDate>
+	<Notes/>
+	<Text>预算数据导入流程</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff28-dcd3fa405692"
+		/>
+	</TextIdentifier>
+</TranslatedText>

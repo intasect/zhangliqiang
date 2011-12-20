@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbbf-23cbeeb8dfde">
+	<DocumentID>78e3b51c-e998-11e0-fbbf-23cbeeb15fdd</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbbf-23cbeeb15fdd</Name>
+	<Description>发起人修改</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-13T11:29:36.689</CreationDate>
+	<Notes/>
+	<Text>发起人修改</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbbf-23cbeea39fdb"
+		/>
+	</TextIdentifier>
+</TranslatedText>

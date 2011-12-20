@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e205-aa763fd5d43e">
+	<DocumentID>78e3b51c-e998-11e1-e205-aa763fce543d</DocumentID>
+	<Name>78e3b51c-e998-11e1-e205-aa763fce543d</Name>
+	<Description>制定商品订单循环</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-16T08:31:44.745</CreationDate>
+	<Notes/>
+	<Text>制定商品订单循环</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e205-aa763fbf543b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

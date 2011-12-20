@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c27133bc1d2b">
+	<DocumentID>78e3b51c-e998-11e0-f837-c2713388dd2a</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c2713388dd2a</Name>
+	<Description>商超开业时间</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:14.08</CreationDate>
+	<Notes/>
+	<DefaultText>商超开业时间</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c27132d4dd28"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

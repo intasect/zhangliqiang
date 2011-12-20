@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c28ace5a9f81">
+	<DocumentID>78e3b51c-e998-11e0-f837-c28ace031f80</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c28ace031f80</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:42.567</CreationDate>
+	<Notes/>
+	<Text>拆店退货完成确认</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c28acf201f82"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbba-862a48d25626">
+	<DocumentID>78e3b51c-e998-11e0-fbba-862a48cc1625</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbba-862a48cc1625</Name>
+	<Description>流程发起驳回率(Top 5)</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-09-13T07:19:11.538</CreationDate>
+	<Notes/>
+	<Text>流程发起驳回率(Top 5)</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbba-862a48c0d623"
+		/>
+	</TextIdentifier>
+</TranslatedText>

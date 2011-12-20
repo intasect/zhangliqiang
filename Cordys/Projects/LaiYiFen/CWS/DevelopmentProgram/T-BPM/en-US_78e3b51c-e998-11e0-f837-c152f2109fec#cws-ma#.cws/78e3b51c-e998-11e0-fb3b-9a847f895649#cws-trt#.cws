@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb3b-9a847f90d64a">
+	<DocumentID>78e3b51c-e998-11e0-fb3b-9a847f895649</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb3b-9a847f895649</Name>
+	<Description>部门成本中心代码</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-09-08T06:31:44.375</CreationDate>
+	<Notes/>
+	<Text>部门成本中心代码</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb3b-9a847f7b9647"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ffc7-2a3f170d5607">
+	<DocumentID>78e3b51c-e998-11e0-ffc7-2a3f1700d606</DocumentID>
+	<Name>78e3b51c-e998-11e0-ffc7-2a3f1700d606</Name>
+	<Description>省 *</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-24T12:42:01.414</CreationDate>
+	<Notes/>
+	<Text>省 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ffc7-2a3f16e19604"
+		/>
+	</TextIdentifier>
+</TranslatedText>

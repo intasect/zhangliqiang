@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff75-8da46c6a958d">
+	<DocumentID>78e3b51c-e998-11e0-ff75-8da46c63158c</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff75-8da46c63158c</Name>
+	<Description>用户DN</Description>
+	<CreatedBy>徐新宇</CreatedBy>
+	<CreationDate>2011-10-21T06:25:32.308</CreationDate>
+	<Notes/>
+	<Text>用户DN</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff75-8da46c54158a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

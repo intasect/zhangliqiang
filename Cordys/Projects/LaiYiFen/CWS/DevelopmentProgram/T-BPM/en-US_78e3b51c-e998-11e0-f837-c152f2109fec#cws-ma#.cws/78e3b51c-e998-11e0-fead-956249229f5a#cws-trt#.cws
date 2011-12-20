@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fead-95624928df5b">
+	<DocumentID>78e3b51c-e998-11e0-fead-956249229f5a</DocumentID>
+	<Name>78e3b51c-e998-11e0-fead-956249229f5a</Name>
+	<Description>促销处理轮询结果</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-13T07:31:25.983</CreationDate>
+	<Notes/>
+	<Text>促销处理轮询结果</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fead-956249139f58"
+		/>
+	</TextIdentifier>
+</TranslatedText>

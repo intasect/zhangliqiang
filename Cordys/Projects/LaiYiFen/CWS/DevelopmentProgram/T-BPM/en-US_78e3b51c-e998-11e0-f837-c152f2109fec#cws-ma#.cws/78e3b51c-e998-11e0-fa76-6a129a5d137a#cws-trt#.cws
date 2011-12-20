@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa76-6a129a64937b">
+	<DocumentID>78e3b51c-e998-11e0-fa76-6a129a5d137a</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa76-6a129a5d137a</Name>
+	<Description>租金（元/月（含税））*</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-31T09:28:53.413</CreationDate>
+	<Notes/>
+	<Text>租金（元/月（含税））*</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa76-6a129a4f5378"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f8e7-6037b40a5bcd">
+	<DocumentID>78e3b51c-e998-11e0-f8e7-6037b3ca9bcc</DocumentID>
+	<Name>78e3b51c-e998-11e0-f8e7-6037b3ca9bcc</Name>
+	<Description>ContactName</Description>
+	<CreatedBy>root</CreatedBy>
+	<CreationDate>2011-08-15T12:35:07.633</CreationDate>
+	<Notes/>
+	<DefaultText>ContactName</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f8e7-6037b2ed5bca"
+		/>
+	</Translations>
+</TextIdentifier>

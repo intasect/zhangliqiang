@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c20ac0dc178b">
+	<DocumentID>78e3b51c-e998-11e0-f837-c20ac097578a</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c20ac097578a</Name>
+	<Description>Button1</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:14.075</CreationDate>
+	<Notes/>
+	<DefaultText>Button1</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c20abf8f9788"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

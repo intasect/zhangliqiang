@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fe34-8b5a628d1f03">
+	<DocumentID>78e3b51c-e998-11e0-fe34-8b5a62859f02</DocumentID>
+	<Name>78e3b51c-e998-11e0-fe34-8b5a62859f02</Name>
+	<Description>门店统计按年</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-10-08T11:55:07.452</CreationDate>
+	<Notes/>
+	<Text>门店统计按年</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fe34-8b5a6277df00"
+		/>
+	</TextIdentifier>
+</TranslatedText>

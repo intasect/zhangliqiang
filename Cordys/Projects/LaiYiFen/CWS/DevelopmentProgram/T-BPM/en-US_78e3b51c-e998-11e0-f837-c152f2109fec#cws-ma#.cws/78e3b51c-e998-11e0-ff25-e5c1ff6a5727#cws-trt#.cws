@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff25-e5c1ff71d728">
+	<DocumentID>78e3b51c-e998-11e0-ff25-e5c1ff6a5727</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff25-e5c1ff6a5727</Name>
+	<Description>Radio1</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-18T02:27:59.194</CreationDate>
+	<Notes/>
+	<Text>Radio1</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff25-e5c1ff5b5725"
+		/>
+	</TextIdentifier>
+</TranslatedText>

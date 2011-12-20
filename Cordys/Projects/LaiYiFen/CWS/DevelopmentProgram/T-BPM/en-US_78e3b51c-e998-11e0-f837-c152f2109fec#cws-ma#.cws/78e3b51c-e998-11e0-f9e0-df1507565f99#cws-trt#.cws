@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9e0-df15075c9f9a">
+	<DocumentID>78e3b51c-e998-11e0-f9e0-df1507565f99</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9e0-df1507565f99</Name>
+	<Description>产权地址 *</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-25T11:10:25.975</CreationDate>
+	<Notes/>
+	<Text>产权地址 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9e0-df1507475f97"
+		/>
+	</TextIdentifier>
+</TranslatedText>

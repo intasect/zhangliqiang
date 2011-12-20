@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1b605fb166d">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1b605c4166c</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1b605c4166c</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:27.303</CreationDate>
+	<Notes/>
+	<Text>维护门店主配基础信息确认</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1b6068ad66e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

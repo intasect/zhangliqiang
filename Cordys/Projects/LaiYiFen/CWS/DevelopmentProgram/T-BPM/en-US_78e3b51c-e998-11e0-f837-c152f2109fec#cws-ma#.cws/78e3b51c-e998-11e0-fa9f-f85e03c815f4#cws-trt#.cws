@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa9f-f85e03ce55f5">
+	<DocumentID>78e3b51c-e998-11e0-fa9f-f85e03c815f4</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa9f-f85e03c815f4</Name>
+	<Description>房屋租赁非标合同审批</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-02T01:51:45.63</CreationDate>
+	<Notes/>
+	<Text>房屋租赁非标合同审批</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa9f-f85e03b915f2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

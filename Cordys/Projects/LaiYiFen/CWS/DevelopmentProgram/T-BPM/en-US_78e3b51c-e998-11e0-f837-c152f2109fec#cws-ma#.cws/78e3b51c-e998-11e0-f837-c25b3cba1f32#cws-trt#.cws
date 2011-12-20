@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c25b3ce85f33">
+	<DocumentID>78e3b51c-e998-11e0-f837-c25b3cba1f32</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c25b3cba1f32</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:42.566</CreationDate>
+	<Notes/>
+	<Text>实际进场装修时间</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c25b3d5a1f34"
+		/>
+	</TextIdentifier>
+</TranslatedText>

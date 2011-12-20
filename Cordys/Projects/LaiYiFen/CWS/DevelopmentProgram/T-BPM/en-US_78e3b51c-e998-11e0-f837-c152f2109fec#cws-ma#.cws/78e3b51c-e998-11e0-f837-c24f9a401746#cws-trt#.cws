@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c24f9a889747">
+	<DocumentID>78e3b51c-e998-11e0-f837-c24f9a401746</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c24f9a401746</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:14.063</CreationDate>
+	<Notes/>
+	<Text>西北</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c24f9b419748"
+		/>
+	</TextIdentifier>
+</TranslatedText>

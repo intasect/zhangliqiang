@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc82-5088f3941781">
+	<DocumentID>78e3b51c-e998-11e0-fc82-5088f38c9780</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc82-5088f38c9780</Name>
+	<Description>batchNumber</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-21T05:40:44.463</CreationDate>
+	<Notes/>
+	<Text>batchNumber</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc82-5088f37ed77e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

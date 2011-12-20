@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c15602529fcb">
+	<DocumentID>78e3b51c-e998-11e0-f837-c15602051fca</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c15602051fca</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:13.639</CreationDate>
+	<Notes/>
+	<Text>timeoutHandler</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c156030a5fcc"
+		/>
+	</TextIdentifier>
+</TranslatedText>

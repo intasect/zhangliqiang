@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fff0-c8b57be89f24">
+	<DocumentID>78e3b51c-e998-11e0-fff0-c8b57be11f23</DocumentID>
+	<Name>78e3b51c-e998-11e0-fff0-c8b57be11f23</Name>
+	<Description>金额（补助）</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-26T05:34:13.752</CreationDate>
+	<Notes/>
+	<DefaultText>金额（补助）</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fff0-c8b57beedf25"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

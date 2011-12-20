@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa6d-8b43423f1f1e">
+	<DocumentID>78e3b51c-e998-11e0-fa6d-8b4342379f1d</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa6d-8b4342379f1d</Name>
+	<Description>ASSETS_QUANTITY</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-31T01:17:48.19</CreationDate>
+	<Notes/>
+	<Text>ASSETS_QUANTITY</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa6d-8b4342289f1b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

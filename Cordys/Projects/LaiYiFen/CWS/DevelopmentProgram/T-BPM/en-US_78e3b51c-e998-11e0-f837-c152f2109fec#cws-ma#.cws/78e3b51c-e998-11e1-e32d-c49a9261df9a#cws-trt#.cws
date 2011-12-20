@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e32d-c49a92695f9b">
+	<DocumentID>78e3b51c-e998-11e1-e32d-c49a9261df9a</DocumentID>
+	<Name>78e3b51c-e998-11e1-e32d-c49a9261df9a</Name>
+	<Description>当前流程名称</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-11-28T03:17:44.198</CreationDate>
+	<Notes/>
+	<Text>当前流程名称</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e32d-c49a9252df98"
+		/>
+	</TextIdentifier>
+</TranslatedText>

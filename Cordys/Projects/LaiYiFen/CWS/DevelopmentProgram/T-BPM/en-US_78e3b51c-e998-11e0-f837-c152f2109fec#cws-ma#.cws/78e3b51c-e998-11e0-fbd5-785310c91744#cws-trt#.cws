@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbd5-785310d09745">
+	<DocumentID>78e3b51c-e998-11e0-fbd5-785310c91744</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbd5-785310c91744</Name>
+	<Description>test辅料配送单</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-14T08:30:16.642</CreationDate>
+	<Notes/>
+	<Text>test辅料配送单</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbd5-785310bb5742"
+		/>
+	</TextIdentifier>
+</TranslatedText>

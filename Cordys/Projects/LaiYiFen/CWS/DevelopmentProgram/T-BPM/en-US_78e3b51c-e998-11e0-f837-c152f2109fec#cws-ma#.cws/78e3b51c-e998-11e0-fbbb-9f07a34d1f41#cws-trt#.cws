@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbbb-9f07a3549f42">
+	<DocumentID>78e3b51c-e998-11e0-fbbb-9f07a34d1f41</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbbb-9f07a34d1f41</Name>
+	<Description>开间类型 *</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-09-13T07:59:16.585</CreationDate>
+	<Notes/>
+	<Text>开间类型 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbbb-9f07a33f5f3f"
+		/>
+	</TextIdentifier>
+</TranslatedText>

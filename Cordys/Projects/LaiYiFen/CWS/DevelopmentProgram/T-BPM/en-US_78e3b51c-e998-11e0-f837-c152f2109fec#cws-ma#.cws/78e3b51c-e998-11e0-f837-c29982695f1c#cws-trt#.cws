@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c29982b1df1d">
+	<DocumentID>78e3b51c-e998-11e0-f837-c29982695f1c</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c29982695f1c</Name>
+	<Description>合计金额</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:13.507</CreationDate>
+	<Notes/>
+	<Text>合计金额</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c299836c1f1e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

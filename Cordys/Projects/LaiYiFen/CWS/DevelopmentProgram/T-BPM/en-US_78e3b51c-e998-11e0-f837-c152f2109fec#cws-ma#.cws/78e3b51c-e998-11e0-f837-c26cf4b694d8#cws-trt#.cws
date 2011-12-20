@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c26cf4e4d4d9">
+	<DocumentID>78e3b51c-e998-11e0-f837-c26cf4b694d8</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c26cf4b694d8</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:35.197</CreationDate>
+	<Notes/>
+	<Text>租期内门口是否正在进行道路改造或街道统一房屋大修</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c26cf55f54da"
+		/>
+	</TextIdentifier>
+</TranslatedText>

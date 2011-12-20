@@ -1,0 +1,16 @@
+
+<RoleDesignTime
+	type="com.cordys.organization.role.RoleDesignTime"
+	RuntimeDocumentID="005056a3-4878-11e0-f4f5-f9f7ecc39b5c">
+	<DocumentID>005056a3-4878-11e0-f4f5-f9f7ecb85b5b</DocumentID>
+	<Name>浙江子公司财务部资产会计</Name>
+	<Description>浙江子公司财务部资产会计</Description>
+	<CreatedBy>hougang</CreatedBy>
+	<CreationDate>2011-07-06T09:13:29.707</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<isFunctionalRole>true</isFunctionalRole>
+	<type>Functional</type>
+	<Subroles/>
+	<configuredTasks/>
+</RoleDesignTime>

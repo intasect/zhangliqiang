@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="000C297E-6FFF-11E1-E3F9-704122D73FBE">
+	<DocumentID>000C297E-6FFF-11E1-E3F9-704122D71FBE</DocumentID>
+	<Name>000C297E-6FFF-11E1-E3F9-704122D71FBE</Name>
+	<Description>MODIFYACTION</Description>
+	<CreatedBy>Administrator</CreatedBy>
+	<CreationDate>2011-12-06T05:33:21.656</CreationDate>
+	<Notes/>
+	<Text>MODIFYACTION</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="000C297E-6FFF-11E1-E3F9-704122D6DFBE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faab-a2155beb5d77">
+	<DocumentID>78e3b51c-e998-11e0-faab-a2155be3dd76</DocumentID>
+	<Name>78e3b51c-e998-11e0-faab-a2155be3dd76</Name>
+	<Description>年度使用比费用报销率</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-09-02T12:17:00.416</CreationDate>
+	<Notes/>
+	<Text>年度使用比费用报销率</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faab-a2155bd61d74"
+		/>
+	</TextIdentifier>
+</TranslatedText>

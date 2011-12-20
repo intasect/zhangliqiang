@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e0bc-7a7b6538978a">
+	<DocumentID>78e3b51c-e998-11e1-e0bc-7a7b652fd789</DocumentID>
+	<Name>78e3b51c-e998-11e1-e0bc-7a7b652fd789</Name>
+	<Description>“1-普通门店,2-商超专柜,3-商超沿街,4-商超中岛,5-商超厅房,6-站亭店,7-量贩店”填制</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-11-03T08:35:25.501</CreationDate>
+	<Notes/>
+	<Text>“1-普通门店,2-商超专柜,3-商超沿街,4-商超中岛,5-商超厅房,6-站亭店,7-量贩店”填制</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e0bc-7a7b651d1787"
+		/>
+	</TextIdentifier>
+</TranslatedText>

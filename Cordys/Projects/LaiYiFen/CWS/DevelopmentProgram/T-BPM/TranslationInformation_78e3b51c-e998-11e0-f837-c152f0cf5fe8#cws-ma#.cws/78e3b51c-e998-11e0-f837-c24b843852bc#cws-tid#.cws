@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c24b846412bd">
+	<DocumentID>78e3b51c-e998-11e0-f837-c24b843852bc</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c24b843852bc</Name>
+	<Description>离到租期期限</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:05.084</CreationDate>
+	<Notes/>
+	<DefaultText>离到租期期限</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c24b838592ba"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

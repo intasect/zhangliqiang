@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa59-634f49069f98">
+	<DocumentID>78e3b51c-e998-11e0-fa59-634f48ff1f97</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa59-634f48ff1f97</Name>
+	<Description>季度预算总额</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-08-30T06:02:21.356</CreationDate>
+	<Notes/>
+	<DefaultText>季度预算总额</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fa59-634f490e1f99"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

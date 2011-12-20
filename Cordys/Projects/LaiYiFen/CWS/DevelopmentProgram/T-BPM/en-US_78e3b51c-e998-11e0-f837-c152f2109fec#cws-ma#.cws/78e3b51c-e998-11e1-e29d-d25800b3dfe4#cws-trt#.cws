@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e29d-d25800bb5fe5">
+	<DocumentID>78e3b51c-e998-11e1-e29d-d25800b3dfe4</DocumentID>
+	<Name>78e3b51c-e998-11e1-e29d-d25800b3dfe4</Name>
+	<Description>开户银行名称，如工商银行、建设银行、招商银行等</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-11-22T11:36:20.852</CreationDate>
+	<Notes/>
+	<Text>开户银行名称，如工商银行、建设银行、招商银行等</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e29d-d25800a61fe2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

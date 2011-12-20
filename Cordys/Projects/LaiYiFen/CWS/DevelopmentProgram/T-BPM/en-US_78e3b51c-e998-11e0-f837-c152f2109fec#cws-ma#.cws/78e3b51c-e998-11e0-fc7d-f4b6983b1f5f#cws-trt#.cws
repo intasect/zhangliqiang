@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc7d-f4b698429f60">
+	<DocumentID>78e3b51c-e998-11e0-fc7d-f4b6983b1f5f</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc7d-f4b6983b1f5f</Name>
+	<Description>发票(张)</Description>
+	<CreatedBy>陈二号</CreatedBy>
+	<CreationDate>2011-09-21T02:16:35.92</CreationDate>
+	<Notes/>
+	<Text>发票(张)</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc7e-f4a99acc1799"
+		/>
+	</TextIdentifier>
+</TranslatedText>

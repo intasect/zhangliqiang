@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e235-3825792495b0">
+	<DocumentID>78e3b51c-e998-11e1-e235-3825791d15af</DocumentID>
+	<Name>78e3b51c-e998-11e1-e235-3825791d15af</Name>
+	<Description>物料价格库存管理</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-11-18T06:40:54.318</CreationDate>
+	<Notes/>
+	<Text>物料价格库存管理</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e235-3825790f55ad"
+		/>
+	</TextIdentifier>
+</TranslatedText>

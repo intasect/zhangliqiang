@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbcf-883f03f05f58">
+	<DocumentID>78e3b51c-e998-11e0-fbcf-883f03ea1f57</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbcf-883f03ea1f57</Name>
+	<Description>区域经理</Description>
+	<CreatedBy>唐炜炜</CreatedBy>
+	<CreationDate>2011-09-14T03:06:15.516</CreationDate>
+	<Notes/>
+	<Text>区域经理</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbcf-883f03dc5f55"
+		/>
+	</TextIdentifier>
+</TranslatedText>

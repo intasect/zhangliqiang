@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c2871b03d78f">
+	<DocumentID>78e3b51c-e998-11e0-f837-c2871ad6d78e</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c2871ad6d78e</Name>
+	<Description>税务登记证开始日期</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:31.933</CreationDate>
+	<Notes/>
+	<DefaultText>税务登记证开始日期</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c2871a2e178c"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c23a9e77dfed">
+	<DocumentID>78e3b51c-e998-11e0-f837-c23a9e2a5fec</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c23a9e2a5fec</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:45.183</CreationDate>
+	<Notes/>
+	<Text>新开店ADSL安装表单</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c23a9f371fee"
+		/>
+	</TextIdentifier>
+</TranslatedText>

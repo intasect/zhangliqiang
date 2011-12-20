@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e2b5-4caecbaad70e">
+	<DocumentID>78e3b51c-e998-11e1-e2b5-4caecba7170d</DocumentID>
+	<Name>78e3b51c-e998-11e1-e2b5-4caecba7170d</Name>
+	<Description>单证审核</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-23T08:17:59.254</CreationDate>
+	<Notes/>
+	<DefaultText>单证审核</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e1-e2b5-4caecbafd70f"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

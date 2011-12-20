@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa6f-4b237baa1d00">
+	<DocumentID>78e3b51c-e998-11e0-fa6f-4b237ba29dff</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa6f-4b237ba29dff</Name>
+	<Description>CONTACT_PHONE</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-31T02:40:18.436</CreationDate>
+	<Notes/>
+	<Text>CONTACT_PHONE</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa6f-4b237b939dfd"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9dd-c0fabc60956e">
+	<DocumentID>78e3b51c-e998-11e0-f9dd-c0fabc59156d</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9dd-c0fabc59156d</Name>
+	<Description>IS_DECORATION_CODE</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-25T07:47:20.679</CreationDate>
+	<Notes/>
+	<Text>IS_DECORATION_CODE</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9dd-c0fabc4b556b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

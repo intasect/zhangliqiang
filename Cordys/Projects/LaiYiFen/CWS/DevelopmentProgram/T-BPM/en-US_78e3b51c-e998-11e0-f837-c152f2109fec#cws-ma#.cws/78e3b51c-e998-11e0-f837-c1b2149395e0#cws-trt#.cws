@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1b214e255e1">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1b2149395e0</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1b2149395e0</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:16.381</CreationDate>
+	<Notes/>
+	<Text>填写预置键主数据申请表</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1b215b6d5e2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

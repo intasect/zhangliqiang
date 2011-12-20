@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff42-476b2eae1f98">
+	<DocumentID>78e3b51c-e998-11e0-ff42-476b2ea91f97</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff42-476b2ea91f97</Name>
+	<Description>订单类型</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-10-19T05:43:51.045</CreationDate>
+	<Notes/>
+	<Text>订单类型</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff42-476b2ea05f95"
+		/>
+	</TextIdentifier>
+</TranslatedText>

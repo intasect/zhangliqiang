@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9dd-b9754305173e">
+	<DocumentID>78e3b51c-e998-11e0-f9dd-b97542fd973d</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9dd-b97542fd973d</Name>
+	<Description>CITY</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-25T07:47:20.673</CreationDate>
+	<Notes/>
+	<Text>CITY</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9dd-b97542ee973b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fe96-dcb822f49f39">
+	<DocumentID>78e3b51c-e998-11e0-fe96-dcb822ed1f38</DocumentID>
+	<Name>78e3b51c-e998-11e0-fe96-dcb822ed1f38</Name>
+	<Description>驳回处理人</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-12T12:12:11.066</CreationDate>
+	<Notes/>
+	<Text>驳回处理人</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fe96-dcb822df5f36"
+		/>
+	</TextIdentifier>
+</TranslatedText>

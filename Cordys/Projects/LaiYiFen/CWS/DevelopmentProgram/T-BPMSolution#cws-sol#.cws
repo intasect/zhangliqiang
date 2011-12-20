@@ -1,0 +1,19 @@
+
+<Solution
+	type="com.cordys.cws.documenttypes.solution.Solution"
+	RuntimeDocumentID="005056a3-4878-11e0-f17d-75ba4fed5747">
+	<DocumentID>005056a3-4878-11e0-f17d-75ba4fdd1746</DocumentID>
+	<Name>T-BPMSolution</Name>
+	<Description>T-BPMSolution</Description>
+	<CreatedBy>Cordys管理员</CreatedBy>
+	<CreationDate>2011-06-01T01:11:46.92</CreationDate>
+	<Notes/>
+	<Projects>
+		<uri
+			id="005056a3-4878-11e0-f17d-75ba4dad1739"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f17d-f2b27a40d720"
+		/>
+	</Projects>
+</Solution>

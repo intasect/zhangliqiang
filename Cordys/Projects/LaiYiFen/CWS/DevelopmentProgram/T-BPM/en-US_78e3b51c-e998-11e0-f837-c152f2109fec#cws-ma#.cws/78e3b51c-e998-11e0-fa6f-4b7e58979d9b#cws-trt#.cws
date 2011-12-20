@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa6f-4b7e589f1d9c">
+	<DocumentID>78e3b51c-e998-11e0-fa6f-4b7e58979d9b</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa6f-4b7e58979d9b</Name>
+	<Description>STORE_RECENCY_OTHER</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-31T02:40:18.423</CreationDate>
+	<Notes/>
+	<Text>STORE_RECENCY_OTHER</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa6f-4b7e58505d99"
+		/>
+	</TextIdentifier>
+</TranslatedText>

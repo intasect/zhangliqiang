@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e281-d7346f0a5bfd">
+	<DocumentID>78e3b51c-e998-11e1-e281-d7346eff1bfc</DocumentID>
+	<Name>78e3b51c-e998-11e1-e281-d7346eff1bfc</Name>
+	<Description>银行账户</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-11-21T07:30:25.608</CreationDate>
+	<Notes/>
+	<Text>银行账户</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e281-d7346ee11bfa"
+		/>
+	</TextIdentifier>
+</TranslatedText>

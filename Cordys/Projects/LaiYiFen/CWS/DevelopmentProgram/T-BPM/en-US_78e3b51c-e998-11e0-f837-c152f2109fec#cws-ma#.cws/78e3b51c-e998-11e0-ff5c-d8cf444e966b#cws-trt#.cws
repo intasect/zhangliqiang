@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff5c-d8cf4456166c">
+	<DocumentID>78e3b51c-e998-11e0-ff5c-d8cf444e966b</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff5c-d8cf444e966b</Name>
+	<Description>楼层数 *</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-20T08:50:22.537</CreationDate>
+	<Notes/>
+	<Text>楼层数 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff5c-d8cf4440d669"
+		/>
+	</TextIdentifier>
+</TranslatedText>

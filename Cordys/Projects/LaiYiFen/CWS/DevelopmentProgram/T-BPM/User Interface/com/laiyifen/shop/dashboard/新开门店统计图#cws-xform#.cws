@@ -1,0 +1,1040 @@
+
+<XFormDesigntime
+	type="com.cordys.xforms.XFormDesigntime"
+	typeVersion="005056C0-0008-11E0-F8FC-5E0A815B7FB8"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faed-2476b5a35f9a">
+	<DocumentID>78e3b51c-e998-11e0-faed-2476b59bdf99</DocumentID>
+	<Name>新开门店统计图</Name>
+	<Description>新开门店统计图</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-09-05T02:50:30.675</CreationDate>
+	<Notes/>
+	<XFormContent>
+		<xformhtml
+			xmlns="http://schemas.cordys.com/1.0/xform"
+			xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+			xmlns:ev="http://www.w3.org/2001/xml-events"
+			xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+			xformsversion="2"
+			key="User Interface/com/laiyifen/shop/dashboard/新开门店统计图"
+			focusatstartup="true">
+			<xhead>
+				<script
+					id="googlemapv3"
+					src="http://maps.google.com/maps/api/js?sensor=false"
+				/>
+				<script
+					id="googlemapv3"
+					src="http://maps.google.com/maps/api/js?sensor=false"
+				/>
+				<script
+					id="googlemapv3"
+					src="http://maps.google.com/maps/api/js?sensor=false"
+				/>
+				<script
+					id="googlemapv3"
+					src="http://maps.google.com/maps/api/js?sensor=false"
+				/>
+				<script
+					id="googlemapv3"
+					src="http://maps.google.com/maps/api/js?sensor=false"
+				/>
+				<script
+					id="googlemapv3"
+					src="http://maps.google.com/maps/api/js?sensor=false"
+				/>
+				<script
+					id="googlemapv3"
+					src="http://maps.google.com/maps/api/js?sensor=false"
+				/>
+				<script
+					id="googlemapv3"
+					src="http://maps.google.com/maps/api/js?sensor=false"
+				/>
+				<script
+					id="googlemapv3"
+					src="http://maps.google.com/maps/api/js?sensor=false"
+				/>
+				<script
+					id="googlemapv3"
+					src="http://maps.google.com/maps/api/js?sensor=false"
+				/>
+				<script
+					id="googlemapv3"
+					src="http://maps.google.com/maps/api/js?sensor=false"
+				/>
+				<script
+					id="googlemapv3"
+					src="http://maps.google.com/maps/api/js?sensor=false"
+				/>
+				<script
+					id="googlemapv3"
+					src="http://maps.google.com/maps/api/js?sensor=false"
+				/>
+				<script
+					id="googlemapv3"
+					src="http://maps.google.com/maps/api/js?sensor=false"
+				/>
+				<script
+					id="googlemapv3"
+					src="http://maps.google.com/maps/api/js?sensor=false"
+				/>
+				<xforms:model
+					id="SOAPRequestModel"
+					wcpforms:gateway="com.eibus.web.soap.Gateway.wcp"
+					wcpforms:automatic="false"
+					wcpforms:businessElement="SOAPRequest"
+					singleTransaction="false"
+					promptToSave="false"
+					isConstraintValidation="false"
+					isInitializationRequired="false"
+					isApplyAccessControl="false">
+					<xforms:instance
+						xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+						xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+						wcpforms:timeout=""
+						wcpforms:iteratorSize="50"
+					/>
+					<wcpforms:instanceschema/>
+				</xforms:model>
+				<xml
+					xmlns="">
+					<xml
+						id="SOAP_GetAREA">
+						<SOAP:Envelope
+							xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+							<SOAP:Body>
+								<GetAREA
+									xmlns="http://schemas.cordys.com/tbpm/shop"
+									preserveSpace="no"
+									qAccess="0"
+									qValues=""
+								/>
+							</SOAP:Body>
+						</SOAP:Envelope>
+					</xml>
+					<xml
+						id="SOAP_GetStatisticsShopByAreaAndYearAndMonth">
+						<SOAP:Envelope
+							xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+							<SOAP:Body>
+								<GetStatisticsShopByAreaAndYearAndMonth
+									xmlns="http://schemas.cordys.com/tbpm/shop"
+									preserveSpace="no"
+									qAccess="0"
+									qValues="">
+									<SHOP_AREA>PARAMETER</SHOP_AREA>
+									<YEAR>PARAMETER</YEAR>
+								</GetStatisticsShopByAreaAndYearAndMonth>
+							</SOAP:Body>
+						</SOAP:Envelope>
+					</xml>
+					<xml
+						id="SOAP_GetStatisticsShopByAreaAndYearAndAttr">
+						<SOAP:Envelope
+							xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+							<SOAP:Body>
+								<GetStatisticsShopByAreaAndYearAndAttr
+									xmlns="http://schemas.cordys.com/tbpm/shop"
+									preserveSpace="no"
+									qAccess="0"
+									qValues="">
+									<SHOP_AREA>PARAMETER</SHOP_AREA>
+									<YEAR>PARAMETER</YEAR>
+								</GetStatisticsShopByAreaAndYearAndAttr>
+							</SOAP:Body>
+						</SOAP:Envelope>
+					</xml>
+					<xml
+						id="SOAP_GetStatisticsShopAddressByAreaAndMonth">
+						<SOAP:Envelope
+							xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+							<SOAP:Body>
+								<GetStatisticsShopAddressByAreaAndMonth
+									xmlns="http://schemas.cordys.com/tbpm/shop"
+									preserveSpace="no"
+									qAccess="0"
+									qValues="">
+									<SHOP_AREA>PARAMETER</SHOP_AREA>
+									<MONTH>PARAMETER</MONTH>
+								</GetStatisticsShopAddressByAreaAndMonth>
+							</SOAP:Body>
+						</SOAP:Envelope>
+					</xml>
+					<xml
+						xmlns=""
+						id="googlemap_icon_URL_mapper">
+						<tableData/>
+					</xml>
+					<xml
+						xmlns=""
+						id="_icon_URL_mapper">
+						<tableData/>
+					</xml>
+				</xml>
+			</xhead>
+			<xbody>
+				<xforms:group
+					appearance="toolbar"
+					id="toolbar">
+					<xforms:trigger
+						appearance="toolbarbutton"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsToolbarItem"
+						imageURL="/cordys/wcp/theme/default/icon/action/out-of-office.png"
+						id="toolbarbuttonExit"
+						caption="退出">
+						<xforms:hint
+							textIdentifier="78e3b51c-e998-11e0-f9a6-9329534a576f">退出</xforms:hint>
+						<xforms:action
+							ev:event="xforms-activate">
+							<xforms:toolbarbuttonExit_Click/>
+						</xforms:action>
+					</xforms:trigger>
+				</xforms:group>
+				<xforms:group
+					wcpforms:layout="vertical"
+					id="xbody_group"
+					wcpforms:labelalign="ontop">
+					<xforms:group
+						appearance="group"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroup"
+						id="group1"
+						wcpforms:layout="vertical"
+						wcpforms:class="f_layout"
+						wcpforms:size="auto auto"
+						wcpforms:anchors="5px 5px 5px 5px"
+						wcpforms:position="5px 5px"
+						wcpforms:labelalign="ontop">
+						<xforms:group
+							appearance="box"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroupbox"
+							id="groupbox2"
+							isNavigationEnabled="true"
+							wcpforms:layout="vertical"
+							wcpforms:class="f_layout"
+							wcpforms:size="auto auto"
+							wcpforms:anchors="0px 51% 60% 5px"
+							wcpforms:position="0px 51%"
+							wcpforms:labelalign="ontop">
+							<xforms:label
+								textIdentifier="78e3b51c-e998-11e0-faf1-4794741497f5"
+								wcpforms:class="groupheader">当年新开门店网点性质汇总统计图</xforms:label>
+							<xforms:output
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+								id="inputAREA2"
+								doEBIValidate="false"
+								initializeValueSets="0"
+								wcpforms:enumerated="false"
+								multiple="false"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="5px 5px 5px null"
+								wcpforms:position="5px 5px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-faf0-e739ff269f17"
+									wcpforms:size="77px null"
+									wcpforms:class="h_label left_align">按地区查询</xforms:label>
+								<xforms:action
+									ev:event="xforms-value-changed">
+									<xforms:inputAREA2_Change/>
+								</xforms:action>
+								<xforms:hint
+									textIdentifier="78e3b51c-e998-11e0-faf0-e739ff269f17">按地区查询</xforms:hint>
+								<wcpforms:zoom>
+									<wcpforms:url
+										documentID="78e3b51c-e998-11e1-e0d6-67f7714adf01">/cordys/User Interface/com/laiyifen/common/popup/省信息列表.caf</wcpforms:url>
+									<wcpforms:businessAttribute>DESCRIPTION</wcpforms:businessAttribute>
+									<xforms:trigger>
+										<xforms:label>
+											<img
+												xmlns="http://schemas.cordys.com/1.0/xform"
+												src="/cordys/wcp/theme/default/icon/lookup/lookup_file.png"
+											/>
+										</xforms:label>
+									</xforms:trigger>
+									<xforms:action
+										ev:event="xforms-onbeforezoom">
+										<xforms:inputAREA2_BeforeZoom/>
+									</xforms:action>
+									<xforms:action
+										ev:event="xforms-onafterzoom">
+										<xforms:inputAREA2_AfterZoom/>
+									</xforms:action>
+								</wcpforms:zoom>
+							</xforms:output>
+							<div
+								xmlns="http://www.w3.org/2002/xforms/cr"
+								xformextendedname="chart"
+								namespace="cas.xforms.runtimelibrary.SingleSeries"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.extensions.SingleSeries"
+								chartType="Column 3D"
+								xAxisCaption="门店性质"
+								yAxisCaption="门店数量"
+								showAllRecords="1"
+								highlightActiveRecord="1"
+								yAxisMinValue="0"
+								yAxisMaxValue="20"
+								id="chart2"
+								caption="当年新开门店网点性质汇总统计图"
+								wcpforms:layout="vertical"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto auto"
+								wcpforms:anchors="5px 25px 5px 5px"
+								wcpforms:position="5px 25px"
+							/>
+							<xforms:hint
+								textIdentifier="78e3b51c-e998-11e0-faf1-4794741497f5">当年新开门店网点性质汇总统计图</xforms:hint>
+						</xforms:group>
+						<xforms:group
+							appearance="box"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroupbox"
+							id="groupbox3"
+							isNavigationEnabled="true"
+							wcpforms:layout="vertical"
+							wcpforms:class="f_layout"
+							wcpforms:size="auto auto"
+							wcpforms:anchors="40.2% 0px 0px 5px"
+							wcpforms:position="40.2% 0px"
+							wcpforms:labelalign="ontop">
+							<xforms:label
+								textIdentifier="78e3b51c-e998-11e0-faf1-479473a417e5"
+								wcpforms:class="groupheader">当月新开门店地理分布Google Map图</xforms:label>
+							<xforms:output
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+								id="inputAREA3"
+								doEBIValidate="false"
+								initializeValueSets="0"
+								wcpforms:enumerated="false"
+								multiple="false"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="5px 5px 5px null"
+								wcpforms:position="5px 5px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-faf0-e739ff269f17"
+									wcpforms:size="80px null"
+									wcpforms:class="h_label left_align">按地区查询</xforms:label>
+								<xforms:hint
+									textIdentifier="78e3b51c-e998-11e0-faf0-e739ff269f17">按地区查询</xforms:hint>
+								<xforms:action
+									ev:event="xforms-value-changed">
+									<xforms:inputAREA3_Change/>
+								</xforms:action>
+								<wcpforms:zoom>
+									<wcpforms:url
+										documentID="78e3b51c-e998-11e1-e0d6-67f7714adf01">/cordys/User Interface/com/laiyifen/common/popup/省信息列表.caf</wcpforms:url>
+									<wcpforms:businessAttribute>DESCRIPTION</wcpforms:businessAttribute>
+									<xforms:trigger>
+										<xforms:label>
+											<img
+												xmlns="http://schemas.cordys.com/1.0/xform"
+												src="/cordys/wcp/theme/default/icon/lookup/lookup_file.png"
+											/>
+										</xforms:label>
+									</xforms:trigger>
+									<xforms:action
+										ev:event="xforms-onbeforezoom">
+										<xforms:inputAREA3_BeforeZoom/>
+									</xforms:action>
+									<xforms:action
+										ev:event="xforms-onafterzoom">
+										<xforms:inputAREA3_AfterZoom/>
+									</xforms:action>
+								</wcpforms:zoom>
+							</xforms:output>
+							<wcpforms:uicontrol
+								xformextendedname="googlemap"
+								id="googlemap"
+								namespace="cas.xforms.runtimelibrary.GoogleMapRuntime"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.extensions.GoogleMap"
+								centerCoordinates="33,45"
+								zoomLevel="1"
+								doubleClickZoom="1"
+								smoothZoom="1"
+								scrollWheelZoom="1"
+								dragable="1"
+								nodeset="0"
+								mapControl="small"
+								wcpforms:layout="vertical"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto auto"
+								wcpforms:anchors="5px 25px 5px 5px"
+								wcpforms:position="5px 25px"
+							/>
+							<xforms:hint
+								textIdentifier="78e3b51c-e998-11e0-faf1-479473a417e5">当月新开门店地理分布Google Map图</xforms:hint>
+						</xforms:group>
+						<xforms:group
+							appearance="box"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroupbox"
+							id="groupbox1"
+							isNavigationEnabled="true"
+							wcpforms:layout="vertical"
+							wcpforms:class="f_layout"
+							wcpforms:size="auto auto"
+							wcpforms:anchors="0px 0px 59.991167608286254% 50%"
+							wcpforms:position="0px 0px"
+							wcpforms:labelalign="ontop">
+							<xforms:label
+								textIdentifier="78e3b51c-e998-11e0-faf1-4794743f17fb"
+								wcpforms:class="groupheader">新开门店当年折线图</xforms:label>
+							<xforms:output
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsOutput"
+								id="inputAREA1"
+								doEBIValidate="false"
+								initializeValueSets="0"
+								wcpforms:enumerated="false"
+								multiple="false"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 15px"
+								wcpforms:anchors="5px 5px 5px null"
+								wcpforms:position="5px 5px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-faf0-e739ff269f17"
+									wcpforms:size="77px null"
+									wcpforms:class="h_label left_align">按地区查询</xforms:label>
+								<xforms:action
+									ev:event="xforms-value-changed">
+									<xforms:inputAREA1_Change/>
+								</xforms:action>
+								<xforms:hint
+									textIdentifier="78e3b51c-e998-11e0-faf0-e739ff269f17">按地区查询</xforms:hint>
+								<wcpforms:zoom>
+									<wcpforms:url
+										documentID="78e3b51c-e998-11e1-e0d6-67f7714adf01">/cordys/User Interface/com/laiyifen/common/popup/省信息列表.caf</wcpforms:url>
+									<wcpforms:businessAttribute>DESCRIPTION</wcpforms:businessAttribute>
+									<xforms:trigger>
+										<xforms:label>
+											<img
+												xmlns="http://schemas.cordys.com/1.0/xform"
+												src="/cordys/wcp/theme/default/icon/lookup/lookup_file.png"
+											/>
+										</xforms:label>
+									</xforms:trigger>
+									<xforms:action
+										ev:event="xforms-onbeforezoom">
+										<xforms:inputAREA1_BeforeZoom/>
+									</xforms:action>
+									<xforms:action
+										ev:event="xforms-onafterzoom">
+										<xforms:inputAREA1_AfterZoom/>
+									</xforms:action>
+								</wcpforms:zoom>
+							</xforms:output>
+							<div
+								xmlns="http://www.w3.org/2002/xforms/cr"
+								xformextendedname="chart"
+								namespace="cas.xforms.runtimelibrary.MultiSeries"
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.extensions.MultiSeries"
+								caption="新开门店当年折线图"
+								chartType="Scroll Line 2D"
+								xAxisCaption="月度"
+								yAxisCaption="门店数量"
+								showAllRecords="1"
+								highlightActiveRecord="1"
+								yAxisMinValue="0"
+								yAxisMaxValue="5"
+								id="chart1"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto auto"
+								wcpforms:anchors="5px 25px 5px 5px"
+								wcpforms:position="5px 25px"
+							/>
+							<xforms:hint
+								textIdentifier="78e3b51c-e998-11e0-faf1-4794743f17fb">新开门店当年折线图</xforms:hint>
+						</xforms:group>
+					</xforms:group>
+					<wcpforms:uicontrol
+						xformextendedname="googlemap"
+						id=""
+						namespace="cas.xforms.runtimelibrary.GoogleMapRuntime"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.extensions.GoogleMap"
+						wcpforms:layout="vertical"
+						wcpforms:class="f_layout"
+						wcpforms:size="10em 200px"
+						wcpforms:position="-149px 145px"
+					/>
+				</xforms:group>
+			</xbody>
+			<xformsscript>
+				<![CDATA[var year;
+var month;
+
+function toolbarbuttonExit_Click(eventObject)
+{
+    application.container.close();
+}
+
+function Form_InitDone(eventObject)
+{
+    var srcData = application.event.data;
+    var today = new Date();
+    year = today.getFullYear();
+    month = today.getMonth() + 1;
+    
+    var currentArea = "上海";    
+                
+    inputAREA1.setValue(currentArea); 
+    inputAREA2.setValue(currentArea); 
+    inputAREA3.setValue(currentArea);
+
+    show_chart1(currentArea, year);
+    show_chart2(currentArea, year);
+    show_googlemap(currentArea, currentArea);
+}
+
+function show_googlemap(AreaCode, AreaName)
+{
+    //设置地图的中心位置
+    //googlemap.setCenterByAddress(AreaName+",上海,中国", 13);
+    googlemap.setCenterByAddress("中国", 10);
+
+
+    var req = cordys.cloneXMLDocument(SOAP_GetStatisticsShopAddressByAreaAndMonth.XMLDocument);
+    cordys.setNodeText(req, ".//*[local-name()='SHOP_AREA']", AreaCode);
+    if( month >= 10){
+        cordys.setNodeText(req, ".//*[local-name()='MONTH']", year + "-" + month);
+    } else {
+        cordys.setNodeText(req, ".//*[local-name()='MONTH']", year + "-0" + month);
+    }
+
+    SOAPRequestModel.clear();
+    SOAPRequestModel.setMethodRequest(req);
+    SOAPRequestModel.reset();
+
+    var tupleNodes = cordys.selectXMLNodes(SOAPRequestModel.getData(),".//*[local-name()='shop_address_area_month']");
+    for(var i = 0;i < tupleNodes.length; i++){
+        var node = cordys.selectXMLNode(tupleNodes[i],".");
+        var address = cordys.getNodeText(node, ".//*[local-name()='shop_address']", "");
+        googlemap.drawMarkerByAddress(address, true);
+
+     }
+
+}
+
+function show_chart1(area, year)
+{
+    var req = cordys.cloneXMLDocument(SOAP_GetStatisticsShopByAreaAndYearAndMonth.XMLDocument);
+    cordys.setNodeText(req, ".//*[local-name()='SHOP_AREA']", area);
+    cordys.setNodeText(req, ".//*[local-name()='YEAR']", year);
+
+    SOAPRequestModel.clear();
+    SOAPRequestModel.setMethodRequest(req);
+    SOAPRequestModel.reset();
+    
+    chart1.setChartData(SOAPRequestModel.getData(), true);
+    chart1.setLabelColumn(".//*[local-name()='shop_month']");
+    chart1.setValueColumn([".//*[local-name()='shop_number']"]);
+    chart1.render();
+}
+
+function show_chart2(area, year)
+{
+    var req = cordys.cloneXMLDocument(SOAP_GetStatisticsShopByAreaAndYearAndAttr.XMLDocument);
+    cordys.setNodeText(req, ".//*[local-name()='SHOP_AREA']", area);
+    cordys.setNodeText(req, ".//*[local-name()='YEAR']", year);
+
+    SOAPRequestModel.clear();
+    SOAPRequestModel.setMethodRequest(req);
+    SOAPRequestModel.reset();
+    
+    chart2.setChartData(SOAPRequestModel.getData(), true);
+    chart2.setLabelColumn(".//*[local-name()='shop_attr']");
+    chart2.setValueColumn([".//*[local-name()='shop_number']"]);
+    chart2.render();
+}
+
+function inputAREA1_Change(eventObject)
+{
+    show_chart1(inputAREA1.getValue(), year);
+}
+
+function inputAREA2_Change(eventObject)
+{
+    show_chart2(inputAREA2.getValue(), year);
+}
+
+function inputAREA3_Change(eventObject)
+{
+    //debugger;
+   show_googlemap(inputAREA3.getValue(), inputAREA3.getValue());
+}
+
+function inputAREA1_BeforeZoom(eventObject)
+{
+    var frameNode = cordys.selectXMLNode(eventObject.applicationDefinition,".//*[local-name()='frame']"); 
+   frameNode.setAttribute("features", "dialogWidth=650px, dialogHeight=800px");
+   cordys.setTextContent(cordys.selectXMLNode(eventObject.applicationDefinition,".//*[local-name()='caption']"),"省/市信息列表");
+   var data = new Object();
+   //data.type ="CITYC"; 
+   data.type ="BLAND"; 
+   eventObject.data = data;
+
+}
+
+function inputAREA1_AfterZoom(eventObject)
+{
+    
+}
+
+function inputAREA2_BeforeZoom(eventObject)
+{
+    var frameNode = cordys.selectXMLNode(eventObject.applicationDefinition,".//*[local-name()='frame']"); 
+   frameNode.setAttribute("features", "dialogWidth=650px, dialogHeight=800px");
+   cordys.setTextContent(cordys.selectXMLNode(eventObject.applicationDefinition,".//*[local-name()='caption']"),"省/市信息列表");
+   var data = new Object();
+   //data.type ="CITYC"; 
+   data.type ="BLAND"; 
+   eventObject.data = data;
+
+}
+
+function inputAREA2_AfterZoom(eventObject)
+{
+    
+}
+
+function inputAREA3_BeforeZoom(eventObject)
+{
+    var frameNode = cordys.selectXMLNode(eventObject.applicationDefinition,".//*[local-name()='frame']"); 
+   frameNode.setAttribute("features", "dialogWidth=650px, dialogHeight=800px");
+   cordys.setTextContent(cordys.selectXMLNode(eventObject.applicationDefinition,".//*[local-name()='caption']"),"省/市信息列表");
+   var data = new Object();
+   //data.type ="CITYC"; 
+   data.type ="BLAND"; 
+   eventObject.data = data;
+
+}
+
+function inputAREA3_AfterZoom(eventObject)
+{
+    
+}]]>
+			</xformsscript>
+			<xforms:action
+				ev:event="xforms-initialize-done">
+				<xforms:Form_InitDone/>
+			</xforms:action>
+		</xformhtml>
+	</XFormContent>
+	<width></width>
+	<automatic>false</automatic>
+	<data/>
+	<XFormWSDL/>
+	<caption></caption>
+	<isInternal>false</isInternal>
+	<type>XForm</type>
+	<taskName></taskName>
+	<mode>full</mode>
+	<title>true</title>
+	<height></height>
+	<isLegacy>false</isLegacy>
+	<left></left>
+	<qualifiedclassname></qualifiedclassname>
+	<parameters/>
+	<showOnStartPage>false</showOnStartPage>
+	<taskDescription></taskDescription>
+	<top></top>
+	<TranslatableUITexts>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-faf0-e739fd79dfda">
+			<DocumentID>78e3b51c-e998-11e0-faf0-e739fd739fd9</DocumentID>
+			<Name>78e3b51c-e998-11e0-faf0-e739fd739fd9</Name>
+			<Description>78e3b51c-e998-11e0-faf0-e739fd739fd9</Description>
+			<CreatedBy>王志强</CreatedBy>
+			<CreationDate>2011-09-05T06:41:49.163</CreationDate>
+			<Notes/>
+			<UIRef>groupbox3</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e0-faed-2476b59bdf99"
+				/>
+			</XForm>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-faf1-4794739c97e4">
+					<DocumentID>78e3b51c-e998-11e0-faf1-4794739657e3</DocumentID>
+					<Name>78e3b51c-e998-11e0-faf1-4794739657e3</Name>
+					<Description>78e3b51c-e998-11e0-faf1-4794739657e3</Description>
+					<CreatedBy>王志强</CreatedBy>
+					<CreationDate>2011-09-05T06:47:52.015</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-faf1-479473a417e5"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<TooltipText>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-fb3e-d1b4aa95968e">
+					<DocumentID>78e3b51c-e998-11e0-fb3e-d1b4aa8e168d</DocumentID>
+					<Name>78e3b51c-e998-11e0-fb3e-d1b4aa8e168d</Name>
+					<Description>78e3b51c-e998-11e0-fb3e-d1b4aa8e168d</Description>
+					<CreatedBy>王志强</CreatedBy>
+					<CreationDate>2011-09-08T09:05:37.477</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-faf1-479473a417e5"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TooltipText>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-faf0-e739fd97dfde">
+			<DocumentID>78e3b51c-e998-11e0-faf0-e739fd905fdd</DocumentID>
+			<Name>78e3b51c-e998-11e0-faf0-e739fd905fdd</Name>
+			<Description>78e3b51c-e998-11e0-faf0-e739fd905fdd</Description>
+			<CreatedBy>王志强</CreatedBy>
+			<CreationDate>2011-09-05T06:41:49.163</CreationDate>
+			<Notes/>
+			<UIRef>groupbox2</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e0-faed-2476b59bdf99"
+				/>
+			</XForm>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e1-e331-f83ebb299f27">
+					<DocumentID>78e3b51c-e998-11e1-e331-f83ebb221f26</DocumentID>
+					<Name>78e3b51c-e998-11e1-e331-f83ebb221f26</Name>
+					<Description>78e3b51c-e998-11e1-e331-f83ebb221f26</Description>
+					<CreatedBy>徐新宇</CreatedBy>
+					<CreationDate>2011-11-28T07:26:43.947</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-faf1-4794741497f5"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<TooltipText>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-fb3e-d1b4aabed694">
+					<DocumentID>78e3b51c-e998-11e0-fb3e-d1b4aab89693</DocumentID>
+					<Name>78e3b51c-e998-11e0-fb3e-d1b4aab89693</Name>
+					<Description>78e3b51c-e998-11e0-fb3e-d1b4aab89693</Description>
+					<CreatedBy>王志强</CreatedBy>
+					<CreationDate>2011-09-08T09:05:37.476</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-faf1-4794741497f5"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TooltipText>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-faf0-e739fddddfe8">
+			<DocumentID>78e3b51c-e998-11e0-faf0-e739fdd65fe7</DocumentID>
+			<Name>78e3b51c-e998-11e0-faf0-e739fdd65fe7</Name>
+			<Description>78e3b51c-e998-11e0-faf0-e739fdd65fe7</Description>
+			<CreatedBy>王志强</CreatedBy>
+			<CreationDate>2011-09-05T06:41:49.161</CreationDate>
+			<Notes/>
+			<UIRef>groupbox1</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e0-faed-2476b59bdf99"
+				/>
+			</XForm>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-faf1-4794743797fa">
+					<DocumentID>78e3b51c-e998-11e0-faf1-4794743157f9</DocumentID>
+					<Name>78e3b51c-e998-11e0-faf1-4794743157f9</Name>
+					<Description>78e3b51c-e998-11e0-faf1-4794743157f9</Description>
+					<CreatedBy>王志强</CreatedBy>
+					<CreationDate>2011-09-05T06:46:54.336</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-faf1-4794743f17fb"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<TooltipText>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-fb3e-d1b4aae31699">
+					<DocumentID>78e3b51c-e998-11e0-fb3e-d1b4aadb9698</DocumentID>
+					<Name>78e3b51c-e998-11e0-fb3e-d1b4aadb9698</Name>
+					<Description>78e3b51c-e998-11e0-fb3e-d1b4aadb9698</Description>
+					<CreatedBy>王志强</CreatedBy>
+					<CreationDate>2011-09-08T09:05:37.476</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-faf1-4794743f17fb"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TooltipText>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-fb0a-43275bcf5f7e">
+			<DocumentID>78e3b51c-e998-11e0-fb0a-43275bc7df7d</DocumentID>
+			<Name>78e3b51c-e998-11e0-fb0a-43275bc7df7d</Name>
+			<Description>78e3b51c-e998-11e0-fb0a-43275bc7df7d</Description>
+			<CreatedBy>王志强</CreatedBy>
+			<CreationDate>2011-09-06T06:41:40.686</CreationDate>
+			<Notes/>
+			<UIRef>toolbarbuttonExit</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e0-faed-2476b59bdf99"
+				/>
+			</XForm>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-fb0a-43275b95df76">
+					<DocumentID>78e3b51c-e998-11e0-fb0a-43275b8f9f75</DocumentID>
+					<Name>78e3b51c-e998-11e0-fb0a-43275b8f9f75</Name>
+					<Description>78e3b51c-e998-11e0-fb0a-43275b8f9f75</Description>
+					<CreatedBy>王志强</CreatedBy>
+					<CreationDate>2011-09-06T06:41:40.686</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-f9a6-9329534a576f"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<TooltipText>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-fb0a-43275bb29f7a">
+					<DocumentID>78e3b51c-e998-11e0-fb0a-43275bab1f79</DocumentID>
+					<Name>78e3b51c-e998-11e0-fb0a-43275bab1f79</Name>
+					<Description>78e3b51c-e998-11e0-fb0a-43275bab1f79</Description>
+					<CreatedBy>王志强</CreatedBy>
+					<CreationDate>2011-09-06T06:41:40.687</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-f9a6-9329534a576f"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TooltipText>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-fb0a-fded791c5713">
+			<DocumentID>78e3b51c-e998-11e0-fb0a-fded7914d712</DocumentID>
+			<Name>78e3b51c-e998-11e0-fb0a-fded7914d712</Name>
+			<Description>78e3b51c-e998-11e0-fb0a-fded7914d712</Description>
+			<CreatedBy>王志强</CreatedBy>
+			<CreationDate>2011-09-06T07:24:39.794</CreationDate>
+			<Notes/>
+			<UIRef>inputAREA3</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e0-faed-2476b59bdf99"
+				/>
+			</XForm>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-fb0a-fded790e9711">
+					<DocumentID>78e3b51c-e998-11e0-fb0a-fded79071710</DocumentID>
+					<Name>78e3b51c-e998-11e0-fb0a-fded79071710</Name>
+					<Description>78e3b51c-e998-11e0-fb0a-fded79071710</Description>
+					<CreatedBy>王志强</CreatedBy>
+					<CreationDate>2011-09-06T07:24:39.794</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-faf0-e739ff269f17"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<TooltipText>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-fb3e-d1b4aa85568c">
+					<DocumentID>78e3b51c-e998-11e0-fb3e-d1b4aa7dd68b</DocumentID>
+					<Name>78e3b51c-e998-11e0-fb3e-d1b4aa7dd68b</Name>
+					<Description>78e3b51c-e998-11e0-fb3e-d1b4aa7dd68b</Description>
+					<CreatedBy>王志强</CreatedBy>
+					<CreationDate>2011-09-08T09:05:37.476</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-faf0-e739ff269f17"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TooltipText>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-fb0a-fded79891722">
+			<DocumentID>78e3b51c-e998-11e0-fb0a-fded7982d721</DocumentID>
+			<Name>78e3b51c-e998-11e0-fb0a-fded7982d721</Name>
+			<Description>78e3b51c-e998-11e0-fb0a-fded7982d721</Description>
+			<CreatedBy>王志强</CreatedBy>
+			<CreationDate>2011-09-06T07:17:48.638</CreationDate>
+			<Notes/>
+			<UIRef>inputAREA1</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e0-faed-2476b59bdf99"
+				/>
+			</XForm>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-fb0a-fded7973d71f">
+					<DocumentID>78e3b51c-e998-11e0-fb0a-fded796c571e</DocumentID>
+					<Name>78e3b51c-e998-11e0-fb0a-fded796c571e</Name>
+					<Description>78e3b51c-e998-11e0-fb0a-fded796c571e</Description>
+					<CreatedBy>王志强</CreatedBy>
+					<CreationDate>2011-09-06T07:17:48.638</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-faf0-e739ff269f17"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<TooltipText>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-fb3e-d1b4aacdd696">
+					<DocumentID>78e3b51c-e998-11e0-fb3e-d1b4aac65695</DocumentID>
+					<Name>78e3b51c-e998-11e0-fb3e-d1b4aac65695</Name>
+					<Description>78e3b51c-e998-11e0-fb3e-d1b4aac65695</Description>
+					<CreatedBy>王志强</CreatedBy>
+					<CreationDate>2011-09-08T09:05:37.477</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-faf0-e739ff269f17"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TooltipText>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-fb3e-d1b4aab11692">
+			<DocumentID>78e3b51c-e998-11e0-fb3e-d1b4aaaad691</DocumentID>
+			<Name>78e3b51c-e998-11e0-fb3e-d1b4aaaad691</Name>
+			<Description>78e3b51c-e998-11e0-fb3e-d1b4aaaad691</Description>
+			<CreatedBy>王志强</CreatedBy>
+			<CreationDate>2011-09-08T09:05:37.477</CreationDate>
+			<Notes/>
+			<UIRef>inputAREA2</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e0-faed-2476b59bdf99"
+				/>
+			</XForm>
+			<TranslatableName/>
+			<TooltipText>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-fb3e-d1b4aaa35690">
+					<DocumentID>78e3b51c-e998-11e0-fb3e-d1b4aa9bd68f</DocumentID>
+					<Name>78e3b51c-e998-11e0-fb3e-d1b4aa9bd68f</Name>
+					<Description>78e3b51c-e998-11e0-fb3e-d1b4aa9bd68f</Description>
+					<CreatedBy>王志强</CreatedBy>
+					<CreationDate>2011-09-08T09:05:37.475</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-faf0-e739ff269f17"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TooltipText>
+		</TranslatableUIText>
+	</TranslatableUITexts>
+	<Representations/>
+	<ReferredXForms>
+		<uri
+			id="78e3b51c-e998-11e1-e0d6-67f7714adf01"
+		/>
+	</ReferredXForms>
+	<image/>
+	<TranslatableApplications/>
+	<Images/>
+	<messages/>
+	<Webservices/>
+	<StyleSheets/>
+	<input/>
+	<taskParts/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-faed-2476b54e5f8e">
+			<DocumentID>78e3b51c-e998-11e0-faed-2476b546df8d</DocumentID>
+			<Name>78e3b51c-e998-11e0-faed-2476b546df8d</Name>
+			<Description>78e3b51c-e998-11e0-faed-2476b546df8d</Description>
+			<CreatedBy>王志强</CreatedBy>
+			<CreationDate>2011-09-05T02:50:30.675</CreationDate>
+			<Notes/>
+			<Identifier>
+				<uri
+					id="78e3b51c-e998-11e0-faed-2476b5549f8f"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+	<aclFragments/>
+	<tagsContainer/>
+	<deliveryModels/>
+	<messageParts>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="78e3b51c-e998-11e0-faf1-4794738117e0">
+			<DocumentID>78e3b51c-e998-11e0-faf1-4794737997df</DocumentID>
+			<Name>freeformcontrols</Name>
+			<Description>freeformcontrols</Description>
+			<CreatedBy>王志强</CreatedBy>
+			<CreationDate>2011-09-05T06:49:14.621</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<operationName>freeformcontrols</operationName>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+		</MessagePart>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="78e3b51c-e998-11e0-fb0a-fded781c16f4">
+			<DocumentID>78e3b51c-e998-11e0-fb0a-fded781496f3</DocumentID>
+			<Name>SOAPRequestModel</Name>
+			<Description>SOAPRequestModel</Description>
+			<CreatedBy>王志强</CreatedBy>
+			<CreationDate>2011-09-06T07:37:34.38</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<operationName></operationName>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+		</MessagePart>
+	</messageParts>
+	<InstanceSchemaFragments/>
+	<Htms/>
+	<output/>
+	<Javascripts/>
+</XFormDesigntime>

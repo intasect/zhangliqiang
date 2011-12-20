@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc9e-c7fe93041448">
+	<DocumentID>78e3b51c-e998-11e0-fc9e-c7fe92fc9447</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc9e-c7fe92fc9447</Name>
+	<Description>旺季价格</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-22T08:46:25.394</CreationDate>
+	<Notes/>
+	<Text>旺季价格</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc9e-c7fe92eed445"
+		/>
+	</TextIdentifier>
+</TranslatedText>

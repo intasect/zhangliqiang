@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff12-ff85b19e9911">
+	<DocumentID>78e3b51c-e998-11e0-ff12-ff85b1971910</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff12-ff85b1971910</Name>
+	<Description>请按照时:分的格式输入营业时间.半角状态下的冒号</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-10-17T08:41:12.425</CreationDate>
+	<Notes/>
+	<Text>请按照时:分的格式输入营业时间.半角状态下的冒号</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff12-ff85b189590e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

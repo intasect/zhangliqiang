@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb3f-524265089fff">
+	<DocumentID>78e3b51c-e998-11e0-fb3f-524265025ffe</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb3f-524265025ffe</Name>
+	<Description>预计费用核销日</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-09-08T09:17:09.06</CreationDate>
+	<Notes/>
+	<Text>预计费用核销日</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb3f-524264f35ffc"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c26d8814d5d9">
+	<DocumentID>78e3b51c-e998-11e0-f837-c26d87e555d8</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c26d87e555d8</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:23.697</CreationDate>
+	<Notes/>
+	<Text>原有店面积</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c26d888f55da"
+		/>
+	</TextIdentifier>
+</TranslatedText>

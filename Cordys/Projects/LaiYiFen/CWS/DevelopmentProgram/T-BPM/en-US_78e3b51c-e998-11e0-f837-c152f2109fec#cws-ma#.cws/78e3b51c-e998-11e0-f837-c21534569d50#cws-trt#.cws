@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c2153484dd51">
+	<DocumentID>78e3b51c-e998-11e0-f837-c21534569d50</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c21534569d50</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:23.691</CreationDate>
+	<Notes/>
+	<Text>总使用面积(平方米)</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c215351e9d52"
+		/>
+	</TextIdentifier>
+</TranslatedText>

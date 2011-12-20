@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e00f-b15414b11f5b">
+	<DocumentID>78e3b51c-e998-11e1-e00f-b15414ad5f5a</DocumentID>
+	<Name>78e3b51c-e998-11e1-e00f-b15414ad5f5a</Name>
+	<Description>秤数量（个）*</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-10-27T09:36:42.218</CreationDate>
+	<Notes/>
+	<Text>秤数量（个）*</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e00f-b15414a35f58"
+		/>
+	</TextIdentifier>
+</TranslatedText>

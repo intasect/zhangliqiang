@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c23582db1f47">
+	<DocumentID>78e3b51c-e998-11e0-f837-c2358293df46</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c2358293df46</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:45.245</CreationDate>
+	<Notes/>
+	<Text>根据SAP主数据中的全称填写</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c2358392df48"
+		/>
+	</TextIdentifier>
+</TranslatedText>

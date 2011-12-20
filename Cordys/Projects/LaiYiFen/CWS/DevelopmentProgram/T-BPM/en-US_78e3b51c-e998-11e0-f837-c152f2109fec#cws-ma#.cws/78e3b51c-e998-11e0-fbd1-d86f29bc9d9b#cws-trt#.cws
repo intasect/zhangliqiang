@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbd1-d86f29c41d9c">
+	<DocumentID>78e3b51c-e998-11e0-fbd1-d86f29bc9d9b</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbd1-d86f29bc9d9b</Name>
+	<Description>包装车间</Description>
+	<CreatedBy>唐炜炜</CreatedBy>
+	<CreationDate>2011-09-14T05:07:53.05</CreationDate>
+	<Notes/>
+	<Text>包装车间</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbd1-d86f29aedd99"
+		/>
+	</TextIdentifier>
+</TranslatedText>

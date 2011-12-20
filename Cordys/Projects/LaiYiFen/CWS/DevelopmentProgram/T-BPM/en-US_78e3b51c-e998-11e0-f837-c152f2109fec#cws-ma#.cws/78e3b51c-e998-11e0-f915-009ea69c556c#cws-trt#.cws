@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f915-009ea6a2956d">
+	<DocumentID>78e3b51c-e998-11e0-f915-009ea69c556c</DocumentID>
+	<Name>78e3b51c-e998-11e0-f915-009ea69c556c</Name>
+	<Description>财务管理部</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-08-17T08:27:11.294</CreationDate>
+	<Notes/>
+	<Text>财务管理部</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f915-009ea68e956a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

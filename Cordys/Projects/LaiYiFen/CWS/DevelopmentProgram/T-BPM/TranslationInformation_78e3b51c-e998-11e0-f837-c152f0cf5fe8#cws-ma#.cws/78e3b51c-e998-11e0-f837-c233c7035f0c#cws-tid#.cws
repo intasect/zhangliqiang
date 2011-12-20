@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c233c7481f0d">
+	<DocumentID>78e3b51c-e998-11e0-f837-c233c7035f0c</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c233c7035f0c</Name>
+	<Description>乙方</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:14.222</CreationDate>
+	<Notes/>
+	<DefaultText>乙方</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c233c6045f0a"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

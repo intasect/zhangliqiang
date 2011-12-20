@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbe7-c19c48151f7e">
+	<DocumentID>78e3b51c-e998-11e0-fbe7-c19c480d9f7d</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbe7-c19c480d9f7d</Name>
+	<Description>预计</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-15T03:08:59.482</CreationDate>
+	<Notes/>
+	<Text>预计</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbe7-c19c47ffdf7b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

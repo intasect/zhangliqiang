@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c27e67a6d799">
+	<DocumentID>78e3b51c-e998-11e0-f837-c27e675a9798</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c27e675a9798</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:39.961</CreationDate>
+	<Notes/>
+	<Text>10㎡&lt;=面积&lt;=20㎡</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c27e6862579a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

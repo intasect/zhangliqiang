@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c21387c25f03">
+	<DocumentID>78e3b51c-e998-11e0-f837-c213878b5f02</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c213878b5f02</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:22.539</CreationDate>
+	<Notes/>
+	<Text>有无竞争对手</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c213883b9f04"
+		/>
+	</TextIdentifier>
+</TranslatedText>

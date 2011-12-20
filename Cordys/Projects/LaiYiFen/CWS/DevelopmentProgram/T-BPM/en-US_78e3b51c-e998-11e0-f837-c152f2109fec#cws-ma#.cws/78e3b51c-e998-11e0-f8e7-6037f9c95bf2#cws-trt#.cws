@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f8e7-6037f9fddbf3">
+	<DocumentID>78e3b51c-e998-11e0-f8e7-6037f9c95bf2</DocumentID>
+	<Name>78e3b51c-e998-11e0-f8e7-6037f9c95bf2</Name>
+	<Description/>
+	<CreatedBy>root</CreatedBy>
+	<CreationDate>2011-08-15T12:35:07.62</CreationDate>
+	<Notes/>
+	<Text>PostalCode</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f8e7-6037fa8d9bf4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

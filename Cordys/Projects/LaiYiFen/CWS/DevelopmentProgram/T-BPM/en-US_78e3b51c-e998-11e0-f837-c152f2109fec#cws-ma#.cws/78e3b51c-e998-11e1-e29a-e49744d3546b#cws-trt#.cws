@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e29a-e49744dad46c">
+	<DocumentID>78e3b51c-e998-11e1-e29a-e49744d3546b</DocumentID>
+	<Name>78e3b51c-e998-11e1-e29a-e49744d3546b</Name>
+	<Description>供应商公司的主要E-mail地址</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-11-22T09:44:35.722</CreationDate>
+	<Notes/>
+	<Text>供应商公司的主要E-mail地址</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e29d-d258036c1f3b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9dd-c0fabcd1157e">
+	<DocumentID>78e3b51c-e998-11e0-f9dd-c0fabccad57d</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9dd-c0fabccad57d</Name>
+	<Description>IS_BLOCK_DEC</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-25T07:47:17.63</CreationDate>
+	<Notes/>
+	<Text>IS_BLOCK_DEC</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9dd-c0fabcbbd57b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

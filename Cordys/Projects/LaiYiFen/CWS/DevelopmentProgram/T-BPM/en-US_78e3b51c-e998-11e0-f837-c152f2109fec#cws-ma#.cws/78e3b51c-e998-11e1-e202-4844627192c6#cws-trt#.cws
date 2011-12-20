@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e202-4844627912c7">
+	<DocumentID>78e3b51c-e998-11e1-e202-4844627192c6</DocumentID>
+	<Name>78e3b51c-e998-11e1-e202-4844627192c6</Name>
+	<Description>总经理审核</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-11-16T05:20:18.47</CreationDate>
+	<Notes/>
+	<Text>总经理审核</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e202-48446263d2c4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

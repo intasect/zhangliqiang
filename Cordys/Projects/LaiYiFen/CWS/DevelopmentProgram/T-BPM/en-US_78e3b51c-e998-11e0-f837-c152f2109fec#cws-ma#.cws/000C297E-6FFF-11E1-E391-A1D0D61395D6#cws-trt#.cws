@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="000C297E-6FFF-11E1-E391-A1D0D613B5D6">
+	<DocumentID>000C297E-6FFF-11E1-E391-A1D0D61395D6</DocumentID>
+	<Name>000C297E-6FFF-11E1-E391-A1D0D61395D6</Name>
+	<Description>Selected Result</Description>
+	<CreatedBy>Administrator</CreatedBy>
+	<CreationDate>2011-12-02T03:39:11.453</CreationDate>
+	<Notes/>
+	<Text>Selected Result</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="000C297E-6FFF-11E1-E391-A1D0D61355D6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

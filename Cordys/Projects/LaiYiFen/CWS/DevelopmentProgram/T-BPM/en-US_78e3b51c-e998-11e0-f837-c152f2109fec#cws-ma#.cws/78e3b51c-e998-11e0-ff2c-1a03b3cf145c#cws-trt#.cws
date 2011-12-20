@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff2c-1a03b3d6945d">
+	<DocumentID>78e3b51c-e998-11e0-ff2c-1a03b3cf145c</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff2c-1a03b3cf145c</Name>
+	<Description>开间编码</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-18T08:28:45.251</CreationDate>
+	<Notes/>
+	<Text>开间编码</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff2c-1a03b3c1545a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

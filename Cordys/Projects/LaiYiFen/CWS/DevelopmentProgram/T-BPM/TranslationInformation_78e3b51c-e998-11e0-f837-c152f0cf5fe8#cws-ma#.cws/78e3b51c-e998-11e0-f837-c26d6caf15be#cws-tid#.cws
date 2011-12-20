@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c26d6ce115bf">
+	<DocumentID>78e3b51c-e998-11e0-f837-c26d6caf15be</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c26d6caf15be</Name>
+	<Description>网点开发部信息提示</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:30.142</CreationDate>
+	<Notes/>
+	<DefaultText>网点开发部信息提示</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c26d6bf895bc"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e0b8-d4f9c775dfbd">
+	<DocumentID>78e3b51c-e998-11e1-e0b8-d4f9c76e5fbc</DocumentID>
+	<Name>78e3b51c-e998-11e1-e0b8-d4f9c76e5fbc</Name>
+	<Description>填写人基本信息</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-11-03T06:32:36.288</CreationDate>
+	<Notes/>
+	<Text>填写人基本信息</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e0b8-d4f9c7609fba"
+		/>
+	</TextIdentifier>
+</TranslatedText>

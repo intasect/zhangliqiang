@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-febf-f2043d5d5f6f">
+	<DocumentID>78e3b51c-e998-11e0-febf-f2043d55df6e</DocumentID>
+	<Name>78e3b51c-e998-11e0-febf-f2043d55df6e</Name>
+	<Description>网点开发员申请</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-10-14T03:48:19.818</CreationDate>
+	<Notes/>
+	<Text>网点开发员申请</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-febf-f2043d481f6c"
+		/>
+	</TextIdentifier>
+</TranslatedText>

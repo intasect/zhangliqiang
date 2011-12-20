@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff90-b11d8bc1df51">
+	<DocumentID>78e3b51c-e998-11e0-ff90-b11d8bba5f50</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff90-b11d8bba5f50</Name>
+	<Description>附近有无大卖场、食品 店、餐饮店*</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-10-22T08:16:03.825</CreationDate>
+	<Notes/>
+	<Text>附近有无大卖场、食品 店、餐饮店*</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff90-b11d8bac9f4e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faed-2476b56b1f92">
+	<DocumentID>78e3b51c-e998-11e0-faed-2476b5639f91</DocumentID>
+	<Name>78e3b51c-e998-11e0-faed-2476b5639f91</Name>
+	<Description>新开门店数统计图</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-09-05T02:50:30.673</CreationDate>
+	<Notes/>
+	<Text>新开门店数统计图</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faed-2476b5549f8f"
+		/>
+	</TextIdentifier>
+</TranslatedText>

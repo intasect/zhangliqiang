@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c29925b25feb">
+	<DocumentID>78e3b51c-e998-11e0-f837-c299256c5fea</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c299256c5fea</Name>
+	<Description>&lt;P&gt;注&lt;/SPAN&gt;： &lt;/SPAN&gt;转&lt;/SPAN&gt;让&lt;/SPAN&gt;费&lt;/SPAN&gt;分&lt;/SPAN&gt;摊&lt;/SPAN&gt;公&lt;/SPAN&gt;式&lt;/SPAN&gt;：&lt;/SPAN&gt;总&lt;/SPAN&gt;转&lt;/SPAN&gt;让&lt;/SPAN&gt;费&lt;/SPAN&gt;/&lt;/SPAN&gt;合&lt;/SPAN&gt;同&lt;/SPAN&gt;期&lt;/SPAN&gt;总&lt;/SPAN&gt;月&lt;/SPAN&gt;份&lt;/SPAN&gt;计&lt;/SPAN&gt;算&lt;/SPAN&gt;租&lt;/SPAN&gt;金&lt;/S...</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:20.253</CreationDate>
+	<Notes/>
+	<DefaultText>_P_注__SPAN_：___SPAN_转__SPAN_让__SPAN_费__SPAN_分__SPA</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c299246adfe8"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

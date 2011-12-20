@@ -1,0 +1,20 @@
+
+<RoleDesignTime
+	type="com.cordys.organization.role.RoleDesignTime"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc02-3e0a20e49f4b">
+	<DocumentID>78e3b51c-e998-11e0-fc02-3e0a20dd1f4a</DocumentID>
+	<Name>BR费用会计</Name>
+	<Description>BR费用会计</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-09-16T05:14:14.116</CreationDate>
+	<Notes/>
+	<isFunctionalRole>true</isFunctionalRole>
+	<type>Functional</type>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<configuredTasks/>
+	<Subroles>
+		<uri
+			id="005056a3-4878-11e0-f463-d70d0b945b20"
+		/>
+	</Subroles>
+</RoleDesignTime>

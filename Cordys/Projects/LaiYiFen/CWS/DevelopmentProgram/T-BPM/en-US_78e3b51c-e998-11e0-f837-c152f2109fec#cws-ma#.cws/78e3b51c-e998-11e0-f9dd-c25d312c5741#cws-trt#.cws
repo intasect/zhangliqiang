@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9dd-c25d3133d742">
+	<DocumentID>78e3b51c-e998-11e0-f9dd-c25d312c5741</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9dd-c25d312c5741</Name>
+	<Description>MOR_PERSON_AMOUNT</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-25T07:47:17.49</CreationDate>
+	<Notes/>
+	<Text>MOR_PERSON_AMOUNT</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9dd-c25d311e973f"
+		/>
+	</TextIdentifier>
+</TranslatedText>

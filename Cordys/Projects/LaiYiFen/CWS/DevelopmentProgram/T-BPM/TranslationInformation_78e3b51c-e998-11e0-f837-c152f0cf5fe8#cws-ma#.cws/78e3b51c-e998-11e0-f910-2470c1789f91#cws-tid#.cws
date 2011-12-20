@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f910-2470c1801f92">
+	<DocumentID>78e3b51c-e998-11e0-f910-2470c1789f91</DocumentID>
+	<Name>78e3b51c-e998-11e0-f910-2470c1789f91</Name>
+	<Description>成本中心</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-08-17T03:41:04.666</CreationDate>
+	<Notes/>
+	<DefaultText>成本中心</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f910-2470c1865f93"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

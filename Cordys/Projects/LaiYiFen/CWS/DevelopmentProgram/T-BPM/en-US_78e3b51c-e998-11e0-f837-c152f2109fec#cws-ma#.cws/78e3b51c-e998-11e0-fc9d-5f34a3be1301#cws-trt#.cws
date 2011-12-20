@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc9d-5f34a3c59302">
+	<DocumentID>78e3b51c-e998-11e0-fc9d-5f34a3be1301</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc9d-5f34a3be1301</Name>
+	<Description>TestTableRestructure</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-22T07:34:05.309</CreationDate>
+	<Notes/>
+	<Text>TestTableRestructure</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc9d-5f34a3b052ff"
+		/>
+	</TextIdentifier>
+</TranslatedText>

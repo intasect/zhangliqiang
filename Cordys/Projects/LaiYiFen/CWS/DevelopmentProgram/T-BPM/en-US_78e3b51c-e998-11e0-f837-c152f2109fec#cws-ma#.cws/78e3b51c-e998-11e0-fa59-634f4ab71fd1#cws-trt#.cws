@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa59-634f4abe9fd2">
+	<DocumentID>78e3b51c-e998-11e0-fa59-634f4ab71fd1</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa59-634f4ab71fd1</Name>
+	<Description>已支付合同金额</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-08-30T06:02:21.377</CreationDate>
+	<Notes/>
+	<Text>已支付合同金额</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa59-634f4aa81fcf"
+		/>
+	</TextIdentifier>
+</TranslatedText>

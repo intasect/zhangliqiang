@@ -1,0 +1,19 @@
+
+<QualifiedNameRoot
+	type="com.cordys.cws.namespace.qualifiedname.QualifiedNameRoot"
+	RuntimeDocumentID="005056a3-4878-11e0-f670-cbb187ead613">
+	<DocumentID>005056a3-4878-11e0-f670-cbb187df9612</DocumentID>
+	<Name>runtimeQNR for folder</Name>
+	<Description>runtimeQNR for folder</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-07-21T10:48:09.468</CreationDate>
+	<Notes/>
+	<RuntimeQNRFolder>
+		<uri
+			id="000C297E-6FFF-11E1-E37B-AED5634C7276"
+			path="T-BPM/Cordys Install Dir"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</RuntimeQNRFolder>
+	<DesigntimeQNRFolder/>
+</QualifiedNameRoot>

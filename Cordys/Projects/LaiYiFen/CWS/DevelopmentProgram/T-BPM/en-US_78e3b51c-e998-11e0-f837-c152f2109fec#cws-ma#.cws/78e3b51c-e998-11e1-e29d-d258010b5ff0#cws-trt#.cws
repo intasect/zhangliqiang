@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e29d-d25801119ff1">
+	<DocumentID>78e3b51c-e998-11e1-e29d-d258010b5ff0</DocumentID>
+	<Name>78e3b51c-e998-11e1-e29d-d258010b5ff0</Name>
+	<Description>供应商开户银行具体名称，如上海工商银行田林路支行</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-11-22T11:31:57.473</CreationDate>
+	<Notes/>
+	<Text>供应商开户银行具体名称，如上海工商银行田林路支行</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e29d-d25800fc5fee"
+		/>
+	</TextIdentifier>
+</TranslatedText>

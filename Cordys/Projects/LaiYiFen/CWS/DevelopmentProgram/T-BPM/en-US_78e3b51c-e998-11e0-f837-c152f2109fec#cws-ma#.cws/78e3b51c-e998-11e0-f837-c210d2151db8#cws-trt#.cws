@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c210d25eddb9">
+	<DocumentID>78e3b51c-e998-11e0-f837-c210d2151db8</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c210d2151db8</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:40.063</CreationDate>
+	<Notes/>
+	<Text>近</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c210d31cddba"
+		/>
+	</TextIdentifier>
+</TranslatedText>

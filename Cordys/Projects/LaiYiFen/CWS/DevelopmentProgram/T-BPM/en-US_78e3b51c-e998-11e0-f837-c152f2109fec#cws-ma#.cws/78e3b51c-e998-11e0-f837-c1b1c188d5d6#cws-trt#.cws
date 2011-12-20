@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1b1c1fa95d7">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1b1c188d5d6</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1b1c188d5d6</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:48.006</CreationDate>
+	<Notes/>
+	<Text>分配维护人员后在海信系统进行商品预置键主数据维护</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1b1c2cc95d8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

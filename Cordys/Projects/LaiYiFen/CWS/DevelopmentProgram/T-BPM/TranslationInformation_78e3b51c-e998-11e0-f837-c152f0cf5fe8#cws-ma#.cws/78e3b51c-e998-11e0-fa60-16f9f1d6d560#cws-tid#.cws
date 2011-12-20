@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa60-16f9f1de5561">
+	<DocumentID>78e3b51c-e998-11e0-fa60-16f9f1d6d560</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa60-16f9f1d6d560</Name>
+	<Description>财务中心总监</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-08-30T12:09:41.527</CreationDate>
+	<Notes/>
+	<DefaultText>财务中心总监</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fa60-16f9f1e49562"
+		/>
+	</Translations>
+</TextIdentifier>

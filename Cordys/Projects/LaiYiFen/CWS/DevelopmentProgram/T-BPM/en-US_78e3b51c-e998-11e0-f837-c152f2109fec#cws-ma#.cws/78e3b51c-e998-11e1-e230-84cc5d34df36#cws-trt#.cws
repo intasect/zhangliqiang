@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e230-84cc5d3c5f37">
+	<DocumentID>78e3b51c-e998-11e1-e230-84cc5d34df36</DocumentID>
+	<Name>78e3b51c-e998-11e1-e230-84cc5d34df36</Name>
+	<Description>chargecode</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-18T02:00:49.773</CreationDate>
+	<Notes/>
+	<Text>chargecode</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e230-84cc5d271f34"
+		/>
+	</TextIdentifier>
+</TranslatedText>

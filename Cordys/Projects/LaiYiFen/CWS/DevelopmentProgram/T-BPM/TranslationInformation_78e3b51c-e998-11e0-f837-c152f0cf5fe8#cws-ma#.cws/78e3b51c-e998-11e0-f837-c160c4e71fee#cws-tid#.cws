@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c160c52d1fef">
+	<DocumentID>78e3b51c-e998-11e0-f837-c160c4e71fee</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c160c4e71fee</Name>
+	<Description>证照注销或变更确认</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:54.809</CreationDate>
+	<Notes/>
+	<DefaultText>证照注销或变更确认</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c160c3cddfec"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1b8ee63d6c3">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1b8ee2e16c2</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1b8ee2e16c2</Name>
+	<Description>品牌营销中心总监</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:57.527</CreationDate>
+	<Notes/>
+	<DefaultText>品牌营销中心总监</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1b8ed3556c0"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

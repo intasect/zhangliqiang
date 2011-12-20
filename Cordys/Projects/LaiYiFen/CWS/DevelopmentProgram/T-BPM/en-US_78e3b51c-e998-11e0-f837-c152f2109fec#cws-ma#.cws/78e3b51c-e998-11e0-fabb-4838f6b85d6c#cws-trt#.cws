@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fabb-4838f6bfdd6d">
+	<DocumentID>78e3b51c-e998-11e0-fabb-4838f6b85d6c</DocumentID>
+	<Name>78e3b51c-e998-11e0-fabb-4838f6b85d6c</Name>
+	<Description>联系方式 *</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-03T03:12:31.12</CreationDate>
+	<Notes/>
+	<Text>联系方式 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fabb-4838f6a95d6a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

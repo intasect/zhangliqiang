@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c211a0079d59">
+	<DocumentID>78e3b51c-e998-11e0-f837-c2119fbddd58</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c2119fbddd58</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:26.8</CreationDate>
+	<Notes/>
+	<Text>房产性质</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c211a0c31d5a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

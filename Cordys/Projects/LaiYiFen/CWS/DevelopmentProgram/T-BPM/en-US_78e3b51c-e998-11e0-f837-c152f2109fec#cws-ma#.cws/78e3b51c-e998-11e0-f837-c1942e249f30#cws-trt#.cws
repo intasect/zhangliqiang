@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1942e609f31">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1942e249f30</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1942e249f30</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:30.257</CreationDate>
+	<Notes/>
+	<Text>执行租赁合同用印（标准或非标准）</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1942ef7df32"
+		/>
+	</TextIdentifier>
+</TranslatedText>

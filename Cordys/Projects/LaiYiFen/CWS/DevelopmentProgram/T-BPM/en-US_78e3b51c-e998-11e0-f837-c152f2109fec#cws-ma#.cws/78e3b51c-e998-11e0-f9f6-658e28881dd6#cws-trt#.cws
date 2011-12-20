@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9f6-658e288e5dd7">
+	<DocumentID>78e3b51c-e998-11e0-f9f6-658e28881dd6</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9f6-658e28881dd6</Name>
+	<Description>调用更新供应商主数据SAP接口</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-26T08:08:34.834</CreationDate>
+	<Notes/>
+	<Text>调用更新供应商主数据SAP接口</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9f6-658e287a5dd4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

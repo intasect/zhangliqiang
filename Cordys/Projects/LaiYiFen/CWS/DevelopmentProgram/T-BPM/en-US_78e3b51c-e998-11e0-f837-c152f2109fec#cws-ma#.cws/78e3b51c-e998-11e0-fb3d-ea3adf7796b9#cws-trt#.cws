@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb3d-ea3adf7f16ba">
+	<DocumentID>78e3b51c-e998-11e0-fb3d-ea3adf7796b9</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb3d-ea3adf7796b9</Name>
+	<Description>PERSONALMAIL</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-08T08:18:55.295</CreationDate>
+	<Notes/>
+	<Text>PERSONALMAIL</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb3d-ea3adf69d6b7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

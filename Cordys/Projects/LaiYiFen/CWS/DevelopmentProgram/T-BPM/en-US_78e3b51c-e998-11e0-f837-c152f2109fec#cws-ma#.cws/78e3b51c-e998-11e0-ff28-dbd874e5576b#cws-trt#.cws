@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff28-dbd874eb976c">
+	<DocumentID>78e3b51c-e998-11e0-ff28-dbd874e5576b</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff28-dbd874e5576b</Name>
+	<Description>更新SAP编码</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-10-18T05:26:53.473</CreationDate>
+	<Notes/>
+	<Text>更新SAP编码</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff28-dbd874d65769"
+		/>
+	</TextIdentifier>
+</TranslatedText>

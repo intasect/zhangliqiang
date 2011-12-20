@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e29a-e497460a9490">
+	<DocumentID>78e3b51c-e998-11e1-e29a-e4974603148f</DocumentID>
+	<Name>78e3b51c-e998-11e1-e29a-e4974603148f</Name>
+	<Description>供应商主要联系人</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-11-22T09:43:14.011</CreationDate>
+	<Notes/>
+	<DefaultText>供应商主要联系人</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e1-e29a-e49746135491"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

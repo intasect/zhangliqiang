@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbcf-883f04905f68">
+	<DocumentID>78e3b51c-e998-11e0-fbcf-883f0488df67</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbcf-883f0488df67</Name>
+	<Description>部门&amp;公司</Description>
+	<CreatedBy>唐炜炜</CreatedBy>
+	<CreationDate>2011-09-14T03:06:15.523</CreationDate>
+	<Notes/>
+	<DefaultText>部门&amp;公司</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fbcf-883f04991f69"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

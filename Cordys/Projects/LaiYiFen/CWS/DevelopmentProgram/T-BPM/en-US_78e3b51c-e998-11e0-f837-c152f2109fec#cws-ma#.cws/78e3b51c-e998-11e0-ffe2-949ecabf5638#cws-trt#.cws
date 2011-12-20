@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ffe2-949ecac95639">
+	<DocumentID>78e3b51c-e998-11e0-ffe2-949ecabf5638</DocumentID>
+	<Name>78e3b51c-e998-11e0-ffe2-949ecabf5638</Name>
+	<Description>rturn back to step3</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-25T14:27:47.698</CreationDate>
+	<Notes/>
+	<Text>rturn back to step3</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ffe2-949eca691636"
+		/>
+	</TextIdentifier>
+</TranslatedText>

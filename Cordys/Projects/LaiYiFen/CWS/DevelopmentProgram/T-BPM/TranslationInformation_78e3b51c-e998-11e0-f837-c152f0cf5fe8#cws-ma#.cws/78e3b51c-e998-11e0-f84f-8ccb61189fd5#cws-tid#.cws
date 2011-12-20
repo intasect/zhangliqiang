@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f84f-8ccb61201fd6">
+	<DocumentID>78e3b51c-e998-11e0-f84f-8ccb61189fd5</DocumentID>
+	<Name>78e3b51c-e998-11e0-f84f-8ccb61189fd5</Name>
+	<Description>驳回位置</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-09T11:55:19.489</CreationDate>
+	<Notes/>
+	<DefaultText>驳回位置</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f84f-8ccb61279fd7"
+		/>
+	</Translations>
+</TextIdentifier>

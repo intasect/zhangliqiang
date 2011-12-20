@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff59-416ea0b05648">
+	<DocumentID>78e3b51c-e998-11e0-ff59-416ea0a8d647</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff59-416ea0a8d647</Name>
+	<Description>ForEach</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-20T03:33:33.785</CreationDate>
+	<Notes/>
+	<Text>ForEach</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff59-416ea09b1645"
+		/>
+	</TextIdentifier>
+</TranslatedText>

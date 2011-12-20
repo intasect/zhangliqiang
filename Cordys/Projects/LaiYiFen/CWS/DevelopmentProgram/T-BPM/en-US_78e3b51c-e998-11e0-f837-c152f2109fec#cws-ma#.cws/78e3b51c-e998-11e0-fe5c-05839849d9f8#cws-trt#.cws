@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fe5c-0583985019f9">
+	<DocumentID>78e3b51c-e998-11e0-fe5c-05839849d9f8</DocumentID>
+	<Name>78e3b51c-e998-11e0-fe5c-05839849d9f8</Name>
+	<Description>淡季价格（元/天）</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-10-10T01:58:00.576</CreationDate>
+	<Notes/>
+	<Text>淡季价格（元/天）</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fe5c-0583983ad9f6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

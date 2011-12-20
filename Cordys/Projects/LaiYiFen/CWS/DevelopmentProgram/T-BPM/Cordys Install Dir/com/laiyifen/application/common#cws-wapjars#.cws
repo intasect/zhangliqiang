@@ -1,0 +1,39 @@
+
+<WSAppServerJavaArchiveSource
+	type="com.cordys.wsappserver.WSAppServerJavaArchiveSource"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f8df-cc57cdd7df8d">
+	<DocumentID>78e3b51c-e998-11e0-f8df-cc57cdd19f8c</DocumentID>
+	<Name>common</Name>
+	<Description>common</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-15T06:06:18.478</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<JarFileName>common</JarFileName>
+	<SourceFolder>
+		<uri
+			id="000C297E-6FFF-11E1-E37B-AC8C10489276"
+			path="T-BPM/Java/common"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+	<WSAppServerPackage>
+		<uri
+			id="78e3b51c-e998-11e0-f8df-cc57ce331f9a"
+		/>
+	</WSAppServerPackage>
+	<Dependencies>
+		<JavaArchiveReferenceDependency
+			type="com.cordys.cws.documenttypes.javaarchivesource.JavaArchiveReferenceDependency"
+			RuntimeDocumentID="78e3b51c-e998-11e0-f8df-cc57cdca1f8b">
+			<DocumentID>78e3b51c-e998-11e0-f8df-cc57cdc29f8a</DocumentID>
+			<Name>common_Dependency</Name>
+			<Description>common_Dependency</Description>
+			<CreatedBy>江庆荣</CreatedBy>
+			<CreationDate>2011-08-15T06:06:18.069</CreationDate>
+			<Notes/>
+			<ISVPName></ISVPName>
+			<DependsOnJAR>?CORDYS_INSTALL_DIR?/components/wsappserver/wsappserver.jar</DependsOnJAR>
+		</JavaArchiveReferenceDependency>
+	</Dependencies>
+</WSAppServerJavaArchiveSource>

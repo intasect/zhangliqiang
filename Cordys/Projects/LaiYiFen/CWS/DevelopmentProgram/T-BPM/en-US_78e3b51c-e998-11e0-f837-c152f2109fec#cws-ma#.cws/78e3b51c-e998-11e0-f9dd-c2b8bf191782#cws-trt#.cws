@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9dd-c2b8bf209783">
+	<DocumentID>78e3b51c-e998-11e0-f9dd-c2b8bf191782</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9dd-c2b8bf191782</Name>
+	<Description>ONELEFTBUSINESS_ITEM</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-25T07:47:17.481</CreationDate>
+	<Notes/>
+	<Text>ONELEFTBUSINESS_ITEM</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9dd-c2b8bf0b5780"
+		/>
+	</TextIdentifier>
+</TranslatedText>

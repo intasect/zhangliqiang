@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa5f-e3fb94cd9b8a">
+	<DocumentID>78e3b51c-e998-11e0-fa5f-e3fb94c75b89</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa5f-e3fb94c75b89</Name>
+	<Description>BPC总部流程</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-08-30T11:58:22.123</CreationDate>
+	<Notes/>
+	<DefaultText>BPC总部流程</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fa5f-e3fb94d51b8b"
+		/>
+	</Translations>
+</TextIdentifier>

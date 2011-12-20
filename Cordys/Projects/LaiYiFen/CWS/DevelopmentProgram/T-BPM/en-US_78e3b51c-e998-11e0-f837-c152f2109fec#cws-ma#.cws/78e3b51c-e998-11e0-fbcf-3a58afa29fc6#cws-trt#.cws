@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbcf-3a58afab5fc7">
+	<DocumentID>78e3b51c-e998-11e0-fbcf-3a58afa29fc6</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbcf-3a58afa29fc6</Name>
+	<Description>包装要求</Description>
+	<CreatedBy>唐炜炜</CreatedBy>
+	<CreationDate>2011-09-14T02:50:16.838</CreationDate>
+	<Notes/>
+	<Text>包装要求</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbcf-3a58af94dfc4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

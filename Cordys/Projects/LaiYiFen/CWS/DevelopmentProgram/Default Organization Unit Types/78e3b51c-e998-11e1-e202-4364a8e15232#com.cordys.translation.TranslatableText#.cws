@@ -1,0 +1,16 @@
+
+<TranslatableText
+	type="com.cordys.translation.TranslatableText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e202-4364a8e79233">
+	<DocumentID>78e3b51c-e998-11e1-e202-4364a8e15232</DocumentID>
+	<Name>78e3b51c-e998-11e1-e202-4364a8e15232</Name>
+	<Description>78e3b51c-e998-11e1-e202-4364a8e15232</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-11-16T05:20:18.482</CreationDate>
+	<Notes/>
+	<Identifier>
+		<uri
+			id="78e3b51c-e998-11e1-e202-4364a8ef1234"
+		/>
+	</Identifier>
+</TranslatableText>

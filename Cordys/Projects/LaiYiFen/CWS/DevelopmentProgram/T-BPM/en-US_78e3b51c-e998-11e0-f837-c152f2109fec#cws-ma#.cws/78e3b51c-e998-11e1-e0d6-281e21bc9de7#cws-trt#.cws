@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e0d6-281e21c41de8">
+	<DocumentID>78e3b51c-e998-11e1-e0d6-281e21bc9de7</DocumentID>
+	<Name>78e3b51c-e998-11e1-e0d6-281e21bc9de7</Name>
+	<Description>SUBCOMPANY_CODE</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-11-04T06:56:19.059</CreationDate>
+	<Notes/>
+	<Text>SUBCOMPANY_CODE</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e0d6-281e21aedde5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

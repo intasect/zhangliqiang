@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb3d-ea3ade27568a">
+	<DocumentID>78e3b51c-e998-11e0-fb3d-ea3ade1d5689</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb3d-ea3ade1d5689</Name>
+	<Description>PERSONALSTATUS</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-08T08:18:55.27</CreationDate>
+	<Notes/>
+	<Text>PERSONALSTATUS</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb3d-ea3ade0f9687"
+		/>
+	</TextIdentifier>
+</TranslatedText>

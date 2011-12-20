@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c2728576df45">
+	<DocumentID>78e3b51c-e998-11e0-f837-c272854b1f44</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c272854b1f44</Name>
+	<Description>房产性质，如：标超，中型商超，大卖场</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:51.399</CreationDate>
+	<Notes/>
+	<DefaultText>房产性质，如：标超，中型商超，大卖场</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c27284985f42"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

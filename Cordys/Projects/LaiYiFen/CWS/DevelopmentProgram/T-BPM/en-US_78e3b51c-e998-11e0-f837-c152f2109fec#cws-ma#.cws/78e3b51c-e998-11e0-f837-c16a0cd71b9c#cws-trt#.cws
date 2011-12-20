@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c16a0d271b9d">
+	<DocumentID>78e3b51c-e998-11e0-f837-c16a0cd71b9c</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c16a0cd71b9c</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:30.391</CreationDate>
+	<Notes/>
+	<Text>非集成发票校验</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c16a0dea1b9e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

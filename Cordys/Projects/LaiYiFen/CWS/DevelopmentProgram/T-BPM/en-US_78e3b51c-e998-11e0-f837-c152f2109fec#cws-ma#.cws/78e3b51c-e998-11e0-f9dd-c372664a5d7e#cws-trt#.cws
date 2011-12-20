@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9dd-c3726651dd7f">
+	<DocumentID>78e3b51c-e998-11e0-f9dd-c372664a5d7e</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9dd-c372664a5d7e</Name>
+	<Description>HAS_OLDSHOP</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-25T07:47:17.61</CreationDate>
+	<Notes/>
+	<Text>HAS_OLDSHOP</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9dd-c372663c9d7c"
+		/>
+	</TextIdentifier>
+</TranslatedText>

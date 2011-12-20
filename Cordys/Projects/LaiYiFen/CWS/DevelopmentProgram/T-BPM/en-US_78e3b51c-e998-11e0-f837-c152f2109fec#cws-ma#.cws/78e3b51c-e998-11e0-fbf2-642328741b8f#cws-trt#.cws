@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbf2-6423287a5b90">
+	<DocumentID>78e3b51c-e998-11e0-fbf2-642328741b8f</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbf2-642328741b8f</Name>
+	<Description>门店装修图纸确认查询</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-15T12:51:32.714</CreationDate>
+	<Notes/>
+	<Text>门店装修图纸确认查询</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbf2-642328665b8d"
+		/>
+	</TextIdentifier>
+</TranslatedText>

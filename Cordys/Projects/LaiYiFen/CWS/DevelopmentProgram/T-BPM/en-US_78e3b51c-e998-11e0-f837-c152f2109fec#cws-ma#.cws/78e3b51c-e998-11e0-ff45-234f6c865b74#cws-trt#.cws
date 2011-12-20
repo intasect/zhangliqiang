@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff45-234f6c8b5b75">
+	<DocumentID>78e3b51c-e998-11e0-ff45-234f6c865b74</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff45-234f6c865b74</Name>
+	<Description>门店基础信息(高级查询)</Description>
+	<CreatedBy>徐新宇</CreatedBy>
+	<CreationDate>2011-10-19T08:31:42.711</CreationDate>
+	<Notes/>
+	<Text>门店基础信息(高级查询)</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff45-234f6c7d9b72"
+		/>
+	</TextIdentifier>
+</TranslatedText>

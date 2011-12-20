@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbce-2d062623950e">
+	<DocumentID>78e3b51c-e998-11e0-fbce-2d06261c150d</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbce-2d06261c150d</Name>
+	<Description>订购商品信息</Description>
+	<CreatedBy>唐炜炜</CreatedBy>
+	<CreationDate>2011-09-14T02:19:40.858</CreationDate>
+	<Notes/>
+	<Text>订购商品信息</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbce-2d06260e550b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

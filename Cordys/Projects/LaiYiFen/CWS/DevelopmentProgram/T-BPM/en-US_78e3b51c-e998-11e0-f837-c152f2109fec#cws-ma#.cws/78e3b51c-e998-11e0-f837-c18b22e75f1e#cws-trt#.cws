@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c18b233b1f1f">
+	<DocumentID>78e3b51c-e998-11e0-f837-c18b22e75f1e</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c18b22e75f1e</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:26.581</CreationDate>
+	<Notes/>
+	<Text>查看进场装修信息预告</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c18b24031f20"
+		/>
+	</TextIdentifier>
+</TranslatedText>

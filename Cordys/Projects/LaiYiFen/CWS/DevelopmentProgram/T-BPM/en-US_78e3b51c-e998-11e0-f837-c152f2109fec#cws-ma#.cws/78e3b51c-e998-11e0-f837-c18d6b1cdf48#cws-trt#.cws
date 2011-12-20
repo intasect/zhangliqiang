@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c18d6b53df49">
+	<DocumentID>78e3b51c-e998-11e0-f837-c18d6b1cdf48</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c18d6b1cdf48</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:13.56</CreationDate>
+	<Notes/>
+	<Text>证照及宽带业务处理</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c18d6bed9f4a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9bd-ffc6d3585f17">
+	<DocumentID>78e3b51c-e998-11e0-f9bd-ffc6d350df16</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9bd-ffc6d350df16</Name>
+	<Description>Input5</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-24T01:38:17.467</CreationDate>
+	<Notes/>
+	<Text>Input5</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9bd-ffc6d341df14"
+		/>
+	</TextIdentifier>
+</TranslatedText>

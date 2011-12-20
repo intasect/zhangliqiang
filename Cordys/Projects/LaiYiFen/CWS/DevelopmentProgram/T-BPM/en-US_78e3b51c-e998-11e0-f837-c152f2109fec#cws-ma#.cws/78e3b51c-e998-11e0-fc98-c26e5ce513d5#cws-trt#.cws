@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc98-c26e5cedd3d6">
+	<DocumentID>78e3b51c-e998-11e0-fc98-c26e5ce513d5</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc98-c26e5ce513d5</Name>
+	<Description>ACTUAL_DATE</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-22T03:31:52.41</CreationDate>
+	<Notes/>
+	<Text>ACTUAL_DATE</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc98-c26e5cd4d3d3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

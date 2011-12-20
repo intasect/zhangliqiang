@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faf1-479473aa57e6">
+	<DocumentID>78e3b51c-e998-11e0-faf1-479473a417e5</DocumentID>
+	<Name>78e3b51c-e998-11e0-faf1-479473a417e5</Name>
+	<Description>当月新开门店地理分布Google Map图</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-09-05T06:47:52.016</CreationDate>
+	<Notes/>
+	<DefaultText>当月新开门店地理分布Google Map图</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-faf1-479473b1d7e7"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

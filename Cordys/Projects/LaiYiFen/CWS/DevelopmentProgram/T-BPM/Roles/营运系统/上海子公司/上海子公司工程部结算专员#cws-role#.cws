@@ -1,0 +1,16 @@
+
+<RoleDesignTime
+	type="com.cordys.organization.role.RoleDesignTime"
+	RuntimeDocumentID="005056a3-4878-11e0-f4f2-3cc754f01ff0">
+	<DocumentID>005056a3-4878-11e0-f4f2-3cc754e4dfef</DocumentID>
+	<Name>上海子公司工程部结算专员</Name>
+	<Description>上海子公司工程部结算专员</Description>
+	<CreatedBy>hougang</CreatedBy>
+	<CreationDate>2011-07-06T05:37:08.927</CreationDate>
+	<Notes/>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<isFunctionalRole>true</isFunctionalRole>
+	<type>Functional</type>
+	<Subroles/>
+	<configuredTasks/>
+</RoleDesignTime>

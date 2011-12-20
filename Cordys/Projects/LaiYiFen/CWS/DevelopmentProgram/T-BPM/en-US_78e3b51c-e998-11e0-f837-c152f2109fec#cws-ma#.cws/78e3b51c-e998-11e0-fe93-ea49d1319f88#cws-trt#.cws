@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fe93-ea49d137df89">
+	<DocumentID>78e3b51c-e998-11e0-fe93-ea49d1319f88</DocumentID>
+	<Name>78e3b51c-e998-11e0-fe93-ea49d1319f88</Name>
+	<Description>个人超时业务事项统计</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-10-12T07:09:44.957</CreationDate>
+	<Notes/>
+	<Text>个人超时业务事项统计</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fe93-ea49d1229f86"
+		/>
+	</TextIdentifier>
+</TranslatedText>

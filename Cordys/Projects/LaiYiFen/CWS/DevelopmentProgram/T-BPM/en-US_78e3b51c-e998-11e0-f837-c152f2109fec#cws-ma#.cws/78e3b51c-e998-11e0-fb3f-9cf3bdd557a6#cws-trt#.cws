@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb3f-9cf3bddb97a7">
+	<DocumentID>78e3b51c-e998-11e0-fb3f-9cf3bdd557a6</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb3f-9cf3bdd557a6</Name>
+	<Description>是否是中心门店 *</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-09-08T09:45:45.039</CreationDate>
+	<Notes/>
+	<Text>是否是中心门店 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb3f-9cf3bdc657a4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

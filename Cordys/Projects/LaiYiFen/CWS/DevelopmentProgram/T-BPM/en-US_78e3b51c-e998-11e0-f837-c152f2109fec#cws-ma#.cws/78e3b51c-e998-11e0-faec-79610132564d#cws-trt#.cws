@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faec-79610138964e">
+	<DocumentID>78e3b51c-e998-11e0-faec-79610132564d</DocumentID>
+	<Name>78e3b51c-e998-11e0-faec-79610132564d</Name>
+	<Description>分销渠道 *</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-05T02:32:30.198</CreationDate>
+	<Notes/>
+	<Text>分销渠道 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faec-79610123564b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

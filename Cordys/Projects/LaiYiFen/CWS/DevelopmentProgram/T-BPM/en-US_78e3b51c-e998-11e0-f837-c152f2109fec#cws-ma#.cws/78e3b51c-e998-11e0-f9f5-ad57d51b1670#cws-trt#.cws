@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9f5-ad57d5229671">
+	<DocumentID>78e3b51c-e998-11e0-f9f5-ad57d51b1670</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9f5-ad57d51b1670</Name>
+	<Description>MONTH4</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-08-26T06:34:32.273</CreationDate>
+	<Notes/>
+	<Text>MONTH4</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9f5-ad57d50c166e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

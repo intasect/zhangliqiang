@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbbb-00d16b209f1c">
+	<DocumentID>78e3b51c-e998-11e0-fbbb-00d16b191f1b</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbbb-00d16b191f1b</Name>
+	<Description>借款人</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-09-13T07:32:11.817</CreationDate>
+	<Notes/>
+	<Text>借款人</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbbb-00d16b0b5f19"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ffdd-f1333982568f">
+	<DocumentID>78e3b51c-e998-11e0-ffdd-f1333979968e</DocumentID>
+	<Name>78e3b51c-e998-11e0-ffdd-f1333979968e</Name>
+	<Description>门店修改接口</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-25T10:06:08.435</CreationDate>
+	<Notes/>
+	<Text>门店修改接口</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ffdd-f133396bd68c"
+		/>
+	</TextIdentifier>
+</TranslatedText>

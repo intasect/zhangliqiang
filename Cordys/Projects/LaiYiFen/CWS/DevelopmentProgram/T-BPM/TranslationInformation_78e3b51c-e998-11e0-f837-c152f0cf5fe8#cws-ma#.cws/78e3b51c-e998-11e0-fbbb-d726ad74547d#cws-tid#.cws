@@ -1,0 +1,24 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbbb-d726ada7947e">
+	<DocumentID>78e3b51c-e998-11e0-fbbb-d726ad74547d</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbbb-d726ad74547d</Name>
+	<Description>数据下发
+ 异常处理结果</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-09-13T08:02:33.833</CreationDate>
+	<Notes/>
+	<DefaultText>数据下发__异常处理结果</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fbbb-d726aacb147b"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9f5-ad57d41c1657">
+	<DocumentID>78e3b51c-e998-11e0-f9f5-ad57d415d656</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9f5-ad57d415d656</Name>
+	<Description>MONTH7</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-08-26T06:34:32.291</CreationDate>
+	<Notes/>
+	<DefaultText>MONTH7</DefaultText>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f9f5-ad57d4239658"
+		/>
+	</Translations>
+</TextIdentifier>

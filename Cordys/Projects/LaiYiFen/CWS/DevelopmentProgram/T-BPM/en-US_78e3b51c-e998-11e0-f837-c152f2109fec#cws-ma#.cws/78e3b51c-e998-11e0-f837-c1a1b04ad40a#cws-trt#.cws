@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1a1b080940b">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1a1b04ad40a</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1a1b04ad40a</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:31.819</CreationDate>
+	<Notes/>
+	<Text>填写商超信息移交单</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1a1b0fed40c"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fcb7-5fb18791ddfa">
+	<DocumentID>78e3b51c-e998-11e0-fcb7-5fb18787ddf9</DocumentID>
+	<Name>78e3b51c-e998-11e0-fcb7-5fb18787ddf9</Name>
+	<Description>商圈基本信息</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-23T08:43:32.641</CreationDate>
+	<Notes/>
+	<Text>商圈基本信息</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fcb7-5fb1872dddf7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

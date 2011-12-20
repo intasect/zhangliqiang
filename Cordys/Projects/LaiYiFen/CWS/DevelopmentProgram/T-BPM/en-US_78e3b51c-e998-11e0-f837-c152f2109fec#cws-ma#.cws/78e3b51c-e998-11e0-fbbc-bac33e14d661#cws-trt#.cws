@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbbc-0d08713bd558">
+	<DocumentID>78e3b51c-e998-11e0-fbbc-bac33e14d661</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbbc-bac33e14d661</Name>
+	<Description>LOG_LEVEL</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-09-13T08:55:03.116</CreationDate>
+	<Notes/>
+	<Text>LOG_LEVEL</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbbc-bac33e07165f"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9f6-658e28651dd1">
+	<DocumentID>78e3b51c-e998-11e0-f9f6-658e285eddd0</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9f6-658e285eddd0</Name>
+	<Description>供应商主数据异常处理</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-26T08:08:34.838</CreationDate>
+	<Notes/>
+	<Text>供应商主数据异常处理</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9f6-658e284fddce"
+		/>
+	</TextIdentifier>
+</TranslatedText>

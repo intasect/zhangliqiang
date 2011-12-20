@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa5e-17f34c0e5fed">
+	<DocumentID>78e3b51c-e998-11e0-fa5e-17f34c081fec</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa5e-17f34c081fec</Name>
+	<Description>PROMOTION_GROUP_NAME</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-30T11:11:52.708</CreationDate>
+	<Notes/>
+	<Text>PROMOTION_GROUP_NAME</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa5e-17f34bfa5fea"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faab-8e769de5dd1a">
+	<DocumentID>78e3b51c-e998-11e0-faab-a2155c621d88</DocumentID>
+	<Name>78e3b51c-e998-11e0-faab-a2155c621d88</Name>
+	<Description>财务审核确认信息</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-09-02T12:17:00.407</CreationDate>
+	<Notes/>
+	<Text>财务审核确认信息</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faab-a2155c545d86"
+		/>
+	</TextIdentifier>
+</TranslatedText>

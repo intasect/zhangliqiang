@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e330-e972c8d0d37b">
+	<DocumentID>78e3b51c-e998-11e1-e330-e972c8c9537a</DocumentID>
+	<Name>78e3b51c-e998-11e1-e330-e972c8c9537a</Name>
+	<Description>流程信息汇总</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-11-28T06:11:01.746</CreationDate>
+	<Notes/>
+	<DefaultText>流程信息汇总</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e1-e330-e972c8d8537c"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fcb8-8cbde4a39d67">
+	<DocumentID>78e3b51c-e998-11e0-fcb9-9229ea755faf</DocumentID>
+	<Name>78e3b51c-e998-11e0-fcb9-9229ea755faf</Name>
+	<Description>指门店营业员业绩提成比率数，填写数字,5‰请填写0.005</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-09-23T10:13:01.658</CreationDate>
+	<Notes/>
+	<Text>指门店营业员业绩提成比率数，填写数字,5‰请填写0.005</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fcb9-9229ea601fad"
+		/>
+	</TextIdentifier>
+</TranslatedText>

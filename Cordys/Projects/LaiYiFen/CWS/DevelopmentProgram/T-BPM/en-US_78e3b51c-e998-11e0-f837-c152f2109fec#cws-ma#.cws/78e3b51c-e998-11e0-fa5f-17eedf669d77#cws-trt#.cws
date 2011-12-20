@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa5f-17eedf6e1d78">
+	<DocumentID>78e3b51c-e998-11e0-fa5f-17eedf669d77</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa5f-17eedf669d77</Name>
+	<Description>RESULT_GROUP_MER_NAME</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-30T11:14:00.706</CreationDate>
+	<Notes/>
+	<Text>RESULT_GROUP_MER_NAME</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa5f-17eedf58dd75"
+		/>
+	</TextIdentifier>
+</TranslatedText>

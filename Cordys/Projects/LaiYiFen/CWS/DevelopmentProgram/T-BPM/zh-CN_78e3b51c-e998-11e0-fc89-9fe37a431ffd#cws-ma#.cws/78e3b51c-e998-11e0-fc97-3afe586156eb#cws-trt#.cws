@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc97-3afe587556ec">
+	<DocumentID>78e3b51c-e998-11e0-fc97-3afe586156eb</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc97-3afe586156eb</Name>
+	<Description>子公司网点开发部网点开发员</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-22T01:26:30.989</CreationDate>
+	<Notes/>
+	<Text>子公司网点开发部网点开发员</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-fc89-9fe37a599fff"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c154a76d9fbe"
+		/>
+	</TextIdentifier>
+</TranslatedText>

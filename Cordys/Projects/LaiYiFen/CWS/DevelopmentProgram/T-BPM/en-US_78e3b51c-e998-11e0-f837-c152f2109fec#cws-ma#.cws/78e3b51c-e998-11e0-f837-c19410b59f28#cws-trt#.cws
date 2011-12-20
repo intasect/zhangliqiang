@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c19410f2df29">
+	<DocumentID>78e3b51c-e998-11e0-f837-c19410b59f28</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c19410b59f28</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:33.911</CreationDate>
+	<Notes/>
+	<Text>是否标准合同</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c194118a1f2a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c24f05da16ef">
+	<DocumentID>78e3b51c-e998-11e0-f837-c24f059056ee</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c24f059056ee</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:31.756</CreationDate>
+	<Notes/>
+	<Text>三开</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c24f0691d6f0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

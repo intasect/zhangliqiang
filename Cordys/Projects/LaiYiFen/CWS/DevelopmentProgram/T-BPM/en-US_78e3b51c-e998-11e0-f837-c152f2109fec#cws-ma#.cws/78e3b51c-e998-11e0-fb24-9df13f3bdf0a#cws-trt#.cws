@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb24-9df13f435f0b">
+	<DocumentID>78e3b51c-e998-11e0-fb24-9df13f3bdf0a</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb24-9df13f3bdf0a</Name>
+	<Description>GetShopTargetInfoByFilterResponse</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-07T08:57:07.77</CreationDate>
+	<Notes/>
+	<Text>GetShopTargetInfoByFilterResponse</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb24-9df13f2e1f08"
+		/>
+	</TextIdentifier>
+</TranslatedText>

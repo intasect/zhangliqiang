@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faa4-da7259041f2c">
+	<DocumentID>78e3b51c-e998-11e0-faa4-da7258fc9f2b</DocumentID>
+	<Name>78e3b51c-e998-11e0-faa4-da7258fc9f2b</Name>
+	<Description>基础信息汇总</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-09-02T06:29:18.73</CreationDate>
+	<Notes/>
+	<Text>基础信息汇总</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faa4-da7258eedf29"
+		/>
+	</TextIdentifier>
+</TranslatedText>

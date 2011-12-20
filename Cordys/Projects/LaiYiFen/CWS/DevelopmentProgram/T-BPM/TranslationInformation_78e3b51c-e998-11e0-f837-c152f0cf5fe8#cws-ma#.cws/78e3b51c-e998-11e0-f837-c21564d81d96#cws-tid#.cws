@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c2156503dd97">
+	<DocumentID>78e3b51c-e998-11e0-f837-c21564d81d96</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c21564d81d96</Name>
+	<Description>金额(元)</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:30.357</CreationDate>
+	<Notes/>
+	<DefaultText>金额(元)</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c215642f5d94"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

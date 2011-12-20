@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1ba02e4d6e3">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1ba02a8d6e2</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1ba02a8d6e2</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:22.535</CreationDate>
+	<Notes/>
+	<Text>装修标准内通过</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1ba0375d6e4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

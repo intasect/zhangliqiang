@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c19bd814df23">
+	<DocumentID>78e3b51c-e998-11e0-f837-c19bd7d15f22</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c19bd7d15f22</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:54.77</CreationDate>
+	<Notes/>
+	<Text>驳回到发起人进行修改</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c19bd8b9df24"
+		/>
+	</TextIdentifier>
+</TranslatedText>

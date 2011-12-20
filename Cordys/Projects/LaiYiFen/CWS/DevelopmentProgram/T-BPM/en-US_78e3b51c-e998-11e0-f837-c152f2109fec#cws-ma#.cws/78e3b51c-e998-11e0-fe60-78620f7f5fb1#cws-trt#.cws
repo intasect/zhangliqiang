@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fe60-78620f86dfb2">
+	<DocumentID>78e3b51c-e998-11e0-fe60-78620f7f5fb1</DocumentID>
+	<Name>78e3b51c-e998-11e0-fe60-78620f7f5fb1</Name>
+	<Description>营业预估总额</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-10-10T05:52:10.294</CreationDate>
+	<Notes/>
+	<Text>营业预估总额</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fe60-78620f719faf"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9e0-22b61f1817b1">
+	<DocumentID>78e3b51c-e998-11e0-f9e0-22b61f1097b0</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9e0-22b61f1097b0</Name>
+	<Description>末页</Description>
+	<CreatedBy>wangzhiqiang</CreatedBy>
+	<CreationDate>2011-08-25T10:25:24.312</CreationDate>
+	<Notes/>
+	<Text>末页</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9e0-22b61f0197ae"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fff0-3f625588df09">
+	<DocumentID>78e3b51c-e998-11e0-fff0-3f6255815f08</DocumentID>
+	<Name>78e3b51c-e998-11e0-fff0-3f6255815f08</Name>
+	<Description>租期期限</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-26T05:11:20.421</CreationDate>
+	<Notes/>
+	<DefaultText>租期期限</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fff0-3f6255905f0a"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

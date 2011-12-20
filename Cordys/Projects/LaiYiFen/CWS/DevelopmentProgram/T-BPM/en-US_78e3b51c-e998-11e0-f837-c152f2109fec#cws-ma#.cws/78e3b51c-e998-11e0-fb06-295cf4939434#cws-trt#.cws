@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb06-295cf49d9435">
+	<DocumentID>78e3b51c-e998-11e0-fb06-295cf4939434</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb06-295cf4939434</Name>
+	<Description>深（m）</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-06T02:54:50.473</CreationDate>
+	<Notes/>
+	<Text>深（m）</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb06-295cf4709432"
+		/>
+	</TextIdentifier>
+</TranslatedText>

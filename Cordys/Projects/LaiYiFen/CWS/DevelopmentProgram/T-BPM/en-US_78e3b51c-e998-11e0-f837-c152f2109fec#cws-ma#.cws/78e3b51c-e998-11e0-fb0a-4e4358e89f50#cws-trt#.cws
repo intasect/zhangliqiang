@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb0a-4e4358ed9f51">
+	<DocumentID>78e3b51c-e998-11e0-fb0a-4e4358e89f50</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb0a-4e4358e89f50</Name>
+	<Description>房东描述</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-06T06:36:32.676</CreationDate>
+	<Notes/>
+	<Text>房东描述</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb0a-4e4358dfdf4e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

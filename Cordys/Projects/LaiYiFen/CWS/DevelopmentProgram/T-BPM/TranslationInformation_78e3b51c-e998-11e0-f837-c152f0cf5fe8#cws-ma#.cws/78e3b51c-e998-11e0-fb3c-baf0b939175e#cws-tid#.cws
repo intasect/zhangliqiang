@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb3c-baf0b940975f">
+	<DocumentID>78e3b51c-e998-11e0-fb3c-baf0b939175e</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb3c-baf0b939175e</Name>
+	<Description>5月 *</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-08T06:45:16.879</CreationDate>
+	<Notes/>
+	<DefaultText>5月 *</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fb3c-baf0b9481760"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

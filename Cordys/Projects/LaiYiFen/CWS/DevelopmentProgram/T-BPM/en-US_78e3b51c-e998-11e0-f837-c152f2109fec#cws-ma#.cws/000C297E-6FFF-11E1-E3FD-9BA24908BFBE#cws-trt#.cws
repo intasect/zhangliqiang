@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="000C297E-6FFF-11E1-E3FD-9BA24908DFBE">
+	<DocumentID>000C297E-6FFF-11E1-E3FD-9BA24908BFBE</DocumentID>
+	<Name>000C297E-6FFF-11E1-E3FD-9BA24908BFBE</Name>
+	<Description>主管编号</Description>
+	<CreatedBy>Administrator</CreatedBy>
+	<CreationDate>2011-12-06T09:32:04.281</CreationDate>
+	<Notes/>
+	<Text>主管编号</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="000C297E-6FFF-11E1-E3FD-9BA249087FBE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

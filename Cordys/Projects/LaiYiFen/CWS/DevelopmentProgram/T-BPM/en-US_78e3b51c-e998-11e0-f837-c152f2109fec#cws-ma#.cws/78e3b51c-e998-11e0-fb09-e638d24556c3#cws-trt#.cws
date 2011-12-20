@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb09-e638d24e16c4">
+	<DocumentID>78e3b51c-e998-11e0-fb09-e638d24556c3</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb09-e638d24556c3</Name>
+	<Description>房产性质描述</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-06T06:35:47.857</CreationDate>
+	<Notes/>
+	<Text>房产性质描述</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb0a-4e43591bdf5c"
+		/>
+	</TextIdentifier>
+</TranslatedText>

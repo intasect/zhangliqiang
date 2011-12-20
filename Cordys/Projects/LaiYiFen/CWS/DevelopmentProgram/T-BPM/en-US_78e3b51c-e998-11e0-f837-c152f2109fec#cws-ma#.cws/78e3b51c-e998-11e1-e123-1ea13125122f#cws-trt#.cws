@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e123-1ea1312c9230">
+	<DocumentID>78e3b51c-e998-11e1-e123-1ea13125122f</DocumentID>
+	<Name>78e3b51c-e998-11e1-e123-1ea13125122f</Name>
+	<Description>小计</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-11-07T08:54:21.656</CreationDate>
+	<Notes/>
+	<Text>小计</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e123-1ea13116122d"
+		/>
+	</TextIdentifier>
+</TranslatedText>

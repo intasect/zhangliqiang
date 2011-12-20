@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c27f3956d7f5">
+	<DocumentID>78e3b51c-e998-11e0-f837-c27f38f2d7f4</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c27f38f2d7f4</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:40.067</CreationDate>
+	<Notes/>
+	<Text>人事安排确认</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c27f3a3917f6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

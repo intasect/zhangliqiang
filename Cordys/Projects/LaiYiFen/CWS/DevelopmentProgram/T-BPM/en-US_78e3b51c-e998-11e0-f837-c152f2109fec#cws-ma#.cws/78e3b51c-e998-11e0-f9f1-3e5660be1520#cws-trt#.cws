@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9f1-3e5660c59521">
+	<DocumentID>78e3b51c-e998-11e0-f9f1-3e5660be1520</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9f1-3e5660be1520</Name>
+	<Description>商超信息移交审核(while循环)</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-08-26T02:50:30.396</CreationDate>
+	<Notes/>
+	<Text>商超信息移交审核(while循环)</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9f1-3e5660b0551e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

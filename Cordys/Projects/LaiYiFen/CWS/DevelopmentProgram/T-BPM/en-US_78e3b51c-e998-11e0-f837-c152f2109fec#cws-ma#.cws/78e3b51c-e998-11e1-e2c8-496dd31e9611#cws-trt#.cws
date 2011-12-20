@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e2c8-496dd324d612">
+	<DocumentID>78e3b51c-e998-11e1-e2c8-496dd31e9611</DocumentID>
+	<Name>78e3b51c-e998-11e1-e2c8-496dd31e9611</Name>
+	<Description>流程超时列表</Description>
+	<CreatedBy>徐新宇</CreatedBy>
+	<CreationDate>2011-11-24T02:16:25.416</CreationDate>
+	<Notes/>
+	<Text>流程超时列表</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e2c8-496dd30f960f"
+		/>
+	</TextIdentifier>
+</TranslatedText>

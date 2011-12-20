@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c19c22cd9f4b">
+	<DocumentID>78e3b51c-e998-11e0-f837-c19c22991f4a</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c19c22991f4a</Name>
+	<Description>若驳回，则继续进行目标调查表修改</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:47.964</CreationDate>
+	<Notes/>
+	<DefaultText>若驳回，则继续进行目标调查表修改</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c19c21c71f48"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

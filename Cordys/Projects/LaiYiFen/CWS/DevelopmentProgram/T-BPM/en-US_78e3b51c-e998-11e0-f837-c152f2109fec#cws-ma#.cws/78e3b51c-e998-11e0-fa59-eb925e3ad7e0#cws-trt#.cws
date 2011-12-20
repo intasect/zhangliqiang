@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa59-eb925e4257e1">
+	<DocumentID>78e3b51c-e998-11e0-fa59-eb925e3ad7e0</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa59-eb925e3ad7e0</Name>
+	<Description>Lane</Description>
+	<CreatedBy>唐炜炜</CreatedBy>
+	<CreationDate>2011-08-30T06:48:10.37</CreationDate>
+	<Notes/>
+	<Text>Lane</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa59-eb925e2bd7de"
+		/>
+	</TextIdentifier>
+</TranslatedText>

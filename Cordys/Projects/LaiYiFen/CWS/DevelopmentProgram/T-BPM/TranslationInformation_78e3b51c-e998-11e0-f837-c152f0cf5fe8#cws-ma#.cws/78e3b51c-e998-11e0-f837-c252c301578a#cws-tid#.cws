@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c252c335d78b">
+	<DocumentID>78e3b51c-e998-11e0-f837-c252c301578a</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c252c301578a</Name>
+	<Description>根据地区网点《新开门店信息移交单》上的内容及该门店的具体装修情况进行填写</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:54.603</CreationDate>
+	<Notes/>
+	<DefaultText>根据地区网点《新开门店信息移交单》上的内容及该门店的具体装修情况进行填写</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c252c24c1788"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

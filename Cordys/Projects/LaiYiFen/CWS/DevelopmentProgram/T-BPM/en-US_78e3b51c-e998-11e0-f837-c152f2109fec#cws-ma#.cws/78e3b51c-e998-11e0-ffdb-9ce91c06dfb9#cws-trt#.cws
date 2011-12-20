@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ffdb-9ce91c0e5fba">
+	<DocumentID>78e3b51c-e998-11e0-ffdb-9ce91c06dfb9</DocumentID>
+	<Name>78e3b51c-e998-11e0-ffdb-9ce91c06dfb9</Name>
+	<Description>总建筑面积和总使用面积（平方米）</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-10-25T08:01:50.179</CreationDate>
+	<Notes/>
+	<Text>总建筑面积和总使用面积（平方米）</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ffdb-9ce91bf91fb7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

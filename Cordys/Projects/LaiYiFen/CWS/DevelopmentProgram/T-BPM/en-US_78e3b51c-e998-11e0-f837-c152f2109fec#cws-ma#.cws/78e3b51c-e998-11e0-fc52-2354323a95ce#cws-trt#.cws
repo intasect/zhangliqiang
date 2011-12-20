@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fc52-2354324215cf">
+	<DocumentID>78e3b51c-e998-11e0-fc52-2354323a95ce</DocumentID>
+	<Name>78e3b51c-e998-11e0-fc52-2354323a95ce</Name>
+	<Description>待办监控</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-19T07:33:25.043</CreationDate>
+	<Notes/>
+	<Text>待办监控</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fc52-2354322b95cc"
+		/>
+	</TextIdentifier>
+</TranslatedText>

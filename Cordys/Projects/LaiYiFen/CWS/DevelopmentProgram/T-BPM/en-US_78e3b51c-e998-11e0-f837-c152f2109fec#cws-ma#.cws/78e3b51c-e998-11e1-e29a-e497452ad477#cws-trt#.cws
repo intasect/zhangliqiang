@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e29a-e49745325478">
+	<DocumentID>78e3b51c-e998-11e1-e29a-e497452ad477</DocumentID>
+	<Name>78e3b51c-e998-11e1-e29a-e497452ad477</Name>
+	<Description>供应商公司的主要联系电话，可填联系人电话</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-11-22T09:44:13.719</CreationDate>
+	<Notes/>
+	<Text>供应商公司的主要联系电话，可填联系人电话</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e29a-e497451d1475"
+		/>
+	</TextIdentifier>
+</TranslatedText>

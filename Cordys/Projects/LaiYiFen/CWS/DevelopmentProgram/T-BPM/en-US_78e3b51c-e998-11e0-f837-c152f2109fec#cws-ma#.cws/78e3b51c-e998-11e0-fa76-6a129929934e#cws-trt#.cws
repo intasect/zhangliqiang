@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa76-6a129931134f">
+	<DocumentID>78e3b51c-e998-11e0-fa76-6a129929934e</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa76-6a129929934e</Name>
+	<Description>租期内门口是否正在进行道路改造或街道统一房屋大修 *</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-31T09:28:53.412</CreationDate>
+	<Notes/>
+	<Text>租期内门口是否正在进行道路改造或街道统一房屋大修 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa76-6a12991bd34c"
+		/>
+	</TextIdentifier>
+</TranslatedText>

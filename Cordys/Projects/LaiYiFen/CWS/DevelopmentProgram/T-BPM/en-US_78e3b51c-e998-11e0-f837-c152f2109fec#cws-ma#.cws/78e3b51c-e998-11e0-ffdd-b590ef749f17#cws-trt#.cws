@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ffdd-b590ef7c1f18">
+	<DocumentID>78e3b51c-e998-11e0-ffdd-b590ef749f17</DocumentID>
+	<Name>78e3b51c-e998-11e0-ffdd-b590ef749f17</Name>
+	<Description>门店创建接口</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-25T09:43:02.618</CreationDate>
+	<Notes/>
+	<Text>门店创建接口</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ffdd-b590ef659f15"
+		/>
+	</TextIdentifier>
+</TranslatedText>

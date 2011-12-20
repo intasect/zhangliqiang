@@ -1,0 +1,46 @@
+
+<OrgUnitDesigntime
+	type="com.cordys.osd.OrgUnitDesigntime"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e00b-c1292448142d">
+	<DocumentID>78e3b51c-e998-11e1-e00b-c129243f542c</DocumentID>
+	<Name>10011724</Name>
+	<Description>供应链系统优化项目</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-10-27T05:54:13.337</CreationDate>
+	<Notes/>
+	<VColor></VColor>
+	<EndDate></EndDate>
+	<StartDate></StartDate>
+	<Purpose></Purpose>
+	<ChildDiagram/>
+	<UnitRelationships2/>
+	<UnitRelationships1>
+		<uri
+			id="78e3b51c-e998-11e1-e00b-c129224297f8"
+		/>
+		<uri
+			id="78e3b51c-e998-11e1-e00b-c129226957fc"
+		/>
+		<uri
+			id="78e3b51c-e998-11e1-e00c-026054519593"
+		/>
+		<uri
+			id="78e3b51c-e998-11e1-e00c-0260546f9597"
+		/>
+		<uri
+			id="78e3b51c-e998-11e1-e00c-0260548c559b"
+		/>
+		<uri
+			id="78e3b51c-e998-11e1-e00c-026054aa559f"
+		/>
+		<uri
+			id="78e3b51c-e998-11e1-e00c-026054c715a3"
+		/>
+	</UnitRelationships1>
+	<Positions/>
+	<UnitType>
+		<uri
+			id="{52F6844B-A579-4065-9804-32387F7015F3}"
+		/>
+	</UnitType>
+</OrgUnitDesigntime>

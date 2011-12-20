@@ -1,0 +1,523 @@
+
+<XFormDesigntime
+	type="com.cordys.xforms.XFormDesigntime"
+	typeVersion="005056C0-0008-11E0-F8FC-5E0A815B7FB8"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f915-009ea94d15bd">
+	<DocumentID>78e3b51c-e998-11e0-f915-009ea94595bc</DocumentID>
+	<Name>门店主数据（财务管理部）</Name>
+	<Description>门店主数据（财务管理部）</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-08-17T08:11:52.111</CreationDate>
+	<Notes/>
+	<XFormContent>
+		<xformhtml
+			xmlns="http://schemas.cordys.com/1.0/xform"
+			xmlns:xforms="http://www.w3.org/2002/xforms/cr"
+			xmlns:ev="http://www.w3.org/2001/xml-events"
+			xmlns:wcpforms="http://schemas.cordys.com/wcp/xforms"
+			xformsversion="2"
+			key="User Interface/com/laiyifen/shop/standardshop/门店主数据（财务管理部）"
+			focusatstartup="true">
+			<xhead>
+				<messages>
+					<message
+						constraint="saveconfirmation"
+					/>
+					<message
+						constraint="syncdialogclose"
+					/>
+				</messages>
+			</xhead>
+			<xbody>
+				<xforms:group
+					wcpforms:layout="vertical"
+					id="xbody_group"
+					wcpforms:labelalign="ontop">
+					<xforms:group
+						appearance="box"
+						wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroupbox"
+						id="groupbox1"
+						isNavigationEnabled="true"
+						wcpforms:layout="vertical"
+						wcpforms:class="v_layout"
+						wcpforms:size="null 306px"
+						wcpforms:labelalign="ontop">
+						<xforms:label
+							textIdentifier="78e3b51c-e998-11e0-f915-009ea8f955b1"
+							wcpforms:class="groupheader">门店主数据（财务管理部）</xforms:label>
+						<xforms:group
+							appearance="box"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroupbox"
+							id="groupbox2"
+							wcpforms:layout="vertical"
+							wcpforms:class="v_layout"
+							wcpforms:size="null 190px"
+							wcpforms:labelalign="ontop">
+							<xforms:label
+								wcpforms:class="groupheader">门店基础信息</xforms:label>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="input1"
+								doEBIValidate="false"
+								tabIndex="1"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 16px"
+								wcpforms:anchors="11px 11px 60% null"
+								wcpforms:position="11px 11px">
+								<xforms:label
+									wcpforms:size="110px null"
+									wcpforms:class="h_label">编号</xforms:label>
+								<xforms:hint>编号</xforms:hint>
+							</xforms:input>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="input3"
+								doEBIValidate="false"
+								tabIndex="3"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 16px"
+								wcpforms:anchors="11px 41px 60% null"
+								wcpforms:position="11px 41px">
+								<xforms:label
+									wcpforms:size="110px null"
+									wcpforms:class="h_label">地区</xforms:label>
+								<xforms:hint>地区</xforms:hint>
+							</xforms:input>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="input5"
+								doEBIValidate="false"
+								tabIndex="5"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 16px"
+								wcpforms:anchors="11px 71px 60% null"
+								wcpforms:position="11px 71px">
+								<xforms:label
+									wcpforms:size="110px null"
+									wcpforms:class="h_label">门店简称</xforms:label>
+								<xforms:hint>门店简称</xforms:hint>
+							</xforms:input>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="input7"
+								doEBIValidate="false"
+								tabIndex="7"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 16px"
+								wcpforms:anchors="10px 100px 60% null"
+								wcpforms:position="10px 100px">
+								<xforms:label
+									wcpforms:size="110px null"
+									wcpforms:class="h_label">门店地址</xforms:label>
+								<xforms:hint>门店地址</xforms:hint>
+							</xforms:input>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="input8"
+								doEBIValidate="false"
+								tabIndex="9"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 16px"
+								wcpforms:anchors="10px 130px 60% null"
+								wcpforms:position="10px 130px">
+								<xforms:label
+									wcpforms:size="110px null"
+									wcpforms:class="h_label">详细地址描述</xforms:label>
+								<xforms:hint>详细地址描述</xforms:hint>
+							</xforms:input>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="input10"
+								doEBIValidate="false"
+								tabIndex="10"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 16px"
+								wcpforms:anchors="50% 130px 10% null"
+								wcpforms:position="50% 130px">
+								<xforms:label
+									wcpforms:size="120px null"
+									wcpforms:class="h_label">门店所属子公司名称</xforms:label>
+								<xforms:hint>门店所属子公司名称</xforms:hint>
+							</xforms:input>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="input6"
+								doEBIValidate="false"
+								tabIndex="6"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 16px"
+								wcpforms:anchors="50% 70px 10% null"
+								wcpforms:position="50% 70px">
+								<xforms:label
+									wcpforms:size="120px null"
+									wcpforms:class="h_label">SAP编码</xforms:label>
+								<xforms:hint>SAP编码</xforms:hint>
+							</xforms:input>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="input4"
+								doEBIValidate="false"
+								tabIndex="4"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 16px"
+								wcpforms:anchors="50% 40px 10% null"
+								wcpforms:position="50% 40px">
+								<xforms:label
+									wcpforms:size="120px null"
+									wcpforms:class="h_label">门店名称</xforms:label>
+								<xforms:hint>门店名称</xforms:hint>
+							</xforms:input>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="input2"
+								doEBIValidate="false"
+								tabIndex="2"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 16px"
+								wcpforms:anchors="50% 10px 10% null"
+								wcpforms:position="50% 10px">
+								<xforms:label
+									wcpforms:size="120px null"
+									wcpforms:class="h_label">门店编号</xforms:label>
+								<xforms:hint>门店编号</xforms:hint>
+							</xforms:input>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="input9"
+								doEBIValidate="false"
+								tabIndex="8"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 16px"
+								wcpforms:anchors="50% 100px 10% null"
+								wcpforms:position="50% 100px">
+								<xforms:label
+									wcpforms:size="120px null"
+									wcpforms:class="h_label">产权地址</xforms:label>
+								<xforms:hint>产权地址</xforms:hint>
+							</xforms:input>
+							<xforms:hint>门店基础信息</xforms:hint>
+						</xforms:group>
+						<xforms:group
+							appearance="box"
+							wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsGroupbox"
+							id="groupbox3"
+							isNavigationEnabled="true"
+							wcpforms:layout="vertical"
+							wcpforms:class="v_layout"
+							wcpforms:size="null 60px"
+							wcpforms:labelalign="ontop">
+							<xforms:label
+								textIdentifier="78e3b51c-e998-11e0-f915-009ea68e956a"
+								wcpforms:class="groupheader">财务管理部</xforms:label>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="input11"
+								doEBIValidate="false"
+								tabIndex="11"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 16px"
+								wcpforms:anchors="0px 10px 60.06398110661269% null"
+								wcpforms:position="0px 10px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-f915-009ea76e558a"
+									wcpforms:size="119px null"
+									wcpforms:class="h_label">财务级别</xforms:label>
+								<xforms:hint
+									textIdentifier="78e3b51c-e998-11e0-fcb9-a3e296d01f8e">根据不同地区门店的月度营利(利润)总额划分,新开店为“暂无”</xforms:hint>
+							</xforms:input>
+							<xforms:input
+								wcpforms:designLibrary="cas.xforms.designerlibrary.controls.XFormsInput"
+								id="input12"
+								doEBIValidate="false"
+								tabIndex="12"
+								wcpforms:class="f_layout"
+								wcpforms:size="auto 16px"
+								wcpforms:anchors="50% 10px 10% null"
+								wcpforms:position="50% 10px">
+								<xforms:label
+									textIdentifier="78e3b51c-e998-11e0-f915-009ea7451584"
+									wcpforms:size="117px null"
+									wcpforms:class="h_label">门店等级</xforms:label>
+								<xforms:hint
+									textIdentifier="78e3b51c-e998-11e0-fcb9-a3e2969f5f87">根据不同地区门店的月度总销售额划分的等级标准，新开店为“暂无”</xforms:hint>
+							</xforms:input>
+							<xforms:hint>财务管理部</xforms:hint>
+						</xforms:group>
+						<xforms:hint
+							textIdentifier="78e3b51c-e998-11e0-f915-009ea8f955b1">门店主数据（财务管理部）</xforms:hint>
+					</xforms:group>
+				</xforms:group>
+			</xbody>
+			<xformsscript/>
+		</xformhtml>
+	</XFormContent>
+	<width></width>
+	<automatic>false</automatic>
+	<data/>
+	<XFormWSDL/>
+	<caption></caption>
+	<isInternal>false</isInternal>
+	<type>XForm</type>
+	<taskName></taskName>
+	<mode>full</mode>
+	<title>true</title>
+	<height></height>
+	<isLegacy>false</isLegacy>
+	<left></left>
+	<qualifiedclassname></qualifiedclassname>
+	<parameters/>
+	<showOnStartPage>false</showOnStartPage>
+	<taskDescription></taskDescription>
+	<top></top>
+	<TranslatableUITexts>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-f915-009ea6b2d56f">
+			<DocumentID>78e3b51c-e998-11e0-f915-009ea6ab556e</DocumentID>
+			<Name>78e3b51c-e998-11e0-f915-009ea6ab556e</Name>
+			<Description>78e3b51c-e998-11e0-f915-009ea6ab556e</Description>
+			<CreatedBy>姚秋明</CreatedBy>
+			<CreationDate>2011-08-17T08:27:11.295</CreationDate>
+			<Notes/>
+			<UIRef>groupbox3</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e0-f915-009ea94595bc"
+				/>
+			</XForm>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-f915-009ea6871569">
+					<DocumentID>78e3b51c-e998-11e0-f915-009ea680d568</DocumentID>
+					<Name>78e3b51c-e998-11e0-f915-009ea680d568</Name>
+					<Description>78e3b51c-e998-11e0-f915-009ea680d568</Description>
+					<CreatedBy>姚秋明</CreatedBy>
+					<CreationDate>2011-08-17T08:27:11.294</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-f915-009ea68e956a"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<TooltipText>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-f915-5964934b969e">
+					<DocumentID>78e3b51c-e998-11e0-f915-59649344169d</DocumentID>
+					<Name>78e3b51c-e998-11e0-f915-59649344169d</Name>
+					<Description>78e3b51c-e998-11e0-f915-59649344169d</Description>
+					<CreatedBy>姚秋明</CreatedBy>
+					<CreationDate>2011-08-17T08:28:47.468</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-f915-009ea68e956a"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TooltipText>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-f915-009ea7e5158f">
+			<DocumentID>78e3b51c-e998-11e0-f915-009ea7db158e</DocumentID>
+			<Name>78e3b51c-e998-11e0-f915-009ea7db158e</Name>
+			<Description>78e3b51c-e998-11e0-f915-009ea7db158e</Description>
+			<CreatedBy>姚秋明</CreatedBy>
+			<CreationDate>2011-08-17T08:20:30.747</CreationDate>
+			<Notes/>
+			<UIRef>input12</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e0-f915-009ea94595bc"
+				/>
+			</XForm>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-f915-009ea73d9583">
+					<DocumentID>78e3b51c-e998-11e0-f915-009ea7361582</DocumentID>
+					<Name>78e3b51c-e998-11e0-f915-009ea7361582</Name>
+					<Description>78e3b51c-e998-11e0-f915-009ea7361582</Description>
+					<CreatedBy>姚秋明</CreatedBy>
+					<CreationDate>2011-08-17T08:20:30.744</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-f915-009ea7451584"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<TooltipText>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-fcb9-a3e29697df86">
+					<DocumentID>78e3b51c-e998-11e0-fcb9-a3e296905f85</DocumentID>
+					<Name>78e3b51c-e998-11e0-fcb9-a3e296905f85</Name>
+					<Description>78e3b51c-e998-11e0-fcb9-a3e296905f85</Description>
+					<CreatedBy>姚秋明</CreatedBy>
+					<CreationDate>2011-09-23T10:22:41.337</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-fcb9-a3e2969f5f87"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TooltipText>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-f915-009ea8239597">
+			<DocumentID>78e3b51c-e998-11e0-f915-009ea81c1596</DocumentID>
+			<Name>78e3b51c-e998-11e0-f915-009ea81c1596</Name>
+			<Description>78e3b51c-e998-11e0-f915-009ea81c1596</Description>
+			<CreatedBy>姚秋明</CreatedBy>
+			<CreationDate>2011-08-17T08:20:30.746</CreationDate>
+			<Notes/>
+			<UIRef>input11</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e0-f915-009ea94595bc"
+				/>
+			</XForm>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-f915-009ea766d589">
+					<DocumentID>78e3b51c-e998-11e0-f915-009ea7609588</DocumentID>
+					<Name>78e3b51c-e998-11e0-f915-009ea7609588</Name>
+					<Description>78e3b51c-e998-11e0-f915-009ea7609588</Description>
+					<CreatedBy>姚秋明</CreatedBy>
+					<CreationDate>2011-08-17T08:20:30.744</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-f915-009ea76e558a"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<TooltipText>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-fcb9-a3e296c25f8c">
+					<DocumentID>78e3b51c-e998-11e0-fcb9-a3e296badf8b</DocumentID>
+					<Name>78e3b51c-e998-11e0-fcb9-a3e296badf8b</Name>
+					<Description>78e3b51c-e998-11e0-fcb9-a3e296badf8b</Description>
+					<CreatedBy>姚秋明</CreatedBy>
+					<CreationDate>2011-09-23T10:22:41.336</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-fcb9-a3e296d01f8e"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TooltipText>
+		</TranslatableUIText>
+		<TranslatableUIText
+			type="com.cordys.xforms.TranslatableUIText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-f915-009ea88655a1">
+			<DocumentID>78e3b51c-e998-11e0-f915-009ea87ed5a0</DocumentID>
+			<Name>78e3b51c-e998-11e0-f915-009ea87ed5a0</Name>
+			<Description>78e3b51c-e998-11e0-f915-009ea87ed5a0</Description>
+			<CreatedBy>姚秋明</CreatedBy>
+			<CreationDate>2011-08-17T08:20:30.746</CreationDate>
+			<Notes/>
+			<UIRef>groupbox1</UIRef>
+			<XForm>
+				<uri
+					id="78e3b51c-e998-11e0-f915-009ea94595bc"
+				/>
+			</XForm>
+			<TranslatableName>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-f915-009ea876159f">
+					<DocumentID>78e3b51c-e998-11e0-f915-009ea86d559e</DocumentID>
+					<Name>78e3b51c-e998-11e0-f915-009ea86d559e</Name>
+					<Description>78e3b51c-e998-11e0-f915-009ea86d559e</Description>
+					<CreatedBy>姚秋明</CreatedBy>
+					<CreationDate>2011-08-17T08:20:30.745</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-f915-009ea8f955b1"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TranslatableName>
+			<TooltipText>
+				<TranslatableText
+					type="com.cordys.translation.TranslatableText"
+					RuntimeDocumentID="78e3b51c-e998-11e0-f915-009ea72fd581">
+					<DocumentID>78e3b51c-e998-11e0-f915-009ea7285580</DocumentID>
+					<Name>78e3b51c-e998-11e0-f915-009ea7285580</Name>
+					<Description>78e3b51c-e998-11e0-f915-009ea7285580</Description>
+					<CreatedBy>姚秋明</CreatedBy>
+					<CreationDate>2011-08-17T08:20:30.746</CreationDate>
+					<Notes/>
+					<Identifier>
+						<uri
+							id="78e3b51c-e998-11e0-f915-009ea8f955b1"
+						/>
+					</Identifier>
+				</TranslatableText>
+			</TooltipText>
+		</TranslatableUIText>
+	</TranslatableUITexts>
+	<Representations/>
+	<ReferredXForms/>
+	<image/>
+	<TranslatableApplications/>
+	<Images/>
+	<messages/>
+	<Webservices/>
+	<StyleSheets/>
+	<input/>
+	<taskParts/>
+	<aclFragments/>
+	<TranslatableName>
+		<TranslatableText
+			type="com.cordys.translation.TranslatableText"
+			RuntimeDocumentID="78e3b51c-e998-11e0-f915-009ea8f1d5b0">
+			<DocumentID>78e3b51c-e998-11e0-f915-009ea8eb95af</DocumentID>
+			<Name>78e3b51c-e998-11e0-f915-009ea8eb95af</Name>
+			<Description>78e3b51c-e998-11e0-f915-009ea8eb95af</Description>
+			<CreatedBy>姚秋明</CreatedBy>
+			<CreationDate>2011-08-17T08:11:52.11</CreationDate>
+			<Notes/>
+			<Identifier>
+				<uri
+					id="78e3b51c-e998-11e0-f915-009ea8f955b1"
+				/>
+			</Identifier>
+		</TranslatableText>
+	</TranslatableName>
+	<tagsContainer/>
+	<deliveryModels/>
+	<messageParts>
+		<MessagePart
+			type="com.cordys.task.MessagePart"
+			RuntimeDocumentID="78e3b51c-e998-11e0-f915-009ea705557b">
+			<DocumentID>78e3b51c-e998-11e0-f915-009ea6fdd57a</DocumentID>
+			<Name>freeformcontrols</Name>
+			<Description>freeformcontrols</Description>
+			<CreatedBy>姚秋明</CreatedBy>
+			<CreationDate>2011-08-17T08:20:30.746</CreationDate>
+			<Notes/>
+			<isRefExists>false</isRefExists>
+			<operationName>freeformcontrols</operationName>
+			<namespace>http://schemas.cordys.com/1.0/xforms/processapi</namespace>
+		</MessagePart>
+	</messageParts>
+	<InstanceSchemaFragments/>
+	<Htms/>
+	<output/>
+	<Javascripts/>
+</XFormDesigntime>

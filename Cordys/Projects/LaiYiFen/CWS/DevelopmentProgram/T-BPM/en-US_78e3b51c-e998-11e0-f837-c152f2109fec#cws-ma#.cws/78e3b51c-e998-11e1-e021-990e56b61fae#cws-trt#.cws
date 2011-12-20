@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e021-990e56c01faf">
+	<DocumentID>78e3b51c-e998-11e1-e021-990e56b61fae</DocumentID>
+	<Name>78e3b51c-e998-11e1-e021-990e56b61fae</Name>
+	<Description>商品订购表单</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-10-28T02:30:26.402</CreationDate>
+	<Notes/>
+	<Text>商品订购表单</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e021-990e56a71fac"
+		/>
+	</TextIdentifier>
+</TranslatedText>

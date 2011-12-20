@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e1e5-7958ad575f1d">
+	<DocumentID>78e3b51c-e998-11e1-e1e5-7958ad4e9f1c</DocumentID>
+	<Name>78e3b51c-e998-11e1-e1e5-7958ad4e9f1c</Name>
+	<Description>财务说明 *</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-15T02:18:20.769</CreationDate>
+	<Notes/>
+	<Text>财务说明 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e1e5-7958ad3f9f1a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

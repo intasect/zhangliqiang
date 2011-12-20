@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa5f-17eee0875da0">
+	<DocumentID>78e3b51c-e998-11e0-fa5f-17eee07fdd9f</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa5f-17eee07fdd9f</Name>
+	<Description>RESULT_GROUP_TYPE</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-08-30T11:11:52.712</CreationDate>
+	<Notes/>
+	<DefaultText>RESULT_GROUP_TYPE</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-fa5f-17eee08d9da1"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

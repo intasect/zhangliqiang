@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e233-1fe345ee1fa7">
+	<DocumentID>78e3b51c-e998-11e1-e233-1fe345e7dfa6</DocumentID>
+	<Name>78e3b51c-e998-11e1-e233-1fe345e7dfa6</Name>
+	<Description>门店主数据新增</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-11-18T07:55:39.474</CreationDate>
+	<Notes/>
+	<Text>门店主数据新增</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e233-1fe345da1fa4"
+		/>
+	</TextIdentifier>
+</TranslatedText>

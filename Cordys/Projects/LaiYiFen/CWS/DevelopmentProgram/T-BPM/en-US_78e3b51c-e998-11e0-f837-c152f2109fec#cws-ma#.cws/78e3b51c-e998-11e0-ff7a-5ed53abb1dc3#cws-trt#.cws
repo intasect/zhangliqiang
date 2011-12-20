@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff7a-5ed53ac8ddc4">
+	<DocumentID>78e3b51c-e998-11e0-ff7a-5ed53abb1dc3</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff7a-5ed53abb1dc3</Name>
+	<Description>预算归属本部门 *</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-21T11:38:28.097</CreationDate>
+	<Notes/>
+	<Text>预算归属本部门 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff7b-22f9c1e4d665"
+		/>
+	</TextIdentifier>
+</TranslatedText>

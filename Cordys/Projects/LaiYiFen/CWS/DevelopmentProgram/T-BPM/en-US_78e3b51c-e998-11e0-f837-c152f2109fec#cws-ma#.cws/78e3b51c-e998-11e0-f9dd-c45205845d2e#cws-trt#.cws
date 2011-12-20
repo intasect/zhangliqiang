@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9dd-c452058bdd2f">
+	<DocumentID>78e3b51c-e998-11e0-f9dd-c45205845d2e</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9dd-c45205845d2e</Name>
+	<Description>OPERATOR_ROLE_CODE</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-25T07:47:17.498</CreationDate>
+	<Notes/>
+	<Text>OPERATOR_ROLE_CODE</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9dd-c45205705d2c"
+		/>
+	</TextIdentifier>
+</TranslatedText>

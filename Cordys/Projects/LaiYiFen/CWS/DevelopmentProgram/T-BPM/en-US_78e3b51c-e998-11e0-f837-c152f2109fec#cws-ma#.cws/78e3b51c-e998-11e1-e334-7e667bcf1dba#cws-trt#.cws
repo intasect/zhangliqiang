@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e334-7e667bd69dbb">
+	<DocumentID>78e3b51c-e998-11e1-e334-7e667bcf1dba</DocumentID>
+	<Name>78e3b51c-e998-11e1-e334-7e667bcf1dba</Name>
+	<Description>开店环节超时列表</Description>
+	<CreatedBy>徐新宇</CreatedBy>
+	<CreationDate>2011-11-28T09:47:58.327</CreationDate>
+	<Notes/>
+	<Text>开店环节超时列表</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e334-7e667bbb1db8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

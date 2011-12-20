@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c276a8c05dd9">
+	<DocumentID>78e3b51c-e998-11e0-f837-c276a8845dd8</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c276a8845dd8</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:47.792</CreationDate>
+	<Notes/>
+	<Text>现雨蓬样式</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c276a95f1dda"
+		/>
+	</TextIdentifier>
+</TranslatedText>

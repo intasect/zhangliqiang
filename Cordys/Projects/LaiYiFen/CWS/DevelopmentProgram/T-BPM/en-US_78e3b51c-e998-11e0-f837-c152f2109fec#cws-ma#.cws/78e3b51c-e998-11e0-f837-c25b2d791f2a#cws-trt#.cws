@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c25b2dc05f2b">
+	<DocumentID>78e3b51c-e998-11e0-f837-c25b2d791f2a</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c25b2d791f2a</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:30.41</CreationDate>
+	<Notes/>
+	<Text>实际交房时间</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c25b2e76df2c"
+		/>
+	</TextIdentifier>
+</TranslatedText>

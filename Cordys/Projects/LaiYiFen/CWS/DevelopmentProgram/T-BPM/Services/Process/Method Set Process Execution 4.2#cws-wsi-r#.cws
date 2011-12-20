@@ -1,0 +1,195 @@
+
+<WebserviceInterfaceRuntime
+	type="com.cordys.wsdl.WebserviceInterfaceRuntime"
+	typeVersion="0019B981-E9E3-11DF-FAD3-F797D376BD43"
+	RuntimeDocumentID="005056a3-4878-11e0-f622-a7e2da60df57">
+	<DocumentID>005056a3-4878-11e0-f622-a7e2da559f56</DocumentID>
+	<Name>Method Set Process Execution 4.2</Name>
+	<Description>Method Set Process Execution 4.2</Description>
+	<CreatedBy>jiangqr</CreatedBy>
+	<CreationDate>2011-07-18T08:17:46.549</CreationDate>
+	<Notes/>
+	<BinaryReferenceInfo></BinaryReferenceInfo>
+	<ISVPName>Cordys Business Process Engine</ISVPName>
+	<RuntimeKey>Method Set Process Execution 4.2</RuntimeKey>
+	<PackageInformation>
+		<CordysBinaryReferenceISVPInfo
+			type="com.cordys.cws.binaryreference.CordysBinaryReferenceISVPInfo"
+			RuntimeDocumentID="78e3b51c-e998-11e0-f837-c206d64316f5">
+			<DocumentID>78e3b51c-e998-11e0-f837-c206d5f316f4</DocumentID>
+			<Name>ISVP Info forCordys Business Process Engine</Name>
+			<Description/>
+			<CreatedBy>TBPM系统管理员</CreatedBy>
+			<CreationDate>2011-08-08T13:00:10.851</CreationDate>
+			<Notes/>
+			<ISVPName>Cordys Business Process Engine</ISVPName>
+		</CordysBinaryReferenceISVPInfo>
+	</PackageInformation>
+	<WebserviceOperations>
+		<WebserviceOperationRuntime
+			type="com.cordys.wsdl.WebserviceOperationRuntime"
+			typeVersion="0019B981-E9E3-11DF-FAD3-F797D376BD43"
+			RuntimeDocumentID="005056a3-4878-11e0-f622-cd8c4b25db28">
+			<DocumentID>005056a3-4878-11e0-f622-cd8c499d5b27</DocumentID>
+			<Name>ExecuteProcess</Name>
+			<Description>Runtime reference for Web Service Operation ExecuteProcess in Web ServiceMethod Set Process Execution 4.2</Description>
+			<CreatedBy>jiangqr</CreatedBy>
+			<CreationDate>2011-07-18T08:17:48.829</CreationDate>
+			<Notes/>
+			<ImplementationType>BPE</ImplementationType>
+			<BinaryReferenceInfo></BinaryReferenceInfo>
+			<ISVPName>Cordys Business Process Engine</ISVPName>
+			<RuntimeKey>http://schemas.cordys.com/bpm/execution/1.0/ExecuteProcess</RuntimeKey>
+			<WebserviceInterface>
+				<uri
+					id="005056a3-4878-11e0-f622-a7e2da559f56"
+				/>
+			</WebserviceInterface>
+			<PackageInformation>
+				<CordysBinaryReferenceISVPInfo
+					type="com.cordys.cws.binaryreference.CordysBinaryReferenceISVPInfo"
+					RuntimeDocumentID="78e3b51c-e998-11e1-e00a-f7f7304fdfc9">
+					<DocumentID>78e3b51c-e998-11e1-e00a-f7f72fdf5fc8</DocumentID>
+					<Name>78e3b51c-e998-11e1-e00a-f7f72fdf5fc8</Name>
+					<Description/>
+					<CreatedBy>TBPM管理员</CreatedBy>
+					<CreationDate>2011-10-27T04:54:27.743</CreationDate>
+					<Notes/>
+					<ISVPName>Cordys Business Process Engine</ISVPName>
+				</CordysBinaryReferenceISVPInfo>
+			</PackageInformation>
+		</WebserviceOperationRuntime>
+		<WebserviceOperationRuntime
+			type="com.cordys.wsdl.WebserviceOperationRuntime"
+			typeVersion="0019B981-E9E3-11DF-FAD3-F797D376BD43"
+			RuntimeDocumentID="005056a3-4878-11e0-f622-cd8d69c39b2e">
+			<DocumentID>005056a3-4878-11e0-f622-cd8d68bd1b2d</DocumentID>
+			<Name>SetActivityInfo</Name>
+			<Description>Runtime reference for Web Service Operation SetActivityInfo in Web ServiceMethod Set Process Execution 4.2</Description>
+			<CreatedBy>jiangqr</CreatedBy>
+			<CreationDate>2011-07-18T08:17:48.83</CreationDate>
+			<Notes/>
+			<ImplementationType>BPE</ImplementationType>
+			<BinaryReferenceInfo></BinaryReferenceInfo>
+			<ISVPName>Cordys Business Process Engine</ISVPName>
+			<RuntimeKey>http://schemas.cordys.com/bpm/execution/1.0/SetActivityInfo</RuntimeKey>
+			<WebserviceInterface>
+				<uri
+					id="005056a3-4878-11e0-f622-a7e2da559f56"
+				/>
+			</WebserviceInterface>
+			<PackageInformation>
+				<CordysBinaryReferenceISVPInfo
+					type="com.cordys.cws.binaryreference.CordysBinaryReferenceISVPInfo"
+					RuntimeDocumentID="78e3b51c-e998-11e1-e00a-f7f7dc4c9fcd">
+					<DocumentID>78e3b51c-e998-11e1-e00a-f7f7dbd71fcc</DocumentID>
+					<Name>78e3b51c-e998-11e1-e00a-f7f7dbd71fcc</Name>
+					<Description/>
+					<CreatedBy>TBPM管理员</CreatedBy>
+					<CreationDate>2011-10-27T04:54:27.743</CreationDate>
+					<Notes/>
+					<ISVPName>Cordys Business Process Engine</ISVPName>
+				</CordysBinaryReferenceISVPInfo>
+			</PackageInformation>
+		</WebserviceOperationRuntime>
+		<WebserviceOperationRuntime
+			type="com.cordys.wsdl.WebserviceOperationRuntime"
+			typeVersion="0019B981-E9E3-11DF-FAD3-F797D376BD43"
+			RuntimeDocumentID="005056a3-4878-11e0-f622-cd8e0159db32">
+			<DocumentID>005056a3-4878-11e0-f622-cd8e001d9b31</DocumentID>
+			<Name>ConsumeMessage</Name>
+			<Description>Runtime reference for Web Service Operation ConsumeMessage in Web ServiceMethod Set Process Execution 4.2</Description>
+			<CreatedBy>jiangqr</CreatedBy>
+			<CreationDate>2011-07-18T08:17:48.828</CreationDate>
+			<Notes/>
+			<ImplementationType>BPE</ImplementationType>
+			<BinaryReferenceInfo></BinaryReferenceInfo>
+			<ISVPName>Cordys Business Process Engine</ISVPName>
+			<RuntimeKey>http://schemas.cordys.com/bpm/execution/1.0/ConsumeMessage</RuntimeKey>
+			<WebserviceInterface>
+				<uri
+					id="005056a3-4878-11e0-f622-a7e2da559f56"
+				/>
+			</WebserviceInterface>
+			<PackageInformation>
+				<CordysBinaryReferenceISVPInfo
+					type="com.cordys.cws.binaryreference.CordysBinaryReferenceISVPInfo"
+					RuntimeDocumentID="78e3b51c-e998-11e1-e00a-f7f7f5285fd1">
+					<DocumentID>78e3b51c-e998-11e1-e00a-f7f7f4ba5fd0</DocumentID>
+					<Name>78e3b51c-e998-11e1-e00a-f7f7f4ba5fd0</Name>
+					<Description/>
+					<CreatedBy>TBPM管理员</CreatedBy>
+					<CreationDate>2011-10-27T04:54:27.742</CreationDate>
+					<Notes/>
+					<ISVPName>Cordys Business Process Engine</ISVPName>
+				</CordysBinaryReferenceISVPInfo>
+			</PackageInformation>
+		</WebserviceOperationRuntime>
+		<WebserviceOperationRuntime
+			type="com.cordys.wsdl.WebserviceOperationRuntime"
+			typeVersion="0019B981-E9E3-11DF-FAD3-F797D376BD43"
+			RuntimeDocumentID="005056a3-4878-11e0-f622-cd8e85915b36">
+			<DocumentID>005056a3-4878-11e0-f622-cd8e840ddb35</DocumentID>
+			<Name>UpdateActivityInstance</Name>
+			<Description>Runtime reference for Web Service Operation UpdateActivityInstance in Web ServiceMethod Set Process Execution 4.2</Description>
+			<CreatedBy>jiangqr</CreatedBy>
+			<CreationDate>2011-07-18T08:17:48.83</CreationDate>
+			<Notes/>
+			<ImplementationType>BPE</ImplementationType>
+			<BinaryReferenceInfo></BinaryReferenceInfo>
+			<ISVPName>Cordys Business Process Engine</ISVPName>
+			<RuntimeKey>http://schemas.cordys.com/bpm/execution/1.0/UpdateActivityInstance</RuntimeKey>
+			<WebserviceInterface>
+				<uri
+					id="005056a3-4878-11e0-f622-a7e2da559f56"
+				/>
+			</WebserviceInterface>
+			<PackageInformation>
+				<CordysBinaryReferenceISVPInfo
+					type="com.cordys.cws.binaryreference.CordysBinaryReferenceISVPInfo"
+					RuntimeDocumentID="78e3b51c-e998-11e1-e00a-f7f836ec9fdb">
+					<DocumentID>78e3b51c-e998-11e1-e00a-f7f83689dfda</DocumentID>
+					<Name>78e3b51c-e998-11e1-e00a-f7f83689dfda</Name>
+					<Description/>
+					<CreatedBy>TBPM管理员</CreatedBy>
+					<CreationDate>2011-10-27T04:54:27.743</CreationDate>
+					<Notes/>
+					<ISVPName>Cordys Business Process Engine</ISVPName>
+				</CordysBinaryReferenceISVPInfo>
+			</PackageInformation>
+		</WebserviceOperationRuntime>
+		<WebserviceOperationRuntime
+			type="com.cordys.wsdl.WebserviceOperationRuntime"
+			typeVersion="0019B981-E9E3-11DF-FAD3-F797D376BD43"
+			RuntimeDocumentID="78e3b51c-e998-11e1-e00a-f7f816485fd5">
+			<DocumentID>78e3b51c-e998-11e1-e00a-f7f815d7dfd4</DocumentID>
+			<Name>SendMessage</Name>
+			<Description>Runtime reference for Web Service Operation SendMessage in Web ServiceMethod Set Process Execution 4.2</Description>
+			<CreatedBy>TBPM管理员</CreatedBy>
+			<CreationDate>2011-10-27T04:54:27.744</CreationDate>
+			<Notes/>
+			<ImplementationType>BPE</ImplementationType>
+			<BinaryReferenceInfo></BinaryReferenceInfo>
+			<ISVPName></ISVPName>
+			<RuntimeKey>http://schemas.cordys.com/bpm/execution/1.0/SendMessage</RuntimeKey>
+			<WebserviceInterface>
+				<uri
+					id="005056a3-4878-11e0-f622-a7e2da559f56"
+				/>
+			</WebserviceInterface>
+			<PackageInformation>
+				<CordysBinaryReferenceISVPInfo
+					type="com.cordys.cws.binaryreference.CordysBinaryReferenceISVPInfo"
+					RuntimeDocumentID="78e3b51c-e998-11e1-e00a-f7f817dd5fd7">
+					<DocumentID>78e3b51c-e998-11e1-e00a-f7f817885fd6</DocumentID>
+					<Name>78e3b51c-e998-11e1-e00a-f7f817885fd6</Name>
+					<Description/>
+					<CreatedBy>TBPM管理员</CreatedBy>
+					<CreationDate>2011-10-27T04:54:27.743</CreationDate>
+					<Notes/>
+					<ISVPName>Cordys Business Process Engine</ISVPName>
+				</CordysBinaryReferenceISVPInfo>
+			</PackageInformation>
+		</WebserviceOperationRuntime>
+	</WebserviceOperations>
+</WebserviceInterfaceRuntime>

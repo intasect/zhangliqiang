@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e154-c16080741d55">
+	<DocumentID>78e3b51c-e998-11e1-e154-c160806ddd54</DocumentID>
+	<Name>78e3b51c-e998-11e1-e154-c160806ddd54</Name>
+	<Description>客户编号</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-09T07:44:53.23</CreationDate>
+	<Notes/>
+	<Text>客户编号</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e154-c16080601d52"
+		/>
+	</TextIdentifier>
+</TranslatedText>

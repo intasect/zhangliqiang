@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff0d-cd1ab84c1f48">
+	<DocumentID>78e3b51c-e998-11e0-ff0d-cd1ab8449f47</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff0d-cd1ab8449f47</Name>
+	<Description>条件组名称</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-10-17T03:40:52.353</CreationDate>
+	<Notes/>
+	<Text>条件组名称</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff0d-cd1ab8359f45"
+		/>
+	</TextIdentifier>
+</TranslatedText>

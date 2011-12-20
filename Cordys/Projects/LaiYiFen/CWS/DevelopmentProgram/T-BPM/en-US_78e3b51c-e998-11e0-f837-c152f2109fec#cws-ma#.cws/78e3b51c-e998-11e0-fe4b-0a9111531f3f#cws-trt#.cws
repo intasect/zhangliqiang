@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fe4b-0a91115a9f40">
+	<DocumentID>78e3b51c-e998-11e0-fe4b-0a9111531f3f</DocumentID>
+	<Name>78e3b51c-e998-11e0-fe4b-0a9111531f3f</Name>
+	<Description>租房期限（月） *</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-10-09T09:39:01.204</CreationDate>
+	<Notes/>
+	<Text>租房期限（月） *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fe4b-0a9111441f3d"
+		/>
+	</TextIdentifier>
+</TranslatedText>

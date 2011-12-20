@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fabb-4849b2a2ddc0">
+	<DocumentID>78e3b51c-e998-11e0-fabb-4849b29b5dbf</DocumentID>
+	<Name>78e3b51c-e998-11e0-fabb-4849b29b5dbf</Name>
+	<Description>合同标的总额</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-09-03T05:03:13.902</CreationDate>
+	<Notes/>
+	<Text>合同标的总额</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fabb-4849b28d9dbd"
+		/>
+	</TextIdentifier>
+</TranslatedText>

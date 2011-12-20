@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e26a-c2b26b151fb4">
+	<DocumentID>78e3b51c-e998-11e1-e26a-c2b26b0edfb3</DocumentID>
+	<Name>78e3b51c-e998-11e1-e26a-c2b26b0edfb3</Name>
+	<Description>导入SAP，生成SAP订单号</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-20T09:09:16.54</CreationDate>
+	<Notes/>
+	<Text>导入SAP，生成SAP订单号</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e26a-c2b26affdfb1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

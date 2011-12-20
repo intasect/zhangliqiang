@@ -1,0 +1,50 @@
+
+<RoleDesignTime
+	type="com.cordys.organization.role.RoleDesignTime"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb3d-873969e75fe6">
+	<DocumentID>78e3b51c-e998-11e0-fb3d-873969dfdfe5</DocumentID>
+	<Name>BR子公司工程部工程监理兼设计</Name>
+	<Description>BR子公司工程部工程监理兼设计</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-09-08T07:38:09.716</CreationDate>
+	<Notes/>
+	<isFunctionalRole>true</isFunctionalRole>
+	<type>Functional</type>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<configuredTasks/>
+	<Subroles>
+		<uri
+			id="005056a3-4878-11e0-f4f2-3cc7538f9fd3"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f2-3cc753fc5fda"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f3-6936d7a957e6"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f4-55cdcff55d94"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f5-36ef1bce5373"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f6-11448c66dbdf"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f6-ab58cbbb1f69"
+		/>
+		<uri
+			id="005056a3-4878-11e0-f4f6-ab58cc089f70"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-fb05-3f6d9c871f81"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-fb0b-9415ccb31f10"
+		/>
+		<uri
+			id="78e3b51c-e998-11e0-fb0b-b3fbef9f5f94"
+		/>
+	</Subroles>
+</RoleDesignTime>

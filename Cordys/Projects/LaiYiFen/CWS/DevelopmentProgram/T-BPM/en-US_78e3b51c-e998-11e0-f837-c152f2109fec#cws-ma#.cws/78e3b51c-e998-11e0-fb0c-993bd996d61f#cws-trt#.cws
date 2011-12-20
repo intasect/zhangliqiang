@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb0c-993bd99d1620">
+	<DocumentID>78e3b51c-e998-11e0-fb0c-993bd996d61f</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb0c-993bd996d61f</Name>
+	<Description>新店信息移交（商超）</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-09-06T08:47:10.209</CreationDate>
+	<Notes/>
+	<Text>新店信息移交（商超）</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb0c-993bd987d61d"
+		/>
+	</TextIdentifier>
+</TranslatedText>

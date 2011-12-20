@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa76-c1170dac1756">
+	<DocumentID>78e3b51c-e998-11e0-fa76-c1170da49755</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa76-c1170da49755</Name>
+	<Description>normaltargetinfoDecision</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-31T10:18:54.691</CreationDate>
+	<Notes/>
+	<Text>normaltargetinfoDecision</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa76-c1170d96d753"
+		/>
+	</TextIdentifier>
+</TranslatedText>

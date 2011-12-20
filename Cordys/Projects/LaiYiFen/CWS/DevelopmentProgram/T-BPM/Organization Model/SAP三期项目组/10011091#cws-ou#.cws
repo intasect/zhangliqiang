@@ -1,0 +1,46 @@
+
+<OrgUnitDesigntime
+	type="com.cordys.osd.OrgUnitDesigntime"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ffed-9e21936d16f3">
+	<DocumentID>78e3b51c-e998-11e0-ffed-9e219366d6f2</DocumentID>
+	<Name>10011091</Name>
+	<Description>智能网点选址系统项目组</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-10-26T01:09:36.969</CreationDate>
+	<Notes/>
+	<VColor></VColor>
+	<EndDate></EndDate>
+	<StartDate></StartDate>
+	<Purpose></Purpose>
+	<ChildDiagram/>
+	<UnitRelationships2>
+		<OrgRelationship
+			type="com.cordys.osd.OrgRelationship"
+			RuntimeDocumentID="78e3b51c-e998-11e0-ffed-e45949b9df1c">
+			<DocumentID>78e3b51c-e998-11e0-ffed-e45949ae9f1b</DocumentID>
+			<Name>link78e3b51c-e998-11e0-ffed-9e219419970a78e3b51c-e998-11e0-ffed-9e219366d6f2</Name>
+			<Description>link78e3b51c-e998-11e0-ffed-9e219419970a78e3b51c-e998-11e0-ffed-9e219366d6f2</Description>
+			<CreatedBy>姚秋明</CreatedBy>
+			<CreationDate>2011-10-26T01:09:36.97</CreationDate>
+			<Notes/>
+			<Unit2>
+				<uri
+					id="78e3b51c-e998-11e0-ffed-9e219366d6f2"
+				/>
+			</Unit2>
+			<Unit1>
+				<uri
+					id="78e3b51c-e998-11e0-ffed-9e219419970a"
+				/>
+			</Unit1>
+			<RelationshipType/>
+		</OrgRelationship>
+	</UnitRelationships2>
+	<UnitRelationships1/>
+	<Positions/>
+	<UnitType>
+		<uri
+			id="{52F6844B-A579-4065-9804-32387F7015F3}"
+		/>
+	</UnitType>
+</OrgUnitDesigntime>

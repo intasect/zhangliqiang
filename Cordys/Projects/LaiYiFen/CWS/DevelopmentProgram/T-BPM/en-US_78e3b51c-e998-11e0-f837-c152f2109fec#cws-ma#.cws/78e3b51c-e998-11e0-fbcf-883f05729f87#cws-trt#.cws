@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbcf-883f0578df88">
+	<DocumentID>78e3b51c-e998-11e0-fbcf-883f05729f87</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbcf-883f05729f87</Name>
+	<Description>财务说明</Description>
+	<CreatedBy>唐炜炜</CreatedBy>
+	<CreationDate>2011-09-14T03:06:15.514</CreationDate>
+	<Notes/>
+	<Text>财务说明</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbcf-883f0564df85"
+		/>
+	</TextIdentifier>
+</TranslatedText>

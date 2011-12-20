@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c255d0631b93">
+	<DocumentID>78e3b51c-e998-11e0-f837-c255d0271b92</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c255d0271b92</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:37.183</CreationDate>
+	<Notes/>
+	<Text>物料状态信息</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c255d0fe1b94"
+		/>
+	</TextIdentifier>
+</TranslatedText>

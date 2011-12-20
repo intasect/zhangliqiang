@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c184c14f5f45">
+	<DocumentID>78e3b51c-e998-11e0-f837-c184c1059f44</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c184c1059f44</Name>
+	<Description>权限外通过</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:05.136</CreationDate>
+	<Notes/>
+	<DefaultText>权限外通过</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c184bfe4df42"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

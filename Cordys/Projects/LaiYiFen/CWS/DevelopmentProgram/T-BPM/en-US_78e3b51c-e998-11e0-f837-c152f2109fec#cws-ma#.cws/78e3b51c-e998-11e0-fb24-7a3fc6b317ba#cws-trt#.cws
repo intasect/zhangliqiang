@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb24-7a3fc6b817bb">
+	<DocumentID>78e3b51c-e998-11e0-fb24-7a3fc6b317ba</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb24-7a3fc6b317ba</Name>
+	<Description>租期</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-07T07:41:21.551</CreationDate>
+	<Notes/>
+	<Text>租期</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb24-7a3fc6a557b8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

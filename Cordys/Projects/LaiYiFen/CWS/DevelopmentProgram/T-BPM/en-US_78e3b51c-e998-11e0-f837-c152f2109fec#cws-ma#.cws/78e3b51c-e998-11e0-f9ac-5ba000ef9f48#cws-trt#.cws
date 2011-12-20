@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9ac-5ba000f85f49">
+	<DocumentID>78e3b51c-e998-11e0-f9ac-5ba000ef9f48</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9ac-5ba000ef9f48</Name>
+	<Description>各月度计划</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-08-23T10:53:04.832</CreationDate>
+	<Notes/>
+	<Text>各月度计划</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9ac-5ba000e09f46"
+		/>
+	</TextIdentifier>
+</TranslatedText>

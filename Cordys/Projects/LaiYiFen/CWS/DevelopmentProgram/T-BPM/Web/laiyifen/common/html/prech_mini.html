@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Precacher</title>
+<script type="text/javascript">
+function catchURL(url,bSync)
+{
+	var xmlhttp;
+	if (window.XMLHttpRequest)
+	{
+		xmlhttp=new XMLHttpRequest();
+	}
+	else
+	{
+		xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+	}
+	xmlhttp.open("GET",url,bSync);
+	xmlhttp.send();
+}
+	catchURL("/cordys/wcp/application.js",true);
+	catchURL("/cordys/wcp/libraries.js",true);
+	catchURL("/cordys/laiyifen/common/script/common.js",true);
+	catchURL("/cordys/laiyifen/shop/script/targetshop/TargetShopInfo.js");
+	catchURL("/cordys/laiyifen/shop/script/supertshop/supertShopInfo.js");
+	catchURL("/cordys/laiyifen/shop/script/targetshop/querylist.js");
+	
+	catchURL("/cordys/wcp/library/system/framework.htm",true);
+	catchURL("/cordys/cas/xforms/scripthostlibrary/formrunnerlibraries.htm",true);
+	catchURL("/cordys/wcp/library/util/ajaxtoolkittranslationutil.htm",true);
+	catchURL("/cordys/translation/library/util/translationutil.htm",true);
+	catchURL("/cordys/translation/library/util/messagebundle.htm",true);
+	catchURL("/cordys/translation/library/util/localization.htm",true);
+	
+	catchURL("/cordys/wcp/theme/default/style/default.css",true);
+	catchURL("/cordys/wcp/theme/default/style/template/xdefault.css",true);
+	catchURL("/cordys/wcp/theme/default/style/print.css",true);
+	catchURL("/cordys/laiyifen/common/style/common.css",true);
+	
+	catchURL("/cordys/wcp/theme/default/icon/document/businessprocess_runtime.png",true);
+	catchURL("/cordys/wcp/theme/default/icon/interface/arrowcollapse_eb.gif",true);
+	catchURL("/cordys/wcp/theme/default/icon/interface/blank.png",true);
+	catchURL("/cordys/wcp/theme/default/icon/interface/arrowexpand_eb.gif",true);
+	catchURL("/cordys/wcp/theme/default/icon/action/save.png",true);
+	catchURL("/cordys/wcp/theme/default/icon/action/export.png",true);
+	catchURL("/cordys/wcp/theme/default/icon/action/reset.png",true);
+	catchURL("/cordys/wcp/theme/default/icon/debug/stopdebug.png",true);
+	catchURL("/cordys/wcp/theme/default/icon/action/out-of-office.png",true);
+	catchURL("/cordys/laiyifen/common/image/logo2.jpg",true);
+	catchURL("/cordys/wcp/theme/crystal/image/background/commonsprite.png",true);
+	catchURL("/cordys/wcp/theme/crystal/icon/interface/dropdownexpand_eb.gif",true);          
+	catchURL("/cordys/wcp/theme/default/icon/interface/hscroll_left.png",true);               
+	catchURL("/cordys/wcp/theme/default/icon/interface/hscroll_right.png",true);              
+	catchURL("/cordys/wcp/theme/default/image/background/tile_15.png",true);                  
+	catchURL("/cordys/wcp/theme/default/icon/interface/v_mini_scroll_left.png",true);         
+	catchURL("/cordys/wcp/theme/default/icon/interface/v_mini_scroll_right.png",true);        
+	catchURL("/cordys/wcp/theme/default/icon/lookup/lookup_date.png",true);                   
+	catchURL("/cordys/wcp/theme/default/icon/lookup/lookup_record.png",true);                 
+	catchURL("/cordys/Web/images/upload.gif",true);                                           
+	catchURL("/cordys/wcp/theme/default/icon/action/delete.png",true);                        
+	catchURL("/cordys/wcp/theme/default/icon/pagination/first.png",true);                     
+	catchURL("/cordys/wcp/theme/default/icon/pagination/previous.png",true);                  
+	catchURL("/cordys/wcp/theme/default/icon/pagination/next.png",true);                      
+	catchURL("/cordys/wcp/theme/default/icon/pagination/last.png",true);                      
+</script>
+	
+</head>
+<body style='display:none'>
+</body>
+</html>

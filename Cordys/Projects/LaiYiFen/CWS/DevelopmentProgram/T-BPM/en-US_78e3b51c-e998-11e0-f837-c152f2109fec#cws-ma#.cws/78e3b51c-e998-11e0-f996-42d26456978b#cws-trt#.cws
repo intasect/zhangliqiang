@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f996-42d2645e178c">
+	<DocumentID>78e3b51c-e998-11e0-f996-42d26456978b</DocumentID>
+	<Name>78e3b51c-e998-11e0-f996-42d26456978b</Name>
+	<Description>REJECT_SOLUTION</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-08-22T11:31:30.882</CreationDate>
+	<Notes/>
+	<Text>REJECT_SOLUTION</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f996-42d26448d789"
+		/>
+	</TextIdentifier>
+</TranslatedText>

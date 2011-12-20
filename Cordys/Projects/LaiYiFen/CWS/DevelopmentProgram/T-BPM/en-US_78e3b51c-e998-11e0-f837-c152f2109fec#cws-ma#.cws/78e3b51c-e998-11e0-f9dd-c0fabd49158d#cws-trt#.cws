@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9dd-c0fabd50958e">
+	<DocumentID>78e3b51c-e998-11e0-f9dd-c0fabd49158d</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9dd-c0fabd49158d</Name>
+	<Description>IS_OLATION_CODE</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-25T07:47:17.627</CreationDate>
+	<Notes/>
+	<Text>IS_OLATION_CODE</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9dd-c0fabd3b558b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

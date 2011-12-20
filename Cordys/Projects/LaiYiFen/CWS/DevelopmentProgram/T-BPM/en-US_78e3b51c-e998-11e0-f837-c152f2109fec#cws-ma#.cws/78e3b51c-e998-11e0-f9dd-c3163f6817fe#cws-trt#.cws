@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9dd-c3163f6f97ff">
+	<DocumentID>78e3b51c-e998-11e0-f9dd-c3163f6817fe</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9dd-c3163f6817fe</Name>
+	<Description>ONERIGHT_RENT</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-25T07:47:20.692</CreationDate>
+	<Notes/>
+	<Text>ONERIGHT_RENT</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9dd-c3163f5a57fc"
+		/>
+	</TextIdentifier>
+</TranslatedText>

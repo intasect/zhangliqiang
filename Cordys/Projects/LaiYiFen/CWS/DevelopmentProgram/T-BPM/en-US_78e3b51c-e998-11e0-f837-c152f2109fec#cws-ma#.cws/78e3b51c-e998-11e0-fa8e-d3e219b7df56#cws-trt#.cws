@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa8e-d3e219bf5f57">
+	<DocumentID>78e3b51c-e998-11e0-fa8e-d3e219b7df56</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa8e-d3e219b7df56</Name>
+	<Description>地段情况*</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-09-01T08:58:02.717</CreationDate>
+	<Notes/>
+	<Text>地段情况*</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa8e-d3e219989f54"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e16c-0feefb8d56ad">
+	<DocumentID>78e3b51c-e998-11e1-e16c-0feefb8716ac</DocumentID>
+	<Name>78e3b51c-e998-11e1-e16c-0feefb8716ac</Name>
+	<Description>PRE_PRICE</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-11-10T06:34:03.566</CreationDate>
+	<Notes/>
+	<Text>PRE_PRICE</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e16c-0feefb7816aa"
+		/>
+	</TextIdentifier>
+</TranslatedText>

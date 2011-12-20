@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="000C297E-6FFF-11E1-E3FB-6F866115DFBE">
+	<DocumentID>000C297E-6FFF-11E1-E3FB-6F866115BFBE</DocumentID>
+	<Name>000C297E-6FFF-11E1-E3FB-6F866115BFBE</Name>
+	<Description>STATIONID</Description>
+	<CreatedBy>Administrator</CreatedBy>
+	<CreationDate>2011-12-06T07:29:39.875</CreationDate>
+	<Notes/>
+	<Text>STATIONID</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="000C297E-6FFF-11E1-E3FB-6F8661157FBE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

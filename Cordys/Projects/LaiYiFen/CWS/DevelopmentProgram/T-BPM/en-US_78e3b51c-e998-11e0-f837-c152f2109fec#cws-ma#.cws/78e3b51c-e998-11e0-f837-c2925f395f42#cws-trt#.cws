@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c2925f859f43">
+	<DocumentID>78e3b51c-e998-11e0-f837-c2925f395f42</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c2925f395f42</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:57.748</CreationDate>
+	<Notes/>
+	<Text>上年门店数</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c29260425f44"
+		/>
+	</TextIdentifier>
+</TranslatedText>

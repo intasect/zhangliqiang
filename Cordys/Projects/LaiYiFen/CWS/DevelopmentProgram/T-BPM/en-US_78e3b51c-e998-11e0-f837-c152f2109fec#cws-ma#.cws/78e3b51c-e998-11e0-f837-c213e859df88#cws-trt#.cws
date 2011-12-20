@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c213e8895f89">
+	<DocumentID>78e3b51c-e998-11e0-f837-c213e859df88</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c213e859df88</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:08.534</CreationDate>
+	<Notes/>
+	<Text>网点开发人员评估及建议</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c213e9209f8a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

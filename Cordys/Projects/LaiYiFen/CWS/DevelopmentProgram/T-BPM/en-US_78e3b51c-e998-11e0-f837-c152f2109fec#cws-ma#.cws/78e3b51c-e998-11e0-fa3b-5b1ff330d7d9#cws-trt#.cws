@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa3b-5b1ff33c17da">
+	<DocumentID>78e3b51c-e998-11e0-fa3b-5b1ff330d7d9</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa3b-5b1ff330d7d9</Name>
+	<Description>testGoogleMapMultiJs</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-29T01:11:41.47</CreationDate>
+	<Notes/>
+	<Text>testGoogleMapMultiJs</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa3b-5b1ff31cd7d7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

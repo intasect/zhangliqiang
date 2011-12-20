@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c2844e6d97f3">
+	<DocumentID>78e3b51c-e998-11e0-f837-c2844e23d7f2</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c2844e23d7f2</Name>
+	<Description>结果组类型</Description>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:14.028</CreationDate>
+	<Notes/>
+	<DefaultText>结果组类型</DefaultText>
+	<Translations>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c2844d0d17f0"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

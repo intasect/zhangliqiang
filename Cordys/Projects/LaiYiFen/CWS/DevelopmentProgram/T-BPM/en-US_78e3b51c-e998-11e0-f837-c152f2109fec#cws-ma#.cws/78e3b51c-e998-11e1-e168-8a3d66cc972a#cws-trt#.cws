@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e168-8a3d66d2d72b">
+	<DocumentID>78e3b51c-e998-11e1-e168-8a3d66cc972a</DocumentID>
+	<Name>78e3b51c-e998-11e1-e168-8a3d66cc972a</Name>
+	<Description>选择物料</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-11-10T03:01:59.755</CreationDate>
+	<Notes/>
+	<Text>选择物料</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e168-8a3d66bed728"
+		/>
+	</TextIdentifier>
+</TranslatedText>

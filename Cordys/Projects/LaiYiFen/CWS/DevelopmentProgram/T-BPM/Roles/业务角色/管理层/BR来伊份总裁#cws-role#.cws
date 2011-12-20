@@ -1,0 +1,20 @@
+
+<RoleDesignTime
+	type="com.cordys.organization.role.RoleDesignTime"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb2a-d569988e5758">
+	<DocumentID>78e3b51c-e998-11e0-fb2a-d56998881757</DocumentID>
+	<Name>BR来伊份总裁</Name>
+	<Description>BR来伊份总裁</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-09-07T13:45:22.259</CreationDate>
+	<Notes/>
+	<isFunctionalRole>true</isFunctionalRole>
+	<type>Functional</type>
+	<DistinguishedName>cn=#roleName#, cn=#ISVPName#, #LDAPRoot#</DistinguishedName>
+	<configuredTasks/>
+	<Subroles>
+		<uri
+			id="005056a3-4878-11e0-f463-1d7de65212b6"
+		/>
+	</Subroles>
+</RoleDesignTime>

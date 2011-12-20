@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fbbc-bb99b499d6c0">
+	<DocumentID>78e3b51c-e998-11e0-fbbc-bb99b49256bf</DocumentID>
+	<Name>78e3b51c-e998-11e0-fbbc-bb99b49256bf</Name>
+	<Description>DEPARTMENT_DOC_ID</Description>
+	<CreatedBy>王志强</CreatedBy>
+	<CreationDate>2011-09-13T08:55:03.13</CreationDate>
+	<Notes/>
+	<Text>DEPARTMENT_DOC_ID</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fbbc-bb99b48356bd"
+		/>
+	</TextIdentifier>
+</TranslatedText>

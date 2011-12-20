@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fff0-ba49da69df4d">
+	<DocumentID>78e3b51c-e998-11e0-fff0-ba49da639f4c</DocumentID>
+	<Name>78e3b51c-e998-11e0-fff0-ba49da639f4c</Name>
+	<Description>出差事由</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-10-26T03:57:33.333</CreationDate>
+	<Notes/>
+	<Text>出差事由</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fff0-c8b57df6df6c"
+		/>
+	</TextIdentifier>
+</TranslatedText>

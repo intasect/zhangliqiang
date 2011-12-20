@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa6d-8b4343201f3d">
+	<DocumentID>78e3b51c-e998-11e0-fa6d-8b4343189f3c</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa6d-8b4343189f3c</Name>
+	<Description>testtabledelete</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-31T01:15:51.199</CreationDate>
+	<Notes/>
+	<Text>testtabledelete</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa6d-8b43430adf3a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

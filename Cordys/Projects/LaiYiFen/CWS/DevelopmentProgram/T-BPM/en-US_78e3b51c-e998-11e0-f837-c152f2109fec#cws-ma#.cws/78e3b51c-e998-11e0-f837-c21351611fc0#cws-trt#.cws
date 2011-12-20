@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c21351995fc1">
+	<DocumentID>78e3b51c-e998-11e0-f837-c21351611fc0</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c21351611fc0</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:27.395</CreationDate>
+	<Notes/>
+	<Text>是否成熟区</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c213521f1fc2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

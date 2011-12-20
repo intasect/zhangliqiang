@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e1-e09d-fe7cf1a993fa">
+	<DocumentID>78e3b51c-e998-11e1-e09d-fe7cf1a213f9</DocumentID>
+	<Name>78e3b51c-e998-11e1-e09d-fe7cf1a213f9</Name>
+	<Description>公共功</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-11-02T01:17:24.036</CreationDate>
+	<Notes/>
+	<Text>公共功</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e1-e09d-fe7cf19453f7"
+		/>
+	</TextIdentifier>
+</TranslatedText>

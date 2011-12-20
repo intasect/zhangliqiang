@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-feb3-2c4ab93b5f26">
+	<DocumentID>78e3b51c-e998-11e0-feb3-2c4ab933df25</DocumentID>
+	<Name>78e3b51c-e998-11e0-feb3-2c4ab933df25</Name>
+	<Description>testReject</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-13T12:48:39.289</CreationDate>
+	<Notes/>
+	<Text>testReject</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-feb3-2c4ab9239f23"
+		/>
+	</TextIdentifier>
+</TranslatedText>

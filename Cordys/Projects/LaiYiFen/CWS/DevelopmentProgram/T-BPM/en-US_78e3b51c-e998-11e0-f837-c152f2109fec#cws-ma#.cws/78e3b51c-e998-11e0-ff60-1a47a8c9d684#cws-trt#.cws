@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff60-1a47a8d15685">
+	<DocumentID>78e3b51c-e998-11e0-ff60-1a47a8c9d684</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff60-1a47a8c9d684</Name>
+	<Description>商超整体成熟度 *</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-20T10:49:34.357</CreationDate>
+	<Notes/>
+	<Text>商超整体成熟度 *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff60-1a47a8bc1682"
+		/>
+	</TextIdentifier>
+</TranslatedText>

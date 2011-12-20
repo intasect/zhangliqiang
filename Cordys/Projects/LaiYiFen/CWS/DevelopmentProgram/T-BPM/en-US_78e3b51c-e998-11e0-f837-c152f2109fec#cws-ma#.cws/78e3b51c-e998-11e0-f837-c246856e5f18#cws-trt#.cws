@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c24685b81f19">
+	<DocumentID>78e3b51c-e998-11e0-f837-c246856e5f18</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c246856e5f18</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:58:45.074</CreationDate>
+	<Notes/>
+	<Text>装修说明(有何建议)</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c2468674df1a"
+		/>
+	</TextIdentifier>
+</TranslatedText>

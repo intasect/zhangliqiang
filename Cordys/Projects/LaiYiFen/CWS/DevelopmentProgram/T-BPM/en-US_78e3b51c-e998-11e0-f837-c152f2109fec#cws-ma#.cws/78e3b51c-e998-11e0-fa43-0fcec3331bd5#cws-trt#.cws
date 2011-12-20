@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa43-0fcec33a9bd6">
+	<DocumentID>78e3b51c-e998-11e0-fa43-0fcec3331bd5</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa43-0fcec3331bd5</Name>
+	<Description>商超门店信息</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-08-29T08:41:13.527</CreationDate>
+	<Notes/>
+	<Text>商超门店信息</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa43-0fcec3255bd3"
+		/>
+	</TextIdentifier>
+</TranslatedText>

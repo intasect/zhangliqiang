@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb22-49dade255fe0">
+	<DocumentID>78e3b51c-e998-11e0-fb22-49dade1f1fdf</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb22-49dade1f1fdf</Name>
+	<Description>填写目标调 查表</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-09-07T06:28:41.751</CreationDate>
+	<Notes/>
+	<Text>填写目标调 查表</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb22-49dade129fdd"
+		/>
+	</TextIdentifier>
+</TranslatedText>

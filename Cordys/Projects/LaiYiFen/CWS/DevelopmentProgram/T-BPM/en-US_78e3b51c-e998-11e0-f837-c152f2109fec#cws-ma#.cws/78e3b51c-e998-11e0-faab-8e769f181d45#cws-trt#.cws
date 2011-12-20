@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-faab-8e769f1f9d46">
+	<DocumentID>78e3b51c-e998-11e0-faab-8e769f181d45</DocumentID>
+	<Name>78e3b51c-e998-11e0-faab-8e769f181d45</Name>
+	<Description>费用报销</Description>
+	<CreatedBy>陈教琼</CreatedBy>
+	<CreationDate>2011-09-02T12:09:53.301</CreationDate>
+	<Notes/>
+	<Text>费用报销</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-faab-8e769f0a5d43"
+		/>
+	</TextIdentifier>
+</TranslatedText>

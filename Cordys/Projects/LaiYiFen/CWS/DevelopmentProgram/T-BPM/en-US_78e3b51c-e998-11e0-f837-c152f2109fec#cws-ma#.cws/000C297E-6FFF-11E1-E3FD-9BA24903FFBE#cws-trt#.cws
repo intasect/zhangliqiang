@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="000C297E-6FFF-11E1-E3FD-9BA249041FBE">
+	<DocumentID>000C297E-6FFF-11E1-E3FD-9BA24903FFBE</DocumentID>
+	<Name>000C297E-6FFF-11E1-E3FD-9BA24903FFBE</Name>
+	<Description>邮箱</Description>
+	<CreatedBy>Administrator</CreatedBy>
+	<CreationDate>2011-12-06T09:36:27.125</CreationDate>
+	<Notes/>
+	<Text>邮箱</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="000C297E-6FFF-11E1-E3FD-9BA24903BFBE"
+		/>
+	</TextIdentifier>
+</TranslatedText>

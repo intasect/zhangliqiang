@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fcb9-a3e29769dfa4">
+	<DocumentID>78e3b51c-e998-11e0-fcb9-a3e297625fa3</DocumentID>
+	<Name>78e3b51c-e998-11e0-fcb9-a3e297625fa3</Name>
+	<Description>门店开户银行账户的名称，如没有，则填写“无”</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-09-23T10:20:54.909</CreationDate>
+	<Notes/>
+	<Text>门店开户银行账户的名称，如没有，则填写“无”</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fcb9-a3e297549fa1"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c16033881fb1">
+	<DocumentID>78e3b51c-e998-11e0-f837-c160333d1fb0</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c160333d1fb0</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T13:00:30.157</CreationDate>
+	<Notes/>
+	<Text>固定资产拆除后进行门店主数据变更</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c160343fdfb2"
+		/>
+	</TextIdentifier>
+</TranslatedText>

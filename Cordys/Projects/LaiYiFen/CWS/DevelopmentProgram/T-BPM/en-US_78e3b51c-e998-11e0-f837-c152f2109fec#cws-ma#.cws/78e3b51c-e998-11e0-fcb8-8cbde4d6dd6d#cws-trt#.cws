@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fcb8-8cbde4dd1d6e">
+	<DocumentID>78e3b51c-e998-11e0-fcb8-8cbde4d6dd6d</DocumentID>
+	<Name>78e3b51c-e998-11e0-fcb8-8cbde4d6dd6d</Name>
+	<Description>门店的营业员人数</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-09-23T10:13:01.66</CreationDate>
+	<Notes/>
+	<Text>门店的营业员人数</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fcb8-8cbde4c91d6b"
+		/>
+	</TextIdentifier>
+</TranslatedText>

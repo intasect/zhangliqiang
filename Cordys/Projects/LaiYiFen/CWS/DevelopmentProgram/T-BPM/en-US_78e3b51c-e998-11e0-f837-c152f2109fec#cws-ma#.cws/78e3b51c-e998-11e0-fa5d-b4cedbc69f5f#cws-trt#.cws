@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa5d-b4cedbccdf60">
+	<DocumentID>78e3b51c-e998-11e0-fa5d-b4cedbc69f5f</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa5d-b4cedbc69f5f</Name>
+	<Description>CHARGER_CODE</Description>
+	<CreatedBy>牟忠海</CreatedBy>
+	<CreationDate>2011-08-30T09:52:51.559</CreationDate>
+	<Notes/>
+	<Text>CHARGER_CODE</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa5d-b4cedbb79f5d"
+		/>
+	</TextIdentifier>
+</TranslatedText>

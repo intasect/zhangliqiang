@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f877-dd300efa52c3">
+	<DocumentID>78e3b51c-e998-11e0-f877-dd300ef412c2</DocumentID>
+	<Name>78e3b51c-e998-11e0-f877-dd300ef412c2</Name>
+	<Description>周边是否有拆迁计划，如果有，何时开始，对目标店的影响</Description>
+	<CreatedBy>侯钢</CreatedBy>
+	<CreationDate>2011-08-11T02:21:37.355</CreationDate>
+	<Notes/>
+	<Text>周边是否有拆迁计划，如果有，何时开始，对目标店的影响</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f877-dd300ee512c0"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fe8e-cae264a01d16">
+	<DocumentID>78e3b51c-e998-11e0-fe8e-cae264975d15</DocumentID>
+	<Name>78e3b51c-e998-11e0-fe8e-cae264975d15</Name>
+	<Description>OPERATION_SHOP_STATUS</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-10-12T02:51:28.079</CreationDate>
+	<Notes/>
+	<Text>OPERATION_SHOP_STATUS</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fe8e-cae264871d13"
+		/>
+	</TextIdentifier>
+</TranslatedText>

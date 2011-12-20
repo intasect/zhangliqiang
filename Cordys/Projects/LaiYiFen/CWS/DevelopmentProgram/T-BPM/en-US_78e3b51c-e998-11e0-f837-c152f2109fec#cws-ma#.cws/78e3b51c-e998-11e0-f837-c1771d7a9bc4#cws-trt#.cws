@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c1771dca9bc5">
+	<DocumentID>78e3b51c-e998-11e0-f837-c1771d7a9bc4</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c1771d7a9bc4</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:31.832</CreationDate>
+	<Notes/>
+	<Text>执行新开店业务中的开店通知环节,</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c1771e8c5bc6"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f9dd-c14f056b15e8">
+	<DocumentID>78e3b51c-e998-11e0-f9dd-c14f0564d5e7</DocumentID>
+	<Name>78e3b51c-e998-11e0-f9dd-c14f0564d5e7</Name>
+	<Description>SUPER_NAME</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-08-25T07:47:20.682</CreationDate>
+	<Notes/>
+	<Text>SUPER_NAME</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f9dd-c14f0555d5e5"
+		/>
+	</TextIdentifier>
+</TranslatedText>

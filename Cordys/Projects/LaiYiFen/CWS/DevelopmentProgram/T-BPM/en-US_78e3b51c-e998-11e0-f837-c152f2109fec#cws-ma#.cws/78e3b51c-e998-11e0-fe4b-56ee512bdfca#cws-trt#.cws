@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fe4b-56ee5130dfcb">
+	<DocumentID>78e3b51c-e998-11e0-fe4b-56ee512bdfca</DocumentID>
+	<Name>78e3b51c-e998-11e0-fe4b-56ee512bdfca</Name>
+	<Description>商超规模总面积（平方米） *</Description>
+	<CreatedBy>姚秋明</CreatedBy>
+	<CreationDate>2011-10-09T10:10:47.41</CreationDate>
+	<Notes/>
+	<Text>商超规模总面积（平方米） *</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fe4b-56ee51231fc8"
+		/>
+	</TextIdentifier>
+</TranslatedText>

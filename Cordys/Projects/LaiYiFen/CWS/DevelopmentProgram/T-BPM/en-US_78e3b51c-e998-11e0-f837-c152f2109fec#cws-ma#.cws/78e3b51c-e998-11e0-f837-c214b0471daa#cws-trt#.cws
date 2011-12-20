@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-f837-c214b0769dab">
+	<DocumentID>78e3b51c-e998-11e0-f837-c214b0471daa</DocumentID>
+	<Name>78e3b51c-e998-11e0-f837-c214b0471daa</Name>
+	<Description/>
+	<CreatedBy>TBPM系统管理员</CreatedBy>
+	<CreationDate>2011-08-08T12:59:08.39</CreationDate>
+	<Notes/>
+	<Text>&lt;P&gt;注： 转让费分摊公式：总转让费/合同期总月份计算租金占比公式：（月租金+转让费分摊）/月营业额&lt;/P&gt;</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c214b103ddac"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="000C297E-6FFF-11E1-E3E3-B3A193917FBE">
+	<DocumentID>000C297E-6FFF-11E1-E3E3-B3A193915FBE</DocumentID>
+	<Name>000C297E-6FFF-11E1-E3E3-B3A193915FBE</Name>
+	<Description>Untitled User Interface (1)</Description>
+	<CreatedBy>Administrator</CreatedBy>
+	<CreationDate>2011-12-05T08:46:40.875</CreationDate>
+	<Notes/>
+	<DefaultText>Untitled User Interface (1)</DefaultText>
+	<Translations>
+		<uri
+			id="000C297E-6FFF-11E1-E3E3-B3A193919FBE"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f0485fe6"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fb25-82121baed999">
+	<DocumentID>78e3b51c-e998-11e0-fb25-82121ba89998</DocumentID>
+	<Name>78e3b51c-e998-11e0-fb25-82121ba89998</Name>
+	<Description>PAYMENT_CODE</Description>
+	<CreatedBy>TBPM管理员</CreatedBy>
+	<CreationDate>2011-09-07T08:57:07.766</CreationDate>
+	<Notes/>
+	<Text>PAYMENT_CODE</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fb25-82121b999996"
+		/>
+	</TextIdentifier>
+</TranslatedText>

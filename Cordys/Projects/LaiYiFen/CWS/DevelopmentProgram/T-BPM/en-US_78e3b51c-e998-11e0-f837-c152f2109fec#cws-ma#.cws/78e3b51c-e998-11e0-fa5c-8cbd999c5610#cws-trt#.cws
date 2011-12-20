@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa5c-8cbd99a3d611">
+	<DocumentID>78e3b51c-e998-11e0-fa5c-8cbd999c5610</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa5c-8cbd999c5610</Name>
+	<Description>结果组商品</Description>
+	<CreatedBy>wangzhiqiang</CreatedBy>
+	<CreationDate>2011-08-30T09:10:02.888</CreationDate>
+	<Notes/>
+	<Text>结果组商品</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa5c-8cbd998e960e"
+		/>
+	</TextIdentifier>
+</TranslatedText>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-fa91-c0d997465d06">
+	<DocumentID>78e3b51c-e998-11e0-fa91-c0d997401d05</DocumentID>
+	<Name>78e3b51c-e998-11e0-fa91-c0d997401d05</Name>
+	<Description>SHOP_ATTR_NAME</Description>
+	<CreatedBy>杜兰</CreatedBy>
+	<CreationDate>2011-09-01T11:33:03.499</CreationDate>
+	<Notes/>
+	<Text>SHOP_ATTR_NAME</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-fa91-c0d997311d03"
+		/>
+	</TextIdentifier>
+</TranslatedText>

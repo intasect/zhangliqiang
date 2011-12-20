@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="78e3b51c-e998-11e0-ff49-ee791937d492">
+	<DocumentID>78e3b51c-e998-11e0-ff49-ee7919305491</DocumentID>
+	<Name>78e3b51c-e998-11e0-ff49-ee7919305491</Name>
+	<Description>押金支付金额</Description>
+	<CreatedBy>江庆荣</CreatedBy>
+	<CreationDate>2011-10-19T12:46:36.089</CreationDate>
+	<Notes/>
+	<Text>押金支付金额</Text>
+	<Language>
+		<uri
+			id="78e3b51c-e998-11e0-f837-c152f1899fea"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="78e3b51c-e998-11e0-ff49-ee791922948f"
+		/>
+	</TextIdentifier>
+</TranslatedText>
