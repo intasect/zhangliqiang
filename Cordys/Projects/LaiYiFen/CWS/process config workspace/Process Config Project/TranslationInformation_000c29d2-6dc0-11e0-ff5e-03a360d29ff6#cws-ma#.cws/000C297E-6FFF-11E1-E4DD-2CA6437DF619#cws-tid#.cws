@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="000C297E-6FFF-11E1-E4DD-2CA6437E1619">
+	<DocumentID>000C297E-6FFF-11E1-E4DD-2CA6437DF619</DocumentID>
+	<Name>000C297E-6FFF-11E1-E4DD-2CA6437DF619</Name>
+	<Description>员工</Description>
+	<CreatedBy>Administrator</CreatedBy>
+	<CreationDate>2011-12-15T07:16:28.875</CreationDate>
+	<Notes/>
+	<DefaultText>员工</DefaultText>
+	<Translations>
+		<uri
+			id="000C297E-6FFF-11E1-E4DD-2CA6437E3619"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="000c29d2-6dc0-11e0-ff5e-03a34f795ff4"
+		/>
+	</TranslationInformation>
+</TextIdentifier>

@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="000C297E-6FFF-11E1-E4D8-34B2AF739619">
+	<DocumentID>000C297E-6FFF-11E1-E4D8-34B2AF737619</DocumentID>
+	<Name>000C297E-6FFF-11E1-E4D8-34B2AF737619</Name>
+	<Description>Sign_Config_New</Description>
+	<CreatedBy>Administrator</CreatedBy>
+	<CreationDate>2011-12-15T03:51:23.015</CreationDate>
+	<Notes/>
+	<Text>Sign_Config_New</Text>
+	<Language>
+		<uri
+			id="000c29d2-6dc0-11e0-ff5e-03a3727a9ff8"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="000C297E-6FFF-11E1-E4D8-34B2AF733619"
+		/>
+	</TextIdentifier>
+</TranslatedText>
