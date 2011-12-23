@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="000C297E-6FFF-11E1-E575-28AB7A473F87">
+	<DocumentID>000C297E-6FFF-11E1-E575-28AB7A471F87</DocumentID>
+	<Name>000C297E-6FFF-11E1-E575-28AB7A471F87</Name>
+	<Description/>
+	<CreatedBy>Administrator</CreatedBy>
+	<CreationDate>2011-12-21T07:56:23.562</CreationDate>
+	<Notes/>
+	<Text>Create Report</Text>
+	<Language>
+		<uri
+			id="000C297E-6FFF-11E1-E575-28AB7A3D1F87"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="000C297E-6FFF-11E1-E575-28AB7A475F87"
+		/>
+	</TextIdentifier>
+</TranslatedText>

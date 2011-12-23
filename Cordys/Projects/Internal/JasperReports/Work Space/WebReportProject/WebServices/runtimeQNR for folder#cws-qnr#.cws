@@ -1,0 +1,19 @@
+
+<QualifiedNameRoot
+	type="com.cordys.cws.namespace.qualifiedname.QualifiedNameRoot"
+	RuntimeDocumentID="000C29E9-F80D-11E0-E6CE-87E6DBA9560B">
+	<DocumentID>000C29E9-F80D-11E0-E6CE-87E6DBA9360B</DocumentID>
+	<Name>runtimeQNR for folder</Name>
+	<Description>runtimeQNR for folder</Description>
+	<CreatedBy>Administrator</CreatedBy>
+	<CreationDate>2011-02-12T06:52:30.984</CreationDate>
+	<Notes/>
+	<RuntimeQNRFolder>
+		<uri
+			id="000C297E-6FFF-11E1-E575-28AB79F1FF87"
+			path="WebReportProject/WebServices"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</RuntimeQNRFolder>
+	<DesigntimeQNRFolder/>
+</QualifiedNameRoot>

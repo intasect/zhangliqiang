@@ -1,0 +1,282 @@
+<html><head>
+<script type="cordys/xml" id="QueryReportXML">
+	<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">  
+		<SOAP:Body> 
+			<QueryReport xmlns="http://schema.com.cordyschina.webreport" preserveSpace="no" qAccess="0" qValues="">
+				<param> 
+					<reportid></reportid> 
+					<templatename></templatename> 
+					<reportdatatype></reportdatatype> 
+					<java></java> 
+					<data></data> 
+					<sql></sql> 
+					<soap></soap> 												
+					<reporttype></reporttype> 
+					<page></page> 
+					<pageindex></pageindex> 
+					<startpage></startpage> 
+					<endpage></endpage> 
+					<parameters></parameters> 
+				</param> 
+			</QueryReport> 
+		</SOAP:Body> 
+	</SOAP:Envelope> 
+</script>
+
+<script type="cordys/xml" id="previewPageXML">
+	<Application> 
+		<id>previewPage</id> 
+		<description>Web Report preview page</description> 
+		<caption>Web Report preview page</caption> 
+		<url>/cordys/webreport/reportpreview.htm</url> 
+		<frame>main</frame> 
+		<data></data> 
+	</Application>
+</script>
+
+<script type="cordys/xml" id="uploadRequestXML">
+	<SOAP:Envelope xmlns:SOAP="http://schemas.xmlsoap.org/soap/envelope/">
+  	<SOAP:Body>
+	    <UploadReport xmlns="http://schema.com.cordyschina.webreport" preserveSpace="no" qAccess="0" qValues="">
+	      <templateFileName>Upload:FileName1</templateFileName>
+	      <templateFileContent>Upload:FileContent1</templateFileContent>
+	      <dataFileName>Upload:FileName2</dataFileName>
+	      <dataFileContent>Upload:FileContent2</dataFileContent>
+	    </UploadReport>
+  	</SOAP:Body>
+	</SOAP:Envelope>
+</script>
+
+<script type="text/javascript">
+
+var REPORT_DATATYPE_DEFAULT = "default";
+var REPORT_DATATYPE_INPUT = "data";
+var REPORT_DATATYPE_SQL = "sql";
+var REPORT_DATATYPE_JAVA = "java";
+var REPORT_DATATYPE_JAVA = "soap";
+
+var REPORT_TYPE_HTML = "html";
+var REPORT_TYPE_PDF = "pdf";
+var REPORT_TYPE_XLS = "xls";
+var REPORT_TYPE_RTF = "rtf";
+var REPORT_TYPE_JPG = "jpg";
+
+var REPORT_EXPORTPAGE_ALL = "all";
+var REPORT_EXPORTPAGE_INDEX = "selected";
+
+setPublic(WebReport, "webreport.lib");
+
+function WebReport()
+{
+	//init bdi
+	debugger;
+	this.bdi = bdi;
+	this.xmlUtil = xmlutil;
+	this.Upload = Upload;
+	this.Upload.request = cordys.cloneXMLDocument(uploadRequestXML.XMLDocument);
+	this.doc =  cordys.getXMLDocument();
+	
+	initialize(this);
+	setDefaultValue(this);
+
+	this.request = cordys.cloneXMLDocument(QueryReportXML.XMLDocument);
+	this.paramNode= cordys.selectXMLNode(this.request, ".//*[local-name()='param']");
+	
+	this.previewPageDefinitionNode =  cordys.cloneXMLDocument(previewPageXML.XMLDocument);	
+}
+
+
+
+WebReport.prototype.clear = function ()
+{
+	initialize(this);
+	setDefaultValue(this);
+}
+
+WebReport.prototype.generateReport = function ()
+{
+	if (!validate(this))
+	{
+		return;
+	}	
+	cordys.setNodeText(this.paramNode, ".//*[local-name()='templatename']", this.templateName);
+	cordys.setNodeText(this.paramNode, ".//*[local-name()='reporttype']", this.reportType);
+	cordys.setNodeText(this.paramNode, ".//*[local-name()='reportdatatype']", this.reportDataType);
+	cordys.setNodeText(this.paramNode, ".//*[local-name()='page']", this.page);
+		
+	if (this.page == "selected")
+	{
+		if (isValidatedInteger(this.pageIndex))
+		{			
+			cordys.setNodeText(this.paramNode, ".//*[local-name()='pageindex']", this.pageIndex);
+		}
+		else if (isValidatedInteger(this.pageIndex) && isValidatedInteger(this.pageIndex))
+		{
+			cordys.setNodeText(this.paramNode, ".//*[local-name()='startpage']", this.fromPage);
+			cordys.setNodeText(this.paramNode, ".//*[local-name()='endpage']", this.toPage);
+		}
+	}
+	
+	clearDataSource(this);
+	if (this.reportDataType != "default")
+	{
+		if (this._dataSource == null) return;
+		cordys.appendXMLNode(cordys.selectXMLNode(this._dataSource, ".//*[local-name()='"+this.reportDataType+"']"), cordys.selectXMLNode(this.paramNode.parentNode, ".//*[local-name()='param']"));		
+	}
+
+	this.bdi.clear();
+	this.bdi.request = this.request;
+	this.bdi.reset();
+	if (!cordys.selectXMLNode(this.bdi.data, ".//*[local-name()='SOAP:Fault']"))
+	{
+		this._reportid = cordys.getNodeText(this.bdi.data, ".//*[local-name()='reportid']");		
+		this._url = cordys.getNodeText(this.bdi.data, ".//*[local-name()='url']");
+		this._totalpage = parseInt(cordys.getNodeText(this.bdi.data, ".//*[local-name()='totalpage']"));		;
+	}
+
+}
+
+WebReport.prototype.preview = function ()
+{
+	if (this.reportType == "html" && this._url != null && this._url != "" )
+	{
+		application.select(this.previewPageDefinitionNode,this);
+	}
+}
+
+WebReport.prototype.exportFile = function ()
+{
+	window.open(this._url);
+}
+
+
+WebReport.prototype.setDataSource = function (dataSourceType,node)
+{
+	debugger;
+	this.reportDataType = dataSourceType;
+	
+	if (dataSourceType == "default") return;
+	
+	if (node == null) return;
+	
+	this._dataSource = cordys.cloneXMLDocument(node);
+}
+
+
+function clearDataSource(webReport)
+{
+	if  (cordys.selectXMLNode(webReport.paramNode, ".//*[local-name()='java']") != null)
+	{
+		webReport.paramNode.removeChild(cordys.selectXMLNode(webReport.paramNode, ".//*[local-name()='java']"));
+	}
+	if  (cordys.selectXMLNode(webReport.paramNode, ".//*[local-name()='sql']") != null)
+	{
+		webReport.paramNode.removeChild(cordys.selectXMLNode(webReport.paramNode, ".//*[local-name()='sql']"));
+	}	
+	if  (cordys.selectXMLNode(webReport.paramNode, ".//*[local-name()='data']") != null)
+	{
+		webReport.paramNode.removeChild(cordys.selectXMLNode(webReport.paramNode, ".//*[local-name()='data']"));
+	}
+	if  (cordys.selectXMLNode(webReport.paramNode, ".//*[local-name()='soap']") != null)
+	{
+		webReport.paramNode.removeChild(cordys.selectXMLNode(webReport.paramNode, ".//*[local-name()='soap']"));
+	}	
+}
+
+function initialize(webreport)
+{
+	webreport.templateName = "";
+	webreport.reportDataType = "";
+	webreport.reportType="";
+	webreport.page = "";
+	webreport.pageIndex = "";
+	webreport.fromPage = "";
+	webreport.toPage = "";
+	
+	//report data
+	
+	webreport._reportId = null;
+	webreport._parameters = null;
+	webreport._dataSource = null;
+	webreport._totalPage = null;
+	webreport._url = null;
+}
+
+function setDefaultValue(webreport)
+{
+	webreport.reportDataType = REPORT_DATATYPE_DEFAULT;
+	webreport.reportType=REPORT_TYPE_HTML;
+	webreport.page = REPORT_EXPORTPAGE_ALL;
+}
+
+function validate(webreport)
+{
+	if (!isValidatedString(webreport.templateName))
+	{
+		alert("invalid templateName");
+		return false;
+	}
+	
+	if (!isValidatedString(webreport.reportDataType))
+	{
+		if (webreport.reportDataType!="default" && webreport.reportDataType!="data" && webreport.reportDataType!="sql" && webreport.reportDataType!="java" && webreport.reportDataType!="soap")
+		{
+			alert("invalid reportDataType");
+			return false;
+		}
+	}
+	
+	var reportType = webreport.reportType
+	if (!isValidatedString(webreport.reportType))
+	{
+		if (reportType!="html" && reportType!="pdf" && reportType!="xls"  && reportType != "jpg"&& reportType!="rtf")
+		{
+			alert("invalid reportType");
+			return false;
+		}
+	}
+	
+	if (!isValidatedString(webreport.page))
+	{
+		if (webreport.page!="all" && webreport.reportDataType!="selected" )
+		{
+			alert("invalid report page type");
+			return false;
+		}
+	}
+	
+	return true;
+}
+
+function isValidatedString(str)
+{
+	if (str == null || str== "" ||typeof  str  != "string")
+	{
+		return false;
+	}
+	else
+	{
+		return true;
+	}
+}
+
+function isValidatedInteger(int)
+{
+	if (int == null || typeof  int  != "number" || int<0 )
+	{
+		return false;
+	}
+	else
+	{
+		return true;
+	}
+}
+
+</script>
+</head>
+<body>
+<div cordysType="wcp.library.data.BusDataIsland" async="false" id="bdi" automatic="false" ondatacompleted=""></div>
+<div cordysType="wcp.library.util.XMLUtil" id="xmlutil"></div>
+<div cordysType="wcp.library.util.Upload" id="Upload" encode="true" timeout="100000" fileCount="2"></div>
+</body>
+</html>

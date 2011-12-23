@@ -1,0 +1,23 @@
+
+<TextIdentifier
+	type="com.cordys.translation.TextIdentifier"
+	typeVersion="55890f21-u239-76j6-988a-92j7opq6ws09"
+	RuntimeDocumentID="000C297E-6FFF-11E1-E575-28AB7A4F7F87">
+	<DocumentID>000C297E-6FFF-11E1-E575-28AB7A4F5F87</DocumentID>
+	<Name>000C297E-6FFF-11E1-E575-28AB7A4F5F87</Name>
+	<Description>Update Report Template</Description>
+	<CreatedBy>Administrator</CreatedBy>
+	<CreationDate>2011-12-21T07:56:23.656</CreationDate>
+	<Notes/>
+	<DefaultText>Update Report Template</DefaultText>
+	<Translations>
+		<uri
+			id="000C297E-6FFF-11E1-E575-28AB7A4F1F87"
+		/>
+	</Translations>
+	<TranslationInformation>
+		<uri
+			id="000C297E-6FFF-11E1-E575-28AB7A3BDF87"
+		/>
+	</TranslationInformation>
+</TextIdentifier>
