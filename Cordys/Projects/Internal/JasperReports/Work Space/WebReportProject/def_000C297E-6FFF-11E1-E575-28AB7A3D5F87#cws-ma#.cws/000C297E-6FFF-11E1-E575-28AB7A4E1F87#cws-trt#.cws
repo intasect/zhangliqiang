@@ -1,0 +1,22 @@
+
+<TranslatedText
+	type="com.cordys.translation.TranslatedText"
+	RuntimeDocumentID="000C297E-6FFF-11E1-E575-28AB7A4E3F87">
+	<DocumentID>000C297E-6FFF-11E1-E575-28AB7A4E1F87</DocumentID>
+	<Name>000C297E-6FFF-11E1-E575-28AB7A4E1F87</Name>
+	<Description/>
+	<CreatedBy>Administrator</CreatedBy>
+	<CreationDate>2011-12-21T07:56:23.578</CreationDate>
+	<Notes/>
+	<Text>java</Text>
+	<Language>
+		<uri
+			id="000C297E-6FFF-11E1-E575-28AB7A3D1F87"
+		/>
+	</Language>
+	<TextIdentifier>
+		<uri
+			id="000C297E-6FFF-11E1-E575-28AB7A4E5F87"
+		/>
+	</TextIdentifier>
+</TranslatedText>

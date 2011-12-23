@@ -1,0 +1,39 @@
+
+<WSAppServerJavaArchiveSource
+	type="com.cordys.wsappserver.WSAppServerJavaArchiveSource"
+	RuntimeDocumentID="000C29E9-F80D-11E0-E6CE-5E3527FEB60B">
+	<DocumentID>000C29E9-F80D-11E0-E6CE-5E3527FE960B</DocumentID>
+	<Name>WebReportArchive</Name>
+	<Description>WebReportArchive</Description>
+	<CreatedBy>Administrator</CreatedBy>
+	<CreationDate>2011-02-12T06:44:53.109</CreationDate>
+	<Notes/>
+	<NamespacePrefix></NamespacePrefix>
+	<JarFileName>WebReportArchive</JarFileName>
+	<SourceFolder>
+		<uri
+			id="000C297E-6FFF-11E1-E575-28AB7A24DF87"
+			path="WebReportProject/JavaSource"
+			type="com.cordys.cws.runtime.types.folder.StudioFolder"
+		/>
+	</SourceFolder>
+	<WSAppServerPackage>
+		<uri
+			id="000C29E9-F80D-11E0-E6CE-5E352800960B"
+		/>
+	</WSAppServerPackage>
+	<Dependencies>
+		<JavaArchiveReferenceDependency
+			type="com.cordys.cws.documenttypes.javaarchivesource.JavaArchiveReferenceDependency"
+			RuntimeDocumentID="000C29E9-F80D-11E0-E6CE-5E3527FE760B">
+			<DocumentID>000C29E9-F80D-11E0-E6CE-5E3527FE560B</DocumentID>
+			<Name>WebReportArchive_Dependency</Name>
+			<Description>WebReportArchive_Dependency</Description>
+			<CreatedBy>Administrator</CreatedBy>
+			<CreationDate>2011-02-12T06:44:52.265</CreationDate>
+			<Notes/>
+			<ISVPName></ISVPName>
+			<DependsOnJAR>?CORDYS_INSTALL_DIR?/components/wsappserver/wsappserver.jar</DependsOnJAR>
+		</JavaArchiveReferenceDependency>
+	</Dependencies>
+</WSAppServerJavaArchiveSource>

@@ -1,0 +1,185 @@
+<html xmlns:eibus onselect="selectApplication()">
+	<head>
+		<script src="/cordys/wcp/application.js"></script>
+		<script language="JScript">
+			var webReport = null;
+			function selectApplication()
+			{
+				application.container.maximize();
+				webReport = application.event.data;
+
+				var aElement = document.getElementById("pageIndex");
+				if (webReport._totalpage > 0)
+				{
+					aElement.value = 1;
+					labelTotalPage.innerText = webReport._totalpage;
+					changeIframeUrl(webReport._url);
+				}
+			}
+			function first()
+			{
+				var aElement = document.getElementById("pageIndex");
+				aElement.value =  "1";
+				gotoPage(1);
+			}
+			function last()
+			{
+				var aElement = document.getElementById("pageIndex");
+				aElement.value = webReport._totalpage;
+				gotoPage(webReport._totalpage);
+			}
+			function prior()
+			{
+				var aElement = document.getElementById("pageIndex");
+				var currentIndex = parseInt(aElement.value);
+				if (currentIndex <= 1)
+				{
+					return;
+				}
+				else
+				{
+					aElement.value = currentIndex - 1;
+				}
+				gotoPage(currentIndex - 1);
+			}
+			function next()
+			{
+				var aElement = document.getElementById("pageIndex");
+				var currentIndex = parseInt(aElement.value);
+				if (currentIndex >= webReport._totalPage)
+				{
+					return;
+				}
+				else
+				{
+					aElement.value = aElement.value + 1;
+				}
+				gotoPage(currentIndex + 1);
+			}
+			function showAll()
+			{
+				webReport.reportType = "html";
+				webReport.page = "all";
+				webReport.generateReport();
+				changeIframeUrl(webReport._url);
+			}
+			function go()
+			{
+				var aElement = document.getElementById("pageIndex");
+				var currentIndex = parseInt(aElement.value);
+				if ( isNaN(currentIndex) || currentIndex <= 0)	return;
+				if (currentIndex>webReport._totalpage)
+				{
+					return;
+				}
+				gotoPage(currentIndex);
+			}
+			function gotoPage(currentIndex)
+			{
+				webReport.reportType = "html";
+				webReport.page = "selected";
+				webReport.pageIndex = currentIndex;
+				webReport.generateReport();
+				changeIframeUrl(webReport._url);
+			}
+			function exportFile()
+			{
+				var fileType = selectFiles.value;
+				webReport.reportType = fileType;
+				webReport.page = "all";
+				webReport.generateReport();
+				webReport.exportFile();
+			}
+			function changeIframeUrl(url)
+			{
+				var aIframe = document.getElementById("iframeView");
+				if (aIframe != null && aIframe != undefined)
+				{
+					aIframe.setAttribute("src", url);
+				}
+			}
+			function doScale(act)
+			{
+				var aIframe = document.getElementById("iframeView");
+				if (aIframe != null && aIframe != undefined)
+				{
+					scale(aIframe, act);
+				}
+			}
+			function doPrint(oTgt)
+			{
+				oTgt.focus();
+				oTgt.print();
+			}
+			function scale(o, act)
+			{
+				if (act == null) return;
+				var zoom = parseInt(o.style.zoom,10)||100;
+				if(act == 100)
+				{
+					zoom = act;
+				} else if(zoom < (1-act))
+				{
+		 			zoom = zoom / 2;
+				} else
+				{
+					zoom = zoom + act;
+				}
+				o.style.zoom = zoom + '%';
+			}
+		</script>
+		<style>
+			div {font-size:11; font-family:verdana; font-weight:normal; }
+			span { font-size:12; font-family:verdana; }
+			label {	 font-size:11; font-family:verdana; font-weight:normal; }
+			input { font-size:11; font-family:verdana; }
+			.light { font-size:11; font-family:verdana; }
+			button { font-size:11; font-family:verdana; }
+			textarea {font-size:11; font-family:verdana; }
+		</style>
+
+	</head>
+	<body rightmargin="0" leftmargin="0" topmargin="0" bottommargin="0" scroll="no">
+
+		<div style="height=100%" ;width=100%">
+			<div style="position:relative;height=26px;top" bgcolor="#8CC2EE">
+				<table cellspacing="1" height="100%" width="100%" align="left" valign="bottom" bgcolor="#8CC2EE">
+					<tbody>
+						<tr>
+							<td align="left" height="100%">
+								&nbsp;&nbsp;<a href="#" onclick="showAll();"><label translatable="true"></label></a>&nbsp;
+								<a href="#" onclick="first();"><label translatable="true">First Page</label></a>&nbsp;
+								<a href="#" onclick="prior();"><label translatable="true">Previous Page</label></a>&nbsp;
+								<a href="#" onclick="next();"><label translatable="true">Next Page</label></a>&nbsp;
+								<a href="#" onclick="last();"><label translatable="true">Last Page</label></a>&nbsp;
+								<label translatable="true">Total</label>	<label id="labelTotalPage"></label><label translatable="true">Page Go To</label>&nbsp;
+								<input id="pageIndex" maxlength="3" value="1" align="right"	class="input" style="width:25px;" />&nbsp;<label translatable="true">Page</label>
+								<input type="button" value="GO" align="center" onclick="go();" />
+								&nbsp;&nbsp;&nbsp;
+								<img src="images/enlarge.gif" align="absmiddle" width="48"	height="20" onclick="doScale(+20);" />
+								<img src="images/reduce.gif" align="absmiddle" width="49"	height="20" onclick="doScale(-20);" />
+								&nbsp;&nbsp;&nbsp;&nbsp;
+								<input type="button" align="center"	onclick="doPrint(iframeView)" translatable="true" value="Print"></input>
+								&nbsp;&nbsp;&nbsp;&nbsp;<label translatable="true">Export Report</label>
+								<select id="selectFiles">
+									<option value="html"><label translatable="true">HTML File(*.html)</label></option>
+									<option value="pdf"><label translatable="true">PDF Document(*.pdf)</label>	</option>
+									<option value="rtf" selected><label translatable="true">Word Document(*.rtf)</label>	</option>
+									<option value="xls"><label translatable="true">Excel Document(*.xls)</label></option>
+									<option value="jpg"><label translatable="true">JPG File(*.jpg)</label></option>
+								</select>
+								&nbsp;
+								<input type="button" align="center" onclick="exportFile();" translatable="true" value="Export"></input>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div id="divView" style="position:relative;height=95%">
+				<iframe name="iframeView" id="iframeView" width="100%" height="100%"	src="#"></iframe>
+			</div>
+		</div>
+	</body>
+
+
+</html>
